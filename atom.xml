@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2018-08-01T14:53:51.065Z</updated>
+  <updated>2018-08-01T22:32:03.198Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>统计测试</title>
+    <link href="/20180802/Untitled.html"/>
+    <id>/20180802/Untitled.html</id>
+    <published>2018-08-01T21:37:59.000Z</published>
+    <updated>2018-08-01T22:32:03.198Z</updated>
+    
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://ip.chinaz.com/getip.aspx"></script><br><script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>            <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span><br><span id="busuanzi_container_site_uv">   本站访客数<span id="busuanzi_value_site_uv"></span>人次</span><br><span id="busuanzi_container_page_pv">   本文总阅读量<span id="busuanzi_value_page_pv"></span>次</span><br><span id="sp_time"></span><script type="text/javascript">setInterval(function(){    var dd = new Date();    var y = dd.getFullYear();    var m = dd.getMonth() + 1;    var d = dd.getDate();    var h = dd.getHours();    var mi = dd.getMinutes();    var s = dd.getSeconds();    var str = y + "年" + m + "月" + d + "日&nbsp;&nbsp;" + h + ":" + mi + ":" + s + "&nbsp;&nbsp;星期" + "日一二三四五六".charAt(dd.getDay());    document.getElementById("sp_time").innerHTML = str;},1000);</script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;script type=&quot;text/javascript&quot; src=&quot;http://ip.chinaz.com/getip.aspx&quot;&gt;&lt;/script&gt;&lt;br&gt;
+
+&lt;script async src=&quot;//dn-lbstatics.qbox.me/busuanzi/2.3/b
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>嵌入测试</title>
