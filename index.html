@@ -47,6 +47,56 @@
     <div id="main">
       
   
+    <article id="post-111" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/20180805/111.html" class="article-date">
+  <time datetime="2018-08-05T12:49:27.000Z" itemprop="datePublished">2018-08-05</time>
+</a>
+		</span>
+		<span class="meta-elements author">Yann Peng</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/20180805/111.html">有趣代码</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p><head></head></p>
+<p><script language="JavaScript"> <!-- Web Site: http://www.crosswinds.net/~llizard --> <!-- This script and many more are available free online at --> <!-- The JavaScript Source!! http://javascript.internet.com --> <!-- Begin var agt=navigator.userAgent.toLowerCase(); if (agt.indexOf("mac") != -1) var a="\r"; else var a="\n"; var max=0; function tlist() { max=tlist.arguments.length; for (i=0; i this[i]=tlist.arguments[i]; } tl = new tlist( " o"+a+ " /|\\"+a+ " */ \\* ejm97"+a, " o_"+a+ " \<| *"+a+ " *\>\\ ejm97"+a, " _o/*"+a+ " * |"+a+ " / \\ ejm97"+a, " *\o_"+a+ " / *"+a+ " \<\\ ejm97"+a, " _o/*"+a+ " * |"+a+ " / \\ ejm97"+a, " *\\c/*"+a+ " )"+a+ " / \> ejm97"+a, " *"+a+ " \\__/c"+a+ " \> \\* ejm97"+a, " __/"+a+ " (o_*"+a+ " \\* ejm97"+a, " \\ /"+a+ " |"+a+ " */o\\* ejm97"+a, " \\_"+a+ " ("+a+ " */o\\* ejm97"+a, " \<_"+a+ " __("+a+ " * o|* ejm97"+a, " /_"+a+ " __("+a+ " * o|* ejm97"+a, " ___"+a+ " *\/ \>"+a+ " o|* ejm97"+a, " *"+a+ " o|_/"+a+ " */ \\ ejm97"+a, " *"+a+ " _o|_"+a+ " * \>\\ ejm97"+a, " _o/*"+a+ " * |"+a+ " / \\ ejm97"+a, " *\\o/*"+a+ " |"+a+ " / \\ ejm97"+a, " c/*"+a+ " \<\\"+a+ " */\\ ejm97"+a, " c__"+a+ " \<\ *"+a+ " */\\ ejm97"+a, " c__"+a+ " /\ *"+a+ " * /\> ejm97"+a, " c/*"+a+ " /(__"+a+ " * / ejm97"+a, " __o/*"+a+ " * (__"+a+ " \< ejm97"+a, " __o_"+a+ " * / *"+a+ " \<\\ ejm97"+a, " *_o_"+a+ " | *"+a+ " \< \\ ejm97"+a, " *_c_*"+a+ " |"+a+ " \>\\ ejm97"+a, " *_c_*"+a+ " |__"+a+ " \> ejm97"+a, " *_c_*"+a+ " __|__"+a+ " ejm97"+a, " "+a+ " *_c_*"+a+ " __)__ ejm97"+a, " "+a+ " *\\c/*"+a+ " __)__ ejm97"+a ); var x=0; function tick() { document.animation.cheerleader.value = " " + a + tl[x]; x++; if (x != max) setTimeout("tick()", 200); else x = 0; } // End --> </script><br></p>
+<p><body onload="tickundefined)"></body></p>
+<center><br><form name="animation"><br>    <textarea name="cheerleader" rows="5" cols="20"></textarea><br><br>    <input type="button" value="Start Again" onclick="" "javascript:tickundefined)"=""><br></form><br></center>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
     <article id="post-Coding-Github双服务器托管个人博客" class="post">
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
@@ -71,26 +121,12 @@
 	</header>
 	<div class="entry-content">
 		
-    	<p>把博客分别托管在腾讯云对象储存 和 Github Pages上，再通过DNS解析进行访问优化。<br><br>由于github是国外的服务器，终归会对国内的用户访问造成一定的影响。于是打算再在国内服务器上部署一套，配合上国内的CDN加速，再利用DNS解析让国外用户和国内用户选择最优路线,从而提升访问速度。</p>
-<hr>
-<h2 id="创建bucket并开启静态网站"><a href="#创建bucket并开启静态网站" class="headerlink" title="创建bucket并开启静态网站"></a>创建bucket并开启静态网站</h2><p>云对象储存（<a href="https://cloud.tencent.com/product/cos/details" target="_blank" rel="noopener">COS</a>）是什么可以自行查阅腾讯官方的details，此处不必累赘<br>首先进入<a href="https://console.cloud.tencent.com/cos5/bucket" target="_blank" rel="noopener">对象储存页面</a>创建一个<strong>bucket</strong>，因为在国内所以<strong>所属地域</strong>选择国内的地址即可<br><img src="https://i.loli.net/2018/08/02/5b623ccb4c660.jpg" alt="image 1"><br><br>创建完成之后选择<strong>上传文件</strong>，把hexo/public/下的所有文件，包括其public目录下所有文件夹一并拖入并上传<br><img src="https://i.loli.net/2018/08/02/5b623e0f5116e.jpg" alt="image 2"><br><br>上传完成<br><br><img src="https://i.loli.net/2018/08/02/5b623e9271ef9.jpg" alt="image 3"><br><br>关于静态网站的概念：静态网站是指包含静态内容（如 HTML）或客户端脚本的网站，用户可以通过控制台对已绑定自定义域名的存储桶，配置静态网站。腾讯云 COS 支持静态网站的托管，<font color="#DC143C">不支持服务器端脚本编写。当需要部署动态网站时，则推荐使用云服务器 CVM 进行服务端代码部署。</font><br><br>接着点击<strong>基础配置</strong>，因为我是用来部署hexo静态博客的，所以直接下来最底部点击<strong>静态网站</strong>旁的<font color="#1E90FF">编辑</font>开启当前状态，<strong>索引文档</strong>为必填，是你上传的<strong>文件列表</strong>里的xxxx.html，一般默认为index.html，强制 HTTPS（可选），错误文档（可选），设置网站的重定向规则（可选），设置完成后，单击保存即可。<br><img src="https://i.loli.net/2018/08/02/5b6240c4daeae.jpg" alt="image 4"><br>  </p>
-<hr>
-<h2 id="CDN-加速配置"><a href="#CDN-加速配置" class="headerlink" title="CDN 加速配置"></a>CDN 加速配置</h2><p>CDN 加速适用于对 COS 存储桶中的内容进行下载、分发，特别是对于相同内容反复下载的使用场景。<br>用户可对以下域名进行管理，实现存储桶中对象的快速下载和分发：</p>
-<ul>
-<li>默认域名：即 COS 源站域名，是创建存储桶时，由系统根据存储桶名称和地域自动生成的，要与默认加速域名区分开。</li>
-<li>默认加速域名：经由 CDN 加速节点的域名，系统默认生成，用户可选择开启或关闭。</li>
-<li>自定义域名：用户可以为存储桶绑定已备案的自定义域名，通过自定义域名访问存储桶中的对象。</li>
-</ul>
-<h4 id="默认加速域名操作步骤："><a href="#默认加速域名操作步骤：" class="headerlink" title="默认加速域名操作步骤："></a>默认加速域名操作步骤：</h4><p>单击存储桶详情界面上方的<strong>域名管理</strong>，单击<strong>编辑</strong>，把默认加速域名的当前状态设置为开启。源站类型通常默认为 XML 节点，如果作为源站的存储桶开启了静态网站，并且希望为静态网站加速，则选择为静态网站节点。<br>当存储桶为公有读时，则不需要开启 回源鉴权，最后单击【保存】按钮即可开启 CDN 加速。<br><img src="https://main.qcloudimg.com/raw/542a778a7177e3aae0e49580aaefe348.png" alt="image 5"><br><br>注意：<br>如果用户在之前从未使用过腾讯云 CDN 服务，则无法进入<strong>域名管理</strong>，需先进入 CDN 控制台使用 CDN 服务。</p>
-<h4 id="自定义加速域名操作步骤："><a href="#自定义加速域名操作步骤：" class="headerlink" title="自定义加速域名操作步骤："></a>自定义加速域名操作步骤：</h4><p>进入<strong>域名管理</strong>页面，在第二栏“自定义加速域名”处单击<strong>添加域名</strong>，输入待绑定的自定义域名，如ww w.example.com，回源鉴权可不开启，单击右侧的<strong>保存</strong>即可完成域名添加。<br><img src="https://main.qcloudimg.com/raw/716e49eb9b9b6600c8afd9deceb78451.png" alt="image 6"><br><br>注意:用户为域名启用 CDN 加速之后，任何人都可以通过此域名直接访问源站，所以如果您的数据有一定的私密性，请您务必通过 鉴权配置 来保护您的源站数据。</p>
-<hr>
-<h2 id="自定义域名添加DNS解析"><a href="#自定义域名添加DNS解析" class="headerlink" title="自定义域名添加DNS解析"></a>自定义域名添加DNS解析</h2><p>当把上一步域名绑定储存桶和CDN加速域名完成之后，就可以开始优化DNS解析了。（默认域名无须添加解析）<br>到你的域名解析页面，添加上两条解析。<br><img src="https://i.loli.net/2018/08/02/5b624cfd2b6c7.jpg" alt="image 7"><br><br>因为我前面绑定储存桶的自定义域名为二级域名：<font color="#8470FF">blog.yleao.com</font><br>所以我的主机记录为<font color="red">blog</font>，记录类型为<font color="blue">CNAME</font>，线路类型为<font color="#FF7F50">国外</font>，指向在github pages上部署的hexo，记录值填写<font color="green">github</font>上的域名，此条解析为国外用户访问,<font color="#DAA520">没经过CDN加速</font>。<br>另一条主机记录也为<font color="red">blog</font>，记录类型为<font color="blue">CNAME</font>，线路类型为<font color="#FF7F50">默认</font>，指向在腾讯COS上部署的hexo,记录值填写上面CDN加速给你的记录值，默认为<font color="green">域名.cdn.dnsv1.com</font>，此条解析为国内用户访问,<font color="#DAA520">经过CDN加速</font>。<br>国内使用COS，海外使用Github，这样能相应的提升访问速度。</p>
-<hr>
-<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p><a href="http://tool.chinaz.com/dns/" target="_blank" rel="noopener">DNS查询</a>：选择CNAME类型，看响应ip是否为添加解析的记录值<br><img src="https://i.loli.net/2018/08/02/5b6254d289757.jpg" alt="image 8"><br>  </p>
-<p><a href="http://ping.chinaz.com/" target="_blank" rel="noopener">ping检测与速度测试</a>：5个线路全部勾选上<br><img src="https://i.loli.net/2018/08/02/5b625490843de.jpg" alt="image 9"><br>从上图可以看出通过双服务器搭建的blog对于5条线路（国内和海外）的响应都是非常的快，国内的平均响应为<font color="#228B22">28ms</font>,国外的平均响应为<font color="#228B22">23ms</font>，也可以看出国内CDN成功加速，想要知道CDN是否加速成功，只需在不同地区ping同一个网址，得到不同的IP地址，那么这种情况就可以判断该网站开了CDN加速，图中最下显示19个不同的独立ip。<br><br>或者在cmd里ping一下域名也可知道是否CDN加速成功。如下图显示<strong>tencdns.net</strong>证明加速成功。<br><img src="https://i.loli.net/2018/08/02/5b625ca40e707.jpg" alt="image 10"><br><br>下面对比单服务器架设<br>我的顶级域名部署在腾讯云服务器广州区里，没开启CDN加速<br><img src="https://i.loli.net/2018/08/02/5b625bb15f0c0.jpg" alt="image 11"><br>对比可以看出无论是最快响应、最慢响应，还是平均响应，都不及我的二级域名。且没有CDN加速，所以只有一个独立IP。<br><img src="https://i.loli.net/2018/08/02/5b625ceed86f2.jpg" alt="image 12"></p>
-<hr>
-<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>修改或编辑hexo之后要记得同步到两个服务器内，如果只同步了一个服务器，那么从国内和国外访问域名显示的内容则会不一样。比如只同步了国内服务器，那么从国内访问域名则会看到最新的同步内容，国外访问的话则不会，反之亦然。<br><img src="https://i.loli.net/2018/08/02/5b625e8ba1028.jpg" alt="image 12"><br>  </p>
-<h3 id="完"><a href="#完" class="headerlink" title="完"></a>完</h3>
+			<p>把博客分别托管在腾讯云对象储存 和 Github Pages上，再通过DNS解析进行访问优化。<br><br>由于github是国外的服务器，终归会对国内的用户访问造成一定的影响。于是打算再在国内服务器上部署一套，配合上国内的CDN加速，再利用DNS解析让国外用户和国内用户选择最优路线,从而提升访问速度。<br>
+			
+				<p class="article-more-link">
+					<a href="/20180802/Coding-Github双服务器托管个人博客.html#more">Read More</a>
+				</p>
+      
     
 	</div>
 	<footer class="entry-footer">
@@ -220,7 +256,7 @@ setInterval(function(){
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7OYkWSW7u4k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <p><strong><font color="#87CEFA">BILIBILI</font></strong> <strong>TEST</strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;iframe width=<span class="string">"300"</span> height=<span class="string">"176"</span> src=<span class="string">"//player.bilibili.com/player.html?aid=7728624&amp;cid=12668755&amp;page=1"</span> scrolling=<span class="string">"no"</span> border=<span class="string">"0"</span> frameborder=<span class="string">"no"</span> framespacing=<span class="string">"0"</span> allowfullscreen=<span class="string">"true"</span>&gt; &lt;/iframe&gt;</span><br></pre></td></tr></table></figure></p>
-<iframe width="300" height="176" src="//player.bilibili.com/player.html?aid=7728624&cid=12668755&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe width="300" height="176" src="//player.bilibili.com/player.html?aid=7728624&cid=12668755&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>   
 
 
 <hr>
@@ -287,74 +323,12 @@ setInterval(function(){
 	</header>
 	<div class="entry-content">
 		
-    	<p><b><font face="微软雅黑" size="4">前言：astats.nl是个关于steam成就的第三方网址，被ban与否都不会影响steam账号，如果被ban可以不用担心，若是忍受不了则继续以下操作。</font></b></p>
-<hr>
-<h2 id="方法-1：直接删除在这个第三方成就网站上的个人数据"><a href="#方法-1：直接删除在这个第三方成就网站上的个人数据" class="headerlink" title="方法 1：直接删除在这个第三方成就网站上的个人数据"></a>方法 1：直接删除在这个第三方成就网站上的个人数据</h2><p>这个第三方成就网站是可以直接删除自己的个人资料的，如果想启用的话也能申请重新启用。删除效果如下图：</p>
-<p><img src="https://blob.steamcn.com/forum/201703/27/150624v8y28ohvorter2jk.png" alt="attachment 1"></p>
-<p>  　</p>
-<h5 id="删除步骤："><a href="#删除步骤：" class="headerlink" title="删除步骤："></a><b>删除步骤</b>：<br></h5><p>想要解ban或者删除个人资料都要先注册这个论坛的账号，这里是<a href="https://astats.astats.nl/astats/profile/Login.php" target="_blank" rel="noopener">注册网址</a>。<br>登陆之后，进入申请删除或重新启用的<a href="https://astats.astats.nl/astats/aforum/showthread.php?tid=10" target="_blank" rel="noopener">页面</a>。<br><br>进去拉到最下面直接回复<b><font color="FF7F50">I don’t want my profile anymore in this website; please, remove it.</font></b>然后再贴个自己的<b>astats profile</b>地址就行了,见下图:</p>
-<p><img src="https://i.loli.net/2018/08/01/5b61846325586.jpg" alt="attachment 2"></p>
-<p>接着就是耐心的等待，如果管理员删除了的话会在你的回复下面显示<b><font color="green">done</font></b>,见下图：</p>
-<p><img src="https://i.loli.net/2018/08/01/5b61858c11d40.jpg" alt="attachment 3"></p>
-<p>恢复数据同理。</p>
-<hr>
-<h2 id="方法-2：对于第一次被ban或者误ban的解ban"><a href="#方法-2：对于第一次被ban或者误ban的解ban" class="headerlink" title="方法 2：对于第一次被ban或者误ban的解ban"></a>方法 2：对于第一次被ban或者误ban的解ban</h2><p>若是想继续使用此网站并解ban的话，那就请看下面的方法。</p>
-<ul>
-<li><h3 id="关于申诉的说明"><a href="#关于申诉的说明" class="headerlink" title="关于申诉的说明"></a><strong>关于申诉的说明</strong><br></h3><p><a href="https://astats.astats.nl/astats/aforum/showthread.php?tid=3" target="_blank">AStats Bans and Appeals FAQ Instructions</a><br><br>以上是astats的申诉要求和说明，我节选了重要的内容并稍微翻译了一下。<br>　    　</p>
-<h4 id="You-can-make-appeal-here-if"><a href="#You-can-make-appeal-here-if" class="headerlink" title="You can make appeal here if:"></a><strong>You can make appeal here if:</strong><br></h4><ul>
-<li>You believe you’ve been wrongly blocked on suspicion of cheating.</li>
-<li>You’ve cheated in the past and want to come clean and get a second chance to use the site’s leaderboards features.<br>
-　
-　</li>
-</ul>
-<h4 id="你可以申述解除ban，如果你觉得："><a href="#你可以申述解除ban，如果你觉得：" class="headerlink" title="你可以申述解除ban，如果你觉得："></a><strong>你可以申述解除ban，如果你觉得：</strong><br></h4><ul>
-<li>自己是被误ban的，请说明原因</li>
-<li>或者以前做过弊，但是想获得第二次使用本网站成就功能的机会。<br><br>　    　</li>
-</ul>
-<h4 id="You-can-make-appeal-here-if-1"><a href="#You-can-make-appeal-here-if-1" class="headerlink" title="You can make appeal here if:"></a><strong>You can make appeal here if:</strong><br></h4><ul>
-<li><strong>Include a link to your AStats profile.</strong></li>
-<li>If you have not cheated, please try to include as much information as possible that you think could be relevant to the situation.</li>
-<li>If you’ve used achievement unlocking software in the past, <strong>please relock all achievements you cheated before making your thread</strong>. You can use the same software you used to cheat to do this, or if you’re not comfortable with that, then SteamSupport is known to have assisted in relocking achievements.</li>
-<li><strong>Press the update button on each game’s page that you’ve relocked something on.</strong></li>
-<li>Be thorough and note <strong>every game</strong> you cheated in your post, if old irregularities come up in the future after you’ve been unmarked, you can’t be guaranteed a second appeal.</li>
-<li>If you can’t remember all the games you cheated, <strong>do not bother asking us what games need to be relocked</strong>. You will typically not get an answer. Your profile will be unmarked once the moderator dealing with your thread is confident in that your profile is clean.</li>
-<li>All games that have been relocked need to be launched to see whether any of the old achievements unlock again, in which case savefiles and/or stats must be purged to prevent that. You will not not be able to get assistance with that if you’re not sure how to do it yourself.</li>
-<li><strong>Dishonesty will not be taken lightly.</strong></li>
-<li>If you cheated and don’t wish to relock your cheated achievements, your profile or the portion of your profile in question cannot be unmarked.</li>
-<li><strong>If you no longer wish to use the site, you can request your profile to be disabled. It can always be re-enabled if you change your mind.</strong></li>
-</ul>
-<h4 id="在你准备申述时请彻底阅读以下条例："><a href="#在你准备申述时请彻底阅读以下条例：" class="headerlink" title="在你准备申述时请彻底阅读以下条例："></a><strong>在你准备申述时请彻底阅读以下条例：</strong><br></h4><ul>
-<li>申述内容要包括你的astats profiles。</li>
-<li>如果你没有作弊,请尝试提供尽可能多的你觉得有用的信息来证明。</li>
-<li>如果以前使用过解锁工具，那么请重新锁上你作弊过的成就，你可以使用解锁工具来重新锁上作弊的成就,如果你不能接受再使用解锁工具，那么你可以找steam客服来帮忙重新锁上你的游戏成就。<strong>（ps:意思就是你必须要重新锁上你作弊过的成就，可以使用sam，如果你觉得无法忍受再使用此类软件，可以找steam客服帮忙锁上成就）</strong></li>
-<li>当你重新锁上某个游戏的成就时，一定要去那个游戏的成就页面更新状态。<strong>（ps:这点很重要，锁上之后一定要去astats上的游戏页面更新，如何更新我下面会说）</strong></li>
-<li>请彻底检查每一个你作弊的游戏，如果以后有你没有标注的游戏产生了旧的违规，那么将失去第二次申述的机会。</li>
-<li>如果你不能记住所有的你做过弊的游戏,请不要问我们有什么游戏需要锁定，你通常不会得到回复。当管理员觉得你的资料已经干净那么将解除你的ban。<strong>（ps:不要问管理员你有什么游戏做过弊，要自己去找，你可以检查那些全成就的游戏，或者某个成就价值最高，或者同一时间解锁了大量的成就的游戏，这些游戏你最好都好好检查一下，可以以防万一把自己不确定有没有解锁成就的游戏都给锁上）</strong></li>
-<li>所有游戏都需要重新启动一下来检查是否有任何旧的成就会再次开启,如果遇到这种情况,你必须清除存档或数据来防止。如果你不确定怎么做将不会得到帮助。<strong>（ps:如果游戏里还存在作弊的存档或者网络数据，虽然你锁上成就，但是一打开游戏就会自动又解开成就，所以如果以前用过作弊的存档来解锁成就的，直接把存档给删了就行，sam也可以清理数据）</strong></li>
-<li>不轻易失信。</li>
-<li>如果你作弊了，还不想重新锁上你作弊的成就，那么你的资料页面是一定会被标注作弊嫌疑。</li>
-<li>如果你不想使用该网址，那么你可以申请禁用你的配置文件，不过以后你改变主意的话可以随时启用。<strong>（ps:如果你不想在用这个第三方网站或懒得去解ban了，那么你可以申请让管理员删除你的个人配置文件，想用了也能申请重新启用，方法已经写在了开头）</strong></li>
-</ul>
-</li>
-</ul>
-<ul>
-<li><h3 id="正式教程"><a href="#正式教程" class="headerlink" title="正式教程"></a><strong>正式教程</strong><br></h3><p>首先要做的就是把以前解锁的成就全部再锁定回去。这是至关重要的，宁可把没有作弊过的游戏锁上，也最好别漏掉一个。你若忘记了哪些游戏你解过成就，我教你一个方法。先进入自己的astats的个人资料页面，然后找到自己全成就或者成就得分最高的游戏，点进去看看这些游戏里的成就有没有许多成就是同一时间解锁的。<a href="https://www.baidu.com/s?wd=%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8sam%E9%94%81%E6%88%90%E5%B0%B1%20steamcn&amp;rsv_spt=1&amp;rsv_iqid=0xd2dfb759000301c3&amp;issp=1&amp;f=8&amp;rsv_bp=1&amp;rsv_idx=2&amp;ie=utf-8&amp;rqlang=cn&amp;tn=baiduhome_pg&amp;rsv_enter=1&amp;oq=%25E5%25A6%2582%25E4%25BD%2595%25E4%25BD%25BF%25E7%2594%25A8sam%2520steamcn&amp;inputT=5160&amp;rsv_t=5021C%2B416YOIaCaCX8vHOd4ZjwvfNhr%2BFRSQ6p4nsPWp1hoLhlJAuj9V0Cg%2BTvfBPGPr&amp;rsv_pq=cbb8282600028176&amp;rsv_sug3=51&amp;rsv_sug2=0&amp;rsv_sug4=7612" target="_blank" rel="noopener">sam使用方法</a></p>
-<p>见下图这样，成就都是同一时间解锁的（图片ps过，看的更直观一点）</p>
-<p><img src="https://blob.steamcn.com/forum/201703/27/155054vszx3isubbzfxufg.jpg" alt="attachment 3"></p>
-<p><font color="#FF4500">请注意图中的update，很重要，当你用sam把成就重新锁定上后，要回到这个游戏的成就界面，点update更新一下状态。另外一定要把你作弊的游戏和重新锁上的游戏记下来，因为等下写申诉时会要用到。</font><strong>（ps:见上面的说明第4条）</strong></p>
-<p>当把所有作弊的成就全部锁上且更新状态之后，就可以正式跟管理员申诉了。<br><br>进入申诉页面：<a href="http://astats.astats.nl/astats/aforum/forumdisplay.php?fid=4" target="_blank" rel="noopener">http://astats.astats.nl/astats/aforum/forumdisplay.php?fid=4</a><br><br>进去之后可以看到里面有许多人的申诉，可以看着参考一下。<br><br>接着直接拉到最下面，在网址的右下角有一个 <strong><em>NEW TOPIC</em></strong>，点进去即可发帖。</p>
-<p><img src="https://i.loli.net/2018/08/01/5b61a4c32d8bf.jpg" alt="attachment 4"></p>
-<p><font color="#ff4500">以下为我写的一份模板:</font><br><br><em>Hi，when I came into contact with the steam a few years ago,I discovered the SAM through a steam organization and used it to unlock the achievements with my curiosity.And now I really regret it,so I relock the achievements and clean it properly.I want to come clean and get a second chance to use the site’s leaderboards features.</em></p>
-<p><em>Unlocked Achivements in the following games:</em><br><em>limbo</em><br><em>left 4 dead 2</em><br><em>saints row</em></p>
-<p><em>Relock game :</em><br><em>limbo</em><br><em>left 4 dead 2</em><br><em>saints row</em></p>
-<p><em>My profile:<a href="http://astats.astats.nl/astats/User_Info.php?SteamID64=xxxxxxxxxxxxxx" target="_blank" rel="noopener">http://astats.astats.nl/astats/User_Info.php?SteamID64=xxxxxxxxxxxxxx</a></em></p>
-<p>意思是几年前刚接触steam时,我通过论坛了解到了sam，并在好奇心下使用了它。现在我重新锁定了我以前解锁过的成就。我想能够再次使用网站的排行榜功能。<br>然后贴上当时解锁成就的游戏列表，再贴上现在已经重新锁上成就的游戏列表。最后再要贴上自己的astats profile。</p>
-<p>按以上格式发完之后就是耐心的等待，基本上第二天就会回复，如果管理员还有什么要求要记得及时处理，解ban的概率还是很大的。</p>
-</li>
-</ul>
-<h3 id="完"><a href="#完" class="headerlink" title="完"></a>完</h3><hr>
-<p>此文原首发于<a href="https://steamcn.com/t258676-1-1" target="_blank" rel="noopener">steam.cn-蒸汽动力</a></p>
-
+			<p><b><font face="微软雅黑" size="4">前言：astats.nl是个关于steam成就的第三方网址，被ban与否都不会影响steam账号，如果被ban可以不用担心，若想要解ban则看以下教程。</font></b><br>
+			
+				<p class="article-more-link">
+					<a href="/20180801/关于解除astats-nl的封禁.html#more">Read More</a>
+				</p>
+      
     
 	</div>
 	<footer class="entry-footer">
@@ -404,6 +378,11 @@ setInterval(function(){
 		
     	<p><b>测试HTML元素是否都能正确显示。</b></p>
 <hr>
+<ul>
+<li><h1>标题测试</h1> 
+
+</li>
+</ul>
 <pre>
 <font color="green" size="3" face="微软雅黑">在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。
 你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</font>
@@ -435,9 +414,12 @@ This is an h2
 
 
 <hr>
-<h1>段落测试</h1> 
+<ul>
+<li><h1>段落测试</h1> 
 
 
+</li>
+</ul>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;h1&gt;标题文字&lt;/h1&gt;</span><br></pre></td></tr></table></figure>
 <p><br><strong>Lorem</strong> ipsum dolor sit amet, <a href="http://google.com" target="_blank" rel="noopener">test link</a> consectetur <u>adipiscing elit</u>. Strong text pellentesque ligula commodo viverra <strong><em>vehicula</em></strong>. Italic text at ullamcorper enim. Morbi a euismod nibh. underline text non elit nisl. <strike>Deleted </strike>text tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor.<br> </p>
 <blockquote>
@@ -454,7 +436,9 @@ This is an h2
 <p>　</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">嵌套引用</span><br><span class="line">&gt; 最外层引用</span><br><span class="line">&gt; &gt; 多一个&gt; 嵌套一层引用</span><br><span class="line">&gt; &gt; &gt; 多层嵌套</span><br></pre></td></tr></table></figure>
 <hr>
-<p><b><font size="5">列表测试</font></b></p>
+<ul>
+<li><b><font size="5">列表测试</font></b></li>
+</ul>
 <p>Markdown 支持有序列表和无序列表。<br><br>无序列表使用星号、加号或是减号作为列表标记,有序列表则使用数字接着一个英文句点。<br></p>
 <p><b>Unordered List (ul)</b></p>
 <ul>
@@ -499,7 +483,9 @@ This is an h2
 <p>以上ol列表所产生的 HTML 标记都为：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;ol&gt;</span><br><span class="line">&lt;li&gt;Bird&lt;/li&gt;</span><br><span class="line">&lt;li&gt;McHale&lt;/li&gt;</span><br><span class="line">&lt;li&gt;Parish&lt;/li&gt;</span><br><span class="line">&lt;/ol&gt;</span><br></pre></td></tr></table></figure>
 <hr>
-<p><b><font size="5">表格测试</font></b></p>
+<ul>
+<li><b><font size="5">表格测试</font></b></li>
+</ul>
 <table>
 <thead>
 <tr>
@@ -658,18 +644,17 @@ This is an h2
 	</header>
 	<div class="entry-content">
 		
-    	<h2 id="字体测试"><a href="#字体测试" class="headerlink" title="字体测试"></a>字体测试</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;font face=<span class="string">"黑体"</span>&gt;我是黑体字&lt;/font&gt;</span><br><span class="line">&lt;font face=<span class="string">"微软雅黑"</span>&gt;我是微软雅黑&lt;/font&gt;</span><br><span class="line">&lt;font face=<span class="string">"STCAIYUN"</span>&gt;我是华文彩云&lt;/font&gt;</span><br><span class="line">&lt;font color=<span class="comment">#0099ff size=7 face="黑体"&gt;size=7 face="黑体"&lt;/font&gt;</span></span><br><span class="line">&lt;font color=<span class="comment">#00ffff size=7&gt;color=#00ffff&lt;/font&gt;</span></span><br><span class="line">&lt;font color=gray size=7&gt;color=gray&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+			<ul>
+<li><h2 id="字体测试"><a href="#字体测试" class="headerlink" title="字体测试"></a>字体测试</h2></li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;font face=<span class="string">"黑体"</span>&gt;我是黑体字&lt;/font&gt;</span><br><span class="line">&lt;font face=<span class="string">"微软雅黑"</span>&gt;我是微软雅黑&lt;/font&gt;</span><br><span class="line">&lt;font face=<span class="string">"STCAIYUN"</span>&gt;我是华文彩云&lt;/font&gt;</span><br><span class="line">&lt;font color=<span class="comment">#0099ff size=7 face="黑体"&gt;size=7 face="黑体"&lt;/font&gt;</span></span><br><span class="line">&lt;font color=<span class="comment">#00ffff size=7&gt;color=#00ffff&lt;/font&gt;</span></span><br><span class="line">&lt;font color=gray size=7&gt;color=gray&lt;/font&gt;</span><br></pre></td></tr></table></figure>
 <p><b>Size:规定文本的尺寸大小。可能的值：从1到7的数字。浏览器默认值是3。</b></p>
 <h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><font face="黑体">我是黑体字</font><br><br><font face="微软雅黑">我是微软雅黑</font><br><br><font face="STCAIYUN">我是华文彩云</font><br><br><font color="#0099ff" size="7" face="黑体">size=7 face=”黑体”</font><br><br><font color="#00ffff" size="7">color=#00ffff 可以用十六位颜色值</font><br><br><font color="gray" size="7">color=gray 也可以用已知颜色名</font>
-
-<hr>
-<p>　</p>
-<h2 id="表格颜色"><a href="#表格颜色" class="headerlink" title="表格颜色"></a>表格颜色</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=<span class="comment">#7FFFD4&gt;表格背景颜色名：Aquamarine，十六进制颜色值：#7FFFD4，颜色：rgb(127，255，212)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span></span><br></pre></td></tr></table></figure>
-<h3 id="效果-1"><a href="#效果-1" class="headerlink" title="效果　"></a>效果　</h3><table><tr><td bgcolor="#7FFFD4">表格背景颜色名：Aquamarine，十六进制颜色值：#7FFFD4，颜色：rgb(127, 255, 212)</td></tr></table>
-
-<hr>
-<p> 、</p>
-<h2 id="颜色列表"><a href="#颜色列表" class="headerlink" title="颜色列表"></a><font color="#6495ED">颜</font><font color="#DC143C">色</font><font color="#008B8B">列</font><font color="#FF7F50">表</font></h2><table><tbody><tr><th>颜色名　　　　　</th><th>十六进制颜色值　　　　</th><th>颜色　　　　　　</th></tr><tr><td><font color="AliceBlue">AliceBlue</font></td><td><font color="#F0F8FF">#F0F8FF</font></td><td bgcolor="#F0F8FF">rgb(240, 248, 255)</td></tr><tr><td><font color="AntiqueWhite">AntiqueWhite</font></td><td><font color="#FAEBD7">#FAEBD7</font></td><td bgcolor="#FAEBD7">rgb(250, 235, 215)</td></tr><tr><td><font color="Aqua">Aqua</font></td><td><font color="#00FFFF">#00FFFF</font></td><td bgcolor="#00FFFF">rgb(0, 255, 255)</td></tr><tr><td><font color="Aquamarine">Aquamarine</font></td><td><font color="#7FFFD4">#7FFFD4</font></td><td bgcolor="#7FFFD4">rgb(127, 255, 212)</td></tr><tr><td><font color="Azure">Azure</font></td><td><font color="#F0FFFF">#F0FFFF</font></td><td bgcolor="#F0FFFF">rgb(240, 255, 255)</td></tr><tr><td><font color="Beige">Beige</font></td><td><font color="#F5F5DC">#F5F5DC</font></td><td bgcolor="#F5F5DC">rgb(245, 245, 220)</td></tr><tr><td><font color="Bisque">Bisque</font></td><td><font color="#FFE4C4">#FFE4C4</font></td><td bgcolor="#FFE4C4">rgb(255, 228, 196)</td></tr><tr><td><font color="Black">Black</font></td><td><font color="#000000">#000000</font></td><td bgcolor="#000000">rgb(0, 0, 0)</td></tr><tr><td><font color="BlanchedAlmond">BlanchedAlmond</font></td><td><font color="#FFEBCD">#FFEBCD</font></td><td bgcolor="#FFEBCD">rgb(255, 235, 205)</td></tr><tr><td><font color="Blue">Blue</font></td><td><font color="#0000FF">#0000FF</font></td><td bgcolor="#0000FF">rgb(0, 0, 255)</td></tr><tr><td><font color="BlueViolet">BlueViolet</font></td><td><font color="#8A2BE2">#8A2BE2</font></td><td bgcolor="#8A2BE2">rgb(138, 43, 226)</td></tr><tr><td><font color="Brown">Brown</font></td><td><font color="#A52A2A">#A52A2A</font></td><td bgcolor="#A52A2A">rgb(165, 42, 42)</td></tr><tr><td><font color="BurlyWood">BurlyWood</font></td><td><font color="#DEB887">#DEB887</font></td><td bgcolor="#DEB887">rgb(222, 184, 135)</td></tr><tr><td><font color="CadetBlue">CadetBlue</font></td><td><font color="#5F9EA0">#5F9EA0</font></td><td bgcolor="#5F9EA0">rgb(95, 158, 160)</td></tr><tr><td><font color="Chartreuse">Chartreuse</font></td><td><font color="#7FFF00">#7FFF00</font></td><td bgcolor="#7FFF00">rgb(127, 255, 0)</td></tr><tr><td><font color="Chocolate">Chocolate</font></td><td><font color="#D2691E">#D2691E</font></td><td bgcolor="#D2691E">rgb(210, 105, 30)</td></tr><tr><td><font color="Coral">Coral</font></td><td><font color="#FF7F50">#FF7F50</font></td><td bgcolor="#FF7F50">rgb(255, 127, 80)</td></tr><tr><td><font color="CornflowerBlue">CornflowerBlue</font></td><td><font color="#6495ED">#6495ED</font></td><td bgcolor="#6495ED">rgb(100, 149, 237)</td></tr><tr><td><font color="Cornsilk">Cornsilk</font></td><td><font color="#FFF8DC">#FFF8DC</font></td><td bgcolor="#FFF8DC">rgb(255, 248, 220)</td></tr><tr><td><font color="Crimson">Crimson</font></td><td><font color="#DC143C">#DC143C</font></td><td bgcolor="#DC143C">rgb(220, 20, 60)</td></tr><tr><td><font color="Cyan">Cyan</font></td><td><font color="#00FFFF">#00FFFF</font></td><td bgcolor="#00FFFF">rgb(0, 255, 255)</td></tr><tr><td><font color="DarkBlue">DarkBlue</font></td><td><font color="#00008B">#00008B</font></td><td bgcolor="#00008B">rgb(0, 0, 139)</td></tr><tr><td><font color="DarkCyan">DarkCyan</font></td><td><font color="#008B8B">#008B8B</font></td><td bgcolor="#008B8B">rgb(0, 139, 139)</td></tr><tr><td><font color="DarkGoldenRod">DarkGoldenRod</font></td><td><font color="#B8860B">#B8860B</font></td><td bgcolor="#B8860B">rgb(184, 134, 11)</td></tr><tr><td><font color="DarkGray">DarkGray</font></td><td><font color="#A9A9A9">#A9A9A9</font></td><td bgcolor="#A9A9A9">rgb(169, 169, 169)</td></tr><tr><td><font color="DarkGreen">DarkGreen</font></td><td><font color="#006400">#006400</font></td><td bgcolor="#006400">rgb(0, 100, 0)</td></tr><tr><td><font color="DarkKhaki">DarkKhaki</font></td><td><font color="#BDB76B">#BDB76B</font></td><td bgcolor="#BDB76B">rgb(189, 183, 107)</td></tr><tr><td><font color="DarkMagenta">DarkMagenta</font></td><td><font color="#8B008B">#8B008B</font></td><td bgcolor="#8B008B">rgb(139, 0, 139)</td></tr><tr><td><font color="DarkOliveGreen">DarkOliveGreen</font></td><td><font color="#556B2F">#556B2F</font></td><td bgcolor="#556B2F">rgb(85, 107, 47)</td></tr><tr><td><font color="Darkorange">Darkorange</font></td><td><font color="#FF8C00">#FF8C00</font></td><td bgcolor="#FF8C00">rgb(255, 140, 0)</td></tr><tr><td><font color="DarkOrchid">DarkOrchid</font></td><td><font color="#9932CC">#9932CC</font></td><td bgcolor="#9932CC">rgb(153, 50, 204)</td></tr><tr><td><font color="DarkRed">DarkRed</font></td><td><font color="#8B0000">#8B0000</font></td><td bgcolor="#8B0000">rgb(139, 0, 0)</td></tr><tr><td><font color="DarkSalmon">DarkSalmon</font></td><td><font color="#E9967A">#E9967A</font></td><td bgcolor="#E9967A">rgb(233, 150, 122)</td></tr><tr><td><font color="DarkSeaGreen">DarkSeaGreen</font></td><td><font color="#8FBC8F">#8FBC8F</font></td><td bgcolor="#8FBC8F">rgb(143, 188, 143)</td></tr><tr><td><font color="DarkSlateBlue">DarkSlateBlue</font></td><td><font color="#483D8B">#483D8B</font></td><td bgcolor="#483D8B">rgb(72, 61, 139)</td></tr><tr><td><font color="DarkSlateGray">DarkSlateGray</font></td><td><font color="#2F4F4F">#2F4F4F</font></td><td bgcolor="#2F4F4F">rgb(47, 79, 79)</td></tr><tr><td><font color="DarkTurquoise">DarkTurquoise</font></td><td><font color="#00CED1">#00CED1</font></td><td bgcolor="#00CED1">rgb(0, 206, 209)</td></tr><tr><td><font color="DarkViolet">DarkViolet</font></td><td><font color="#9400D3">#9400D3</font></td><td bgcolor="#9400D3">rgb(148, 0, 211)</td></tr><tr><td><font color="DeepPink">DeepPink</font></td><td><font color="#FF1493">#FF1493</font></td><td bgcolor="#FF1493">rgb(255, 20, 147)</td></tr><tr><td><font color="DeepSkyBlue">DeepSkyBlue</font></td><td><font color="#00BFFF">#00BFFF</font></td><td bgcolor="#00BFFF">rgb(0, 191, 255)</td></tr><tr><td><font color="DimGray">DimGray</font></td><td><font color="#696969">#696969</font></td><td bgcolor="#696969">rgb(105, 105, 105)</td></tr><tr><td><font color="DodgerBlue">DodgerBlue</font></td><td><font color="#1E90FF">#1E90FF</font></td><td bgcolor="#1E90FF">rgb(30, 144, 255)</td></tr><tr><td><font color="Feldspar">Feldspar</font></td><td><font color="#D19275">#D19275</font></td><td bgcolor="#D19275">rgb(209, 146, 117)</td></tr><tr><td><font color="FireBrick">FireBrick</font></td><td><font color="#B22222">#B22222</font></td><td bgcolor="#B22222">rgb(178, 34, 34)</td></tr><tr><td><font color="FloralWhite">FloralWhite</font></td><td><font color="#FFFAF0">#FFFAF0</font></td><td bgcolor="#FFFAF0">rgb(255, 250, 240)</td></tr><tr><td><font color="ForestGreen">ForestGreen</font></td><td><font color="#228B22">#228B22</font></td><td bgcolor="#228B22">rgb(34, 139, 34)</td></tr><tr><td><font color="Fuchsia">Fuchsia</font></td><td><font color="#FF00FF">#FF00FF</font></td><td bgcolor="#FF00FF">rgb(255, 0, 255)</td></tr><tr><td><font color="Gainsboro">Gainsboro</font></td><td><font color="#DCDCDC">#DCDCDC</font></td><td bgcolor="#DCDCDC">rgb(220, 220, 220)</td></tr><tr><td><font color="GhostWhite">GhostWhite</font></td><td><font color="#F8F8FF">#F8F8FF</font></td><td bgcolor="#F8F8FF">rgb(248, 248, 255)</td></tr><tr><td><font color="Gold">Gold</font></td><td><font color="#FFD700">#FFD700</font></td><td bgcolor="#FFD700">rgb(255, 215, 0)</td></tr><tr><td><font color="GoldenRod">GoldenRod</font></td><td><font color="#DAA520">#DAA520</font></td><td bgcolor="#DAA520">rgb(218, 165, 32)</td></tr><tr><td><font color="Gray">Gray</font></td><td><font color="#808080">#808080</font></td><td bgcolor="#808080">rgb(128, 128, 128)</td></tr><tr><td><font color="Green">Green</font></td><td><font color="#008000">#008000</font></td><td bgcolor="#008000">rgb(0, 128, 0)</td></tr><tr><td><font color="GreenYellow">GreenYellow</font></td><td><font color="#ADFF2F">#ADFF2F</font></td><td bgcolor="#ADFF2F">rgb(173, 255, 47)</td></tr><tr><td><font color="HoneyDew">HoneyDew</font></td><td><font color="#F0FFF0">#F0FFF0</font></td><td bgcolor="#F0FFF0">rgb(240, 255, 240)</td></tr><tr><td><font color="HotPink">HotPink</font></td><td><font color="#FF69B4">#FF69B4</font></td><td bgcolor="#FF69B4">rgb(255, 105, 180)</td></tr><tr><td><font color="IndianRed">IndianRed</font></td><td><font color="#CD5C5C">#CD5C5C</font></td><td bgcolor="#CD5C5C">rgb(205, 92, 92)</td></tr><tr><td><font color="Indigo">Indigo</font></td><td><font color="#4B0082">#4B0082</font></td><td bgcolor="#4B0082">rgb(75, 0, 130)</td></tr><tr><td><font color="Ivory">Ivory</font></td><td><font color="#FFFFF0">#FFFFF0</font></td><td bgcolor="#FFFFF0">rgb(255, 255, 240)</td></tr><tr><td><font color="Khaki">Khaki</font></td><td><font color="#F0E68C">#F0E68C</font></td><td bgcolor="#F0E68C">rgb(240, 230, 140)</td></tr><tr><td><font color="Lavender">Lavender</font></td><td><font color="#E6E6FA">#E6E6FA</font></td><td bgcolor="#E6E6FA">rgb(230, 230, 250)</td></tr><tr><td><font color="LavenderBlush">LavenderBlush</font></td><td><font color="#FFF0F5">#FFF0F5</font></td><td bgcolor="#FFF0F5">rgb(255, 240, 245)</td></tr><tr><td><font color="LawnGreen">LawnGreen</font></td><td><font color="#7CFC00">#7CFC00</font></td><td bgcolor="#7CFC00">rgb(124, 252, 0)</td></tr><tr><td><font color="LemonChiffon">LemonChiffon</font></td><td><font color="#FFFACD">#FFFACD</font></td><td bgcolor="#FFFACD">rgb(255, 250, 205)</td></tr><tr><td><font color="LightBlue">LightBlue</font></td><td><font color="#ADD8E6">#ADD8E6</font></td><td bgcolor="#ADD8E6">rgb(173, 216, 230)</td></tr><tr><td><font color="LightCoral">LightCoral</font></td><td><font color="#F08080">#F08080</font></td><td bgcolor="#F08080">rgb(240, 128, 128)</td></tr><tr><td><font color="LightCyan">LightCyan</font></td><td><font color="#E0FFFF">#E0FFFF</font></td><td bgcolor="#E0FFFF">rgb(224, 255, 255)</td></tr><tr><td><font color="LightGoldenRodYellow">LightGoldenRodYellow</font></td><td><font color="#FAFAD2">#FAFAD2</font></td><td bgcolor="#FAFAD2">rgb(250, 250, 210)</td></tr><tr><td><font color="LightGrey">LightGrey</font></td><td><font color="#D3D3D3">#D3D3D3</font></td><td bgcolor="#D3D3D3">rgb(211, 211, 211)</td></tr><tr><td><font color="LightGreen">LightGreen</font></td><td><font color="#90EE90">#90EE90</font></td><td bgcolor="#90EE90">rgb(144, 238, 144)</td></tr><tr><td><font color="LightPink">LightPink</font></td><td><font color="#FFB6C1">#FFB6C1</font></td><td bgcolor="#FFB6C1">rgb(255, 182, 193)</td></tr><tr><td><font color="LightSalmon">LightSalmon</font></td><td><font color="#FFA07A">#FFA07A</font></td><td bgcolor="#FFA07A">rgb(255, 160, 122)</td></tr><tr><td><font color="LightSeaGreen">LightSeaGreen</font></td><td><font color="#20B2AA">#20B2AA</font></td><td bgcolor="#20B2AA">rgb(32, 178, 170)</td></tr><tr><td><font color="LightSkyBlue">LightSkyBlue</font></td><td><font color="#87CEFA">#87CEFA</font></td><td bgcolor="#87CEFA">rgb(135, 206, 250)</td></tr><tr><td><font color="LightSlateBlue">LightSlateBlue</font></td><td><font color="#8470FF">#8470FF</font></td><td bgcolor="#8470FF">rgb(132, 112, 255)</td></tr><tr><td><font color="LightSlateGray">LightSlateGray</font></td><td><font color="#778899">#778899</font></td><td bgcolor="#778899">rgb(119, 136, 153)</td></tr><tr><td><font color="LightSteelBlue">LightSteelBlue</font></td><td><font color="#B0C4DE">#B0C4DE</font></td><td bgcolor="#B0C4DE">rgb(176, 196, 222)</td></tr><tr><td><font color="LightYellow">LightYellow</font></td><td><font color="#FFFFE0">#FFFFE0</font></td><td bgcolor="#FFFFE0">rgb(255, 255, 224)</td></tr><tr><td><font color="Lime">Lime</font></td><td><font color="#00FF00">#00FF00</font></td><td bgcolor="#00FF00">rgb(0, 255, 0)</td></tr><tr><td><font color="LimeGreen">LimeGreen</font></td><td><font color="#32CD32">#32CD32</font></td><td bgcolor="#32CD32">rgb(50, 205, 50)</td></tr><tr><td><font color="Linen">Linen</font></td><td><font color="#FAF0E6">#FAF0E6</font></td><td bgcolor="#FAF0E6">rgb(250, 240, 230)</td></tr><tr><td><font color="Magenta">Magenta</font></td><td><font color="#FF00FF">#FF00FF</font></td><td bgcolor="#FF00FF">rgb(255, 0, 255)</td></tr><tr><td><font color="Maroon">Maroon</font></td><td><font color="#800000">#800000</font></td><td bgcolor="#800000">rgb(128, 0, 0)</td></tr><tr><td><font color="MediumAquaMarine">MediumAquaMarine</font></td><td><font color="#66CDAA">#66CDAA</font></td><td bgcolor="#66CDAA">rgb(102, 205, 170)</td></tr><tr><td><font color="MediumBlue">MediumBlue</font></td><td><font color="#0000CD">#0000CD</font></td><td bgcolor="#0000CD">rgb(0, 0, 205)</td></tr><tr><td><font color="MediumOrchid">MediumOrchid</font></td><td><font color="#BA55D3">#BA55D3</font></td><td bgcolor="#BA55D3">rgb(186, 85, 211)</td></tr><tr><td><font color="MediumPurple">MediumPurple</font></td><td><font color="#9370D8">#9370D8</font></td><td bgcolor="#9370D8">rgb(147, 112, 216)</td></tr><tr><td><font color="MediumSeaGreen">MediumSeaGreen</font></td><td><font color="#3CB371">#3CB371</font></td><td bgcolor="#3CB371">rgb(60, 179, 113)</td></tr><tr><td><font color="MediumSlateBlue">MediumSlateBlue</font></td><td><font color="#7B68EE">#7B68EE</font></td><td bgcolor="#7B68EE">rgb(123, 104, 238)</td></tr><tr><td><font color="MediumSpringGreen">MediumSpringGreen</font></td><td><font color="#00FA9A">#00FA9A</font></td><td bgcolor="#00FA9A">rgb(0, 250, 154)</td></tr><tr><td><font color="MediumTurquoise">MediumTurquoise</font></td><td><font color="#48D1CC">#48D1CC</font></td><td bgcolor="#48D1CC">rgb(72, 209, 204)</td></tr><tr><td><font color="MediumVioletRed">MediumVioletRed</font></td><td><font color="#C71585">#C71585</font></td><td bgcolor="#C71585">rgb(199, 21, 133)</td></tr><tr><td><font color="MidnightBlue">MidnightBlue</font></td><td><font color="#191970">#191970</font></td><td bgcolor="#191970">rgb(25, 25, 112)</td></tr><tr><td><font color="MintCream">MintCream</font></td><td><font color="#F5FFFA">#F5FFFA</font></td><td bgcolor="#F5FFFA">rgb(245, 255, 250)</td></tr><tr><td><font color="MistyRose">MistyRose</font></td><td><font color="#FFE4E1">#FFE4E1</font></td><td bgcolor="#FFE4E1">rgb(255, 228, 225)</td></tr><tr><td><font color="Moccasin">Moccasin</font></td><td><font color="#FFE4B5">#FFE4B5</font></td><td bgcolor="#FFE4B5">rgb(255, 228, 181)</td></tr><tr><td><font color="NavajoWhite">NavajoWhite</font></td><td><font color="#FFDEAD">#FFDEAD</font></td><td bgcolor="#FFDEAD">rgb(255, 222, 173)</td></tr><tr><td><font color="Navy">Navy</font></td><td><font color="#000080">#000080</font></td><td bgcolor="#000080">rgb(0, 0, 128)</td></tr><tr><td><font color="OldLace">OldLace</font></td><td><font color="#FDF5E6">#FDF5E6</font></td><td bgcolor="#FDF5E6">rgb(253, 245, 230)</td></tr><tr><td><font color="Olive">Olive</font></td><td><font color="#808000">#808000</font></td><td bgcolor="#808000">rgb(128, 128, 0)</td></tr><tr><td><font color="OliveDrab">OliveDrab</font></td><td><font color="#6B8E23">#6B8E23</font></td><td bgcolor="#6B8E23">rgb(107, 142, 35)</td></tr><tr><td><font color="Orange">Orange</font></td><td><font color="#FFA500">#FFA500</font></td><td bgcolor="#FFA500">rgb(255, 165, 0)</td></tr><tr><td><font color="OrangeRed">OrangeRed</font></td><td><font color="#FF4500">#FF4500</font></td><td bgcolor="#FF4500">rgb(255, 69, 0)</td></tr><tr><td><font color="Orchid">Orchid</font></td><td><font color="#DA70D6">#DA70D6</font></td><td bgcolor="#DA70D6">rgb(218, 112, 214)</td></tr><tr><td><font color="PaleGoldenRod">PaleGoldenRod</font></td><td><font color="#EEE8AA">#EEE8AA</font></td><td bgcolor="#EEE8AA">rgb(238, 232, 170)</td></tr><tr><td><font color="PaleGreen">PaleGreen</font></td><td><font color="#98FB98">#98FB98</font></td><td bgcolor="#98FB98">rgb(152, 251, 152)</td></tr><tr><td><font color="PaleTurquoise">PaleTurquoise</font></td><td><font color="#AFEEEE">#AFEEEE</font></td><td bgcolor="#AFEEEE">rgb(175, 238, 238)</td></tr><tr><td><font color="PaleVioletRed">PaleVioletRed</font></td><td><font color="#D87093">#D87093</font></td><td bgcolor="#D87093">rgb(216, 112, 147)</td></tr><tr><td><font color="PapayaWhip">PapayaWhip</font></td><td><font color="#FFEFD5">#FFEFD5</font></td><td bgcolor="#FFEFD5">rgb(255, 239, 213)</td></tr><tr><td><font color="PeachPuff">PeachPuff</font></td><td><font color="#FFDAB9">#FFDAB9</font></td><td bgcolor="#FFDAB9">rgb(255, 218, 185)</td></tr><tr><td><font color="Peru">Peru</font></td><td><font color="#CD853F">#CD853F</font></td><td bgcolor="#CD853F">rgb(205, 133, 63)</td></tr><tr><td><font color="Pink">Pink</font></td><td><font color="#FFC0CB">#FFC0CB</font></td><td bgcolor="#FFC0CB">rgb(255, 192, 203)</td></tr><tr><td><font color="Plum">Plum</font></td><td><font color="#DDA0DD">#DDA0DD</font></td><td bgcolor="#DDA0DD">rgb(221, 160, 221)</td></tr><tr><td><font color="PowderBlue">PowderBlue</font></td><td><font color="#B0E0E6">#B0E0E6</font></td><td bgcolor="#B0E0E6">rgb(176, 224, 230)</td></tr><tr><td><font color="Purple">Purple</font></td><td><font color="#800080">#800080</font></td><td bgcolor="#800080">rgb(128, 0, 128)</td></tr><tr><td><font color="Red">Red</font></td><td><font color="#FF0000">#FF0000</font></td><td bgcolor="#FF0000">rgb(255, 0, 0)</td></tr><tr><td><font color="RosyBrown">RosyBrown</font></td><td><font color="#BC8F8F">#BC8F8F</font></td><td bgcolor="#BC8F8F">rgb(188, 143, 143)</td></tr><tr><td><font color="RoyalBlue">RoyalBlue</font></td><td><font color="#4169E1">#4169E1</font></td><td bgcolor="#4169E1">rgb(65, 105, 225)</td></tr><tr><td><font color="SaddleBrown">SaddleBrown</font></td><td><font color="#8B4513">#8B4513</font></td><td bgcolor="#8B4513">rgb(139, 69, 19)</td></tr><tr><td><font color="Salmon">Salmon</font></td><td><font color="#FA8072">#FA8072</font></td><td bgcolor="#FA8072">rgb(250, 128, 114)</td></tr><tr><td><font color="SandyBrown">SandyBrown</font></td><td><font color="#F4A460">#F4A460</font></td><td bgcolor="#F4A460">rgb(244, 164, 96)</td></tr><tr><td><font color="SeaGreen">SeaGreen</font></td><td><font color="#2E8B57">#2E8B57</font></td><td bgcolor="#2E8B57">rgb(46, 139, 87)</td></tr><tr><td><font color="SeaShell">SeaShell</font></td><td><font color="#FFF5EE">#FFF5EE</font></td><td bgcolor="#FFF5EE">rgb(255, 245, 238)</td></tr><tr><td><font color="Sienna">Sienna</font></td><td><font color="#A0522D">#A0522D</font></td><td bgcolor="#A0522D">rgb(160, 82, 45)</td></tr><tr><td><font color="Silver">Silver</font></td><td><font color="#C0C0C0">#C0C0C0</font></td><td bgcolor="#C0C0C0">rgb(192, 192, 192)</td></tr><tr><td><font color="SkyBlue">SkyBlue</font></td><td><font color="#87CEEB">#87CEEB</font></td><td bgcolor="#87CEEB">rgb(135, 206, 235)</td></tr><tr><td><font color="SlateBlue">SlateBlue</font></td><td><font color="#6A5ACD">#6A5ACD</font></td><td bgcolor="#6A5ACD">rgb(106, 90, 205)</td></tr><tr><td><font color="SlateGray">SlateGray</font></td><td><font color="#708090">#708090</font></td><td bgcolor="#708090">rgb(112, 128, 144)</td></tr><tr><td><font color="Snow">Snow</font></td><td><font color="#FFFAFA">#FFFAFA</font></td><td bgcolor="#FFFAFA">rgb(255, 250, 250)</td></tr><tr><td><font color="SpringGreen">SpringGreen</font></td><td><font color="#00FF7F">#00FF7F</font></td><td bgcolor="#00FF7F">rgb(0, 255, 127)</td></tr><tr><td><font color="SteelBlue">SteelBlue</font></td><td><font color="#4682B4">#4682B4</font></td><td bgcolor="#4682B4">rgb(70, 130, 180)</td></tr><tr><td><font color="Tan">Tan</font></td><td><font color="#D2B48C">#D2B48C</font></td><td bgcolor="#D2B48C">rgb(210, 180, 140)</td></tr><tr><td><font color="Teal">Teal</font></td><td><font color="#008080">#008080</font></td><td bgcolor="#008080">rgb(0, 128, 128)</td></tr><tr><td><font color="Thistle">Thistle</font></td><td><font color="#D8BFD8">#D8BFD8</font></td><td bgcolor="#D8BFD8">rgb(216, 191, 216)</td></tr><tr><td><font color="Tomato">Tomato</font></td><td><font color="#FF6347">#FF6347</font></td><td bgcolor="#FF6347">rgb(255, 99, 71)</td></tr><tr><td><font color="Turquoise">Turquoise</font></td><td><font color="#40E0D0">#40E0D0</font></td><td bgcolor="#40E0D0">rgb(64, 224, 208)</td></tr><tr><td><font color="Violet">Violet</font></td><td><font color="#EE82EE">#EE82EE</font></td><td bgcolor="#EE82EE">rgb(238, 130, 238)</td></tr><tr><td><font color="VioletRed">VioletRed</font></td><td><font color="#D02090">#D02090</font></td><td bgcolor="#D02090">rgb(208, 32, 144)</td></tr><tr><td><font color="Wheat">Wheat</font></td><td><font color="#F5DEB3">#F5DEB3</font></td><td bgcolor="#F5DEB3">rgb(245, 222, 179)</td></tr><tr><td><font color="White">White</font></td><td><font color="#FFFFFF">#FFFFFF</font></td><td bgcolor="#FFFFFF">rgb(255, 255, 255)</td></tr><tr><td><font color="WhiteSmoke">WhiteSmoke</font></td><td><font color="#F5F5F5">#F5F5F5</font></td><td bgcolor="#F5F5F5">rgb(245, 245, 245)</td></tr><tr><td><font color="Yellow">Yellow</font></td><td><font color="#FFFF00">#FFFF00</font></td><td bgcolor="#FFFF00">rgb(255, 255, 0)</td></tr><tr><td><font color="YellowGreen">YellowGreen</font></td><td><font color="#9ACD32">#9ACD32</font></td><td bgcolor="#9ACD32">rgb(154, 205, 50)</td></tr></tbody></table>
+			
+				<p class="article-more-link">
+					<a href="/20180731/11.html#more">Read More</a>
+				</p>
+      
     
 	</div>
 	<footer class="entry-footer">
