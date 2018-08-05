@@ -51,7 +51,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/20180805/111.html" class="article-date">
-  <time datetime="2018-08-05T12:49:27.000Z" itemprop="datePublished">2018-08-05</time>
+  <time datetime="2018-08-05T12:49:00.000Z" itemprop="datePublished">2018-08-05</time>
 </a>
 		</span>
 		<span class="meta-elements author">Yann Peng</span>
@@ -64,14 +64,47 @@
 		
   
     <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/20180805/111.html">嵌入进阶（更新 ing）</a>
+      <a class="article-title" href="/20180805/111.html">hexo上的live2d插件</a>
     </h1>
   
 
 	</header>
 	<div class="entry-content">
 		
-    	
+    	<p>关于网页版的live2d首先是在<u><a href="http://www.live2d.com/ja/showcase/bilibili" target="_blank" rel="noopener">bilibili live</a></u>上看见的，也就是B站的看板娘，可支持换装、显示文字、点击播放语音动画等功能。于是就着手研究了一下，然后发现了hexo的一个插件：<u><a href="https://github.com/EYHN/hexo-helper-live2d" target="_blank" rel="noopener">hexo-helper-live2d</a></u>。</p>
+<hr>
+<h2 id="关于live2d"><a href="#关于live2d" class="headerlink" title="关于live2d"></a>关于live2d</h2><p>Live2D目前有两个分支：Cubism和Euclid。若无特殊说明，Live2D通常是指Cubism分支。其工作原理是通过将一系列的2D图像进行平移、旋转和变形等操作，生成一个具有自然动画效果的可动人物模型。由于Live2D只需一系列2D原图即可生成具有类似于3D动画效果的模型，比3D建模耗费的时间和成本更少，因此受到很多游戏制作者，特别是小成本AVG和手游作者的喜爱。另外，Live2D生成的模型相对于真正的3D模型，可以更好地还原手绘风格。<u><a href="https://zh.moegirl.org/zh-hans/Live2D#.E7.AE.80.E4.BB.8B" target="_blank" rel="noopener">—摘自萌娘百科</a></u><br>其主要应用在游戏制作，漫画生成与建模等，普通用户则将其应用在电脑、手机上作为动态壁纸与网页装饰。此文主要分享如何为博客添加“看板娘”。</p>
+<hr>
+<h2 id="hexo插件"><a href="#hexo插件" class="headerlink" title="hexo插件"></a>hexo插件</h2><ul>
+<li><h4 id="github地址"><a href="#github地址" class="headerlink" title="github地址"></a>github地址</h4><u><a href="https://github.com/EYHN/hexo-helper-live2d" target="_blank" rel="noopener">hexo-helper-live2d</a></u>  </li>
+</ul>
+<ul>
+<li><h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4>安装模块:  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-helper-live2d</span><br><span class="line">```  </span><br><span class="line">* #### 配置  </span><br><span class="line">向Hexo根目录下的 ```_config.yml``` 文件中添加配置。</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h1 id="Live2D"><a href="#Live2D" class="headerlink" title="Live2D"></a>Live2D</h1><h2 id="https-github-com-EYHN-hexo-helper-live2d"><a href="#https-github-com-EYHN-hexo-helper-live2d" class="headerlink" title="https://github.com/EYHN/hexo-helper-live2d"></a><a href="https://github.com/EYHN/hexo-helper-live2d" target="_blank" rel="noopener">https://github.com/EYHN/hexo-helper-live2d</a></h2><p>live2d:<br>    enable: true</p>
+<h1 id="enable-false"><a href="#enable-false" class="headerlink" title="enable: false"></a>enable: false</h1><pre><code>scriptFrom: local # 默认
+pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)
+pluginJsPath: lib/ # 脚本文件相对与插件根目录路径
+pluginModelPath: assets/ # 模型文件相对与插件根目录路径
+</code></pre><h1 id="scriptFrom-jsdelivr-jsdelivr-CDN"><a href="#scriptFrom-jsdelivr-jsdelivr-CDN" class="headerlink" title="scriptFrom: jsdelivr # jsdelivr CDN"></a>scriptFrom: jsdelivr # jsdelivr CDN</h1><h1 id="scriptFrom-unpkg-unpkg-CDN"><a href="#scriptFrom-unpkg-unpkg-CDN" class="headerlink" title="scriptFrom: unpkg # unpkg CDN"></a>scriptFrom: unpkg # unpkg CDN</h1><h1 id="scriptFrom-https-cdn-jsdelivr-net-npm-live2d-widget-3-x-lib-L2Dwidget-min-js-你的自定义-url"><a href="#scriptFrom-https-cdn-jsdelivr-net-npm-live2d-widget-3-x-lib-L2Dwidget-min-js-你的自定义-url" class="headerlink" title="scriptFrom: https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url"></a>scriptFrom: <a href="https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js" target="_blank" rel="noopener">https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js</a> # 你的自定义 url</h1><pre><code>tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中
+debug: false # 调试, 是否在控制台输出日志
+model:
+  use: live2d-widget-model-wanko # npm-module package name
+# use: wanko # 博客根目录/live2d_models/ 下的目录名
+# use: ./wives/wanko # 相对于博客根目录的路径
+# use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url
+display: # 模型位置，根据不同的模型自行调整
+  position: right
+  width: 150
+  height: 300
+mobile: # 是否适用于移动端
+  show: true
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line">　  </span><br><span class="line">如下图：  </span><br><span class="line">　</span><br><span class="line">![image 1](https://i.loli.net/2018/08/06/5b6749f3ebbb0.jpg)  </span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">* #### 模型  </span><br><span class="line">有许多方法来使用不同的模型:  </span><br><span class="line">###### 方法一：npm 模块名  </span><br><span class="line">现有模型地址：[地址](https://github.com/xiazeyu/live2d-widget-models)  </span><br><span class="line">使用 ```npm install 模型的包名``` 来安装,  安装成功后模型位于```/根目录/node_modules/```  </span><br><span class="line">然后将包名输入位于 ```_config.yml``` 的 ```model.use``` 中.（如下图）  </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">![image 2](https://i.loli.net/2018/08/06/5b674fd164353.jpg)  </span><br><span class="line">###### 方法二： live2d_models子目录名称    </span><br><span class="line">  1.  在博客根目录下创建一个 ```live2d_models``` 文件夹.  </span><br><span class="line">  2.  在此文件夹内新建一个子文件夹.  </span><br><span class="line">  3.  将你的 Live2D 模型复制到这个子文件夹中.  </span><br><span class="line">  4.  将子文件夹的名称输入 ```_config.yml``` 的 ```model.use``` 中.  </span><br><span class="line">  　</span><br><span class="line">  </span><br><span class="line">  　  </span><br><span class="line">  示例：  </span><br><span class="line">  1. 你的模型叫 ```mymiku```.  </span><br><span class="line">  2. 在博客根目录 (应当有 ```_config.yml``` 、```sources``` 、 ```themes``` ) 新建名为```live2d_models```的目录，再在其中建一个名为 ```mymiku``` 的子文件夹.  </span><br><span class="line">  3. 将模型复制到 ```/live2d_models/mymiku/``` 中.现在在此文件夹里应当有一个 ```.model.json``` 文件 (例如 ```mymiku.model.json```)  </span><br><span class="line">  4. 将 子文件夹名称```mymiku``` 输入到位于根目录 ```_config.yml``` 的 ```model.use``` 中. (如下图)</span><br><span class="line">  </span><br><span class="line">p</span><br><span class="line">  ![image 3](https://i.loli.net/2018/08/06/5b674eabe650e.jpg)  </span><br><span class="line"></span><br><span class="line">  </span><br><span class="line">  　  **到此live2d就安装成功了，看看效果吧。**  </span><br><span class="line">  ![gif 1](https://i.loli.net/2018/08/06/5b6751a164ea5.gif)</span><br><span class="line"></span><br><span class="line">  ----------------------</span><br><span class="line"></span><br><span class="line">## 如何获取模型</span><br><span class="line">首先先说说模型格式，一般hexo-helper-live2d的模型格式都为下面两种</span><br></pre></td></tr></table></figure>
+</code></pre><p>这种moc+json+文件夹材质的是2.x版本的工程文件<br>│  model.model.json    // 模型json数据<br>│  model.moc           // 模型文件<br>│<br>└─model.1024<br>        texture_00.png  // 模型材质贴图（不同分辨率用）</p>
+<p>这种json文件内容 是与当前目录的文件对应的<br>{<br>    “type”: “Live2D Model Setting”,<br>    “name”: “makoto0”,<br>    “model”: “makoto0.moc”,<br>    “textures”: [<br>        “makoto0.2048/texture_00.png”<br>    ]<br>}<code>`</code><br><strong>获取方法</strong>:<br>贴吧或者论坛别人的分享,可能需要修改模型格式  <u>live2d官方分享库</u><br>游戏内提取，注意版权问题<br>自己制作  </p>
+<p>最后再贴一个在github上找到的模型，种类挺多，可预览，<u><a href="https://github.com/summerscar/live2dDemo" target="_blank" rel="noopener">github地址</a></u><br>修改modelname进行预览，modelname可在<u><a href="https://github.com/summerscar/live2dDemo/blob/master/README.md" target="_blank" rel="noopener">这里</a></u>查阅，<u><a href="http://summerscar.me/live2dDemo/" target="_blank" rel="noopener">预览地址</a></u><br>使用方法很简单，打包下载下来，解压后在<code>/live2dDemo-master/assets/</code>中找到喜欢的模型，按照上面的<strong>方法二</strong>，直接把模型所在的文件夹拖入到博客根目录中的<code>live2d_models</code>里，再修改<code>_config.yml</code> 里的 <code>model.use</code>即可。</p>
+<h3 id="完"><a href="#完" class="headerlink" title="完"></a>完</h3>
     
 	</div>
 	<footer class="entry-footer">
@@ -81,6 +114,8 @@
 			</span>
 			<span class="tags">
 				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/plugin/">plugin</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/经验/">经验</a></li></ul>
+
 			</span>
 		</div>
 	</footer>
@@ -880,5 +915,5 @@ This is an h2
 
 <script src="/js/script.js"></script>
   </div>
-<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/miku.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false});</script></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"right","width":150,"height":200},"mobile":{"show":true},"log":false});</script></body>
 </html>
