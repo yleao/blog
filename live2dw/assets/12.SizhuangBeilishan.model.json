@@ -1,10 +1,8 @@
 {
   "version": "Live2DViewerEX Config 1.0",
-  "model": "ZH.MeishiLongxi.moc",
+  "model": "12.SizhuangBeilishan.moc",
   "textures": [
-    "ZH.MeishiLongxi.1024/texture_00.png",
-    "ZH.MeishiLongxi.1024/texture_01.png",
-    "ZH.MeishiLongxi.1024/texture_02.png"
+    "12.SizhuangBeilishan.2048/texture_00.png"
   ],
   "layout": {
     "center_x": 0.0,
