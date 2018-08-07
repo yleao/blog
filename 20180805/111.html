@@ -17,7 +17,7 @@
 <meta property="og:image" content="https://i.loli.net/2018/08/06/5b674fd164353.jpg">
 <meta property="og:image" content="https://i.loli.net/2018/08/06/5b674eabe650e.jpg">
 <meta property="og:image" content="https://i.loli.net/2018/08/06/5b6751a164ea5.gif">
-<meta property="og:updated_time" content="2018-08-07T12:27:12.066Z">
+<meta property="og:updated_time" content="2018-08-07T21:38:07.956Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo上的live2d插件">
 <meta name="twitter:description" content="关于网页版的live2d首先是在bilibili live上看见的，也就是B站的看板娘，可支持换装、显示文字、点击播放语音动画等功能。于是就着手研究了一下，然后发现了hexo的一个插件：hexo-helper-live2d。  关于live2dLive2D目前有两个分支：Cubism和Euclid。若无特殊说明，Live2D通常是指Cubism分支。其工作原理是通过将一系列的2D图像进行平移、旋转">
@@ -87,36 +87,33 @@
 </code></pre>
 </li>
 <li><h4 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h4><p>向Hexo根目录下的 <code>_config.yml</code> 文件中添加配置。  </p>
-</li>
-</ul>
-<pre><code>
-# Live2D
+<pre><code># Live2D
 ## https://github.com/EYHN/hexo-helper-live2d
 live2d:
-    enable: true
-  # enable: false
-    scriptFrom: local # 默认
-    pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)
-    pluginJsPath: lib/ # 脚本文件相对与插件根目录路径
-    pluginModelPath: assets/ # 模型文件相对与插件根目录路径
-  # scriptFrom: jsdelivr # jsdelivr CDN
-  # scriptFrom: unpkg # unpkg CDN
-  # scriptFrom: https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url
-    tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中
-    debug: false # 调试, 是否在控制台输出日志
-    model:
-      use: live2d-widget-model-wanko # npm-module package name
-    # use: wanko # 博客根目录/live2d_models/ 下的目录名
-    # use: ./wives/wanko # 相对于博客根目录的路径
-    # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url
-    display: # 模型位置，根据不同的模型自行调整
-      position: right
-      width: 150
-      height: 300
-    mobile: # 是否适用于移动端
-      show: true
+  enable: true
+# enable: false
+  scriptFrom: local # 默认
+  pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)
+  pluginJsPath: lib/ # 脚本文件相对与插件根目录路径
+  pluginModelPath: assets/ # 模型文件相对与插件根目录路径
+# scriptFrom: jsdelivr # jsdelivr CDN
+# scriptFrom: unpkg # unpkg CDN
+# scriptFrom: https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url
+  tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中
+  debug: false # 调试, 是否在控制台输出日志
+  model:
+    use: live2d-widget-model-wanko # npm-module package name
+  # use: wanko # 博客根目录/live2d_models/ 下的目录名
+  # use: ./wives/wanko # 相对于博客根目录的路径
+  # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url
+  display: # 模型位置，根据不同的模型自行调整
+    position: right
+    width: 150
+    height: 300
+  mobile: # 是否适用于移动端
+    show: true
 </code></pre><p>　<br>如下图：<br>　<br><img src="https://i.loli.net/2018/08/06/5b6749f3ebbb0.jpg" alt="image 1">  </p>
-<ul>
+</li>
 <li><h4 id="模型"><a href="#模型" class="headerlink" title="模型"></a>模型</h4><p>有许多方法来使用不同的模型:  </p>
 <h6 id="方法一：npm-模块名"><a href="#方法一：npm-模块名" class="headerlink" title="方法一：npm 模块名"></a>方法一：npm 模块名</h6><p>现有模型地址：<a href="https://github.com/xiazeyu/live2d-widget-models" target="_blank" rel="noopener">地址</a><br>使用 <code>npm install 模型的包名</code> 来安装,  安装成功后模型位于<code>/根目录/node_modules/</code><br>然后将包名输入位于 <code>_config.yml</code> 的 <code>model.use</code> 中.（如下图）  </p>
 <p><img src="https://i.loli.net/2018/08/06/5b674fd164353.jpg" alt="image 2">  </p>
