@@ -3,20 +3,27 @@
 <head>
   <meta charset="utf-8">
   
-  <title>codingPage | Blog</title>
+  <title>直接通过CDN给github pages上的hexo加速 | Blog</title>
   <meta name="viewport" content="width=device-width">
-  <meta name="description" content="blog">
-<meta name="keywords" content="development,study,architecture">
+  <meta name="description" content="上篇文章我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。">
+<meta name="keywords" content="经验,hexo,github">
 <meta property="og:type" content="article">
-<meta property="og:title" content="codingPage">
+<meta property="og:title" content="直接通过CDN给github pages上的hexo加速">
 <meta property="og:url" content="/20180809/codingPage.html">
 <meta property="og:site_name" content="Blog">
-<meta property="og:description" content="blog">
+<meta property="og:description" content="上篇文章我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-08-08T18:44:59.252Z">
+<meta property="og:image" content="https://i.loli.net/2018/08/09/5b6b4f519bfab.jpg">
+<meta property="og:image" content="https://mc.qcloudimg.com/static/img/4d51b1462b89007a158d298babc9f857/quick-start-8.png">
+<meta property="og:image" content="https://i.loli.net/2018/08/02/5b624cfd2b6c7.jpg">
+<meta property="og:image" content="https://i.loli.net/2018/08/09/5b6b5752aa08b.jpg">
+<meta property="og:image" content="https://i.loli.net/2018/08/09/5b6b578e2c207.jpg">
+<meta property="og:image" content="https://i.loli.net/2018/08/09/5b6b579a216ec.jpg">
+<meta property="og:updated_time" content="2018-08-08T20:58:14.441Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="codingPage">
-<meta name="twitter:description" content="blog">
+<meta name="twitter:title" content="直接通过CDN给github pages上的hexo加速">
+<meta name="twitter:description" content="上篇文章我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。">
+<meta name="twitter:image" content="https://i.loli.net/2018/08/09/5b6b4f519bfab.jpg">
   
   
     <link rel="icon" href="/favicon.ico">
@@ -25,6 +32,7 @@
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   
 </head>
+
 <body>
   <div id="container">
     <div class="mobile-nav-panel">
@@ -50,7 +58,7 @@
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
 			<a href="/20180809/codingPage.html" class="article-date">
-  <time datetime="2018-08-08T18:44:59.000Z" itemprop="datePublished">2018-08-09</time>
+  <time datetime="2018-08-08T18:44:00.000Z" itemprop="datePublished">2018-08-09</time>
 </a>
 		</span>
 		<span class="meta-elements author">Yann Peng</span>
@@ -63,14 +71,25 @@
 		
   
     <h1 class="article-title entry-title" itemprop="name">
-      codingPage
+      直接通过CDN给github pages上的hexo加速
     </h1>
   
 
 	</header>
 	<div class="entry-content">
 		
-    	
+    	<p><u><a href="https://blog.yleao.com/20180802/Coding-Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.html" target="_blank" rel="noopener">上篇文章</a></u>我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。<br>目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。<br><a id="more"></a></p>
+<hr>
+<p>先去CMD里ping一下github上的源站，然后得到ip地址，再到<u><a href="https://console.cloud.tencent.com/cdn" target="_blank" rel="noopener">腾讯云CDN</a></u>里开启CDN服务，需要实名认证，收费方式选择按使用流量计费。开启之后选择添加域名，填写格式按下图填写。<br><img src="https://i.loli.net/2018/08/09/5b6b4f519bfab.jpg" alt="image 1">  
+　  </p>
+<p>启动CDN之后点击管理，找到基本配置下的回源配置，不出意外的话回源配置里的回源host为刚填写的域名。点击左侧的域名管理，域名配置完成后，系统会为您分配对应的 CNAME ，以 <code>.cdn.dnsv1.com</code>为后缀，请务必按照控制台展示的CNAME进行配置。<br><img src="https://mc.qcloudimg.com/static/img/4d51b1462b89007a158d298babc9f857/quick-start-8.png" alt="image 2"><br>　<br>得到对应的CNAME之后，去解析域名。<br><img src="https://i.loli.net/2018/08/02/5b624cfd2b6c7.jpg" alt="image 3"></p>
+<p>因为我前面填写的域名为二级域名：<code>blog.yleao.com</code><br>所以我的主机记录也为blog，记录类型为CNAME，线路类型为默认，记录值填写上面CDN加速给你的记录值，默认以<code>.cdn.dnsv1.com</code>为后缀，此条解析为国内用户访问。<br>这样github pages上的博客在国内就被CDN加速了，海外依然是使用github的ip，能同时提升国内与国外的访问速度。  </p>
+<p>不同的 DNS 服务商，CNAME 生效的时间略有不同，一般会在半个小时之内生效。查询是否生效在我<u><a href="https://blog.yleao.com/20180802/Coding-Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.html" target="_blank" rel="noopener">上篇文章</a></u>有提过，此处不累赘。  </p>
+<hr>
+<p>在开启CDN的时候可能会出现循环重定向的问题，出现这个问题的原因是重定向规则引起的，我的解决办法是进入CDN加速面板中的回源配置，勾选<strong>中间源配置</strong>，然后再绑定源服务器域名，设置协议跟随即可。<br><img src="https://i.loli.net/2018/08/09/5b6b5752aa08b.jpg" alt="image 4">  </p>
+<p><img src="https://i.loli.net/2018/08/09/5b6b578e2c207.jpg" alt="image 5">  </p>
+<p><img src="https://i.loli.net/2018/08/09/5b6b579a216ec.jpg" alt="image 6"></p>
+
     
 	</div>
 	<footer class="entry-footer">
@@ -80,12 +99,23 @@
 			</span>
 			<span class="tags">
 				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/github/">github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/经验/">经验</a></li></ul>
+
 			</span>
 		</div>
 	</footer>
 	
     
 <nav id="article-nav">
+  
+    <a href="/20180809/解析接口测试.html" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          解析接口测试
+        
+      </div>
+    </a>
   
   
     <a href="/20180808/伴我同行.html" id="article-nav-older" class="article-nav-link-wrap">

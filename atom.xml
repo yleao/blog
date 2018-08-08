@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2018-08-08T18:44:59.252Z</updated>
+  <updated>2018-08-08T22:24:28.067Z</updated>
   <id>/</id>
   
   <author>
@@ -17,16 +17,44 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>codingPage</title>
-    <link href="/20180809/codingPage.html"/>
-    <id>/20180809/codingPage.html</id>
-    <published>2018-08-08T18:44:59.000Z</published>
-    <updated>2018-08-08T18:44:59.252Z</updated>
+    <title>解析接口测试</title>
+    <link href="/20180809/%E8%A7%A3%E6%9E%90%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95.html"/>
+    <id>/20180809/解析接口测试.html</id>
+    <published>2018-08-08T21:19:03.000Z</published>
+    <updated>2018-08-08T22:24:28.067Z</updated>
+    
+    <content type="html"><![CDATA[<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="security">  <div class="input-container">  <input type="password" class="form-control" id="pass" placeholder="Welcome to my blog, enter password to read." />    <label for="pass">Welcome to my blog, enter password to read.</label>    <div class="bottom-line"></div>  </div></div><div id="decryptionError" style="display: none;">Incorrect Password!</div><div id="noContentError" style="display: none;">No content to display!</div><div id="encrypt-blog" style="display:none">U2FsdGVkX1+89ETHxT7O+JyYn9yDhLDxwH8NXm/7Ueg=</div><script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
     
     <summary type="html">
     
+      Welcome to my blog, enter password to read.
+    
     </summary>
     
+    
+  </entry>
+  
+  <entry>
+    <title>直接通过CDN给github pages上的hexo加速</title>
+    <link href="/20180809/codingPage.html"/>
+    <id>/20180809/codingPage.html</id>
+    <published>2018-08-08T18:44:00.000Z</published>
+    <updated>2018-08-08T20:58:14.441Z</updated>
+    
+    <content type="html"><![CDATA[<p><u><a href="https://blog.yleao.com/20180802/Coding-Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.html" target="_blank" rel="noopener">上篇文章</a></u>我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。<br>目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。<br><a id="more"></a></p><hr><p>先去CMD里ping一下github上的源站，然后得到ip地址，再到<u><a href="https://console.cloud.tencent.com/cdn" target="_blank" rel="noopener">腾讯云CDN</a></u>里开启CDN服务，需要实名认证，收费方式选择按使用流量计费。开启之后选择添加域名，填写格式按下图填写。<br><img src="https://i.loli.net/2018/08/09/5b6b4f519bfab.jpg" alt="image 1">  　  </p><p>启动CDN之后点击管理，找到基本配置下的回源配置，不出意外的话回源配置里的回源host为刚填写的域名。点击左侧的域名管理，域名配置完成后，系统会为您分配对应的 CNAME ，以 <code>.cdn.dnsv1.com</code>为后缀，请务必按照控制台展示的CNAME进行配置。<br><img src="https://mc.qcloudimg.com/static/img/4d51b1462b89007a158d298babc9f857/quick-start-8.png" alt="image 2"><br>　<br>得到对应的CNAME之后，去解析域名。<br><img src="https://i.loli.net/2018/08/02/5b624cfd2b6c7.jpg" alt="image 3"></p><p>因为我前面填写的域名为二级域名：<code>blog.yleao.com</code><br>所以我的主机记录也为blog，记录类型为CNAME，线路类型为默认，记录值填写上面CDN加速给你的记录值，默认以<code>.cdn.dnsv1.com</code>为后缀，此条解析为国内用户访问。<br>这样github pages上的博客在国内就被CDN加速了，海外依然是使用github的ip，能同时提升国内与国外的访问速度。  </p><p>不同的 DNS 服务商，CNAME 生效的时间略有不同，一般会在半个小时之内生效。查询是否生效在我<u><a href="https://blog.yleao.com/20180802/Coding-Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.html" target="_blank" rel="noopener">上篇文章</a></u>有提过，此处不累赘。  </p><hr><p>在开启CDN的时候可能会出现循环重定向的问题，出现这个问题的原因是重定向规则引起的，我的解决办法是进入CDN加速面板中的回源配置，勾选<strong>中间源配置</strong>，然后再绑定源服务器域名，设置协议跟随即可。<br><img src="https://i.loli.net/2018/08/09/5b6b5752aa08b.jpg" alt="image 4">  </p><p><img src="https://i.loli.net/2018/08/09/5b6b578e2c207.jpg" alt="image 5">  </p><p><img src="https://i.loli.net/2018/08/09/5b6b579a216ec.jpg" alt="image 6"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;u&gt;&lt;a href=&quot;https://blog.yleao.com/20180802/Coding-Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;上篇文章&lt;/a&gt;&lt;/u&gt;我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。&lt;br&gt;目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
+      <category term="hexo" scheme="/tags/hexo/"/>
+    
+      <category term="github" scheme="/tags/github/"/>
     
   </entry>
   
@@ -35,15 +63,15 @@
     <link href="/20180808/%E4%BC%B4%E6%88%91%E5%90%8C%E8%A1%8C.html"/>
     <id>/20180808/伴我同行.html</id>
     <published>2018-08-08T11:39:00.000Z</published>
-    <updated>2018-08-08T14:56:29.825Z</updated>
+    <updated>2018-08-08T20:59:10.825Z</updated>
     
-    <content type="html"><![CDATA[<iframe height="520" width="730" src="//player.bilibili.com/player.html?aid=28688911&cid=49686376&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><br><br>从最初的瞎看什么，到后面因为合同到期而改名的阅后即瞎，再到政策问题之后再度回归的嘻咦啊看，虽一路曲折，却依然不变初心。<br>回归之后的首部作品就以如此质量，给了久久等待的我们最好的答复，一度看到泪目，这近5个月的等待是如此值得。<br>《伴我同行》，该剧改编于“The body”是由美国作家斯蒂芬金创作的中篇小说，最初出版于1982年的“Different Seasons”系列。该系列以其四部中篇小说中的三部改编为好莱坞电影而著名，其中一篇便是《肖申克的救赎》，被提名为1994年奥斯卡最佳影片奖。本篇也荣获第59届奥斯卡金像奖最佳改编剧本提名。<br>瞎看再度回归选这部电影其中寓意不用明言。<br> <blockquote>“我后来再也没有交到，像12岁那年遇到的朋友。”</blockquote>愿以后也能一直伴你同行。<br><br><br><br><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="730" height="86" src="//music.163.com/outchain/player?type=2&id=1645112&auto=0&height=66"></iframe>]]></content>
+    <content type="html"><![CDATA[<iframe height="400" width="600" src="//player.bilibili.com/player.html?aid=28688911&cid=49686376&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><br><br>从最初的瞎看什么，到后面因为合同到期而改名的阅后即瞎，再到政策问题之后再度回归的嘻咦啊看，虽一路曲折，却依然不变初心。<br>回归之后的首部作品就以如此质量，给了久久等待的我们最好的答复，一度看到泪目，这近5个月的等待是如此值得。<br>《伴我同行》，该剧改编于“The body”是由美国作家斯蒂芬金创作的中篇小说，最初出版于1982年的“Different Seasons”系列。该系列以其四部中篇小说中的三部改编为好莱坞电影而著名，其中一篇便是《肖申克的救赎》，被提名为1994年奥斯卡最佳影片奖。本篇也荣获第59届奥斯卡金像奖最佳改编剧本提名。<br>瞎看再度回归选这部电影其中寓意不用明言。<br> <blockquote>“我后来再也没有交到，像12岁那年遇到的朋友。”</blockquote>愿以后也能一直伴你同行。<br><br><br><br><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="600" height="86" src="//music.163.com/outchain/player?type=2&id=1645112&auto=0&height=66"></iframe>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;iframe height=&quot;520&quot; width=&quot;730&quot; src=&quot;//player.bilibili.com/player.html?aid=28688911&amp;cid=49686376&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; framebor
+        &lt;iframe height=&quot;400&quot; width=&quot;600&quot; src=&quot;//player.bilibili.com/player.html?aid=28688911&amp;cid=49686376&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; framebor
       
     
     </summary>
@@ -77,9 +105,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="plugin" scheme="/tags/plugin/"/>
-    
       <category term="github" scheme="/tags/github/"/>
+    
+      <category term="plugin" scheme="/tags/plugin/"/>
     
   </entry>
   
@@ -99,13 +127,13 @@
     </summary>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
-      <category term="github" scheme="/tags/github/"/>
-    
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
+      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
       <category term="hexo" scheme="/tags/hexo/"/>
+    
+      <category term="github" scheme="/tags/github/"/>
     
   </entry>
   
