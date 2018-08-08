@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2018-08-07T21:38:07.956Z</updated>
+  <updated>2018-08-08T12:13:58.737Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>伴我同行</title>
+    <link href="/20180808/%E4%BC%B4%E6%88%91%E5%90%8C%E8%A1%8C.html"/>
+    <id>/20180808/伴我同行.html</id>
+    <published>2018-08-08T11:39:00.000Z</published>
+    <updated>2018-08-08T12:13:58.737Z</updated>
+    
+    <content type="html"><![CDATA[<iframe height="520" width="730" src="//player.bilibili.com/player.html?aid=28688911&cid=49686376&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><br><br>从最初的瞎看什么，到后面因为合同到期而改名的阅后即瞎，再到政策问题之后再度回归的嘻咦啊看，虽一路曲折，却依然不变初心。<br>回归之后的首部作品就以如此质量，给了久久等待的我们最好的答复，一度看到泪目，这近5个月的等待是如此值得。<br>《伴我同行》，该剧改编于“The body”是由美国作家斯蒂芬金创作的中篇小说，最初出版于1982年的“Different Seasons”系列。“Different Seasons”是四部斯蒂芬·金中篇小说的集合。该系列以其四部中篇小说中的三部改编为好莱坞电影而著名，其中一篇便是《肖申克的救赎》，被提名为1994年奥斯卡最佳影片奖。本篇也荣获第59届奥斯卡金像奖最佳改编剧本提名。<br>瞎看再度回归选这部电影其中寓意不用言明。<br>“我后来再也没有交到，像12岁那年遇到的朋友。”<br>愿以后也能一直伴你同行。<br><br><br><br><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="730" height="86" src="//music.163.com/outchain/player?type=2&id=1645112&auto=0&height=66"></iframe>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;iframe height=&quot;520&quot; width=&quot;730&quot; src=&quot;//player.bilibili.com/player.html?aid=28688911&amp;cid=49686376&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; framebor
+      
+    
+    </summary>
+    
+    
+      <category term="video" scheme="/tags/video/"/>
+    
+      <category term="music" scheme="/tags/music/"/>
+    
+      <category term="film" scheme="/tags/film/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo上的live2d插件</title>
@@ -36,9 +63,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="github" scheme="/tags/github/"/>
-    
       <category term="plugin" scheme="/tags/plugin/"/>
+    
+      <category term="github" scheme="/tags/github/"/>
     
   </entry>
   
@@ -58,13 +85,13 @@
     </summary>
     
     
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
-    
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="hexo" scheme="/tags/hexo/"/>
-    
       <category term="github" scheme="/tags/github/"/>
+    
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="hexo" scheme="/tags/hexo/"/>
     
   </entry>
   
@@ -73,9 +100,9 @@
     <link href="/20180802/Untitled.html"/>
     <id>/20180802/Untitled.html</id>
     <published>2018-08-01T21:37:00.000Z</published>
-    <updated>2018-08-07T21:35:49.052Z</updated>
+    <updated>2018-08-07T21:56:30.988Z</updated>
     
-    <content type="html"><![CDATA[<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>            <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span><br><span id="busuanzi_container_site_uv">   本站访客数<span id="busuanzi_value_site_uv"></span>人次</span><br><span id="busuanzi_container_page_pv">   本文总阅读量<span id="busuanzi_value_page_pv"></span>次</span><br><span id="sp_time"></span><script type="text/javascript">setInterval(function(){    var dd = new Date();    var y = dd.getFullYear();    var m = dd.getMonth() + 1;    var d = dd.getDate();    var h = dd.getHours();    var mi = dd.getMinutes();    var s = dd.getSeconds();    var str = y + "年" + m + "月" + d + "日&nbsp;&nbsp;" + h + ":" + mi + ":" + s + "&nbsp;&nbsp;星期" + "日一二三四五六".charAt(dd.getDay());    document.getElementById("sp_time").innerHTML = str;},1000);</script><p><script type="text/javascript" src="http://ip.chinaz.com/getip.aspx"></script><br></p>]]></content>
+    <content type="html"><![CDATA[<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>            <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span><br><span id="busuanzi_container_site_uv">   本站访客数<span id="busuanzi_value_site_uv"></span>人次</span><br><span id="busuanzi_container_page_pv">   本文总阅读量<span id="busuanzi_value_page_pv"></span>次</span><br><span id="sp_time"></span><script type="text/javascript">setInterval(function(){    var dd = new Date();    var y = dd.getFullYear();    var m = dd.getMonth() + 1;    var d = dd.getDate();    var h = dd.getHours();    var mi = dd.getMinutes();    var s = dd.getSeconds();    var str = y + "年" + m + "月" + d + "日&nbsp;&nbsp;" + h + ":" + mi + ":" + s + "&nbsp;&nbsp;星期" + "日一二三四五六".charAt(dd.getDay());    document.getElementById("sp_time").innerHTML = str;},1000);</script><p><script type="text/javascript" src="http://ip.chinaz.com/getip.aspx"></script><br>  </p>]]></content>
     
     <summary type="html">
     
