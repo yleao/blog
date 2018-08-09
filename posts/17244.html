@@ -5,13 +5,13 @@
   
   <title>腾讯云COS+Github双服务器托管hexo | Blog</title>
   <meta name="viewport" content="width=device-width">
-  <meta name="description" content="把博客分别托管在腾讯云对象储存 和 Github Pages上，再通过DNS解析进行访问优化。由于github是国外的服务器，终归会对国内的用户访问造成一定的影响。于是打算再在国内服务器上部署一套，配合上国内的CDN加速，再利用DNS解析让国外用户和国内用户选择最优路线,从而提升访问速度。">
-<meta name="keywords" content="经验,github,hexo,搭建">
+  <meta name="description" content="把博客分别托管在腾讯云对象储存 和 Github Pages上，再通过DNS解析进行访问优化。由于github是国外的服务器，终归会对国内的用户访问造成一定的影响。于是打算再在国内服务器上部署一套，配合上国内的CDN加速，再利用DNS解析让国外用户和国内用户选择最优路线,从而提升访问速度。   此文只讲解如何部署在腾讯云COS上。">
+<meta name="keywords" content="经验,github,搭建,hexo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="腾讯云COS+Github双服务器托管hexo">
 <meta property="og:url" content="/posts/17244.html">
 <meta property="og:site_name" content="Blog">
-<meta property="og:description" content="把博客分别托管在腾讯云对象储存 和 Github Pages上，再通过DNS解析进行访问优化。由于github是国外的服务器，终归会对国内的用户访问造成一定的影响。于是打算再在国内服务器上部署一套，配合上国内的CDN加速，再利用DNS解析让国外用户和国内用户选择最优路线,从而提升访问速度。">
+<meta property="og:description" content="把博客分别托管在腾讯云对象储存 和 Github Pages上，再通过DNS解析进行访问优化。由于github是国外的服务器，终归会对国内的用户访问造成一定的影响。于是打算再在国内服务器上部署一套，配合上国内的CDN加速，再利用DNS解析让国外用户和国内用户选择最优路线,从而提升访问速度。   此文只讲解如何部署在腾讯云COS上。">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://i.loli.net/2018/08/02/5b623ccb4c660.jpg">
 <meta property="og:image" content="https://i.loli.net/2018/08/02/5b623e0f5116e.jpg">
@@ -26,10 +26,10 @@
 <meta property="og:image" content="https://i.loli.net/2018/08/02/5b625bb15f0c0.jpg">
 <meta property="og:image" content="https://i.loli.net/2018/08/02/5b625ceed86f2.jpg">
 <meta property="og:image" content="https://i.loli.net/2018/08/02/5b625e8ba1028.jpg">
-<meta property="og:updated_time" content="2018-08-09T03:04:06.492Z">
+<meta property="og:updated_time" content="2018-08-09T04:46:50.899Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="腾讯云COS+Github双服务器托管hexo">
-<meta name="twitter:description" content="把博客分别托管在腾讯云对象储存 和 Github Pages上，再通过DNS解析进行访问优化。由于github是国外的服务器，终归会对国内的用户访问造成一定的影响。于是打算再在国内服务器上部署一套，配合上国内的CDN加速，再利用DNS解析让国外用户和国内用户选择最优路线,从而提升访问速度。">
+<meta name="twitter:description" content="把博客分别托管在腾讯云对象储存 和 Github Pages上，再通过DNS解析进行访问优化。由于github是国外的服务器，终归会对国内的用户访问造成一定的影响。于是打算再在国内服务器上部署一套，配合上国内的CDN加速，再利用DNS解析让国外用户和国内用户选择最优路线,从而提升访问速度。   此文只讲解如何部署在腾讯云COS上。">
 <meta name="twitter:image" content="https://i.loli.net/2018/08/02/5b623ccb4c660.jpg">
   
   
@@ -85,7 +85,8 @@
 	</header>
 	<div class="entry-content">
 		
-    	<p>把博客分别托管在腾讯云对象储存 和 Github Pages上，再通过DNS解析进行访问优化。<br><br>由于github是国外的服务器，终归会对国内的用户访问造成一定的影响。于是打算再在国内服务器上部署一套，配合上国内的CDN加速，再利用DNS解析让国外用户和国内用户选择最优路线,从而提升访问速度。<br><a id="more"></a></p>
+    	<p>把博客分别托管在腾讯云对象储存 和 Github Pages上，再通过DNS解析进行访问优化。<br><br>由于github是国外的服务器，终归会对国内的用户访问造成一定的影响。于是打算再在国内服务器上部署一套，配合上国内的CDN加速，再利用DNS解析让国外用户和国内用户选择最优路线,从而提升访问速度。  </p>
+<p>此文只讲解如何部署在腾讯云COS上。<br><a id="more"></a></p>
 <hr>
 <h2 id="创建bucket并开启静态网站"><a href="#创建bucket并开启静态网站" class="headerlink" title="创建bucket并开启静态网站"></a>创建bucket并开启静态网站</h2><p>云对象储存（<a href="https://cloud.tencent.com/product/cos/details" target="_blank" rel="noopener">COS</a>）是什么可以自行查阅腾讯官方的details，此处不必累赘<br>首先进入<a href="https://console.cloud.tencent.com/cos5/bucket" target="_blank" rel="noopener">对象储存页面</a>创建一个<strong>bucket</strong>，因为在国内所以<strong>所属地域</strong>选择国内的地址即可<br><img src="https://i.loli.net/2018/08/02/5b623ccb4c660.jpg" alt="image 1"><br><br>创建完成之后选择<strong>上传文件</strong>，把hexo/public/下的所有文件，包括其public目录下所有文件夹一并拖入并上传<br><img src="https://i.loli.net/2018/08/02/5b623e0f5116e.jpg" alt="image 2"><br><br>上传完成<br><br><img src="https://i.loli.net/2018/08/02/5b623e9271ef9.jpg" alt="image 3"><br><br>关于静态网站的概念：静态网站是指包含静态内容（如 HTML）或客户端脚本的网站，用户可以通过控制台对已绑定自定义域名的存储桶，配置静态网站。腾讯云 COS 支持静态网站的托管，<font color="#DC143C">不支持服务器端脚本编写。当需要部署动态网站时，则推荐使用云服务器 CVM 进行服务端代码部署。</font><br><br>接着点击<strong>基础配置</strong>，因为我是用来部署hexo静态博客的，所以直接下来最底部点击<strong>静态网站</strong>旁的<font color="#1E90FF">编辑</font>开启当前状态，<strong>索引文档</strong>为必填，是你上传的<strong>文件列表</strong>里的xxxx.html，一般默认为index.html，强制 HTTPS（可选），错误文档（可选），设置网站的重定向规则（可选），设置完成后，单击保存即可。<br><img src="https://i.loli.net/2018/08/02/5b6240c4daeae.jpg" alt="image 4"><br>  </p>
 <hr>
