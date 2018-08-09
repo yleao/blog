@@ -23,7 +23,7 @@
     <published>2018-08-08T22:58:00.000Z</published>
     <updated>2018-08-09T00:52:32.461Z</updated>
     
-    <content type="html"><![CDATA[<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="security">  <div class="input-container">  <input type="password" class="form-control" id="pass" placeholder="Welcome to my blog, enter password to read." />    <label for="pass">Welcome to my blog, enter password to read.</label>    <div class="bottom-line"></div>  </div></div><div id="decryptionError" style="display: none;">Incorrect Password!</div><div id="noContentError" style="display: none;">No content to display!</div><div id="encrypt-blog" style="display:none">U2FsdGVkX1/DEFM5UV2ujILFGmaLorcsJrqfaMgyzhOorXN48jYIGMIQ0c4X+fF51VygJ0riwBUxMAuxPduoRb6TNIiPNzRTU68cwu6EsWe7C6TuJhifq0ffeNBsDgxGm+yxwlV2xk+svy0S+CACUfScd6gc71VUJ2QMdh1vpe2LAW+kPoc7vaigLeYKR2cVqQlzr8ubW1s7gnGtB+V9WGfCq9R3hJvnihjG/h6kLysfq9ogstCjiBOcCFyz/FUIq3Hj2kMI+lBjEGfaOgZ19yCfRKYhAf1Dw2I7ac0ncSFM0xZy8cNMeaJnSe6b5SDxXqwVpj8dhuPTg0oHMO1Renh6r4uTEgVP3FmRq6w1D5BuCUv5vKnHFyNf59W/+9uvURF+kfYpkNVX0edilK3EoigYyZXd1S1KSHtu++1sU4UV4i0jDhL2Y+w+asLzJv9N5aVRJ0/TG2blWAdVuH9CzqUrbbjxtHyriB3b1k1fsOybveLiSQvTTFsm3byGP5//+d0tqB+6Wc6irNdEz+F9rB5jHg8cgeqdCJ+X3UrPET9u4G5Pc1BBpQi1iDaSg7iLmQVuLYMBg2LEJARAq/7ZAfXBKUhaHPBoLvUh8ZwKlMo=</div><script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    <content type="html"><![CDATA[<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="security">  <div class="input-container">  <input type="password" class="form-control" id="pass" placeholder="Welcome to my blog, enter password to read." />    <label for="pass">Welcome to my blog, enter password to read.</label>    <div class="bottom-line"></div>  </div></div><div id="decryptionError" style="display: none;">Incorrect Password!</div><div id="noContentError" style="display: none;">No content to display!</div><div id="encrypt-blog" style="display:none">U2FsdGVkX19LrD7zwj0iMjF8ROJmnfybg6Ids60B4spK86K5Cvj67bILHFkY9AftTJcVK1boMrfiIMUp+cIkemNjZ6Aev7tWBmWSVQqNno2Vzrr9P4VnesjZC80GTY2iTNR/1cUKQSg2wXuErzSMquzDNqHT2V1bJi7eOqGbbuMO9w0T5JqqFlqDBKbEK6bWB3Colj52e9NYy6O6KCE2HH/d0pdT1bxKjQ82K5ST9KjL7HuaDaTGwTyI4nOxu+pueYGNu9Y4qa0Jo9mF7oGnuNEul7OaN2VE18wvnj+rc6SMWXeZEDFSeSHRl+C9PHpk8JfX5qBGX/+h30aWZlWINm3BG5CDd9Eti3XBgXcXt8GhOZ789jBua8PQ46au9TytvxyHftBU61xAivcJyMVRFDycp1itn9yEBNaWK4BVmO7mofSLvGI27CicnZkDaj8Hsw+QV5xs0tE7yFhhgZyO12EAk+20ZMbb1Msya7eEf/a5yjyHsqeo/Jb1cKWE+JJKCd6+i+wA61ZVDgsbqSxFtTil12VkIoMJwvt8T7tintb5sy5UiDAvn8lYal52JMyz/xHITe5DS/EVxSBib/o1BRsTasAUc1YiTxaKfqLEU1U=</div><script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
     
     <summary type="html">
     
@@ -109,9 +109,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="github" scheme="/tags/github/"/>
-    
       <category term="plugin" scheme="/tags/plugin/"/>
+    
+      <category term="github" scheme="/tags/github/"/>
     
   </entry>
   
