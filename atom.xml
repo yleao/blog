@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2018-08-08T23:52:35.195Z</updated>
+  <updated>2018-08-09T00:52:32.461Z</updated>
   <id>/</id>
   
   <author>
@@ -18,12 +18,12 @@
   
   <entry>
     <title>解析测试</title>
-    <link href="/20180809/undefined.html"/>
-    <id>/20180809/undefined.html</id>
-    <published>2018-08-08T22:58:04.000Z</published>
-    <updated>2018-08-08T23:52:35.195Z</updated>
+    <link href="/20180809/%E8%A7%A3%E6%9E%90%E6%B5%8B%E8%AF%95.html"/>
+    <id>/20180809/解析测试.html</id>
+    <published>2018-08-08T22:58:00.000Z</published>
+    <updated>2018-08-09T00:52:32.461Z</updated>
     
-    <content type="html"><![CDATA[<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="security">  <div class="input-container">  <input type="password" class="form-control" id="pass" placeholder="Welcome to my blog, enter password to read." />    <label for="pass">Welcome to my blog, enter password to read.</label>    <div class="bottom-line"></div>  </div></div><div id="decryptionError" style="display: none;">Incorrect Password!</div><div id="noContentError" style="display: none;">No content to display!</div><div id="encrypt-blog" style="display:none">U2FsdGVkX1+YnU9+VHCuxhRkpE/Oc1/PCvH9VlPZMQHdgUSXgUOCe5/Hd5J+MmTGYdjPG/AupjE2Neie2HHQBmS0Pu+yizFM3Y/UBT1dddDsP3orygP+syEV2cpWGlCPwUk25UFaXXylyyOjhu4h3sjjNCHKAyoRlLvqU+lFeK3YezCUzmuTQOPL9IQ8iJC9h0z43vToNDGKwvE7dM4uGWXmZq0/0q3mgaQREE9VKAHIjKfdKew2u3SDke8JsDhbU0juSlqdzm6gy75YTmrciSCZGWmqHui0NLgwpq8d5kqPNDJQtDlb3sVBjgH4ZjF9oy9E7Jd9YJO1Xhry4q6YnaCl/ImZ0TFQzT+IRPvFzxo1vAKOfiBrJYpodiaxXnI5mHatFVKgqD58sd+tdEjGhTHPJ02TW6ZoMNKIJpRqcAhmY5NfXP5bvkdF+KWywCBK5rN+QKXjem72aNfmOpgO3w35Kh/kDCI9IbN0CK4i5/8mvyy/zQxBfh0xfCSKuQzAuOE/865fnjceAX4QYP9Xli0TM2e2xP86M63kuhUhkH5V13cj3QuCmlp2mbCFt5iqq+HgbBck9H9E/ETmaaH6M69t94R8Q8jxBSHK8ZwYbFY=</div><script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    <content type="html"><![CDATA[<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="security">  <div class="input-container">  <input type="password" class="form-control" id="pass" placeholder="Welcome to my blog, enter password to read." />    <label for="pass">Welcome to my blog, enter password to read.</label>    <div class="bottom-line"></div>  </div></div><div id="decryptionError" style="display: none;">Incorrect Password!</div><div id="noContentError" style="display: none;">No content to display!</div><div id="encrypt-blog" style="display:none">U2FsdGVkX1/KgHquoz7DtpTzQsLjTqgQNB+51PQy+vh0JqqKNobOGCzXEWDw8S9ipE1RsoJqGqjcdjAT86gzFC+J+11uveorT/HCKELE+7F7C7l5rKNspKs/gUN9RhdR05N5AlTy6YBOrSiggccGK/0qeoitg3Af3hWADshpvIdRYHqoj1UYrTwY6yh182l1IuNwH8cMS8nt/MoEkpCvXKv+UtggKPu8f9VpRp8a5GfA6VpQm8tGweXplZQjihIj6Ca+yAaWdn907r0pWpotxhU5mvEn+YwqxNpKIA74ACpOK/9dfWcHIjHrFT3yyFYiTVFPD7oblyAAN+Lf6uOCnj8FOOTknNJFhDKnda/D2l/WRevQSMoE4RHVsbJMNZRWQrfaIOYOwfrZJQgLfBAlj13ED/9yS7kVSsaBz263aIOB4Ll5ozm6OmXfTNduD5aFUdaCcrxWSrbrlutt4dtqb2rfLJs3zrHeVyfPCh+X1X1hApjfzssbxgyXBCCLAH9U6CRav7bZGhkVJi/BgRBCxG/+x7pfpUJK6JGqbx3XL//vaZ/cCbHL/947cRw+AeLNvj+0B8pzafjWWxje0l69Z/m57FH9R4LCGML52HfnIIo=</div><script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
     
     <summary type="html">
     
@@ -32,12 +32,16 @@
     </summary>
     
     
+      <category term="test" scheme="/tags/test/"/>
+    
+      <category term="encrypt" scheme="/tags/encrypt/"/>
+    
   </entry>
   
   <entry>
     <title>直接通过CDN给github pages上的hexo加速</title>
-    <link href="/20180809/undefined.html"/>
-    <id>/20180809/undefined.html</id>
+    <link href="/20180809/%E7%9B%B4%E6%8E%A5%E9%80%9A%E8%BF%87CDN%E7%BB%99github%20pages%E4%B8%8A%E7%9A%84hexo%E5%8A%A0%E9%80%9F.html"/>
+    <id>/20180809/直接通过CDN给github pages上的hexo加速.html</id>
     <published>2018-08-08T18:44:00.000Z</published>
     <updated>2018-08-08T22:56:25.128Z</updated>
     
@@ -52,16 +56,16 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="hexo" scheme="/tags/hexo/"/>
-    
       <category term="github" scheme="/tags/github/"/>
+    
+      <category term="hexo" scheme="/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>伴我同行</title>
-    <link href="/20180808/undefined.html"/>
-    <id>/20180808/undefined.html</id>
+    <link href="/20180808/%E4%BC%B4%E6%88%91%E5%90%8C%E8%A1%8C.html"/>
+    <id>/20180808/伴我同行.html</id>
     <published>2018-08-08T11:39:00.000Z</published>
     <updated>2018-08-08T20:59:10.825Z</updated>
     
@@ -87,8 +91,8 @@
   
   <entry>
     <title>hexo上的live2d插件</title>
-    <link href="/20180805/undefined.html"/>
-    <id>/20180805/undefined.html</id>
+    <link href="/20180805/hexo%E4%B8%8A%E7%9A%84live2d%E6%8F%92%E4%BB%B6.html"/>
+    <id>/20180805/hexo上的live2d插件.html</id>
     <published>2018-08-05T12:49:00.000Z</published>
     <updated>2018-08-07T21:38:07.956Z</updated>
     
@@ -105,16 +109,16 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="github" scheme="/tags/github/"/>
-    
       <category term="plugin" scheme="/tags/plugin/"/>
+    
+      <category term="github" scheme="/tags/github/"/>
     
   </entry>
   
   <entry>
     <title>腾讯云COS+Github双服务器托管个人博客</title>
-    <link href="/20180802/undefined.html"/>
-    <id>/20180802/undefined.html</id>
+    <link href="/20180802/%E8%85%BE%E8%AE%AF%E4%BA%91COS+Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.html"/>
+    <id>/20180802/腾讯云COS+Github双服务器托管个人博客.html</id>
     <published>2018-08-01T22:42:00.000Z</published>
     <updated>2018-08-08T16:07:56.728Z</updated>
     
@@ -127,20 +131,20 @@
     </summary>
     
     
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
-    
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
+      <category term="github" scheme="/tags/github/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
     
-      <category term="github" scheme="/tags/github/"/>
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
   <entry>
     <title>统计测试</title>
-    <link href="/20180802/undefined.html"/>
-    <id>/20180802/undefined.html</id>
+    <link href="/20180802/%E7%BB%9F%E8%AE%A1%E6%B5%8B%E8%AF%95.html"/>
+    <id>/20180802/统计测试.html</id>
     <published>2018-08-01T21:37:00.000Z</published>
     <updated>2018-08-07T21:56:30.988Z</updated>
     
@@ -165,8 +169,8 @@
   
   <entry>
     <title>嵌入测试</title>
-    <link href="/20180801/undefined.html"/>
-    <id>/20180801/undefined.html</id>
+    <link href="/20180801/%E5%B5%8C%E5%85%A5%E6%B5%8B%E8%AF%95.html"/>
+    <id>/20180801/嵌入测试.html</id>
     <published>2018-08-01T13:00:00.000Z</published>
     <updated>2018-08-05T14:52:36.222Z</updated>
     
@@ -198,11 +202,11 @@
   </entry>
   
   <entry>
-    <title>关于解除astats-nl的封禁</title>
-    <link href="/20180801/undefined.html"/>
-    <id>/20180801/undefined.html</id>
+    <title>解除astats-nl的封禁</title>
+    <link href="/20180801/%E8%A7%A3%E9%99%A4astats-nl%E7%9A%84%E5%B0%81%E7%A6%81.html"/>
+    <id>/20180801/解除astats-nl的封禁.html</id>
     <published>2018-08-01T12:43:00.000Z</published>
-    <updated>2018-08-05T14:08:35.595Z</updated>
+    <updated>2018-08-09T01:01:03.241Z</updated>
     
     <content type="html"><![CDATA[<p><b><font face="微软雅黑" size="4">前言：astats.nl是个关于steam成就的第三方网址，被ban与否都不会影响steam账号，如果被ban可以不用担心，若想要解ban则看以下教程。</font></b><br><a id="more"></a></p><hr><h2 id="方法-1：直接删除在这个第三方成就网站上的个人数据"><a href="#方法-1：直接删除在这个第三方成就网站上的个人数据" class="headerlink" title="方法 1：直接删除在这个第三方成就网站上的个人数据"></a>方法 1：直接删除在这个第三方成就网站上的个人数据</h2><p>这个第三方成就网站是可以直接删除自己的个人资料的，如果想启用的话也能申请重新启用。删除效果如下图：</p><p><img src="https://blob.steamcn.com/forum/201703/27/150624v8y28ohvorter2jk.png" alt="attachment 1"></p><p>  　</p><h5 id="删除步骤："><a href="#删除步骤：" class="headerlink" title="删除步骤："></a><b>删除步骤</b>：<br></h5><p>想要解ban或者删除个人资料都要先注册这个论坛的账号，这里是<a href="https://astats.astats.nl/astats/profile/Login.php" target="_blank" rel="noopener">注册网址</a>。<br>登陆之后，进入申请删除或重新启用的<a href="https://astats.astats.nl/astats/aforum/showthread.php?tid=10" target="_blank" rel="noopener">页面</a>。<br><br>进去拉到最下面直接回复<b><font color="FF7F50">I don’t want my profile anymore in this website; please, remove it.</font></b>然后再贴个自己的<b>astats profile</b>地址就行了,见下图:</p><p><img src="https://i.loli.net/2018/08/01/5b61846325586.jpg" alt="attachment 2"></p><p>接着就是耐心的等待，如果管理员删除了的话会在你的回复下面显示<b><font color="green">done</font></b>,见下图：</p><p><img src="https://i.loli.net/2018/08/01/5b61858c11d40.jpg" alt="attachment 3"></p><p>恢复数据同理。</p><hr><h2 id="方法-2：对于第一次被ban或者误ban的解ban"><a href="#方法-2：对于第一次被ban或者误ban的解ban" class="headerlink" title="方法 2：对于第一次被ban或者误ban的解ban"></a>方法 2：对于第一次被ban或者误ban的解ban</h2><p>若是想继续使用此网站并解ban的话，那就请看下面的方法。</p><ul><li><h3 id="关于申诉的说明"><a href="#关于申诉的说明" class="headerlink" title="关于申诉的说明"></a><strong>关于申诉的说明</strong><br></h3><p><a href="https://astats.astats.nl/astats/aforum/showthread.php?tid=3" target="_blank">AStats Bans and Appeals FAQ Instructions</a><br><br>以上是astats的申诉要求和说明，我节选了重要的内容并稍微翻译了一下。<br>　    　</p><h4 id="You-can-make-appeal-here-if"><a href="#You-can-make-appeal-here-if" class="headerlink" title="You can make appeal here if:"></a><strong>You can make appeal here if:</strong><br></h4><ul><li>You believe you’ve been wrongly blocked on suspicion of cheating.</li><li>You’ve cheated in the past and want to come clean and get a second chance to use the site’s leaderboards features.<br>　　</li></ul><h4 id="你可以申述解除ban，如果你觉得："><a href="#你可以申述解除ban，如果你觉得：" class="headerlink" title="你可以申述解除ban，如果你觉得："></a><strong>你可以申述解除ban，如果你觉得：</strong><br></h4><ul><li>自己是被误ban的，请说明原因</li><li>或者以前做过弊，但是想获得第二次使用本网站成就功能的机会。<br><br>　    　</li></ul><h4 id="You-can-make-appeal-here-if-1"><a href="#You-can-make-appeal-here-if-1" class="headerlink" title="You can make appeal here if:"></a><strong>You can make appeal here if:</strong><br></h4><ul><li><strong>Include a link to your AStats profile.</strong></li><li>If you have not cheated, please try to include as much information as possible that you think could be relevant to the situation.</li><li>If you’ve used achievement unlocking software in the past, <strong>please relock all achievements you cheated before making your thread</strong>. You can use the same software you used to cheat to do this, or if you’re not comfortable with that, then SteamSupport is known to have assisted in relocking achievements.</li><li><strong>Press the update button on each game’s page that you’ve relocked something on.</strong></li><li>Be thorough and note <strong>every game</strong> you cheated in your post, if old irregularities come up in the future after you’ve been unmarked, you can’t be guaranteed a second appeal.</li><li>If you can’t remember all the games you cheated, <strong>do not bother asking us what games need to be relocked</strong>. You will typically not get an answer. Your profile will be unmarked once the moderator dealing with your thread is confident in that your profile is clean.</li><li>All games that have been relocked need to be launched to see whether any of the old achievements unlock again, in which case savefiles and/or stats must be purged to prevent that. You will not not be able to get assistance with that if you’re not sure how to do it yourself.</li><li><strong>Dishonesty will not be taken lightly.</strong></li><li>If you cheated and don’t wish to relock your cheated achievements, your profile or the portion of your profile in question cannot be unmarked.</li><li><strong>If you no longer wish to use the site, you can request your profile to be disabled. It can always be re-enabled if you change your mind.</strong></li></ul><h4 id="在你准备申述时请彻底阅读以下条例："><a href="#在你准备申述时请彻底阅读以下条例：" class="headerlink" title="在你准备申述时请彻底阅读以下条例："></a><strong>在你准备申述时请彻底阅读以下条例：</strong><br></h4><ul><li>申述内容要包括你的astats profiles。</li><li>如果你没有作弊,请尝试提供尽可能多的你觉得有用的信息来证明。</li><li>如果以前使用过解锁工具，那么请重新锁上你作弊过的成就，你可以使用解锁工具来重新锁上作弊的成就,如果你不能接受再使用解锁工具，那么你可以找steam客服来帮忙重新锁上你的游戏成就。<strong>（ps:意思就是你必须要重新锁上你作弊过的成就，可以使用sam，如果你觉得无法忍受再使用此类软件，可以找steam客服帮忙锁上成就）</strong></li><li>当你重新锁上某个游戏的成就时，一定要去那个游戏的成就页面更新状态。<strong>（ps:这点很重要，锁上之后一定要去astats上的游戏页面更新，如何更新我下面会说）</strong></li><li>请彻底检查每一个你作弊的游戏，如果以后有你没有标注的游戏产生了旧的违规，那么将失去第二次申述的机会。</li><li>如果你不能记住所有的你做过弊的游戏,请不要问我们有什么游戏需要锁定，你通常不会得到回复。当管理员觉得你的资料已经干净那么将解除你的ban。<strong>（ps:不要问管理员你有什么游戏做过弊，要自己去找，你可以检查那些全成就的游戏，或者某个成就价值最高，或者同一时间解锁了大量的成就的游戏，这些游戏你最好都好好检查一下，可以以防万一把自己不确定有没有解锁成就的游戏都给锁上）</strong></li><li>所有游戏都需要重新启动一下来检查是否有任何旧的成就会再次开启,如果遇到这种情况,你必须清除存档或数据来防止。如果你不确定怎么做将不会得到帮助。<strong>（ps:如果游戏里还存在作弊的存档或者网络数据，虽然你锁上成就，但是一打开游戏就会自动又解开成就，所以如果以前用过作弊的存档来解锁成就的，直接把存档给删了就行，sam也可以清理数据）</strong></li><li>不轻易失信。</li><li>如果你作弊了，还不想重新锁上你作弊的成就，那么你的资料页面是一定会被标注作弊嫌疑。</li><li>如果你不想使用该网址，那么你可以申请禁用你的配置文件，不过以后你改变主意的话可以随时启用。<strong>（ps:如果你不想在用这个第三方网站或懒得去解ban了，那么你可以申请让管理员删除你的个人配置文件，想用了也能申请重新启用，方法已经写在了开头）</strong></li></ul></li></ul><ul><li><h3 id="正式教程"><a href="#正式教程" class="headerlink" title="正式教程"></a><strong>正式教程</strong><br></h3><p>首先要做的就是把以前解锁的成就全部再锁定回去。这是至关重要的，宁可把没有作弊过的游戏锁上，也最好别漏掉一个。你若忘记了哪些游戏你解过成就，我教你一个方法。先进入自己的astats的个人资料页面，然后找到自己全成就或者成就得分最高的游戏，点进去看看这些游戏里的成就有没有许多成就是同一时间解锁的。<a href="https://www.baidu.com/s?wd=%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8sam%E9%94%81%E6%88%90%E5%B0%B1%20steamcn&amp;rsv_spt=1&amp;rsv_iqid=0xd2dfb759000301c3&amp;issp=1&amp;f=8&amp;rsv_bp=1&amp;rsv_idx=2&amp;ie=utf-8&amp;rqlang=cn&amp;tn=baiduhome_pg&amp;rsv_enter=1&amp;oq=%25E5%25A6%2582%25E4%25BD%2595%25E4%25BD%25BF%25E7%2594%25A8sam%2520steamcn&amp;inputT=5160&amp;rsv_t=5021C%2B416YOIaCaCX8vHOd4ZjwvfNhr%2BFRSQ6p4nsPWp1hoLhlJAuj9V0Cg%2BTvfBPGPr&amp;rsv_pq=cbb8282600028176&amp;rsv_sug3=51&amp;rsv_sug2=0&amp;rsv_sug4=7612" target="_blank" rel="noopener">sam使用方法</a></p><p>见下图这样，成就都是同一时间解锁的（图片ps过，看的更直观一点）</p><p><img src="https://blob.steamcn.com/forum/201703/27/155054vszx3isubbzfxufg.jpg" alt="attachment 3"></p><p><font color="#FF4500">请注意图中的update，很重要，当你用sam把成就重新锁定上后，要回到这个游戏的成就界面，点update更新一下状态。另外一定要把你作弊的游戏和重新锁上的游戏记下来，因为等下写申诉时会要用到。</font><strong>（ps:见上面的说明第4条）</strong></p><p>当把所有作弊的成就全部锁上且更新状态之后，就可以正式跟管理员申诉了。<br><br>进入申诉页面：<a href="http://astats.astats.nl/astats/aforum/forumdisplay.php?fid=4" target="_blank" rel="noopener">http://astats.astats.nl/astats/aforum/forumdisplay.php?fid=4</a><br><br>进去之后可以看到里面有许多人的申诉，可以看着参考一下。<br><br>接着直接拉到最下面，在网址的右下角有一个 <strong><em>NEW TOPIC</em></strong>，点进去即可发帖。</p><p><img src="https://i.loli.net/2018/08/01/5b61a4c32d8bf.jpg" alt="attachment 4"></p><p><font color="#ff4500">以下为我写的一份模板:</font><br><br><em>Hi，when I came into contact with the steam a few years ago,I discovered the SAM through a steam organization and used it to unlock the achievements with my curiosity.And now I really regret it,so I relock the achievements and clean it properly.I want to come clean and get a second chance to use the site’s leaderboards features.</em></p><p><em>Unlocked Achivements in the following games:</em><br><em>limbo</em><br><em>left 4 dead 2</em><br><em>saints row</em></p><p><em>Relock game :</em><br><em>limbo</em><br><em>left 4 dead 2</em><br><em>saints row</em></p><p><em>My profile:<a href="http://astats.astats.nl/astats/User_Info.php?SteamID64=xxxxxxxxxxxxxx" target="_blank" rel="noopener">http://astats.astats.nl/astats/User_Info.php?SteamID64=xxxxxxxxxxxxxx</a></em></p><p>意思是几年前刚接触steam时,我通过论坛了解到了sam，并在好奇心下使用了它。现在我重新锁定了我以前解锁过的成就。我想能够再次使用网站的排行榜功能。<br>然后贴上当时解锁成就的游戏列表，再贴上现在已经重新锁上成就的游戏列表。最后再要贴上自己的astats profile。</p><p>按以上格式发完之后就是耐心的等待，基本上第二天就会回复，如果管理员还有什么要求要记得及时处理，解ban的概率还是很大的。</p></li></ul><h3 id="完"><a href="#完" class="headerlink" title="完"></a>完</h3><hr><p>此文原首发于<a href="https://steamcn.com/t258676-1-1" target="_blank" rel="noopener">steam.cn-蒸汽动力</a></p>]]></content>
     
@@ -223,8 +227,8 @@
   
   <entry>
     <title>HTML 元素测试</title>
-    <link href="/20180731/undefined.html"/>
-    <id>/20180731/undefined.html</id>
+    <link href="/20180731/HTML-%E5%85%83%E7%B4%A0%E6%B5%8B%E8%AF%95.html"/>
+    <id>/20180731/HTML-元素测试.html</id>
     <published>2018-07-31T15:37:00.000Z</published>
     <updated>2018-08-08T15:01:34.652Z</updated>
     
@@ -258,8 +262,8 @@
   
   <entry>
     <title>字体、字号与颜色测试</title>
-    <link href="/20180731/undefined.html"/>
-    <id>/20180731/undefined.html</id>
+    <link href="/20180731/%E5%AD%97%E4%BD%93%E3%80%81%E5%AD%97%E5%8F%B7%E4%B8%8E%E9%A2%9C%E8%89%B2%E6%B5%8B%E8%AF%95.html"/>
+    <id>/20180731/字体、字号与颜色测试.html</id>
     <published>2018-07-31T12:37:00.000Z</published>
     <updated>2018-08-05T14:07:33.522Z</updated>
     
@@ -285,8 +289,8 @@
   
   <entry>
     <title>日本語テスト</title>
-    <link href="/20180731/undefined.html"/>
-    <id>/20180731/undefined.html</id>
+    <link href="/20180731/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88.html"/>
+    <id>/20180731/日本語テスト.html</id>
     <published>2018-07-31T10:44:00.000Z</published>
     <updated>2018-08-01T14:37:01.782Z</updated>
     
@@ -309,8 +313,8 @@
   
   <entry>
     <title>中文测试</title>
-    <link href="/20180731/undefined.html"/>
-    <id>/20180731/undefined.html</id>
+    <link href="/20180731/%E4%B8%AD%E6%96%87%E6%B5%8B%E8%AF%95.html"/>
+    <id>/20180731/中文测试.html</id>
     <published>2018-07-31T10:38:00.000Z</published>
     <updated>2018-08-01T14:36:48.118Z</updated>
     
@@ -333,8 +337,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="/20180730/undefined.html"/>
-    <id>/20180730/undefined.html</id>
+    <link href="/20180730/hello-world.html"/>
+    <id>/20180730/hello-world.html</id>
     <published>2018-07-30T14:51:00.000Z</published>
     <updated>2018-07-30T23:58:02.959Z</updated>
     
