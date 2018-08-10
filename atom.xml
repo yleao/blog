@@ -295,9 +295,9 @@
     </summary>
     
     
-      <category term="test" scheme="/tags/test/"/>
-    
       <category term="video" scheme="/tags/video/"/>
+    
+      <category term="test" scheme="/tags/test/"/>
     
       <category term="markdown" scheme="/tags/markdown/"/>
     
@@ -356,9 +356,9 @@
     </summary>
     
     
-      <category term="test" scheme="/tags/test/"/>
-    
       <category term="html" scheme="/tags/html/"/>
+    
+      <category term="test" scheme="/tags/test/"/>
     
       <category term="markdown" scheme="/tags/markdown/"/>
     
