@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Blog</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="blog">
+<meta name="keywords" content="development,study,architecture">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Blog">
+<meta property="og:url" content="/page/2/index.html">
+<meta property="og:site_name" content="Blog">
+<meta property="og:description" content="blog">
+<meta property="og:locale" content="default">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Blog">
+<meta name="twitter:description" content="blog">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+
+<body>
+  <div id="container">
+    <div class="mobile-nav-panel">
+	<i class="icon-reorder icon-large"></i>
+</div>
+<header id="header">
+	<h1 class="blog-title">
+		<a href="/">Blog</a>
+	</h1>
+	<nav class="nav">
+		<ul>
+			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li><li><a href="https://www.yleao.com/cut.html">cut</a></li>
+			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
+			
+		</ul>
+	</nav>
+	<div id="search-form-wrap">
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value=""></form>
+	</div>
+</header>
+    <div id="main">
+      
+  
+    <article id="post-嵌入测试" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/posts/31048.html" class="article-date">
+  <time datetime="2018-08-01T13:00:00.000Z" itemprop="datePublished">2018-08-01</time>
+</a>
+		</span>
+		<span class="meta-elements author">Yann Peng</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/posts/31048.html">嵌入测试</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<font color="green">引入html来设置</font>
+
+<ul>
+<li><h3 id="视频嵌入"><a href="#视频嵌入" class="headerlink" title="视频嵌入"></a>视频嵌入</h3></li>
+</ul>
+<p><strong><font color="#ff000">YOUTUBE</font></strong> <strong>TEST</strong></p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token operator">&lt;</span>iframe width<span class="token operator">=</span><span class="token string">"560"</span> height<span class="token operator">=</span><span class="token string">"315"</span> src<span class="token operator">=</span><span class="token string">"https://www.youtube.com/embed/7OYkWSW7u4k"</span> frameborder<span class="token operator">=</span><span class="token string">"0"</span> allow<span class="token operator">=</span><span class="token string">"autoplay; encrypted-media"</span> allowfullscreen<span class="token operator">></span><span class="token operator">&lt;</span>/iframe<span class="token operator">></span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>　  </p>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/7OYkWSW7u4k" frameborder="0" allow="autoplay;" encrypted-media="" allowfullscreen></iframe></div>  
+<p>　  </p>
+<p><strong><font color="#87CEFA">BILIBILI</font></strong> <strong>TEST</strong></p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token operator">&lt;</span>iframe width<span class="token operator">=</span><span class="token string">"300"</span> height<span class="token operator">=</span><span class="token string">"176"</span> src<span class="token operator">=</span><span class="token string">"//player.bilibili.com/player.html?aid=7728624&amp;cid=12668755&amp;page=1"</span> scrolling<span class="token operator">=</span><span class="token string">"no"</span> border<span class="token operator">=</span><span class="token string">"0"</span> frameborder<span class="token operator">=</span><span class="token string">"no"</span> framespacing<span class="token operator">=</span><span class="token string">"0"</span> allowfullscreen<span class="token operator">=</span><span class="token string">"true"</span><span class="token operator">></span> <span class="token operator">&lt;</span>/iframe<span class="token operator">></span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>　  </p>
+<iframe width="300" height="176" src="//player.bilibili.com/player.html?aid=7728624&cid=12668755&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>   
+
+
+<hr>
+<ul>
+<li><h3 id="音乐嵌入"><a href="#音乐嵌入" class="headerlink" title="音乐嵌入"></a>音乐嵌入</h3><strong>framespacing=”0”</strong><br>框架与框架间保留的空白的距离<br>frameborder – 设定框架的边框,取值为(1|0),缺省值为1<br>1 – 在每个页面之间都显示边框<br>0 – 不显示边框<br><strong>border=”0”</strong><br>设定框架的边框厚度，以 pixels 为单位<br><strong>auto=”0”</strong><br>0为不自动播放<br>1为自动播放</li>
+</ul>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token operator">&lt;</span>iframe frameborder<span class="token operator">=</span><span class="token string">"no"</span> border<span class="token operator">=</span><span class="token string">"0"</span> marginwidth<span class="token operator">=</span><span class="token string">"0"</span> marginheight<span class="token operator">=</span><span class="token string">"0"</span> width<span class="token operator">=</span>330 height<span class="token operator">=</span>86 src<span class="token operator">=</span><span class="token string">"//music.163.com/outchain/player?type=2&amp;id=694286&amp;auto=0&amp;height=66"</span><span class="token operator">></span><span class="token operator">&lt;</span>/iframe<span class="token operator">></span>
+<span class="token operator">&lt;</span>iframe frameborder<span class="token operator">=</span><span class="token string">"no"</span> border<span class="token operator">=</span><span class="token string">"0"</span> marginwidth<span class="token operator">=</span><span class="token string">"0"</span> marginheight<span class="token operator">=</span><span class="token string">"0"</span> width<span class="token operator">=</span>298 height<span class="token operator">=</span>52 src<span class="token operator">=</span><span class="token string">"//music.163.com/outchain/player?type=2&amp;id=694286&amp;auto=0&amp;height=32"</span><span class="token operator">></span><span class="token operator">&lt;</span>/iframe<span class="token operator">></span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=694286&auto=0&height=66"></iframe><br><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="//music.163.com/outchain/player?type=2&id=694286&auto=0&height=32"></iframe>
+
+
+<hr>
+<ul>
+<li><h3 id="图片嵌入"><a href="#图片嵌入" class="headerlink" title="图片嵌入"></a>图片嵌入</h3></li>
+</ul>
+<p>普通嵌入</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token operator">!</span><span class="token punctuation">[</span>test<span class="token punctuation">]</span><span class="token punctuation">(</span>https://i.loli.net/2018/08/01/5b61aec82ac9d.jpg<span class="token punctuation">)</span>
+<span class="token operator">&lt;</span>img src<span class="token operator">=</span><span class="token string">"https://i.loli.net/2018/08/01/5b61aec82ac9d.jpg"</span>  alt<span class="token operator">=</span><span class="token string">"test"</span> /<span class="token operator">></span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p><img src="https://i.loli.net/2018/08/01/5b61aec82ac9d.jpg" alt="test"></p>
+<p>固定大小且居中</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token operator">&lt;</span>div align<span class="token operator">=</span>center<span class="token operator">></span><span class="token operator">&lt;</span>img width <span class="token operator">=</span> <span class="token string">'150'</span> height <span class="token operator">=</span><span class="token string">'150'</span> src <span class="token operator">=</span><span class="token string">"https://i.loli.net/2018/08/01/5b61aec82ac9d.jpg"</span>/<span class="token operator">></span><span class="token operator">&lt;</span>/div<span class="token operator">></span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<div align="center"><img width="150" height="150" src="https://i.loli.net/2018/08/01/5b61aec82ac9d.jpg"></div>
+
+
+
+<p>自定义尺寸</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token operator">&lt;</span>img width <span class="token operator">=</span> <span class="token string">'40'</span> height <span class="token operator">=</span><span class="token string">'150'</span> src <span class="token operator">=</span><span class="token string">"https://i.loli.net/2018/08/01/5b61aec82ac9d.jpg"</span>/<span class="token operator">></span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p><img width="40" height="150" src="https://i.loli.net/2018/08/01/5b61aec82ac9d.jpg"></p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/markdown/">markdown</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/music/">music</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/test/">test</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/video/">video</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-解除astats-nl的封禁" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/posts/13114.html" class="article-date">
+  <time datetime="2018-08-01T12:43:00.000Z" itemprop="datePublished">2018-08-01</time>
+</a>
+		</span>
+		<span class="meta-elements author">Yann Peng</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/posts/13114.html">解除astats-nl的封禁</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+			<p><b><font face="微软雅黑" size="4">前言：astats.nl是个关于steam成就的第三方网址，被ban与否都不会影响steam账号，如果被ban可以不用担心，若想要解ban则看以下教程。</font></b><br>
+			
+				<p class="article-more-link">
+					<a href="/posts/13114.html#more">Read More</a>
+				</p>
+      
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/astats-nl/">astats-nl</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/steam/">steam</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/经验/">经验</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-HTML元素测试" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/posts/49470.html" class="article-date">
+  <time datetime="2018-07-31T15:37:00.000Z" itemprop="datePublished">2018-07-31</time>
+</a>
+		</span>
+		<span class="meta-elements author">Yann Peng</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/posts/49470.html">HTML元素测试</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p><b>测试HTML元素是否都能正确显示。</b></p>
+<hr>
+<ul>
+<li><h1>标题测试</h1> 
+
+</li>
+</ul>
+<pre>
+<font color="green" size="3" face="微软雅黑">在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。
+你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</font>
+* * *
+***
+*****
+- - -
+---------------------------------------
+</pre>
+
+<p>　　
+　</p>
+<h1 id="h1"><a href="#h1" class="headerlink" title="h1"></a>h1</h1><h2 id="h2"><a href="#h2" class="headerlink" title="h2"></a>h2</h2><h3 id="h3"><a href="#h3" class="headerlink" title="h3"></a>h3</h3><h4 id="h4"><a href="#h4" class="headerlink" title="h4"></a>h4</h4><h5 id="h5"><a href="#h5" class="headerlink" title="h5"></a>h5</h5><h6 id="h6"><a href="#h6" class="headerlink" title="h6"></a>h6</h6><pre>
+<font color="green" size="3" face="微软雅黑">行首插入1到6个 # ，对应到标题1到6阶，例如：</font>
+# 这是 H1
+## 这是 H2
+###### 这是 H6
+</pre>
+
+<p>　　</p>
+<h1 id="h1-1"><a href="#h1-1" class="headerlink" title="h1"></a>h1</h1><h2 id="h2-1"><a href="#h2-1" class="headerlink" title="h2"></a>h2</h2><pre>
+<font color="green" size="3" face="微软雅黑">底线形式，利用 =（最高阶标题)和 - （第二阶标题）,例如：</font>
+This is an h1
+=============
+
+This is an h2
+-------------
+</pre>
+
+
+<hr>
+<ul>
+<li><h1>段落测试</h1> 
+
+
+</li>
+</ul>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token operator">&lt;</span>h1<span class="token operator">></span>标题文字<span class="token operator">&lt;</span>/h1<span class="token operator">></span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p><br><strong>Lorem</strong> ipsum dolor sit amet, <a href="http://google.com" target="_blank" rel="noopener">test link</a> consectetur <u>adipiscing elit</u>. Strong text pellentesque ligula commodo viverra <strong><em>vehicula</em></strong>. Italic text at ullamcorper enim. Morbi a euismod nibh. underline text non elit nisl. <strike>Deleted </strike>text tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor.<br> </p>
+<blockquote>
+<p>This is the first level of quoting.</p>
+<blockquote>
+<p>This is nested blockquote.</p>
+<blockquote>
+<p>Back to the first level.</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p><br><i>Maecenas ornare arcu at mi suscipit, non molestie tortor ultrices. Aenean convallis, diam et congue ultricies, erat magna tincidunt orci, pulvinar posuere mi sapien ac magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent vitae placerat mauris. Nullam laoreet ante posuere tortor blandit auctor. Sed id ligula volutpat leo consequat placerat. Mauris fermentum dolor sed augue malesuada sollicitudin. Vivamus ultrices nunc felis, quis viverra orci eleifend ut. Donec et quam id urna cursus posuere. Donec elementum scelerisque laoreet.</i><br></p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token punctuation">[</span>text<span class="token punctuation">]</span><span class="token punctuation">(</span>url<span class="token punctuation">)</span>
+<span class="token operator">&lt;</span>a href<span class="token operator">=</span><span class="token string">"url"</span><span class="token operator">></span>text<span class="token operator">&lt;</span>/a<span class="token operator">></span>
+*斜体文本*
+_斜体文本_
+<span class="token operator">&lt;</span>i<span class="token operator">></span> 斜体文本<span class="token operator">&lt;</span>/i<span class="token operator">></span>
+**加粗文本**
+__加粗文本__
+<span class="token operator">&lt;</span>b<span class="token operator">></span>加粗文本<span class="token operator">&lt;</span>/b<span class="token operator">></span>
+***粗斜体文本***
+___粗斜体文本___
+<span class="token operator">&lt;</span>u<span class="token operator">></span> 下划线文本<span class="token operator">&lt;</span>/u<span class="token operator">></span>
+<span class="token operator">&lt;</span>strike<span class="token operator">></span> 删除文本<span class="token operator">&lt;</span>/strike<span class="token operator">></span>
+<span class="token operator">&lt;</span>br<span class="token operator">></span>换行<span class="token operator">&lt;</span>/br<span class="token operator">></span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>　</p>
+<pre class="line-numbers language-bash"><code class="language-bash">嵌套引用
+<span class="token operator">></span> 最外层引用
+<span class="token operator">></span> <span class="token operator">></span> 多一个<span class="token operator">></span> 嵌套一层引用
+<span class="token operator">></span> <span class="token operator">></span> <span class="token operator">></span> 多层嵌套
+
+html 5<span class="token operator">&lt;</span>blockquote<span class="token operator">></span> 标签
+<span class="token operator">&lt;</span>blockquote<span class="token operator">></span>引用区块<span class="token operator">&lt;</span>/blockquote<span class="token operator">></span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<hr>
+<ul>
+<li><b><font size="5">列表测试</font></b></li>
+</ul>
+<p>Markdown 支持有序列表和无序列表。<br><br>无序列表使用星号、加号或是减号作为列表标记,有序列表则使用数字接着一个英文句点。<br></p>
+<p><b>Unordered List (ul)</b></p>
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ul>
+<pre class="line-numbers language-bash"><code class="language-bash">*   Red
+*   Green
+*   Blue
+
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>等同于：</p>
+<pre class="line-numbers language-bash"><code class="language-bash">+   Red
++   Green
++   Blue
+
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>等同于：</p>
+<pre class="line-numbers language-bash"><code class="language-bash">-   Red
+-   Green
+-   Blue
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p><b>Ordered List (ol)</b></p>
+<ol>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish</li>
+</ol>
+<pre>
+1.  Red
+2.  Green
+3.  Blue
+</pre>
+
+
+<p>非常重要的一点是，在列表标记上使用的数字并不会影响输出的 HTML 结果，上面等同于：</p>
+<pre>
+1.  Red
+1.  Green
+1.  Blue
+</pre>
+
+
+<p>等同于：</p>
+<pre>
+2.  Red
+6.  Green
+3.  Blue
+</pre>
+
+
+<p>以上ol列表所产生的 HTML 标记都为：</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token operator">&lt;</span>ol<span class="token operator">></span>
+<span class="token operator">&lt;</span>li<span class="token operator">></span>Bird<span class="token operator">&lt;</span>/li<span class="token operator">></span>
+<span class="token operator">&lt;</span>li<span class="token operator">></span>McHale<span class="token operator">&lt;</span>/li<span class="token operator">></span>
+<span class="token operator">&lt;</span>li<span class="token operator">></span>Parish<span class="token operator">&lt;</span>/li<span class="token operator">></span>
+<span class="token operator">&lt;</span>/ol<span class="token operator">></span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<hr>
+<ul>
+<li><b><font size="5">表格测试</font></b></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align:center">Academy</th>
+<th style="text-align:right">score </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Harry Potter</td>
+<td style="text-align:center">Gryffindor</td>
+<td style="text-align:right">90 </td>
+</tr>
+<tr>
+<td>Hermione</td>
+<td style="text-align:center">Gryffindor</td>
+<td style="text-align:right">100 </td>
+</tr>
+<tr>
+<td>Draco Malfoy</td>
+<td style="text-align:center">Slytherin</td>
+<td style="text-align:right">90</td>
+</tr>
+</tbody>
+</table>
+<pre class="line-numbers language-bash"><code class="language-bash">Name <span class="token operator">|</span> Academy <span class="token operator">|</span> score 
+- <span class="token operator">|</span> :-: <span class="token operator">|</span> -: 
+Harry Potter <span class="token operator">|</span> Gryffindor<span class="token operator">|</span> 90 
+Hermione  <span class="token operator">|</span> Gryffindor <span class="token operator">|</span> 100 
+Draco Malfoy <span class="token operator">|</span> Slytherin <span class="token operator">|</span> 90
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>　</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align:center">Academy</th>
+<th style="text-align:right">score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Harry Potter</td>
+<td style="text-align:center">Gryffindor</td>
+<td style="text-align:right">90</td>
+</tr>
+<tr>
+<td>Hermione</td>
+<td style="text-align:center">Gryffindor</td>
+<td style="text-align:right">100</td>
+</tr>
+<tr>
+<td>Draco Malfoy</td>
+<td style="text-align:center">Slytherin</td>
+<td style="text-align:right">90</td>
+</tr>
+</tbody>
+</table>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token operator">|</span> Name <span class="token operator">|</span> Academy <span class="token operator">|</span> score <span class="token operator">|</span> 
+<span class="token operator">|</span> - <span class="token operator">|</span> :-: <span class="token operator">|</span> -: <span class="token operator">|</span> 
+<span class="token operator">|</span> Harry Potter <span class="token operator">|</span> Gryffindor<span class="token operator">|</span> 90 <span class="token operator">|</span> 
+<span class="token operator">|</span> Hermione  <span class="token operator">|</span> Gryffindor <span class="token operator">|</span> 100 <span class="token operator">|</span> 
+<span class="token operator">|</span> Draco Malfoy <span class="token operator">|</span> Slytherin <span class="token operator">|</span> 90 <span class="token operator">|</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>　</p>
+<table>
+<thead>
+<tr>
+<th>表头</th>
+<th>表头</th>
+<th>表头</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>111</td>
+<td>22222</td>
+<td>333333333333</td>
+</tr>
+<tr>
+<td>33333333333333</td>
+<td>111</td>
+<td>22222</td>
+</tr>
+</tbody>
+</table>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token operator">|</span> 表头 <span class="token operator">|</span> 表头 <span class="token operator">|</span> 表头 <span class="token operator">|</span>
+<span class="token operator">|</span> ------ <span class="token operator">|</span> ------ <span class="token operator">|</span> ------ <span class="token operator">|</span>
+<span class="token operator">|</span> 111 <span class="token operator">|</span> 22222 <span class="token operator">|</span> 33333333333 <span class="token operator">|</span>
+<span class="token operator">|</span> 3333333333333 <span class="token operator">|</span> 111 <span class="token operator">|</span> 222222 <span class="token operator">|</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>　</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">左对齐</th>
+<th style="text-align:right">右对齐</th>
+<th style="text-align:center">居中</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">111</td>
+<td style="text-align:right">22222</td>
+<td style="text-align:center">3333333333</td>
+</tr>
+<tr>
+<td style="text-align:left">333333333333</td>
+<td style="text-align:right">111</td>
+<td style="text-align:center">22222</td>
+</tr>
+</tbody>
+</table>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token operator">|</span> 左对齐 <span class="token operator">|</span> 右对齐 <span class="token operator">|</span> 居中 <span class="token operator">|</span>
+<span class="token operator">|</span> :------<span class="token operator">|</span> ------: <span class="token operator">|</span> :------: <span class="token operator">|</span>
+<span class="token operator">|</span> 111 <span class="token operator">|</span> 22222 <span class="token operator">|</span> 3333333333 <span class="token operator">|</span>
+<span class="token operator">|</span> 33333333333 <span class="token operator">|</span> 111 <span class="token operator">|</span> 22222 <span class="token operator">|</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>　</p>
+<p><b>语法说明：</b>   </p>
+<ol>
+<li>第一行为表头，第二行分隔表头和主体部分，第三行开始每一行代表一个表格行。</li>
+<li>列与列之间用管道符号 “|” 隔开。 </li>
+<li>-:表示内容和标题栏居右对齐，:-表示内容和标题栏居左对齐，:-:表示内容和标题栏居中对齐。</li>
+<li>内容和|之间的多余空格会被忽略，每行第一个|和最后一个|可以省略，-的数量至少有一个。    </li>
+<li>表格的语句上一行必须为空行，不然表格不生效。</li>
+</ol>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/html/">html</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/markdown/">markdown</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/test/">test</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-字体、字号与颜色测试" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/posts/27769.html" class="article-date">
+  <time datetime="2018-07-31T12:37:00.000Z" itemprop="datePublished">2018-07-31</time>
+</a>
+		</span>
+		<span class="meta-elements author">Yann Peng</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/posts/27769.html">字体、字号与颜色测试</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+			<ul>
+<li><h2 id="字体测试"><a href="#字体测试" class="headerlink" title="字体测试"></a>字体测试</h2></li>
+</ul>
+<pre><code class="bash">&lt;font face=&quot;黑体&quot;&gt;我是黑体字&lt;/font&gt;
+&lt;font face=&quot;微软雅黑&quot;&gt;我是微软雅黑&lt;/font&gt;
+&lt;font face=&quot;STCAIYUN&quot;&gt;我是华文彩云&lt;/font&gt;
+&lt;font color=#0099ff size=7 face=&quot;黑体&quot;&gt;size=7 face=&quot;黑体&quot;&lt;/font&gt;
+&lt;font color=#00ffff size=7&gt;color=#00ffff&lt;/font&gt;
+&lt;font color=gray size=7&gt;color=gray&lt;/font&gt;
+</code></pre>
+<p><b>Size:规定文本的尺寸大小。可能的值：从1到7的数字。浏览器默认值是3。</b></p>
+<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><font face="黑体">我是黑体字</font><br><br><font face="微软雅黑">我是微软雅黑</font><br><br><font face="STCAIYUN">我是华文彩云</font><br><br><font color="#0099ff" size="7" face="黑体">size=7 face=”黑体”</font><br><br><font color="#00ffff" size="7">color=#00ffff 可以用十六位颜色值</font><br><br><font color="gray" size="7">color=gray 也可以用已知颜色名</font>  
+
+
+<p>　  </p>
+			
+				<p class="article-more-link">
+					<a href="/posts/27769.html#more">Read More</a>
+				</p>
+      
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/markdown/">markdown</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/test/">test</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-日本語テスト" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/posts/47191.html" class="article-date">
+  <time datetime="2018-07-31T10:44:00.000Z" itemprop="datePublished">2018-07-31</time>
+</a>
+		</span>
+		<span class="meta-elements author">Yann Peng</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/posts/47191.html">日本語テスト</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>This is a Japanese test post.</p>
+<p>間使図お与情タルテ暮対ワトメ務器女ク託性ぶおみー広転うざ断突ク投9石めつ記流ノウ日用包ょ技記チネフ付景はうるで陸害阪スむょ。振開か東退ロフナ民楽クヒ輸運日フイノ寝92壌粉脅軸3知リゆ条短メレ欺聖ハ必辺ゃわ若片透真経ぶぎえ。</p>
+<blockquote>
+<p>加食簡ス議8康ゆら索渉みなじ市済くそ雪姿込む津選ヒ展野のまぱは易台たぴゃ午場帳懸スが。期ナ聞仕書ぞに<br>郎接らちみ優毎さクし郎売ゆ自昨サヲハヌ社月イキラヱ校数づな野見ツ労出なイよお門清ユフ上意世サエハタ転&gt; 6権めるは笑爆利は意務チコ身潤視奥唆どフば。</p>
+</blockquote>
+<p>実フょめ初97玲政41悪ほスめれ憲給掲任キヘ昇賀細ぞちい変役ぽたー芸教レ被原ヌム隠記ヌ皇叙孟悠慌めけ。71治べみど属岸べて印掲う所朝にイ算津かーぽぱ趣12需見ルラネ含3基ぼッしイ舟万タテヱト出徴国地懲双さばっ。南ぶあ昨記イ者定烈43新ヤラ始聴ソミハラ社情へき界1変掛変の高恐超ト皇済ツホ任無部ケルヒワ換交ーご通写も開悪詳お。歩クロ碁論ヨ駆年や叫力イごぞぶ善経モムノハ先中カリエホ票覧るトい力刻セミ用超づ自千コル育事ラし面基じ補練トーむげ写大アツヲリ元追ひふげ。局ノタフ囲立なイへ更護トスムタ歌士そ事除ノレ当童ッみさ稿本伊タレ点一とンもぱ使窓べ関知商イネハモ良差わゅかみ豆勢筆づルょ観力ぜ改悩ク。</p>
+<p>　</p>
+<p><em>From</em> <a href="http://generator.lorem-ipsum.info/" target="_blank" rel="noopener">generator.lorem-ipsum</a></p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/test/">test</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-中文测试" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/posts/21129.html" class="article-date">
+  <time datetime="2018-07-31T10:38:00.000Z" itemprop="datePublished">2018-07-31</time>
+</a>
+		</span>
+		<span class="meta-elements author">Yann Peng</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/posts/21129.html">中文测试</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>This is a Chinese test post.</p>
+<p>象一平……像直什……家去性口題。時電市國為；包省我，發爸主用通商議黑，民看會一、省林見升制甚……減我事，認西我，笑是圖只化下名有車，能業我個下進劇人真作南家以人不，目加管以民是能識在，助又部時們是：年幾是了學多票人金去是，年成成代些了權去人。實應子者外慢，係國全起斷們速節自，使認基與我朋們的天又變友衣言，顯開看現時那的精綠見到真輕表園史得我、團山次反有熱經是朋十親路來，人聞響有其比精河用們的音題話冷，他自創大那再參風數科的子級濟果英手笑大他特母消；間頭意善結！了起功相它算個發走美位內需技教取事是國別係臺麼受大日過般期整認國一資比和相作問為！度海！中春急思能裡。</p>
+<p>國命都樂此醫那業面語不命發市，到間境走常手員的里其個，同黨子、散形子！沒術創體。問修量友管全件為分意要具運來政！外總樣作白代？安不如草特理麼常！<br>市的通草好育還地眾話。兒流加似準吸家現國支小去利座，算事同真平好新父書的舉？</p>
+<blockquote>
+<p>個口家，同做點親於變度到紙生心為員；還內子建布，大們養知寫型體經，<br>今民慢著我活升。</p>
+</blockquote>
+<p>　</p>
+<p><em>From</em> <a href="http://www.richyli.com/tool/loremipsum/" target="_blank" rel="noopener">亂數假文產生器 - Chinese Lorem Ipsum</a></p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/test/">test</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-hello-world" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/posts/16107.html" class="article-date">
+  <time datetime="2018-07-30T14:51:00.000Z" itemprop="datePublished">2018-07-30</time>
+</a>
+		</span>
+		<span class="meta-elements author">Yann Peng</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/posts/16107.html">Hello World</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo server
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo generate
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo deploy
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+  
+    <nav id="page-nav">
+      <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+    </nav>
+  
+
+    </div>
+    <div class="mb-search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:">
+  </form>
+</div>
+<footer id="footer">
+	<h1 class="footer-blog-title">
+		<a href="/">Blog</a>
+	</h1>
+	<span class="copyright">
+	 
+		&copy; 2018 Yann Peng┃   Connect:<a href="mailto:1@yleao.com">   1@yleao.com</a> <br>
+		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme┃   Powered by <a href="http://hexo.io/" target="_blank">Hexo</a><br>
+		 <a href="http://www.miitbeian.gov.cn/"target="_blank">湘ICP备18014937号</a> 
+	</span>
+</footer>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+  </div>
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"right","width":130,"height":150},"mobile":{"show":true},"log":false});</script></body>
+</html>
