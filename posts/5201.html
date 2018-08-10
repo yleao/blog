@@ -84,8 +84,8 @@
 <li><h4 id="github地址"><a href="#github地址" class="headerlink" title="github地址"></a>github地址</h4><p><u><a href="https://github.com/EYHN/hexo-helper-live2d" target="_blank" rel="noopener">hexo-helper-live2d</a></u>  </p>
 </li>
 <li><h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><p>安装模块:  </p>
-<pre><code class="bash">npm install --save hexo-helper-live2d
-</code></pre>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> --save hexo-helper-live2d
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 </li>
 <li><h4 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h4><p>向Hexo根目录下的 <code>_config.yml</code> 文件中添加配置。  </p>
 <pre><code># Live2D
@@ -139,7 +139,7 @@ live2d:
 <p>  　  <strong>到此live2d就安装成功了，看看效果吧。</strong><br>  <img src="https://i.loli.net/2018/08/06/5b6751a164ea5.gif" alt="gif 1"></p>
 <hr>
 <h2 id="如何获取模型"><a href="#如何获取模型" class="headerlink" title="如何获取模型"></a>如何获取模型</h2><p>首先先说说模型格式，一般hexo-helper-live2d的模型格式都为下面两种</p>
-<pre><code class="bash">这种moc+json+文件夹材质的是2.x版本的工程文件
+<pre class="line-numbers language-bash"><code class="language-bash">这种moc+json+文件夹材质的是2.x版本的工程文件
 │  model.model.json    // 模型json数据
 │  model.moc           // 模型文件
 │
@@ -147,16 +147,16 @@ live2d:
         texture_00.png  // 模型材质贴图（不同分辨率用）
 
 这种json文件内容 是与当前目录的文件对应的
-{
-    <span class="string">"type"</span>: <span class="string">"Live2D Model Setting"</span>,
-    <span class="string">"name"</span>: <span class="string">"makoto0"</span>,
-    <span class="string">"model"</span>: <span class="string">"makoto0.moc"</span>,
-    <span class="string">"textures"</span>: [
-        <span class="string">"makoto0.2048/texture_00.png"</span>
-    ]
-}
+<span class="token punctuation">{</span>
+    <span class="token string">"type"</span><span class="token keyword">:</span> <span class="token string">"Live2D Model Setting"</span>,
+    <span class="token string">"name"</span><span class="token keyword">:</span> <span class="token string">"makoto0"</span>,
+    <span class="token string">"model"</span><span class="token keyword">:</span> <span class="token string">"makoto0.moc"</span>,
+    <span class="token string">"textures"</span><span class="token keyword">:</span> <span class="token punctuation">[</span>
+        <span class="token string">"makoto0.2048/texture_00.png"</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
 
-</code></pre>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p><strong>获取方法</strong>:<br>贴吧或者论坛别人的分享,可能需要修改模型格式  <u>live2d官方分享库</u><br>游戏内提取，注意版权问题<br>自己制作  </p>
 <p>最后再贴一个在github上找到的模型，种类挺多，可预览，<u><a href="https://github.com/summerscar/live2dDemo" target="_blank" rel="noopener">github地址</a></u><br>修改modelname进行预览，modelname可在<u><a href="https://github.com/summerscar/live2dDemo/blob/master/README.md" target="_blank" rel="noopener">这里</a></u>查阅，<u><a href="http://summerscar.me/live2dDemo/" target="_blank" rel="noopener">预览地址</a></u><br>使用方法很简单，打包下载下来，解压后在<code>/live2dDemo-master/assets/</code>中找到喜欢的模型，按照上面的<strong>方法二</strong>，直接把模型所在的文件夹拖入到博客根目录中的<code>live2d_models</code>里，再修改<code>_config.yml</code> 里的 <code>model.use</code>即可。</p>
 <h3 id="完"><a href="#完" class="headerlink" title="完"></a>完</h3>
