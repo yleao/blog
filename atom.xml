@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2018-08-31T09:12:48.575Z</updated>
+  <updated>2018-08-31T14:57:20.562Z</updated>
   <id>/</id>
   
   <author>
@@ -17,15 +17,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>提取网易云外链</title>
+    <link href="/2018/0831/untitled-1535722084834.html"/>
+    <id>/2018/0831/untitled-1535722084834.html</id>
+    <published>2018-08-31T13:28:04.000Z</published>
+    <updated>2018-08-31T14:57:20.562Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之前因为版权原因网易云的外链基本上都用不了，后来可以打开审查用&lt;code&gt;ctrl+F&lt;/code&gt;在源码搜索&lt;code&gt;生成外链播放器&lt;/code&gt;的方式来获取外链，不过后面也不行了，全都不能播放，清一色的404。且用且珍惜。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
+  </entry>
+  
+  <entry>
     <title>网页工具备忘</title>
     <link href="/2018/0831/%E7%BD%91%E9%A1%B5%E5%B7%A5%E5%85%B7%E5%A4%87%E5%BF%98.html"/>
     <id>/2018/0831/网页工具备忘.html</id>
     <published>2018-08-30T21:43:01.000Z</published>
-    <updated>2018-08-31T09:12:48.575Z</updated>
+    <updated>2018-08-31T14:33:04.157Z</updated>
     
     <summary type="html">
     
-      &lt;h5 id=&quot;小记&quot;&gt;&lt;a href=&quot;#小记&quot; class=&quot;headerlink&quot; title=&quot;小记&quot;&gt;&lt;/a&gt;小记&lt;/h5&gt;&lt;p&gt;这两天看了眼自己的书签栏，真是密密麻麻都快铺满了这个屏幕，感觉是时候清理一下了。把一些失效的网页删掉，暂时整理了一些感觉还挺好用的就放在这里吧，以后会慢慢更新。有关steam的网页工具估计得重新发一篇，实在是太多了。&lt;/p&gt;
+      &lt;h5 id=&quot;小记&quot;&gt;&lt;a href=&quot;#小记&quot; class=&quot;headerlink&quot; title=&quot;小记&quot;&gt;&lt;/a&gt;小记&lt;/h5&gt;&lt;p&gt;这两天看了眼自己的书签栏，真是密密麻麻都快铺满了这个屏幕，感觉是时候清理一下了。把一些失效的网页删掉，暂时整理了一些感觉还挺好用的就放在这里吧，以后会慢慢更新。有关steam的网页工具可能要重新发一篇，实在是太多了。&lt;/p&gt;
     
     </summary>
     
@@ -75,11 +93,11 @@
     </summary>
     
     
+      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
       <category term="csgo" scheme="/tags/csgo/"/>
     
       <category term="game" scheme="/tags/game/"/>
-    
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
   </entry>
   
@@ -99,9 +117,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="github" scheme="/tags/github/"/>
-    
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="github" scheme="/tags/github/"/>
     
   </entry>
   
@@ -119,9 +137,9 @@
     </summary>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
       <category term="html" scheme="/tags/html/"/>
+    
+      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
@@ -166,9 +184,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="github" scheme="/tags/github/"/>
-    
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="github" scheme="/tags/github/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
     
@@ -201,14 +219,11 @@
     <link href="/2018/0808/%E4%BC%B4%E6%88%91%E5%90%8C%E8%A1%8C.html"/>
     <id>/2018/0808/伴我同行.html</id>
     <published>2018-08-08T11:39:00.000Z</published>
-    <updated>2018-08-31T06:10:10.854Z</updated>
+    <updated>2018-08-31T14:14:49.792Z</updated>
     
     <summary type="html">
     
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
+      &lt;iframe height=&quot;400&quot; width=&quot;600&quot; src=&quot;//player.bilibili.com/player.html?aid=28688911&amp;cid=49686376&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;&lt;br&gt;　&lt;br&gt;从最初的瞎看什么，到后面因为合同到期而改名的阅后即瞎，再到政策问题之后再度回归的嘻咦啊看，虽一路曲折，却依然不变初心。&lt;br&gt;&lt;br&gt;回归之后的首部作品就以如此质量，给了久久等待的我们最好的答复，一度看到泪目，这近5个月的等待是如此值得。&lt;br&gt;&lt;br&gt;
     
     </summary>
     
@@ -235,9 +250,9 @@
     </summary>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
       <category term="test" scheme="/tags/test/"/>
+    
+      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="script" scheme="/tags/script/"/>
     
@@ -288,9 +303,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="github" scheme="/tags/github/"/>
-    
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="github" scheme="/tags/github/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
     
@@ -301,14 +316,18 @@
     <link href="/2018/0802/%E5%B5%8C%E5%85%A5%E6%B5%8B%E8%AF%95.html"/>
     <id>/2018/0802/嵌入测试.html</id>
     <published>2018-08-01T21:57:00.000Z</published>
-    <updated>2018-08-31T01:57:38.765Z</updated>
+    <updated>2018-08-31T14:19:49.559Z</updated>
     
     <summary type="html">
     
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
+      &lt;p&gt;引入html来设置&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;视频嵌入&quot;&gt;&lt;a href=&quot;#视频嵌入&quot; class=&quot;headerlink&quot; title=&quot;视频嵌入&quot;&gt;&lt;/a&gt;视频嵌入&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&lt;font color=&quot;#ff000&quot;&gt;YOUTUBE&lt;/font&gt;&lt;/strong&gt; &lt;strong&gt;TEST&lt;/strong&gt;  &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;iframe width=&amp;quot;560&amp;quot; height=&amp;quot;315&amp;quot; src=&amp;quot;https://www.youtube.com/embed/7OYkWSW7u4k&amp;quot; frameborder=&amp;quot;0&amp;quot; allow=&amp;quot;autoplay; encrypted-media&amp;quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/7OYkWSW7u4k&quot; frameborder=&quot;0&quot; allow=&quot;autoplay;&quot; encrypted-media=&quot;&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;  
+&lt;p&gt;　  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;font color=&quot;#87CEFA&quot;&gt;BILIBILI&lt;/font&gt;&lt;/strong&gt; &lt;strong&gt;TEST&lt;/strong&gt;&lt;br&gt;&lt;figure class=&quot;highlight maxima&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;iframe &lt;span class=&quot;built_in&quot;&gt;width&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;300&quot;&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;height&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;176&quot;&lt;/span&gt; src=&lt;span class=&quot;string&quot;&gt;&quot;//player.bilibili.com/player.html?aid=7728624&amp;amp;cid=12668755&amp;amp;page=1&quot;&lt;/span&gt; scrolling=&lt;span class=&quot;string&quot;&gt;&quot;no&quot;&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;border&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;0&quot;&lt;/span&gt; frameborder=&lt;span class=&quot;string&quot;&gt;&quot;no&quot;&lt;/span&gt; framespacing=&lt;span class=&quot;string&quot;&gt;&quot;0&quot;&lt;/span&gt; allowfullscreen=&lt;span class=&quot;string&quot;&gt;&quot;true&quot;&lt;/span&gt;&amp;gt; &amp;lt;/iframe&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;iframe width=&quot;300&quot; height=&quot;176&quot; src=&quot;//player.bilibili.com/player.html?aid=7728624&amp;cid=12668755&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;
     
     </summary>
     
@@ -353,11 +372,11 @@
     <link href="/2018/0801/%E8%A7%A3%E9%99%A4astats-nl%E7%9A%84%E5%B0%81%E7%A6%81.html"/>
     <id>/2018/0801/解除astats-nl的封禁.html</id>
     <published>2018-08-01T12:43:00.000Z</published>
-    <updated>2018-08-31T05:03:26.185Z</updated>
+    <updated>2018-08-31T14:20:27.948Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;b&gt;&lt;font face=&quot;微软雅黑&quot; size=&quot;4&quot;&gt;前言：astats.nl是个关于steam成就的第三方网址，被ban与否都不会影响steam账号，如果被ban可以不用担心，若想要解ban则看以下教程。&lt;/font&gt;&lt;/b&gt;&lt;br&gt;
+      &lt;font face=&quot;微软雅黑&quot; size=&quot;4&quot;&gt;前言：astats.nl是个关于steam成就的第三方网址，被ban与否都不会影响steam账号，如果被ban可以不用担心，若想要解ban则看以下教程。&lt;/font&gt;
     
     </summary>
     
@@ -456,25 +475,6 @@
     
     
       <category term="test" scheme="/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="/2018/0730/hello-world.html"/>
-    <id>/2018/0730/hello-world.html</id>
-    <published>2018-07-30T14:51:00.000Z</published>
-    <updated>2018-08-09T01:25:26.037Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
     
   </entry>
   
