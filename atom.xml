@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2018-08-31T06:52:44.274Z</updated>
+  <updated>2018-08-31T09:12:48.575Z</updated>
   <id>/</id>
   
   <author>
@@ -21,17 +21,11 @@
     <link href="/2018/0831/%E7%BD%91%E9%A1%B5%E5%B7%A5%E5%85%B7%E5%A4%87%E5%BF%98.html"/>
     <id>/2018/0831/网页工具备忘.html</id>
     <published>2018-08-30T21:43:01.000Z</published>
-    <updated>2018-08-31T06:52:44.274Z</updated>
+    <updated>2018-08-31T09:12:48.575Z</updated>
     
     <summary type="html">
     
-      
-      
-        &lt;blockquote&gt;
-&lt;h3 id=&quot;工具类&quot;&gt;&lt;a href=&quot;#工具类&quot; class=&quot;headerlink&quot; title=&quot;工具类&quot;&gt;&lt;/a&gt;&lt;font color=&quot;#FF4500&quot;&gt;工具类&lt;/font&gt;&lt;/h3&gt;&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;h5 id=&quot;
-      
+      &lt;h5 id=&quot;小记&quot;&gt;&lt;a href=&quot;#小记&quot; class=&quot;headerlink&quot; title=&quot;小记&quot;&gt;&lt;/a&gt;小记&lt;/h5&gt;&lt;p&gt;这两天看了眼自己的书签栏，真是密密麻麻都快铺满了这个屏幕，感觉是时候清理一下了。把一些失效的网页删掉，暂时整理了一些感觉还挺好用的就放在这里吧，以后会慢慢更新。有关steam的网页工具估计得重新发一篇，实在是太多了。&lt;/p&gt;
     
     </summary>
     
@@ -81,11 +75,11 @@
     </summary>
     
     
+      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
       <category term="csgo" scheme="/tags/csgo/"/>
     
       <category term="game" scheme="/tags/game/"/>
-    
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
   </entry>
   
@@ -125,11 +119,11 @@
     </summary>
     
     
+      <category term="html" scheme="/tags/html/"/>
+    
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
-    
-      <category term="html" scheme="/tags/html/"/>
     
       <category term="video" scheme="/tags/video/"/>
     
@@ -241,9 +235,9 @@
     </summary>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
       <category term="test" scheme="/tags/test/"/>
+    
+      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="script" scheme="/tags/script/"/>
     
@@ -254,7 +248,7 @@
     <link href="/2018/0805/hexo%E4%B8%8A%E7%9A%84live2d%E5%BA%94%E7%94%A8.html"/>
     <id>/2018/0805/hexo上的live2d应用.html</id>
     <published>2018-08-05T12:49:00.000Z</published>
-    <updated>2018-08-31T05:49:11.083Z</updated>
+    <updated>2018-08-31T07:18:58.061Z</updated>
     
     <summary type="html">
     

@@ -91,7 +91,7 @@
 <meta property="og:image" content="https://i.loli.net/2018/08/06/5b674fd164353.jpg">
 <meta property="og:image" content="https://i.loli.net/2018/08/06/5b674eabe650e.jpg">
 <meta property="og:image" content="https://i.loli.net/2018/08/06/5b6751a164ea5.gif">
-<meta property="og:updated_time" content="2018-08-31T05:49:11.083Z">
+<meta property="og:updated_time" content="2018-08-31T07:18:58.061Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo上的live2d应用">
 <meta name="twitter:description" content="关于网页版的live2d首先是在bilibili live上看见的，也就是B站的看板娘，可支持换装、显示文字、点击播放语音动画等功能。于是就着手研究了一下，然后发现了hexo的一个插件：hexo-helper-live2d。   关于live2d  Live2D目前有两个分支：Cubism和Euclid。若无特殊说明，Live2D通常是指Cubism分支。其工作原理是通过将一系列的2D图像进行平移">
@@ -348,7 +348,7 @@
 <h6 id="示例："><a href="#示例：" class="headerlink" title="示例："></a>示例：</h6></li>
 <li>你的模型叫mymiku.</li>
 <li>在博客根目录 (应当有<code>_config.yml</code>、<code>sources</code>、<code>themes</code>) 新建名为<code>live2d_models</code>的目录，再在其中建一个名为<code>mymiku</code>的子文件夹.  </li>
-<li>将模型复制到 <code>/live2d_models/mymiku/</code>中.现在在此文件夹里应当有一个 <code>.model.json</code>文件 (例如mymiku.model.json)  </li>
+<li>将模型复制到 <code>/live2d_models/mymiku/</code>中.现在在此文件夹里应当有一个 <code>.model.json</code>文件 (例如<code>mymiku.model.json</code>)  </li>
 <li>将 子文件夹名称<code>mymiku</code>输入到位于根目录<code>_config.yml</code>的<code>model.use</code>中. (如下图)   </li>
 </ul>
 <center><img src="https://i.loli.net/2018/08/06/5b674eabe650e.jpg" alt="image 3"> </center> 
@@ -459,7 +459,7 @@
     <div class="sidebar-inner">
 
       
-
+	  
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
@@ -470,7 +470,7 @@
           </li>
         </ul>
       
-
+       
       <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -524,21 +524,21 @@
             <div class="links-of-author motion-element">
                 
                   <span class="links-of-author-item">
-                    <a href="1@yleao.com" target="_blank" title="E-Mail">
+                    <a href="mailto:1@yleao.com" target="_blank" title="E-Mail">
                       
                         <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.douban.com/people/yleao/" target="_blank" title="Douban">
+                      
+                        <i class="fa fa-fw fa-heartbeat"></i>Douban</a>
                   </span>
                 
                   <span class="links-of-author-item">
                     <a href="http://steamcommunity.com/id/yleao" target="_blank" title="Steam">
                       
                         <i class="fa fa-fw fa-steam"></i>Steam</a>
-                  </span>
-                
-                  <span class="links-of-author-item">
-                    <a href="https://www.douban.com/people/yleao/" target="_blank" title="Douban">
-                      
-                        <i class="fa fa-fw fa-video-camera"></i>Douban</a>
                   </span>
                 
             </div>
@@ -549,12 +549,31 @@
 
           
           
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                推荐阅读
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="steamcn.com" title="steamcn" target="_blank">steamcn</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="52pojie.cn" title="52pj" target="_blank">52pj</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.daoapp.io/iframe?song=287749&qssl=1&qlrc=0&qnarrow=0&autoplay=1"></iframe>
 
           
 
         </div>
       </section>
-
+      
       
       <!--noindex-->
         <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
@@ -587,10 +606,12 @@
       <div class="footer-inner">
         <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
-    <i class="fa fa-user"></i>
+    <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder"><a href="http://www.miitbeian.gov.cn/"target="_blank">湘ICP备18014937号</a></span>
-
+  <span class="author" itemprop="copyrightHolder">Yann Peng</span>
+  
+  | <a href="http://www.miitbeian.gov.cn/"target="_blank">湘ICP备18014937号</a>
+  
   
 </div>
 
@@ -603,7 +624,9 @@
 
 
 
+
   <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a></div>
+
 
 
 
