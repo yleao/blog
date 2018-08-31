@@ -99,9 +99,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="github" scheme="/tags/github/"/>
-    
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="github" scheme="/tags/github/"/>
     
   </entry>
   
@@ -166,11 +166,11 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
       <category term="github" scheme="/tags/github/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
-    
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
@@ -207,7 +207,7 @@
     
       
       
-        &lt;iframe height=&quot;400&quot; width=&quot;600&quot; src=&quot;//player.bilibili.com/player.html?aid=28688911&amp;cid=49686376&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; framebor
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
       
     
     </summary>
@@ -288,11 +288,11 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
       <category term="github" scheme="/tags/github/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
-    
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
@@ -307,11 +307,7 @@
     
       
       
-        &lt;font color=&quot;green&quot;&gt;引入html来设置&lt;/font&gt;
-
-
-&lt;hr&gt;
-&lt;h3 id=&quot;视频嵌入&quot;&gt;&lt;a href=&quot;#视频嵌入&quot; class=&quot;headerlink&quot; title=&quot;视频嵌入&quot;&gt;&lt;/a&gt;视频嵌入&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&lt;font colo
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
       
     
     </summary>
@@ -340,8 +336,7 @@
     
       
       
-        &lt;script async src=&quot;//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;
-            &lt;span id=&quot;busuanzi_container_site_pv&quot;&gt;本站
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
       
     
     </summary>
@@ -386,13 +381,7 @@
     
       
       
-        &lt;p&gt;&lt;b&gt;测试HTML元素是否都能正确显示。&lt;/b&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1&gt;标题测试&lt;/h1&gt; 
-
-&lt;pre&gt;
-&lt;font color=&quot;green&quot; size=&quot;3&quot; face=&quot;微软雅黑&quot;&gt;在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。
-你也
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
       
     
     </summary>
@@ -439,8 +428,7 @@
     
       
       
-        &lt;p&gt;This is a Japanese test post.&lt;/p&gt;
-&lt;p&gt;間使図お与情タルテ暮対ワトメ務器女ク託性ぶおみー広転うざ断突ク投9石めつ記流ノウ日用包ょ技記チネフ付景はうるで陸害阪スむょ。振開か東退ロフナ民楽クヒ輸運日フイノ寝92壌粉脅軸3知リゆ条短メレ欺聖ハ必辺
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
       
     
     </summary>
@@ -461,8 +449,7 @@
     
       
       
-        &lt;p&gt;This is a Chinese test post.&lt;/p&gt;
-&lt;p&gt;象一平……像直什……家去性口題。時電市國為；包省我，發爸主用通商議黑，民看會一、省林見升制甚……減我事，認西我，笑是圖只化下名有車，能業我個下進劇人真作南家以人不，目加管以民是能識在，助又部時們是：年幾
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
       
     
     </summary>
@@ -483,7 +470,7 @@
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
       
     
     </summary>
