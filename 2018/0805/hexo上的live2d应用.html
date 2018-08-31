@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico?v=5.1.4">
+
+
+
+
+
+
+  <meta name="keywords" content="经验,github,plugin," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Y's BLOG" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="关于网页版的live2d首先是在bilibili live上看见的，也就是B站的看板娘，可支持换装、显示文字、点击播放语音动画等功能。于是就着手研究了一下，然后发现了hexo的一个插件：hexo-helper-live2d。   关于live2d  Live2D目前有两个分支：Cubism和Euclid。若无特殊说明，Live2D通常是指Cubism分支。其工作原理是通过将一系列的2D图像进行平移">
+<meta name="keywords" content="经验,github,plugin">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo上的live2d应用">
+<meta property="og:url" content="/2018/0805/hexo上的live2d应用.html">
+<meta property="og:site_name" content="Y&#39;s BLOG">
+<meta property="og:description" content="关于网页版的live2d首先是在bilibili live上看见的，也就是B站的看板娘，可支持换装、显示文字、点击播放语音动画等功能。于是就着手研究了一下，然后发现了hexo的一个插件：hexo-helper-live2d。   关于live2d  Live2D目前有两个分支：Cubism和Euclid。若无特殊说明，Live2D通常是指Cubism分支。其工作原理是通过将一系列的2D图像进行平移">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https://i.loli.net/2018/08/06/5b6749f3ebbb0.jpg">
+<meta property="og:image" content="https://i.loli.net/2018/08/06/5b674fd164353.jpg">
+<meta property="og:image" content="https://i.loli.net/2018/08/06/5b674eabe650e.jpg">
+<meta property="og:image" content="https://i.loli.net/2018/08/06/5b6751a164ea5.gif">
+<meta property="og:updated_time" content="2018-08-31T05:49:11.083Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="hexo上的live2d应用">
+<meta name="twitter:description" content="关于网页版的live2d首先是在bilibili live上看见的，也就是B站的看板娘，可支持换装、显示文字、点击播放语音动画等功能。于是就着手研究了一下，然后发现了hexo的一个插件：hexo-helper-live2d。   关于live2d  Live2D目前有两个分支：Cubism和Euclid。若无特殊说明，Live2D通常是指Cubism分支。其工作原理是通过将一系列的2D图像进行平移">
+<meta name="twitter:image" content="https://i.loli.net/2018/08/06/5b6749f3ebbb0.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="/2018/0805/hexo上的live2d应用.html"/>
+
+
+
+
+
+  <title>hexo上的live2d应用 | Y's BLOG</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Y's BLOG</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-cut">
+          <a href="https://www.yleao.com/cut.html" rel="section">
+            
+            cut
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="/2018/0805/hexo上的live2d应用.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yann Peng">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Y's BLOG">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">hexo上的live2d应用</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-08-05T20:49:00+08:00">
+                2018-08-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>关于网页版的live2d首先是在<a href="http://www.live2d.com/ja/showcase/bilibili" target="_blank" rel="noopener">bilibili live</a>上看见的，也就是B站的看板娘，可支持换装、显示文字、点击播放语音动画等功能。于是就着手研究了一下，然后发现了hexo的一个插件：hexo-helper-live2d。</p>
+<hr>
+<blockquote>
+<h2 id="关于live2d"><a href="#关于live2d" class="headerlink" title="关于live2d"></a>关于live2d</h2></blockquote>
+<hr>
+<p>Live2D目前有两个分支：Cubism和Euclid。若无特殊说明，Live2D通常是指Cubism分支。其工作原理是通过将一系列的2D图像进行平移、旋转和变形等操作，生成一个具有自然动画效果的可动人物模型。由于Live2D只需一系列2D原图即可生成具有类似于3D动画效果的模型，比3D建模耗费的时间和成本更少，因此受到很多游戏制作者，特别是小成本AVG和手游作者的喜爱。另外，Live2D生成的模型相对于真正的3D模型，可以更好地还原手绘风格。<a href="https://zh.moegirl.org/zh-hans/Live2D#.E7.AE.80.E4.BB.8B" target="_blank" rel="noopener">—摘自萌娘百科</a>  </p>
+<p>其主要应用在游戏制作，漫画生成与建模等，普通用户则将其应用在电脑、手机上作为动态壁纸与网页装饰。此文主要分享如何为博客添加“看板娘”。</p>
+<a id="more"></a>
+<hr>
+<blockquote>
+<h2 id="hexo插件"><a href="#hexo插件" class="headerlink" title="hexo插件"></a>hexo插件</h2></blockquote>
+<hr>
+<h4 id="github地址"><a href="#github地址" class="headerlink" title="github地址"></a>github地址</h4><p><a href="https://github.com/EYHN/hexo-helper-live2d" target="_blank" rel="noopener">hexo-helper-live2d</a></p>
+<h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><p>安装模块:<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> <span class="comment">--save hexo-helper-live2d</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h4><p>向Hexo根目录下的 <figure class="highlight plain"><figcaption><span>文件中添加配置。  </span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">```</span><br><span class="line">## Live2D</span><br><span class="line">## https://github.com/EYHN/hexo-helper-live2d</span><br><span class="line">live2d:</span><br><span class="line">    enable: true</span><br><span class="line">  # enable: false</span><br><span class="line">    scriptFrom: local # 默认</span><br><span class="line">    pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)</span><br><span class="line">    pluginJsPath: lib/ # 脚本文件相对与插件根目录路径</span><br><span class="line">    pluginModelPath: assets/ # 模型文件相对与插件根目录路径</span><br><span class="line">  # scriptFrom: jsdelivr # jsdelivr CDN</span><br><span class="line">  # scriptFrom: unpkg # unpkg CDN</span><br><span class="line">  # scriptFrom: https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url</span><br><span class="line">    tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中</span><br><span class="line">    debug: false # 调试, 是否在控制台输出日志</span><br><span class="line">    model:</span><br><span class="line">      use: live2d-widget-model-wanko # npm-module package name</span><br><span class="line">    # use: wanko # 博客根目录/live2d_models/ 下的目录名</span><br><span class="line">    # use: ./wives/wanko # 相对于博客根目录的路径</span><br><span class="line">    # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url</span><br><span class="line">    display: # 模型位置，根据不同的模型自行调整</span><br><span class="line">      position: right</span><br><span class="line">      width: 150</span><br><span class="line">      height: 300</span><br><span class="line">    mobile: # 是否适用于移动端</span><br><span class="line">      show: true</span><br></pre></td></tr></table></figure></p>
+<p>如下图：<br><img src="https://i.loli.net/2018/08/06/5b6749f3ebbb0.jpg" alt="image 1">  </p>
+<hr>
+<h4 id="模型"><a href="#模型" class="headerlink" title="模型"></a>模型</h4><p>有许多方法来使用不同的模型:  </p>
+<h6 id="方法一：npm-模块名"><a href="#方法一：npm-模块名" class="headerlink" title="方法一：npm 模块名"></a>方法一：npm 模块名</h6><p>现有模型地址：<a href="https://github.com/xiazeyu/live2d-widget-models" target="_blank" rel="noopener">地址</a><br>使用npm install 模型的包名来安装,  安装成功后模型位于<code>/根目录/node_modules/</code><br>然后将包名输入位于<code>_config.yml</code>的<code>model.use</code>中.（如下图）</p>
+<p>  <img src="https://i.loli.net/2018/08/06/5b674fd164353.jpg" alt="image 2">  </p>
+<hr>
+<h6 id="方法二：-live2d-models子目录名称"><a href="#方法二：-live2d-models子目录名称" class="headerlink" title="方法二： live2d_models子目录名称"></a>方法二： live2d_models子目录名称</h6><ul>
+<li>在博客根目录下创建一个<code>live2d_models</code>文件夹.  </li>
+<li>在此文件夹内新建一个子文件夹.  </li>
+<li>将你的 Live2D 模型复制到这个子文件夹中.  </li>
+<li><p>将子文件夹的名称输入<code>_config.yml</code>的<code>model.use</code>中.  
+　</p>
+<p>　  </p>
+<h6 id="示例："><a href="#示例：" class="headerlink" title="示例："></a>示例：</h6></li>
+<li>你的模型叫mymiku.</li>
+<li>在博客根目录 (应当有<code>_config.yml</code>、<code>sources</code>、<code>themes</code>) 新建名为<code>live2d_models</code>的目录，再在其中建一个名为<code>mymiku</code>的子文件夹.  </li>
+<li>将模型复制到 <code>/live2d_models/mymiku/</code>中.现在在此文件夹里应当有一个 <code>.model.json</code>文件 (例如mymiku.model.json)  </li>
+<li>将 子文件夹名称<code>mymiku</code>输入到位于根目录<code>_config.yml</code>的<code>model.use</code>中. (如下图)   </li>
+</ul>
+<center><img src="https://i.loli.net/2018/08/06/5b674eabe650e.jpg" alt="image 3"> </center> 
+
+
+<h5 id="到此live2d就安装成功了，看看效果吧。"><a href="#到此live2d就安装成功了，看看效果吧。" class="headerlink" title="到此live2d就安装成功了，看看效果吧。"></a>到此live2d就安装成功了，看看效果吧。</h5><p>  <img src="https://i.loli.net/2018/08/06/5b6751a164ea5.gif" alt="gif 1"></p>
+<hr>
+<blockquote>
+<h2 id="如何获取模型"><a href="#如何获取模型" class="headerlink" title="如何获取模型"></a>如何获取模型</h2></blockquote>
+<hr>
+<p>首先先说说模型格式，一般hexo-helper-live2d的模型格式都为下面两种</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">这种moc+json+文件夹材质的是<span class="number">2</span>.x版本的工程文件</span><br><span class="line">│  model<span class="selector-class">.model</span><span class="selector-class">.json</span>    <span class="comment">// 模型json数据</span></span><br><span class="line">│  model<span class="selector-class">.moc</span>           <span class="comment">// 模型文件</span></span><br><span class="line">│</span><br><span class="line">└─model.<span class="number">1024</span></span><br><span class="line">        texture_00<span class="selector-class">.png</span>  <span class="comment">// 模型材质贴图（不同分辨率用）</span></span><br><span class="line">        </span><br><span class="line">这种json文件内容 是与当前目录的文件对应的</span><br><span class="line">&#123;</span><br><span class="line">	<span class="string">"type"</span>: <span class="string">"Live2D Model Setting"</span>,</span><br><span class="line">	<span class="string">"name"</span>: <span class="string">"makoto0"</span>,</span><br><span class="line">	<span class="string">"model"</span>: <span class="string">"makoto0.moc"</span>,</span><br><span class="line">	<span class="string">"textures"</span>: [</span><br><span class="line">		<span class="string">"makoto0.2048/texture_00.png"</span></span><br><span class="line">	]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h5 id="获取方法"><a href="#获取方法" class="headerlink" title="获取方法:"></a>获取方法:</h5><p>贴吧、论坛上的分享, live2d官方分享库，可能需要修改模型格式 。<br>游戏内提取，注意版权问题<br>自己制作  </p>
+<p>最后再贴一个在github上找到的模型，种类挺多，可预览，<a href="https://github.com/summerscar/live2dDemo" target="_blank" rel="noopener">github地址</a><br>修改modelname进行预览，modelname可在<a href="https://github.com/summerscar/live2dDemo/blob/master/README.md" target="_blank" rel="noopener">这里</a>查阅，<a href="http://summerscar.me/live2dDemo/" target="_blank" rel="noopener">预览地址</a><br>使用方法很简单，打包下载下来，解压后在<code>/live2dDemo-master/assets/</code>中找到喜欢的模型，按照上面的<strong>方法二</strong>，直接把模型所在的文件夹拖入到博客根目录中的<code>live2d_models</code>里，再修改<code>_config.yml</code> 里的 <code>model.use</code>即可。</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/经验/" rel="tag"># 经验</a>
+          
+            <a href="/tags/github/" rel="tag"># github</a>
+          
+            <a href="/tags/plugin/" rel="tag"># plugin</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/0802/腾讯云COS-Github双服务器托管hexo.html" rel="next" title="腾讯云COS+Github双服务器托管hexo">
+                <i class="fa fa-chevron-left"></i> 腾讯云COS+Github双服务器托管hexo
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/0807/解析接口.html" rel="prev" title="解析接口">
+                解析接口 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/uploads/avatar.png"
+                alt="Yann Peng" />
+            
+              <p class="site-author-name" itemprop="name">Yann Peng</p>
+              <p class="site-description motion-element" itemprop="description">一路步履不停，却总是慢一拍。</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">20</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">20</span>
+                  <span class="site-state-item-name">tags</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="1@yleao.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="http://steamcommunity.com/id/yleao" target="_blank" title="Steam">
+                      
+                        <i class="fa fa-fw fa-steam"></i>Steam</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.douban.com/people/yleao/" target="_blank" title="Douban">
+                      
+                        <i class="fa fa-fw fa-video-camera"></i>Douban</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#关于live2d"><span class="nav-text">关于live2d</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo插件"><span class="nav-text">hexo插件</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#github地址"><span class="nav-text">github地址</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#安装"><span class="nav-text">安装</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#配置"><span class="nav-text">配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#模型"><span class="nav-text">模型</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#方法一：npm-模块名"><span class="nav-text">方法一：npm 模块名</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#方法二：-live2d-models子目录名称"><span class="nav-text">方法二： live2d_models子目录名称</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#示例："><span class="nav-text">示例：</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#到此live2d就安装成功了，看看效果吧。"><span class="nav-text">到此live2d就安装成功了，看看效果吧。</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#如何获取模型"><span class="nav-text">如何获取模型</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#获取方法"><span class="nav-text">获取方法:</span></a></li></ol></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder"><a href="http://www.miitbeian.gov.cn/"target="_blank">湘ICP备18014937号</a></span>
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a></div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+
+  
+
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"right","width":130,"height":150},"mobile":{"show":true},"log":false});</script></body>
+</html>

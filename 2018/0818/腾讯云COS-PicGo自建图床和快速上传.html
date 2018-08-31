@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico?v=5.1.4">
+
+
+
+
+
+
+  <meta name="keywords" content="经验,github,搭建," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Y's BLOG" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="因为现在网上的各种图床都限制大小和数量，使用起来很不方便，全站 https 也越来越普及，http 图床虽然不多，另外隐私方面也是一大问题，例如Find who he/she is和谁是Po主，不过在xx说隐私还是有点妄想了/摊手。  所以自建图床还是有点用处的。">
+<meta name="keywords" content="经验,github,搭建">
+<meta property="og:type" content="article">
+<meta property="og:title" content="腾讯云COS+PicGo自建图床和快速上传">
+<meta property="og:url" content="/2018/0818/腾讯云COS-PicGo自建图床和快速上传.html">
+<meta property="og:site_name" content="Y&#39;s BLOG">
+<meta property="og:description" content="因为现在网上的各种图床都限制大小和数量，使用起来很不方便，全站 https 也越来越普及，http 图床虽然不多，另外隐私方面也是一大问题，例如Find who he/she is和谁是Po主，不过在xx说隐私还是有点妄想了/摊手。  所以自建图床还是有点用处的。">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https://i.loli.net/2018/08/02/5b623ccb4c660.jpg">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180818013931.jpg">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180818015527.jpg">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/3214324353454353453.jpg">
+<meta property="og:image" content="https://user-images.githubusercontent.com/12621342/34243294-082c97cc-e65b-11e7-9412-dbc86433a91d.png">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180818021133.jpg">
+<meta property="og:image" content="https://main.qcloudimg.com/raw/f836aa8efc9b07b79d47a203c697aa49.png">
+<meta property="og:image" content="https://main.qcloudimg.com/raw/f4d33dbbab044ace5116cb97b07187a5.png">
+<meta property="og:image" content="https://main.qcloudimg.com/raw/75bf0c1e038bd2db498c396317544fdd.png">
+<meta property="og:updated_time" content="2018-08-31T06:23:08.323Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="腾讯云COS+PicGo自建图床和快速上传">
+<meta name="twitter:description" content="因为现在网上的各种图床都限制大小和数量，使用起来很不方便，全站 https 也越来越普及，http 图床虽然不多，另外隐私方面也是一大问题，例如Find who he/she is和谁是Po主，不过在xx说隐私还是有点妄想了/摊手。  所以自建图床还是有点用处的。">
+<meta name="twitter:image" content="https://i.loli.net/2018/08/02/5b623ccb4c660.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="/2018/0818/腾讯云COS-PicGo自建图床和快速上传.html"/>
+
+
+
+
+
+  <title>腾讯云COS+PicGo自建图床和快速上传 | Y's BLOG</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Y's BLOG</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-cut">
+          <a href="https://www.yleao.com/cut.html" rel="section">
+            
+            cut
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="/2018/0818/腾讯云COS-PicGo自建图床和快速上传.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yann Peng">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Y's BLOG">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">腾讯云COS+PicGo自建图床和快速上传</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-08-18T01:06:00+08:00">
+                2018-08-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>因为现在网上的各种图床都限制大小和数量，使用起来很不方便，全站 https 也越来越普及，http 图床虽然不多，另外隐私方面也是一大问题，例如<a href="https://gongpeione.github.io/wbimg2wb/index.html" target="_blank" rel="noopener">Find who he/she is</a>和<a href="http://weibo.2333.me/" target="_blank" rel="noopener">谁是Po主</a>，不过在xx说隐私还是有点妄想了<code>/摊手</code>。  所以自建图床还是有点用处的。 </p>
+<a id="more"></a>
+<hr>
+<p>首先还是利用腾讯云COS，进入<a href="https://console.cloud.tencent.com/cos5/bucket" target="_blank" rel="noopener">对象储存页面</a>创建一个bucket。<br><img src="https://i.loli.net/2018/08/02/5b623ccb4c660.jpg" alt="image 0">  </p>
+<p>创建文件夹之后可以新建几个文件夹进行分类，例如 <code>/image</code>、<code>/video</code>、<code>/music</code>等等。  创建完成之后你所上传的图片视频等文件就会储存在这里面。  </p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180818013931.jpg" alt="image 1">  </p>
+<hr>
+<p>下载<a href="https://github.com/Molunerfinn/PicGo/releases" target="_blank" rel="noopener">PicGo</a>，macOS用户请下载最新版本的<code>dmg</code>文件，windows用户请下载最新版本的<code>exe</code>文件，linux用户请下载<code>AppImage</code>文件。  </p>
+<p>Picgo现在支持微博图床、七牛图床、腾讯云COS v4\v5版本、又拍云、GitHub、SM.MS、阿里云OSS、Imgur。<strong>非常感谢原作者的创作和无私分享</strong>。</p>
+<p><a href="https://github.com/Molunerfinn/PicGo/wiki/%E8%AF%A6%E7%BB%86%E7%AA%97%E5%8F%A3%E7%9A%84%E4%BD%BF%E7%94%A8" target="_blank" rel="noopener">这里</a>为各图床的使用指南。  </p>
+<hr>
+<p>PicGo安装完成之后打开可看到如下窗口：  </p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180818015527.jpg" alt="image 2"></p>
+<p>图片上传之后会把图片链接自动复制到粘贴板里。链接格式可以修改，有<code>Markdown</code>、<code>HTML</code>、<code>URL</code>、<code>UBB</code>、<code>Custom</code>。上传的图片可在相册里面预览、且修改图片url。</p>
+<p>接下来要把腾讯云上创建的储存桶连接到PicGo，点击PicGo面板上的腾讯云COS。可看到如下：  </p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/3214324353454353453.jpg" alt="image 3"></p>
+<p>因为现在的COS版本基本都是V5了，所以要勾选COS版本为V5，下面的<code>secretld</code>、<code>secretkey</code>、<code>appid</code>则要去<a href="https://console.qcloud.com/cam/capi" target="_blank" rel="noopener">云API密匙</a>新建，如以前有密匙则没必要新建，直接用就可以。  </p>
+<p><img src="https://user-images.githubusercontent.com/12621342/34243294-082c97cc-e65b-11e7-9412-dbc86433a91d.png" alt="image 4"></p>
+<p>存储的空间名是你的bucket名字，包括后面的数字。储存区域在储存桶列表有显示。如果你想把图片上传到你的bucket空间的某个文件夹下，则需要在PicGo里的指定存储路径里加上你的文件夹路径。比如<code>image/</code>（注意一定要加/）。</p>
+<p>全部填好之后点确定并且要记得点击设为默认图床，这样上传才会默认走的是腾讯云COS。上传图片之后则会将图片自动上传到腾讯云COS里。  </p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180818021133.jpg" alt="image 5"></p>
+<hr>
+<p>利用CDN给图床加速，进入储存桶列表点击所创建的储存桶，然后点击域名管理，并开启默认域名加速，源站类型为XML节点，开启回源鉴权。单击【保存】之后，“默认加速域名”下会出现 CDN 鉴权状态提示，可通过单击页面上【鉴权配置】开始配置。 </p>
+<p><img src="https://main.qcloudimg.com/raw/f836aa8efc9b07b79d47a203c697aa49.png" alt="image 6"></p>
+<p>在跳转界面中单击“鉴权配置”旁边的开启按钮，输入鉴权 Key 和有效时间。 </p>
+<p><img src="https://main.qcloudimg.com/raw/f4d33dbbab044ace5116cb97b07187a5.png" alt="image 7"></p>
+<p><img src="https://main.qcloudimg.com/raw/75bf0c1e038bd2db498c396317544fdd.png" alt="imag8">  </p>
+<p>如不清楚什么是鉴权配置可点击<a href="https://cloud.tencent.com/document/product/228/13677" target="_blank" rel="noopener">官方文档</a>。</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/经验/" rel="tag"># 经验</a>
+          
+            <a href="/tags/github/" rel="tag"># github</a>
+          
+            <a href="/tags/搭建/" rel="tag"># 搭建</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/0810/hexo上的dplayer应用与嵌入视频的响应式设置-1.html" rel="next" title="hexo上的dplayer应用与嵌入视频的响应式设置">
+                <i class="fa fa-chevron-left"></i> hexo上的dplayer应用与嵌入视频的响应式设置
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/0818/Mirage中VIP跳B小.html" rel="prev" title="Mirage中VIP跳B小">
+                Mirage中VIP跳B小 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/uploads/avatar.png"
+                alt="Yann Peng" />
+            
+              <p class="site-author-name" itemprop="name">Yann Peng</p>
+              <p class="site-description motion-element" itemprop="description">一路步履不停，却总是慢一拍。</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">20</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">20</span>
+                  <span class="site-state-item-name">tags</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="1@yleao.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="http://steamcommunity.com/id/yleao" target="_blank" title="Steam">
+                      
+                        <i class="fa fa-fw fa-steam"></i>Steam</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.douban.com/people/yleao/" target="_blank" title="Douban">
+                      
+                        <i class="fa fa-fw fa-video-camera"></i>Douban</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder"><a href="http://www.miitbeian.gov.cn/"target="_blank">湘ICP备18014937号</a></span>
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a></div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+
+  
+
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"right","width":130,"height":150},"mobile":{"show":true},"log":false});</script></body>
+</html>
