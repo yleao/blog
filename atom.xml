@@ -93,11 +93,11 @@
     </summary>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
       <category term="csgo" scheme="/tags/csgo/"/>
     
       <category term="game" scheme="/tags/game/"/>
+    
+      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
   </entry>
   
@@ -184,9 +184,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="github" scheme="/tags/github/"/>
-    
       <category term="hexo" scheme="/tags/hexo/"/>
+    
+      <category term="github" scheme="/tags/github/"/>
     
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
@@ -208,9 +208,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="github" scheme="/tags/github/"/>
-    
       <category term="hexo" scheme="/tags/hexo/"/>
+    
+      <category term="github" scheme="/tags/github/"/>
     
   </entry>
   
@@ -303,9 +303,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="github" scheme="/tags/github/"/>
-    
       <category term="hexo" scheme="/tags/hexo/"/>
+    
+      <category term="github" scheme="/tags/github/"/>
     
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
@@ -316,18 +316,11 @@
     <link href="/2018/0802/%E5%B5%8C%E5%85%A5%E6%B5%8B%E8%AF%95.html"/>
     <id>/2018/0802/嵌入测试.html</id>
     <published>2018-08-01T21:57:00.000Z</published>
-    <updated>2018-08-31T14:19:49.559Z</updated>
+    <updated>2018-08-31T15:41:08.846Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;引入html来设置&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&quot;视频嵌入&quot;&gt;&lt;a href=&quot;#视频嵌入&quot; class=&quot;headerlink&quot; title=&quot;视频嵌入&quot;&gt;&lt;/a&gt;视频嵌入&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&lt;font color=&quot;#ff000&quot;&gt;YOUTUBE&lt;/font&gt;&lt;/strong&gt; &lt;strong&gt;TEST&lt;/strong&gt;  &lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;iframe width=&amp;quot;560&amp;quot; height=&amp;quot;315&amp;quot; src=&amp;quot;https://www.youtube.com/embed/7OYkWSW7u4k&amp;quot; frameborder=&amp;quot;0&amp;quot; allow=&amp;quot;autoplay; encrypted-media&amp;quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/7OYkWSW7u4k&quot; frameborder=&quot;0&quot; allow=&quot;autoplay;&quot; encrypted-media=&quot;&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;  
-&lt;p&gt;　  &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;font color=&quot;#87CEFA&quot;&gt;BILIBILI&lt;/font&gt;&lt;/strong&gt; &lt;strong&gt;TEST&lt;/strong&gt;&lt;br&gt;&lt;figure class=&quot;highlight maxima&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;iframe &lt;span class=&quot;built_in&quot;&gt;width&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;300&quot;&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;height&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;176&quot;&lt;/span&gt; src=&lt;span class=&quot;string&quot;&gt;&quot;//player.bilibili.com/player.html?aid=7728624&amp;amp;cid=12668755&amp;amp;page=1&quot;&lt;/span&gt; scrolling=&lt;span class=&quot;string&quot;&gt;&quot;no&quot;&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;border&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;0&quot;&lt;/span&gt; frameborder=&lt;span class=&quot;string&quot;&gt;&quot;no&quot;&lt;/span&gt; framespacing=&lt;span class=&quot;string&quot;&gt;&quot;0&quot;&lt;/span&gt; allowfullscreen=&lt;span class=&quot;string&quot;&gt;&quot;true&quot;&lt;/span&gt;&amp;gt; &amp;lt;/iframe&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;iframe width=&quot;300&quot; height=&quot;176&quot; src=&quot;//player.bilibili.com/player.html?aid=7728624&amp;cid=12668755&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;
     
     </summary>
     
@@ -416,13 +409,12 @@
     <link href="/2018/0731/%E5%AD%97%E4%BD%93%E3%80%81%E5%AD%97%E5%8F%B7%E4%B8%8E%E9%A2%9C%E8%89%B2%E6%B5%8B%E8%AF%95.html"/>
     <id>/2018/0731/字体、字号与颜色测试.html</id>
     <published>2018-07-31T12:37:00.000Z</published>
-    <updated>2018-08-31T01:44:31.258Z</updated>
+    <updated>2018-08-31T15:34:40.593Z</updated>
     
     <summary type="html">
     
       &lt;h2 id=&quot;字体测试&quot;&gt;&lt;a href=&quot;#字体测试&quot; class=&quot;headerlink&quot; title=&quot;字体测试&quot;&gt;&lt;/a&gt;字体测试&lt;/h2&gt;&lt;h3 id=&quot;代码&quot;&gt;&lt;a href=&quot;#代码&quot; class=&quot;headerlink&quot; title=&quot;代码&quot;&gt;&lt;/a&gt;代码&lt;/h3&gt;&lt;figure class=&quot;highlight routeros&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;font &lt;span class=&quot;attribute&quot;&gt;face&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;黑体&quot;&lt;/span&gt;&amp;gt;我是黑体字&amp;lt;/font&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;font &lt;span class=&quot;attribute&quot;&gt;face&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;微软雅黑&quot;&lt;/span&gt;&amp;gt;我是微软雅黑&amp;lt;/font&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;font &lt;span class=&quot;attribute&quot;&gt;face&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;STCAIYUN&quot;&lt;/span&gt;&amp;gt;我是华文彩云&amp;lt;/font&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;font &lt;span class=&quot;attribute&quot;&gt;color&lt;/span&gt;=#0099ff &lt;span class=&quot;attribute&quot;&gt;size&lt;/span&gt;=7 &lt;span class=&quot;attribute&quot;&gt;face&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;黑体&quot;&lt;/span&gt;&amp;gt;size=7 &lt;span class=&quot;attribute&quot;&gt;face&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;黑体&quot;&lt;/span&gt;&amp;lt;/font&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;font &lt;span class=&quot;attribute&quot;&gt;color&lt;/span&gt;=#00ffff &lt;span class=&quot;attribute&quot;&gt;size&lt;/span&gt;=7&amp;gt;color=#00ffff&amp;lt;/font&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;font &lt;span class=&quot;attribute&quot;&gt;color&lt;/span&gt;=gray &lt;span class=&quot;attribute&quot;&gt;size&lt;/span&gt;=7&amp;gt;color=gray&amp;lt;/font&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;b&gt;Size:规定文本的尺寸大小。可能的值：从1到7的数字。浏览器默认值是3。&lt;/b&gt;&lt;/p&gt;
-&lt;h3 id=&quot;效果&quot;&gt;&lt;a href=&quot;#效果&quot; class=&quot;headerlink&quot; title=&quot;效果&quot;&gt;&lt;/a&gt;效果&lt;/h3&gt;&lt;font face=&quot;黑体&quot;&gt;我是黑体字&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font face=&quot;微软雅黑&quot;&gt;我是微软雅黑&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font face=&quot;STCAIYUN&quot;&gt;我是华文彩云&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#0099ff&quot; size=&quot;7&quot; face=&quot;黑体&quot;&gt;size=7 face=”黑体”&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#00ffff&quot; size=&quot;7&quot;&gt;color=#00ffff 可以用十六位颜色值&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot; size=&quot;7&quot;&gt;color=gray 也可以用已知颜色名&lt;/font&gt;
     
     </summary>
     
@@ -438,7 +430,7 @@
     <link href="/2018/0731/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88.html"/>
     <id>/2018/0731/日本語テスト.html</id>
     <published>2018-07-31T10:44:00.000Z</published>
-    <updated>2018-08-09T01:25:26.044Z</updated>
+    <updated>2018-08-31T15:35:07.127Z</updated>
     
     <summary type="html">
     
@@ -459,7 +451,7 @@
     <link href="/2018/0731/%E4%B8%AD%E6%96%87%E6%B5%8B%E8%AF%95.html"/>
     <id>/2018/0731/中文测试.html</id>
     <published>2018-07-31T10:38:00.000Z</published>
-    <updated>2018-08-09T01:25:26.038Z</updated>
+    <updated>2018-08-31T15:35:28.018Z</updated>
     
     <summary type="html">
     
