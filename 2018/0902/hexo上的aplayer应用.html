@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico?v=5.1.4">
+
+
+
+
+
+
+  <meta name="keywords" content="经验,github,hexo,搭建,html,music," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Y's BLOG" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="小记aplayer是一个非常漂亮好用的HTML5音乐播放器，和dplayer师出同门，本篇主要分享一下自己搭建到hexo上的一些经验。">
+<meta name="keywords" content="经验,github,hexo,搭建,html,music">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo上的aplayer应用">
+<meta property="og:url" content="/2018/0902/hexo上的aplayer应用.html">
+<meta property="og:site_name" content="Y&#39;s BLOG">
+<meta property="og:description" content="小记aplayer是一个非常漂亮好用的HTML5音乐播放器，和dplayer师出同门，本篇主要分享一下自己搭建到hexo上的一些经验。">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https://i.loli.net/2018/09/02/5b8ad14c20bea.jpg">
+<meta property="og:image" content="https://i.loli.net/2018/09/02/5b8ad2617acca.jpg">
+<meta property="og:image" content="https://i.loli.net/2018/09/02/5b8ad371099bd.jpg">
+<meta property="og:image" content="https://i.loli.net/2018/09/02/5b8ad4273d32d.jpg">
+<meta property="og:image" content="https://i.loli.net/2018/09/02/5b8add4ad8225.jpg">
+<meta property="og:image" content="https://i.loli.net/2018/09/02/5b8add5eb0a07.jpg">
+<meta property="og:image" content="https://i.loli.net/2018/09/02/5b8add6a71168.jpg">
+<meta property="og:image" content="https://i.loli.net/2018/09/02/5b8adf4f8db84.jpg">
+<meta property="og:updated_time" content="2018-09-01T19:13:23.637Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="hexo上的aplayer应用">
+<meta name="twitter:description" content="小记aplayer是一个非常漂亮好用的HTML5音乐播放器，和dplayer师出同门，本篇主要分享一下自己搭建到hexo上的一些经验。">
+<meta name="twitter:image" content="https://i.loli.net/2018/09/02/5b8ad14c20bea.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="/2018/0902/hexo上的aplayer应用.html"/>
+
+
+
+
+
+
+  <title>hexo上的aplayer应用 | Y's BLOG</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+  
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Y's BLOG</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-cut">
+          <a href="https://www.yleao.com/cut.html" rel="section">
+            
+            Cut
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="/2018/0902/hexo上的aplayer应用.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yann Peng">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Y's BLOG">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">hexo上的aplayer应用</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-09-02T01:17:22+08:00">
+                2018-09-02
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h5 id="小记"><a href="#小记" class="headerlink" title="小记"></a>小记</h5><p>aplayer是一个非常漂亮好用的HTML5音乐播放器，和dplayer师出同门，本篇主要分享一下自己搭建到hexo上的一些经验。</p>
+<a id="more"></a>
+<hr>
+<h2 id="下载aplayer"><a href="#下载aplayer" class="headerlink" title="下载aplayer"></a>下载aplayer</h2><p>点击访问aplayer源码：<a href="https://github.com/MoePlayer/APlayer" target="_blank" rel="noopener">GitHub Aplayer</a>，将文件下载到本地，解压后将<code>dist</code>文件夹复制到<code>~/hexo/themes/next/source</code>文件夹下。</p>
+<hr>
+<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><h4 id="新建music-js"><a href="#新建music-js" class="headerlink" title="新建music.js"></a>新建music.js</h4><p>在<code>~/hexo/themes/next/source/dist</code>文件夹中新建<code>music.js</code>文件，将下面代码添加进去：<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">const</span> <span class="string">ap</span> <span class="string">=</span> <span class="string">new</span> <span class="string">APlayer(&#123;</span></span><br><span class="line"><span class="attr">    container:</span> <span class="string">document.getElementById('aplayer'),</span></span><br><span class="line"><span class="attr">    autoplay:</span> <span class="literal">false</span><span class="string">,</span></span><br><span class="line"><span class="attr">    loop:</span> <span class="string">'all'</span><span class="string">,</span></span><br><span class="line"><span class="attr">    volume:</span> <span class="number">0.7</span><span class="string">,</span></span><br><span class="line"><span class="attr">    listFolded:</span> <span class="literal">true</span><span class="string">,</span></span><br><span class="line"><span class="attr">    listMaxHeight:</span> <span class="number">60</span><span class="string">,</span></span><br><span class="line"><span class="attr">    audio:</span> <span class="string">[</span></span><br><span class="line">        <span class="string">&#123;</span></span><br><span class="line"><span class="attr">            name:</span> <span class="string">'name1'</span><span class="string">,</span></span><br><span class="line"><span class="attr">            artist:</span> <span class="string">'artist1'</span><span class="string">,</span></span><br><span class="line"><span class="attr">            url:</span> <span class="string">'url1.mp3'</span><span class="string">,</span></span><br><span class="line"><span class="attr">            cover:</span> <span class="string">'cover1.jpg'</span><span class="string">,</span></span><br><span class="line">        <span class="string">&#125;,</span></span><br><span class="line">        <span class="string">&#123;</span></span><br><span class="line"><span class="attr">            name:</span> <span class="string">'name2'</span><span class="string">,</span></span><br><span class="line"><span class="attr">            artist:</span> <span class="string">'artist2'</span><span class="string">,</span></span><br><span class="line"><span class="attr">            url:</span> <span class="string">'url2.mp3'</span><span class="string">,</span></span><br><span class="line"><span class="attr">            cover:</span> <span class="string">'cover2.jpg'</span><span class="string">,</span></span><br><span class="line">        <span class="string">&#125;</span></span><br><span class="line">    <span class="string">]</span></span><br><span class="line"><span class="string">&#125;);</span></span><br></pre></td></tr></table></figure></p>
+<hr>
+<h4 id="参数修改"><a href="#参数修改" class="headerlink" title="参数修改"></a>参数修改</h4><p>上面代码为你在hexo上生成aplayer播放器的样式，参数修改参考<a href="https://aplayer.js.org/#/zh-Hans/?id=%E5%8F%82%E6%95%B0" target="_blank" rel="noopener">官方中文文档</a>。</p>
+<h5 id="修改aplayer样式："><a href="#修改aplayer样式：" class="headerlink" title="修改aplayer样式："></a>修改aplayer样式：</h5><p><u>普通模式代码</u>：<br><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> ap = <span class="keyword">new</span> APlayer(&#123;</span><br><span class="line">    container: <span class="built_in">document</span>.getElementById(<span class="string">'aplayer'</span>),</span><br><span class="line">    audio: [&#123;</span><br><span class="line">        name: <span class="string">'name'</span>,</span><br><span class="line">        artist: <span class="string">'artist'</span>,</span><br><span class="line">        url: <span class="string">'url.mp3'</span>,</span><br><span class="line">        cover: <span class="string">'cover.jpg'</span></span><br><span class="line">    &#125;]</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
+<p>效果如下：</p>
+<p><img src="https://i.loli.net/2018/09/02/5b8ad14c20bea.jpg" alt="image 1"></p>
+<p><u>播放列表模式代码</u>：<br><figure class="highlight xl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">const ap = new APlayer(&#123;</span><br><span class="line">    container: document.getElementById(<span class="string">'player'</span>),</span><br><span class="line">    listFolded: <span class="literal">false</span>,<span class="comment">//列表默认折叠</span></span><br><span class="line">    listMaxHeight: <span class="number">90</span>,<span class="comment">//列表最大高度</span></span><br><span class="line">    lrcType: <span class="number">3</span>, <span class="comment">//此为歌词格式，没有歌词可以直接删掉这一行</span></span><br><span class="line">    audio: [</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">name</span>: <span class="string">'name1'</span>,</span><br><span class="line">            artist: <span class="string">'artist1'</span>,</span><br><span class="line">            url: <span class="string">'url1.mp3'</span>,</span><br><span class="line">            cover: <span class="string">'cover1.jpg'</span>,</span><br><span class="line">            lrc: <span class="string">'lrc1.lrc'</span>,</span><br><span class="line">            <span class="built_in">theme</span>: <span class="string">'#ebd0c2'</span></span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">name</span>: <span class="string">'name2'</span>,</span><br><span class="line">            artist: <span class="string">'artist2'</span>,</span><br><span class="line">            url: <span class="string">'url2.mp3'</span>,</span><br><span class="line">            cover: <span class="string">'cover2.jpg'</span>,</span><br><span class="line">            lrc: <span class="string">'lrc2.lrc'</span>,</span><br><span class="line">            <span class="built_in">theme</span>: <span class="string">'#46718b'</span></span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
+<p>效果如下：</p>
+<p><img src="https://i.loli.net/2018/09/02/5b8ad2617acca.jpg" alt="image 2"></p>
+<p><u>吸底模式代码</u>：<br><figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> ap = <span class="keyword">new</span> APlayer(&#123;</span><br><span class="line">    container: document.getElementById(<span class="string">'player'</span>),</span><br><span class="line">    <span class="keyword">fixed</span>: <span class="literal">true</span>,</span><br><span class="line">    audio: [&#123;</span><br><span class="line">        name: <span class="string">'name'</span>,</span><br><span class="line">        artist: <span class="string">'artist'</span>,</span><br><span class="line">        url: <span class="string">'url.mp3'</span>,</span><br><span class="line">        cover: <span class="string">'cover.jpg'</span>,</span><br><span class="line">    &#125;]</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
+<p>效果如下：</p>
+<p><img src="https://i.loli.net/2018/09/02/5b8ad371099bd.jpg" alt="image 3"></p>
+<p><u>迷你模式代码</u>：<br><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> ap = <span class="keyword">new</span> APlayer(&#123;</span><br><span class="line">    container: <span class="built_in">document</span>.getElementById(<span class="string">'player'</span>),</span><br><span class="line">    mini: <span class="keyword">true</span>,</span><br><span class="line">    audio: [&#123;</span><br><span class="line">        name: <span class="string">'name'</span>,</span><br><span class="line">        artist: <span class="string">'artist'</span>,</span><br><span class="line">        url: <span class="string">'url.mp3'</span>,</span><br><span class="line">        cover: <span class="string">'cover.jpg'</span>,</span><br><span class="line">    &#125;]</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
+<p>效果如下：</p>
+<p><img src="https://i.loli.net/2018/09/02/5b8ad4273d32d.jpg" alt="image 4"></p>
+<h5 id="其他参数修改"><a href="#其他参数修改" class="headerlink" title="其他参数修改"></a>其他参数修改</h5><p>其他参数解释都能在官方文档里面查看，我再累赘一遍吧。</p>
+<figure class="highlight xl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">const ap = new APlayer(&#123;</span><br><span class="line">    container: document.getElementById(<span class="string">'aplayer'</span>), <span class="comment">//播放器容器元素</span></span><br><span class="line">    mini: <span class="literal">false</span>, <span class="comment">//迷你模式</span></span><br><span class="line">    autoplay: <span class="literal">false</span>, <span class="comment">//自动播放</span></span><br><span class="line">    <span class="built_in">theme</span>: <span class="string">'#FADFA3'</span>, <span class="comment">//主题色</span></span><br><span class="line">    <span class="keyword">loop</span>: <span class="string">'all'</span>, <span class="comment">//音频循环播放, 可选值: 'all'全部循环, 'one'单曲循环, 'none'不循环</span></span><br><span class="line">    order: <span class="string">'random'</span>, <span class="comment">//音频循环顺序, 可选值: 'list'列表循环, 'random'随机循环</span></span><br><span class="line">    preload: <span class="string">'auto'</span>, <span class="comment">//预加载，可选值: 'none', 'metadata', 'auto'</span></span><br><span class="line">    volume: <span class="number">0.7</span>, <span class="comment">//默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效</span></span><br><span class="line">    mutex: <span class="literal">true</span>, <span class="comment">//互斥，阻止多个播放器同时播放，当前播放器播放时暂停其他播放器</span></span><br><span class="line">    listFolded: <span class="literal">false</span>, <span class="comment">//列表默认折叠</span></span><br><span class="line">    listMaxHeight: <span class="number">90</span>, <span class="comment">//列表最大高度</span></span><br><span class="line">    lrcType: <span class="number">3</span>, <span class="comment">//歌词传递方式</span></span><br><span class="line">    audio: [ <span class="comment">//音频信息,包含以下</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">name</span>: <span class="string">'name1'</span>, <span class="comment">//音频名称</span></span><br><span class="line">            artist: <span class="string">'artist1'</span>, <span class="comment">//音频艺术家</span></span><br><span class="line">            url: <span class="string">'url1.mp3'</span>, <span class="comment">//音频外链</span></span><br><span class="line">            cover: <span class="string">'cover1.jpg'</span>, <span class="comment">//音频封面</span></span><br><span class="line">            lrc: <span class="string">'lrc1.lrc'</span>, <span class="comment">//音频歌词，配合上面的lrcType使用</span></span><br><span class="line">            <span class="built_in">theme</span>: <span class="string">'#ebd0c2'</span> <span class="comment">//切换到此音频时的主题色，比上面的 theme 优先级高</span></span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">name</span>: <span class="string">'name2'</span>, <span class="comment">//如果只有一首歌，删掉这一块，如有更多歌曲按此格式逐渐往下添加</span></span><br><span class="line">            artist: <span class="string">'artist2'</span>,</span><br><span class="line">            url: <span class="string">'url2.mp3'</span>,</span><br><span class="line">            cover: <span class="string">'cover2.jpg'</span>,</span><br><span class="line">            lrc: <span class="string">'lrc2.lrc'</span>,</span><br><span class="line">            <span class="built_in">theme</span>: <span class="string">'#46718b'</span></span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<p>更多有趣的功能自己去发掘吧。</p>
+<p>再在这里放一个<a href="http://www.ytmp3.cn/" target="_blank" rel="noopener">音乐外链网站</a>，搜索音乐，然后复制url和右击封面图片链接粘贴到对应的位置上就行了。或者参考我的另一篇<a href="https://blog.yleao.com/2018/0831/%E6%8F%90%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E5%A4%96%E9%93%BE.html" target="_blank" rel="noopener">文章</a>。</p>
+<hr>
+<h4 id="aplayer放置"><a href="#aplayer放置" class="headerlink" title="aplayer放置"></a>aplayer放置</h4><p>上面操作完成后，aplayer的样式就已经设置好了。现在要做的就是把aplayer放在自己想要放置的位置上，放置代码如下：<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"/dist/APlayer.min.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"aplayer"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"/dist/APlayer.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"/dist/music.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>将放置代码放在不同的<code>~/hexo/themes/next/layout/***.swig</code>文件内会有不同的效果。</p>
+<p>例1：</p>
+<p><img src="https://i.loli.net/2018/09/02/5b8add4ad8225.jpg" alt="image 5"></p>
+<p>例2：</p>
+<p><img src="https://i.loli.net/2018/09/02/5b8add5eb0a07.jpg" alt="image 6"></p>
+<p>例3：</p>
+<p><img src="https://i.loli.net/2018/09/02/5b8add6a71168.jpg" alt="image 7"></p>
+<p>每个人使用的主题不一样，要根据自己的主题去调试。例如我用的是next-mist主题，且喜欢放置在侧边栏。那么在<code>~/hexo/themes/next/layout/_marco</code>文件夹下找到<code>sidebar.swig</code>。</p>
+<p>如果我要放置在侧边栏的<code>推荐阅读</code>下面,那么在<code>sidebar.swig</code>中找到<code>if theme.links</code>，将放置代码添加到<code>endif</code>之后。如下图：</p>
+<p><img src="https://i.loli.net/2018/09/02/5b8adf4f8db84.jpg" alt="image 8"></p>
+<p>如要放置到<code>RSS</code>下就在<code>sidebar.swig</code>中搜索<code>if theme.rss</code>，也是添加到<code>endif</code>之后。</p>
+<p>想放在其他位置就自己去尝试吧。</p>
+
+      
+    </div>
+    
+    
+    
+
+	
+    
+	
+    <div>
+     
+       <div>
+    
+        <div style="text-align:center;color: #FA8072;font-size:10px;">------------- End  <i class="fa fa-hourglass-end" aria-hidden="true"></i>  Thank For Your Reading -------------</div>
+    
+</div>
+     
+    </div>
+	
+    
+
+    
+    
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/经验/" rel="tag"># 经验</a>
+          
+            <a href="/tags/github/" rel="tag"># github</a>
+          
+            <a href="/tags/hexo/" rel="tag"># hexo</a>
+          
+            <a href="/tags/搭建/" rel="tag"># 搭建</a>
+          
+            <a href="/tags/html/" rel="tag"># html</a>
+          
+            <a href="/tags/music/" rel="tag"># music</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/0901/hexo-next主题下的美化.html" rel="next" title="hexo-next主题下的美化">
+                <i class="fa fa-chevron-left"></i> hexo-next主题下的美化
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/uploads/avatar.png"
+                alt="Yann Peng" />
+            
+              <p class="site-author-name" itemprop="name">Yann Peng</p>
+              <p class="site-description motion-element" itemprop="description">一路步履不停，却总是慢一拍。</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">23</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">21</span>
+                  <span class="site-state-item-name">tags</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:1@yleao.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.douban.com/people/yleao/" target="_blank" title="Douban">
+                      
+                        <i class="fa fa-fw fa-heartbeat"></i>Douban</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="http://steamcommunity.com/id/921y" target="_blank" title="Steam">
+                      
+                        <i class="fa fa-fw fa-steam"></i>Steam</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                推荐阅读
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="steamcn.com" title="steamcn" target="_blank">steamcn</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="52pojie.cn" title="52pj" target="_blank">52pj</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+		  　  
+		  　  
+		  　  
+		  
+		  <link rel="stylesheet" href="/dist/APlayer.min.css">
+          <div id="aplayer"></div>
+          <script type="text/javascript" src="/dist/APlayer.min.js"></script>
+          <script type="text/javascript" src="/dist/music.js"></script>
+		  
+          
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#小记"><span class="nav-text">小记</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#下载aplayer"><span class="nav-text">下载aplayer</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#部署"><span class="nav-text">部署</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#新建music-js"><span class="nav-text">新建music.js</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#参数修改"><span class="nav-text">参数修改</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#修改aplayer样式："><span class="nav-text">修改aplayer样式：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#其他参数修改"><span class="nav-text">其他参数修改</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#aplayer放置"><span class="nav-text">aplayer放置</span></a></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love" id="heart">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yann Peng</span>
+  
+　|　<a href="http://www.miitbeian.gov.cn/"target="_blank">湘ICP备18014937号</a>
+  
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a></div>
+
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+
+  
+
+  
+  <div class="bg_content">
+    <canvas id="canvas"></canvas>
+  </div>
+  
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"right","width":130,"height":150},"mobile":{"show":true},"log":false});</script></body>
+</html>
+
+<script type="text/javascript" src="/js/src/dynamic_bg.js"></script>

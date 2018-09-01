@@ -1,9 +1,10 @@
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
-	loop: 'all',
+	loop: 'one',
     listFolded: true,
     listMaxHeight: 60,
     autoplay: false,
+	mutex: true,
     audio: [
       {
         name: "Moon River　　　",
