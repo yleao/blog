@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="Y&#39;s BLOG">
 <meta property="og:description" content="dplayer是一个HTML5弹幕视频播放器，可以帮助我们轻松建立一个弹幕视频。那么如何将dplayer应用在hexo上，这里就需要借助到hexo的一个插件了。">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-08-31T06:21:25.303Z">
+<meta property="og:updated_time" content="2018-09-01T04:22:57.170Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo上的dplayer应用与嵌入视频的响应式设置">
 <meta name="twitter:description" content="dplayer是一个HTML5弹幕视频播放器，可以帮助我们轻松建立一个弹幕视频。那么如何将dplayer应用在hexo上，这里就需要借助到hexo的一个插件了。">
@@ -329,7 +329,7 @@
 <p>更多信息参考<a href="http://dplayer.js.org/#/home" target="_blank" rel="noopener">dplayer docs</a>。  </p>
 <h4 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h4><figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#123;% dplayer <span class="string">"url=https://moeplayer.b0.upaiyun.com/dplayer/hikarunara.mp4"</span> <span class="string">"api=https://api.prprpr.me/dplayer3/"</span> <span class="string">"addition=https://api.prprpr.me/dplayer3/v2/bilibili?aid=120040"</span> <span class="string">"pic=https://moeplayer.b0.upaiyun.com/dplayer/hikarunara.jpg"</span> <span class="string">"id=9E2E3368B56CDBB4"</span> <span class="string">"loop=yes"</span> <span class="string">"theme=#FADFA3"</span> <span class="string">"autoplay=false"</span> <span class="string">"token=tokendemo"</span> %&#125;  </span><br><span class="line">&#123;% dplayer 'url=some.mp4' <span class="string">"id=someid"</span> <span class="string">"api=https://api.prprpr.me/dplayer/"</span> <span class="string">"addition=/some.json"</span> 'code=player.on(<span class="string">"loadstart"</span>,function()&#123;console.log(<span class="string">"loadstart"</span>)&#125;)' <span class="string">"autoplay"</span> %&#125;</span><br></pre></td></tr></table></figure>
 <hr>
-<p>通常用每个视频的iframe通用分享代码或者video代码直接插入到markdown文件中，则生成的页面中视频不是响应式的。于是便找到了这个插件，直接给分享的视频添加响应式。</p>
+<p>通常用每个视频的iframe通用分享代码或者video代码直接插入到markdown文件中，则生成的页面中视频不是响应式的。于是便找到了下面这个插件，直接给分享的视频添加响应式。</p>
 <hr>
 <blockquote>
 <h2 id="hexo插件-1"><a href="#hexo插件-1" class="headerlink" title="hexo插件"></a>hexo插件</h2></blockquote>
@@ -348,12 +348,23 @@
     
     
 
+	
+    
+	
+    <div>
+     
+       <div>
+    
+        <div style="text-align:center;color: #FA8072;font-size:10px;">------------- End  <i class="fa fa-hourglass-end" aria-hidden="true"></i>  Thank For Your Reading -------------</div>
+    
+</div>
+     
+    </div>
+	
     
 
     
-
     
-
     <footer class="post-footer">
       
         <div class="post-tags">
@@ -470,7 +481,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">21</span>
+                  <span class="site-state-item-count">22</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -516,7 +527,7 @@
                   </span>
                 
                   <span class="links-of-author-item">
-                    <a href="http://steamcommunity.com/id/yleao" target="_blank" title="Steam">
+                    <a href="http://steamcommunity.com/id/921y" target="_blank" title="Steam">
                       
                         <i class="fa fa-fw fa-steam"></i>Steam</a>
                   </span>
@@ -661,9 +672,6 @@
 
 
 
-  
-  
-
 
 
 
@@ -698,16 +706,6 @@
   
   
     <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/three/three.min.js"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/three/canvas_lines.min.js"></script>
   
 
 
@@ -812,5 +810,12 @@
 
   
 
+  
+  <div class="bg_content">
+    <canvas id="canvas"></canvas>
+  </div>
+  
 <script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"right","width":130,"height":150},"mobile":{"show":true},"log":false});</script></body>
 </html>
+
+<script type="text/javascript" src="/js/src/dynamic_bg.js"></script>

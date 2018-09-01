@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2018-08-31T14:57:20.562Z</updated>
+  <updated>2018-09-01T06:28:00.126Z</updated>
   <id>/</id>
   
   <author>
@@ -17,15 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>提取网易云外链</title>
-    <link href="/2018/0831/untitled-1535722084834.html"/>
-    <id>/2018/0831/untitled-1535722084834.html</id>
-    <published>2018-08-31T13:28:04.000Z</published>
-    <updated>2018-08-31T14:57:20.562Z</updated>
+    <title>hexo-next主题让页脚的heart-icon跳动起来</title>
+    <link href="/2018/0901/hexo-next%E4%B8%BB%E9%A2%98%E8%AE%A9%E9%A1%B5%E8%84%9A%E7%9A%84heart-icon%E8%B7%B3%E5%8A%A8%E8%B5%B7%E6%9D%A5.html"/>
+    <id>/2018/0901/hexo-next主题让页脚的heart-icon跳动起来.html</id>
+    <published>2018-09-01T06:03:58.000Z</published>
+    <updated>2018-09-01T06:28:00.126Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;之前因为版权原因网易云的外链基本上都用不了，后来可以打开审查用&lt;code&gt;ctrl+F&lt;/code&gt;在源码搜索&lt;code&gt;生成外链播放器&lt;/code&gt;的方式来获取外链，不过后面也不行了，全都不能播放，清一色的404。且用且珍惜。&lt;/p&gt;
+      &lt;p&gt;使用NexT主题后，默认的页脚icon会变成&lt;code&gt;user&lt;/code&gt;。可以去&lt;a href=&quot;http://www.fontawesome.com.cn/faicons/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Font Awesome&lt;/a&gt;自行查找替换。&lt;/p&gt;
+&lt;p&gt;在&lt;code&gt;next&lt;/code&gt;文件下的主题配置文件中，找到&lt;code&gt;footer&lt;/code&gt;，把&lt;code&gt;icon&lt;/code&gt;后面替换成你在&lt;a href=&quot;http://www.fontawesome.com.cn/faicons/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Font Awesome&lt;/a&gt;上找到的图标的名字就ok了（不必带 fa- 前缀）。&lt;/p&gt;
+&lt;p&gt;那么如何让页脚的❤icon跳动起来呢？&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
+      <category term="hexo" scheme="/tags/hexo/"/>
+    
+      <category term="markdown" scheme="/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>提取网易云外链</title>
+    <link href="/2018/0831/%E6%8F%90%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E5%A4%96%E9%93%BE.html"/>
+    <id>/2018/0831/提取网易云外链.html</id>
+    <published>2018-08-31T13:28:04.000Z</published>
+    <updated>2018-09-01T04:22:27.133Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之前因为版权原因网易云的外链基本上都用不了，后来可以打开审查用&lt;code&gt;ctrl+F&lt;/code&gt;在源码搜索&lt;code&gt;生成外链播放器&lt;/code&gt;的方式来获取外链，不过后面也不行了，提取出来的外链全都不能播放，都是404。&lt;/p&gt;
     
     </summary>
     
@@ -39,7 +63,7 @@
     <link href="/2018/0831/%E7%BD%91%E9%A1%B5%E5%B7%A5%E5%85%B7%E5%A4%87%E5%BF%98.html"/>
     <id>/2018/0831/网页工具备忘.html</id>
     <published>2018-08-30T21:43:01.000Z</published>
-    <updated>2018-08-31T14:33:04.157Z</updated>
+    <updated>2018-09-01T05:02:26.008Z</updated>
     
     <summary type="html">
     
@@ -128,7 +152,7 @@
     <link href="/2018/0810/hexo%E4%B8%8A%E7%9A%84dplayer%E5%BA%94%E7%94%A8%E4%B8%8E%E5%B5%8C%E5%85%A5%E8%A7%86%E9%A2%91%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E8%AE%BE%E7%BD%AE-1.html"/>
     <id>/2018/0810/hexo上的dplayer应用与嵌入视频的响应式设置-1.html</id>
     <published>2018-08-10T14:22:00.000Z</published>
-    <updated>2018-08-31T06:21:25.303Z</updated>
+    <updated>2018-09-01T04:22:57.170Z</updated>
     
     <summary type="html">
     
@@ -219,11 +243,11 @@
     <link href="/2018/0808/%E4%BC%B4%E6%88%91%E5%90%8C%E8%A1%8C.html"/>
     <id>/2018/0808/伴我同行.html</id>
     <published>2018-08-08T11:39:00.000Z</published>
-    <updated>2018-08-31T14:14:49.792Z</updated>
+    <updated>2018-09-01T05:22:39.842Z</updated>
     
     <summary type="html">
     
-      &lt;iframe height=&quot;400&quot; width=&quot;600&quot; src=&quot;//player.bilibili.com/player.html?aid=28688911&amp;cid=49686376&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;&lt;br&gt;　&lt;br&gt;从最初的瞎看什么，到后面因为合同到期而改名的阅后即瞎，再到政策问题之后再度回归的嘻咦啊看，虽一路曲折，却依然不变初心。&lt;br&gt;&lt;br&gt;回归之后的首部作品就以如此质量，给了久久等待的我们最好的答复，一度看到泪目，这近5个月的等待是如此值得。&lt;br&gt;&lt;br&gt;
+      &lt;iframe height=&quot;360&quot; width=&quot;480&quot; src=&quot;//player.bilibili.com/player.html?aid=28688911&amp;cid=49686376&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;&lt;br&gt;　&lt;br&gt;从最初的瞎看什么，到后面因为合同到期而改名的阅后即瞎，再到政策问题之后再度回归的嘻咦啊看，虽一路曲折，却依然不变初心。&lt;br&gt;&lt;br&gt;回归之后的首部作品就以如此质量，给了久久等待的我们最好的答复，一度看到泪目，这近5个月的等待是如此值得。&lt;br&gt;&lt;br&gt;
     
     </summary>
     
@@ -241,11 +265,11 @@
     <link href="/2018/0807/%E8%A7%A3%E6%9E%90%E6%8E%A5%E5%8F%A3.html"/>
     <id>/2018/0807/解析接口.html</id>
     <published>2018-08-07T10:19:00.000Z</published>
-    <updated>2018-08-31T06:01:27.109Z</updated>
+    <updated>2018-09-01T05:14:19.292Z</updated>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;TEST点这里&quot;&gt;&lt;a href=&quot;#TEST点这里&quot; class=&quot;headerlink&quot; title=&quot;TEST点这里&quot;&gt;&lt;/a&gt;&lt;a href=&quot;www.yleao.com/test.html&quot;&gt;&lt;font color=&quot;green&quot;&gt;TEST&lt;/font&gt;&lt;/a&gt;点这里&lt;/h3&gt;
+      &lt;h3 id=&quot;TEST点这里&quot;&gt;&lt;a href=&quot;#TEST点这里&quot; class=&quot;headerlink&quot; title=&quot;TEST点这里&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://www.yleao.com/test.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;font color=&quot;green&quot;&gt;TEST&lt;/font&gt;&lt;/a&gt;点这里&lt;/h3&gt;
     
     </summary>
     
@@ -325,13 +349,13 @@
     </summary>
     
     
-      <category term="html" scheme="/tags/html/"/>
-    
-      <category term="video" scheme="/tags/video/"/>
-    
       <category term="test" scheme="/tags/test/"/>
     
       <category term="markdown" scheme="/tags/markdown/"/>
+    
+      <category term="html" scheme="/tags/html/"/>
+    
+      <category term="video" scheme="/tags/video/"/>
     
       <category term="music" scheme="/tags/music/"/>
     
@@ -396,11 +420,11 @@
     </summary>
     
     
-      <category term="html" scheme="/tags/html/"/>
-    
       <category term="test" scheme="/tags/test/"/>
     
       <category term="markdown" scheme="/tags/markdown/"/>
+    
+      <category term="html" scheme="/tags/html/"/>
     
   </entry>
   
@@ -431,27 +455,6 @@
     <id>/2018/0731/日本語テスト.html</id>
     <published>2018-07-31T10:44:00.000Z</published>
     <updated>2018-08-31T15:35:07.127Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-      <category term="test" scheme="/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>中文测试</title>
-    <link href="/2018/0731/%E4%B8%AD%E6%96%87%E6%B5%8B%E8%AF%95.html"/>
-    <id>/2018/0731/中文测试.html</id>
-    <published>2018-07-31T10:38:00.000Z</published>
-    <updated>2018-08-31T15:35:28.018Z</updated>
     
     <summary type="html">
     
