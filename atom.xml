@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2018-09-02T09:34:57.833Z</updated>
+  <updated>2018-09-02T12:29:37.488Z</updated>
   <id>/</id>
   
   <author>
@@ -21,24 +21,24 @@
     <link href="/2018/0902/hexo%E4%B8%8A%E7%9A%84aplayer%E5%BA%94%E7%94%A8.html"/>
     <id>/2018/0902/hexo上的aplayer应用.html</id>
     <published>2018-09-01T17:17:22.000Z</published>
-    <updated>2018-09-02T09:34:57.833Z</updated>
+    <updated>2018-09-02T12:29:37.488Z</updated>
     
     <summary type="html">
     
-      &lt;h5 id=&quot;小记&quot;&gt;&lt;a href=&quot;#小记&quot; class=&quot;headerlink&quot; title=&quot;小记&quot;&gt;&lt;/a&gt;小记&lt;/h5&gt;&lt;p&gt;aplayer是一个非常漂亮好用的HTML5音乐播放器，和dplayer师出同门，本篇主要分享一下自己搭建到hexo上的一些经验。&lt;/p&gt;
+      &lt;h5 id=&quot;小记&quot;&gt;&lt;a href=&quot;#小记&quot; class=&quot;headerlink&quot; title=&quot;小记&quot;&gt;&lt;/a&gt;小记&lt;/h5&gt;&lt;p&gt;aplayer是一个非常漂亮好用的HTML5音乐播放器，和dplayer师出同门，本篇主要分享一下自己搭建到hexo上的一些经验。&lt;br&gt;部署dplayer的方式我是用的hexo插件，部署aplayer的方式我是用的提取dist文件。这样可以相互参考，喜欢哪种方式部署就用哪种。&lt;/p&gt;
     
     </summary>
     
     
-      <category term="html" scheme="/tags/html/"/>
-    
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
-      <category term="hexo" scheme="/tags/hexo/"/>
     
       <category term="github" scheme="/tags/github/"/>
     
+      <category term="hexo" scheme="/tags/hexo/"/>
+    
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="html" scheme="/tags/html/"/>
     
       <category term="music" scheme="/tags/music/"/>
     
@@ -49,7 +49,7 @@
     <link href="/2018/0901/hexo-next%E4%B8%BB%E9%A2%98%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%8C%96.html"/>
     <id>/2018/0901/hexo-next主题下的美化.html</id>
     <published>2018-09-01T14:53:15.000Z</published>
-    <updated>2018-09-02T11:53:57.092Z</updated>
+    <updated>2018-09-02T12:26:16.987Z</updated>
     
     <summary type="html">
     
@@ -58,11 +58,11 @@
     </summary>
     
     
-      <category term="markdown" scheme="/tags/markdown/"/>
-    
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
+    
+      <category term="markdown" scheme="/tags/markdown/"/>
     
       <category term="整合" scheme="/tags/%E6%95%B4%E5%90%88/"/>
     
@@ -182,24 +182,24 @@
     <link href="/2018/0810/hexo%E4%B8%8A%E7%9A%84dplayer%E5%BA%94%E7%94%A8%E4%B8%8E%E5%B5%8C%E5%85%A5%E8%A7%86%E9%A2%91%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E8%AE%BE%E7%BD%AE.html"/>
     <id>/2018/0810/hexo上的dplayer应用与嵌入视频的响应式设置.html</id>
     <published>2018-08-10T14:22:00.000Z</published>
-    <updated>2018-09-01T19:02:49.563Z</updated>
+    <updated>2018-09-02T12:29:16.436Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;a href=&quot;https://github.com/DIYgod/DPlayer&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;dplayer&lt;/a&gt;是一个HTML5弹幕视频播放器，可以帮助我们轻松建立一个弹幕视频。那么如何将dplayer应用在hexo上，这里就需要借助到hexo的一个插件了。  &lt;/p&gt;
+      &lt;h5 id=&quot;小记&quot;&gt;&lt;a href=&quot;#小记&quot; class=&quot;headerlink&quot; title=&quot;小记&quot;&gt;&lt;/a&gt;小记&lt;/h5&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/DIYgod/DPlayer&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;dplayer&lt;/a&gt;是一个HTML5弹幕视频播放器，可以帮助我们轻松建立一个弹幕视频。那么如何将dplayer应用在hexo上，这里就需要借助到hexo的一个插件了。&lt;br&gt;部署dplayer我是用的hexo插件，部署aplayer我是用的提取dist文件的方法。这样可以相互参考，喜欢哪种方式部署就用哪种。&lt;br&gt;
     
     </summary>
     
     
-      <category term="html" scheme="/tags/html/"/>
-    
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
-      <category term="hexo" scheme="/tags/hexo/"/>
     
       <category term="github" scheme="/tags/github/"/>
     
+      <category term="hexo" scheme="/tags/hexo/"/>
+    
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="html" scheme="/tags/html/"/>
     
       <category term="video" scheme="/tags/video/"/>
     
@@ -244,9 +244,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="hexo" scheme="/tags/hexo/"/>
-    
       <category term="github" scheme="/tags/github/"/>
+    
+      <category term="hexo" scheme="/tags/hexo/"/>
     
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
@@ -268,9 +268,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="hexo" scheme="/tags/hexo/"/>
-    
       <category term="github" scheme="/tags/github/"/>
+    
+      <category term="hexo" scheme="/tags/hexo/"/>
     
   </entry>
   
@@ -288,9 +288,9 @@
     </summary>
     
     
-      <category term="music" scheme="/tags/music/"/>
-    
       <category term="video" scheme="/tags/video/"/>
+    
+      <category term="music" scheme="/tags/music/"/>
     
       <category term="film" scheme="/tags/film/"/>
     
@@ -310,9 +310,9 @@
     </summary>
     
     
-      <category term="test" scheme="/tags/test/"/>
-    
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
+      <category term="test" scheme="/tags/test/"/>
     
       <category term="script" scheme="/tags/script/"/>
     
@@ -340,9 +340,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="hexo" scheme="/tags/hexo/"/>
-    
       <category term="github" scheme="/tags/github/"/>
+    
+      <category term="hexo" scheme="/tags/hexo/"/>
     
       <category term="plugin" scheme="/tags/plugin/"/>
     
@@ -365,9 +365,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="hexo" scheme="/tags/hexo/"/>
-    
       <category term="github" scheme="/tags/github/"/>
+    
+      <category term="hexo" scheme="/tags/hexo/"/>
     
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
@@ -393,9 +393,9 @@
     
       <category term="html" scheme="/tags/html/"/>
     
-      <category term="music" scheme="/tags/music/"/>
-    
       <category term="video" scheme="/tags/video/"/>
+    
+      <category term="music" scheme="/tags/music/"/>
     
   </entry>
   
