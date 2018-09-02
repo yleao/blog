@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/2018/0902/hexo%E4%B8%8A%E7%9A%84aplayer%E5%BA%94%E7%94%A8.html</loc>
+    <loc>/2018/0731/HTML%E5%85%83%E7%B4%A0%E6%B5%8B%E8%AF%95.html</loc>
     
-    <lastmod>2018-09-02T12:29:37.488Z</lastmod>
+    <lastmod>2018-09-02T15:24:43.225Z</lastmod>
     
   </url>
   
   <url>
     <loc>/2018/0810/hexo%E4%B8%8A%E7%9A%84dplayer%E5%BA%94%E7%94%A8%E4%B8%8E%E5%B5%8C%E5%85%A5%E8%A7%86%E9%A2%91%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E8%AE%BE%E7%BD%AE.html</loc>
     
-    <lastmod>2018-09-02T12:29:16.436Z</lastmod>
+    <lastmod>2018-09-02T15:24:22.843Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>/2018/0802/%E5%B5%8C%E5%85%A5%E6%B5%8B%E8%AF%95.html</loc>
+    
+    <lastmod>2018-09-02T15:24:22.841Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>/2018/0902/hexo%E4%B8%8A%E7%9A%84aplayer%E5%BA%94%E7%94%A8.html</loc>
+    
+    <lastmod>2018-09-02T15:23:17.349Z</lastmod>
     
   </url>
   
@@ -65,13 +79,6 @@
   </url>
   
   <url>
-    <loc>/2018/0802/%E5%B5%8C%E5%85%A5%E6%B5%8B%E8%AF%95.html</loc>
-    
-    <lastmod>2018-08-31T15:41:08.846Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>/2018/0730/hello-world.html</loc>
     
     <lastmod>2018-08-31T15:38:54.712Z</lastmod>
@@ -96,13 +103,6 @@
     <loc>/2018/0731/%E5%AD%97%E4%BD%93%E3%80%81%E5%AD%97%E5%8F%B7%E4%B8%8E%E9%A2%9C%E8%89%B2%E6%B5%8B%E8%AF%95.html</loc>
     
     <lastmod>2018-08-31T15:34:40.593Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>/2018/0731/HTML%E5%85%83%E7%B4%A0%E6%B5%8B%E8%AF%95.html</loc>
-    
-    <lastmod>2018-08-31T15:26:09.925Z</lastmod>
     
   </url>
   

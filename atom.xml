@@ -6,11 +6,11 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2018-09-02T12:29:37.488Z</updated>
+  <updated>2018-09-02T15:23:17.349Z</updated>
   <id>/</id>
   
   <author>
-    <name>Yann Peng</name>
+    <name>Yann</name>
     
   </author>
   
@@ -21,7 +21,7 @@
     <link href="/2018/0902/hexo%E4%B8%8A%E7%9A%84aplayer%E5%BA%94%E7%94%A8.html"/>
     <id>/2018/0902/hexo上的aplayer应用.html</id>
     <published>2018-09-01T17:17:22.000Z</published>
-    <updated>2018-09-02T12:29:37.488Z</updated>
+    <updated>2018-09-02T15:23:17.349Z</updated>
     
     <summary type="html">
     
@@ -37,10 +37,6 @@
       <category term="hexo" scheme="/tags/hexo/"/>
     
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
-    
-      <category term="html" scheme="/tags/html/"/>
-    
-      <category term="music" scheme="/tags/music/"/>
     
   </entry>
   
@@ -58,11 +54,11 @@
     </summary>
     
     
+      <category term="markdown" scheme="/tags/markdown/"/>
+    
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
-    
-      <category term="markdown" scheme="/tags/markdown/"/>
     
       <category term="整合" scheme="/tags/%E6%95%B4%E5%90%88/"/>
     
@@ -182,7 +178,7 @@
     <link href="/2018/0810/hexo%E4%B8%8A%E7%9A%84dplayer%E5%BA%94%E7%94%A8%E4%B8%8E%E5%B5%8C%E5%85%A5%E8%A7%86%E9%A2%91%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E8%AE%BE%E7%BD%AE.html"/>
     <id>/2018/0810/hexo上的dplayer应用与嵌入视频的响应式设置.html</id>
     <published>2018-08-10T14:22:00.000Z</published>
-    <updated>2018-09-02T12:29:16.436Z</updated>
+    <updated>2018-09-02T15:24:22.843Z</updated>
     
     <summary type="html">
     
@@ -198,10 +194,6 @@
       <category term="hexo" scheme="/tags/hexo/"/>
     
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
-    
-      <category term="html" scheme="/tags/html/"/>
-    
-      <category term="video" scheme="/tags/video/"/>
     
       <category term="plugin" scheme="/tags/plugin/"/>
     
@@ -310,9 +302,9 @@
     </summary>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
       <category term="test" scheme="/tags/test/"/>
+    
+      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="script" scheme="/tags/script/"/>
     
@@ -378,7 +370,7 @@
     <link href="/2018/0802/%E5%B5%8C%E5%85%A5%E6%B5%8B%E8%AF%95.html"/>
     <id>/2018/0802/嵌入测试.html</id>
     <published>2018-08-01T21:57:00.000Z</published>
-    <updated>2018-08-31T15:41:08.846Z</updated>
+    <updated>2018-09-02T15:24:22.841Z</updated>
     
     <summary type="html">
     
@@ -387,11 +379,9 @@
     </summary>
     
     
-      <category term="test" scheme="/tags/test/"/>
-    
       <category term="markdown" scheme="/tags/markdown/"/>
     
-      <category term="html" scheme="/tags/html/"/>
+      <category term="test" scheme="/tags/test/"/>
     
       <category term="video" scheme="/tags/video/"/>
     
@@ -449,7 +439,7 @@
     <link href="/2018/0731/HTML%E5%85%83%E7%B4%A0%E6%B5%8B%E8%AF%95.html"/>
     <id>/2018/0731/HTML元素测试.html</id>
     <published>2018-07-31T15:37:00.000Z</published>
-    <updated>2018-08-31T15:26:09.925Z</updated>
+    <updated>2018-09-02T15:24:43.225Z</updated>
     
     <summary type="html">
     
@@ -458,11 +448,9 @@
     </summary>
     
     
-      <category term="test" scheme="/tags/test/"/>
-    
       <category term="markdown" scheme="/tags/markdown/"/>
     
-      <category term="html" scheme="/tags/html/"/>
+      <category term="test" scheme="/tags/test/"/>
     
   </entry>
   
@@ -481,9 +469,9 @@
     </summary>
     
     
-      <category term="test" scheme="/tags/test/"/>
-    
       <category term="markdown" scheme="/tags/markdown/"/>
+    
+      <category term="test" scheme="/tags/test/"/>
     
   </entry>
   
