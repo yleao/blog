@@ -16,9 +16,9 @@
     <url>%2F2018%2F0901%2Fhexo-next%E4%B8%BB%E9%A2%98%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%8C%96.html</url>
     <content type="text"><![CDATA[小记因为hexo可以自定义的东西太多了，感觉还是整合到一篇post里会比较好。慢慢更新ing。]]></content>
       <tags>
+        <tag>markdown</tag>
         <tag>经验</tag>
         <tag>hexo</tag>
-        <tag>markdown</tag>
         <tag>整合</tag>
       </tags>
   </entry>
@@ -52,7 +52,7 @@
   <entry>
     <title><![CDATA[Mirage中VIP跳B小]]></title>
     <url>%2F2018%2F0818%2FMirage%E4%B8%ADVIP%E8%B7%B3B%E5%B0%8F.html</url>
-    <content type="text"><![CDATA[相信很多玩家看到一些身法厉害的大佬旋转跳进狗洞然后再从vip跳B小很帅气，但是都觉得太难，其实跳B小这个难度并不算太大，我自己的感觉比单人上山要容易一点，只要掌握几个点再多加练习就可以了，目前我觉得最难的应该是单人上树。]]></content>
+    <content type="text"><![CDATA[相信很多玩家看到一些身法厉害的大佬旋转跳进狗洞然后再从vip跳B小很帅气，但是都觉得太难，其实跳B小这个难度并不算太大，我自己的感觉比单人上山要容易一点，只要掌握几个点再多加练习就可以了，目前我觉得最难的应该是单人上树。 此文同发于steamcn——蒸汽动力]]></content>
       <tags>
         <tag>经验</tag>
         <tag>csgo</tag>
@@ -126,8 +126,8 @@
     <url>%2F2018%2F0807%2F%E8%A7%A3%E6%9E%90%E6%8E%A5%E5%8F%A3.html</url>
     <content type="text"><![CDATA[TEST点这里]]></content>
       <tags>
-        <tag>经验</tag>
         <tag>test</tag>
+        <tag>经验</tag>
         <tag>script</tag>
       </tags>
   </entry>
@@ -176,7 +176,7 @@
   <entry>
     <title><![CDATA[解除astats-nl的封禁]]></title>
     <url>%2F2018%2F0801%2F%E8%A7%A3%E9%99%A4astats-nl%E7%9A%84%E5%B0%81%E7%A6%81.html</url>
-    <content type="text"><![CDATA[前言：astats.nl是个关于steam成就的第三方网址，被ban与否都不会影响steam账号，如果被ban可以不用担心，若想要解ban则看以下教程。]]></content>
+    <content type="text"><![CDATA[前言：astats.nl是个关于steam成就的第三方网址，被ban与否都不会影响steam账号，如果被ban可以不用担心，若想要解ban则看以下教程。 此文首发于steamcn——蒸汽动力]]></content>
       <tags>
         <tag>经验</tag>
         <tag>steam</tag>
