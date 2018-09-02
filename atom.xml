@@ -45,7 +45,7 @@
     <link href="/2018/0901/hexo-next%E4%B8%BB%E9%A2%98%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%8C%96.html"/>
     <id>/2018/0901/hexo-next主题下的美化.html</id>
     <published>2018-09-01T14:53:15.000Z</published>
-    <updated>2018-09-02T12:26:16.987Z</updated>
+    <updated>2018-09-02T16:15:53.984Z</updated>
     
     <summary type="html">
     
@@ -315,11 +315,11 @@
     <link href="/2018/0805/hexo%E4%B8%8A%E7%9A%84live2d%E5%BA%94%E7%94%A8.html"/>
     <id>/2018/0805/hexo上的live2d应用.html</id>
     <published>2018-08-05T12:49:00.000Z</published>
-    <updated>2018-09-01T19:02:25.813Z</updated>
+    <updated>2018-09-02T16:12:50.482Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;关于网页版的live2d首先是在&lt;a href=&quot;http://www.live2d.com/ja/showcase/bilibili&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bilibili live&lt;/a&gt;上看见的，也就是B站的看板娘，可支持换装、显示文字、点击播放语音动画等功能。于是就着手研究了一下，然后发现了hexo的一个插件：hexo-helper-live2d。&lt;/p&gt;
+      &lt;h5 id=&quot;小记&quot;&gt;&lt;a href=&quot;#小记&quot; class=&quot;headerlink&quot; title=&quot;小记&quot;&gt;&lt;/a&gt;小记&lt;/h5&gt;&lt;p&gt;关于网页版的live2d首先是在&lt;a href=&quot;http://www.live2d.com/ja/showcase/bilibili&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bilibili live&lt;/a&gt;上看见的，也就是B站的看板娘，可支持换装、显示文字、点击播放语音动画等功能。于是就着手研究了一下，然后发现了hexo的一个插件：hexo-helper-live2d。&lt;/p&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
 &lt;h2 id=&quot;关于live2d&quot;&gt;&lt;a href=&quot;#关于live2d&quot; class=&quot;headerlink&quot; title=&quot;关于live2d&quot;&gt;&lt;/a&gt;关于live2d&lt;/h2&gt;&lt;/blockquote&gt;
