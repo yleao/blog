@@ -54,11 +54,11 @@
     </summary>
     
     
-      <category term="markdown" scheme="/tags/markdown/"/>
-    
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
+    
+      <category term="markdown" scheme="/tags/markdown/"/>
     
       <category term="整合" scheme="/tags/%E6%95%B4%E5%90%88/"/>
     
@@ -298,9 +298,9 @@
     </summary>
     
     
-      <category term="test" scheme="/tags/test/"/>
-    
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
+      <category term="test" scheme="/tags/test/"/>
     
       <category term="script" scheme="/tags/script/"/>
     
@@ -311,17 +311,11 @@
     <link href="/2018/0805/hexo%E4%B8%8A%E7%9A%84live2d%E5%BA%94%E7%94%A8.html"/>
     <id>/2018/0805/hexo上的live2d应用.html</id>
     <published>2018-08-05T12:49:00.000Z</published>
-    <updated>2018-09-02T16:12:50.482Z</updated>
+    <updated>2018-09-02T21:00:23.930Z</updated>
     
     <summary type="html">
     
       &lt;h5 id=&quot;小记&quot;&gt;&lt;a href=&quot;#小记&quot; class=&quot;headerlink&quot; title=&quot;小记&quot;&gt;&lt;/a&gt;小记&lt;/h5&gt;&lt;p&gt;关于网页版的live2d首先是在&lt;a href=&quot;http://www.live2d.com/ja/showcase/bilibili&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bilibili live&lt;/a&gt;上看见的，也就是B站的看板娘，可支持换装、显示文字、点击播放语音动画等功能。于是就着手研究了一下，然后发现了hexo的一个插件：hexo-helper-live2d。&lt;/p&gt;
-&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;h2 id=&quot;关于live2d&quot;&gt;&lt;a href=&quot;#关于live2d&quot; class=&quot;headerlink&quot; title=&quot;关于live2d&quot;&gt;&lt;/a&gt;关于live2d&lt;/h2&gt;&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;p&gt;Live2D目前有两个分支：Cubism和Euclid。若无特殊说明，Live2D通常是指Cubism分支。其工作原理是通过将一系列的2D图像进行平移、旋转和变形等操作，生成一个具有自然动画效果的可动人物模型。由于Live2D只需一系列2D原图即可生成具有类似于3D动画效果的模型，比3D建模耗费的时间和成本更少，因此受到很多游戏制作者，特别是小成本AVG和手游作者的喜爱。另外，Live2D生成的模型相对于真正的3D模型，可以更好地还原手绘风格。&lt;a href=&quot;https://zh.moegirl.org/zh-hans/Live2D#.E7.AE.80.E4.BB.8B&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;—摘自萌娘百科&lt;/a&gt;  &lt;/p&gt;
-&lt;p&gt;其主要应用在游戏制作，漫画生成与建模等，普通用户则将其应用在电脑、手机上作为动态壁纸与网页装饰。此文主要分享如何为博客添加“看板娘”。&lt;/p&gt;
     
     </summary>
     
@@ -413,12 +407,11 @@
     <link href="/2018/0801/%E8%A7%A3%E9%99%A4astats-nl%E7%9A%84%E5%B0%81%E7%A6%81.html"/>
     <id>/2018/0801/解除astats-nl的封禁.html</id>
     <published>2018-08-01T12:43:00.000Z</published>
-    <updated>2018-09-02T20:44:03.617Z</updated>
+    <updated>2018-09-02T21:11:50.246Z</updated>
     
     <summary type="html">
     
-      &lt;font face=&quot;微软雅黑&quot; size=&quot;4&quot;&gt;前言：astats.nl是个关于steam成就的第三方网址，被ban与否都不会影响steam账号，如果被ban可以不用担心，若想要解ban则看以下教程。&lt;/font&gt;
-
+      &lt;p&gt;前言：astats.nl是个关于steam成就的第三方网址，被ban与否都不会影响steam账号，如果被ban可以不用担心，若想要解ban则看以下教程。&lt;/p&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://steamcn.com/t258676-1-1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;i class=&quot;fa fa-hand-pointer-o fa-lg fa-fw&quot;&gt;&lt;/i&gt;此文首发于steamcn——蒸汽动力&lt;/a&gt;
     
     </summary>

@@ -16,9 +16,9 @@
     <url>%2F2018%2F0901%2Fhexo-next%E4%B8%BB%E9%A2%98%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%8C%96.html</url>
     <content type="text"><![CDATA[小记因为hexo可以自定义的东西太多了，感觉还是整合到一篇post里会比较好。慢慢更新ing。]]></content>
       <tags>
-        <tag>markdown</tag>
         <tag>经验</tag>
         <tag>hexo</tag>
+        <tag>markdown</tag>
         <tag>整合</tag>
       </tags>
   </entry>
@@ -126,15 +126,15 @@
     <url>%2F2018%2F0807%2F%E8%A7%A3%E6%9E%90%E6%8E%A5%E5%8F%A3.html</url>
     <content type="text"><![CDATA[TEST点这里]]></content>
       <tags>
-        <tag>test</tag>
         <tag>经验</tag>
+        <tag>test</tag>
         <tag>script</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[hexo上的live2d应用]]></title>
     <url>%2F2018%2F0805%2Fhexo%E4%B8%8A%E7%9A%84live2d%E5%BA%94%E7%94%A8.html</url>
-    <content type="text"><![CDATA[小记关于网页版的live2d首先是在bilibili live上看见的，也就是B站的看板娘，可支持换装、显示文字、点击播放语音动画等功能。于是就着手研究了一下，然后发现了hexo的一个插件：hexo-helper-live2d。 关于live2d Live2D目前有两个分支：Cubism和Euclid。若无特殊说明，Live2D通常是指Cubism分支。其工作原理是通过将一系列的2D图像进行平移、旋转和变形等操作，生成一个具有自然动画效果的可动人物模型。由于Live2D只需一系列2D原图即可生成具有类似于3D动画效果的模型，比3D建模耗费的时间和成本更少，因此受到很多游戏制作者，特别是小成本AVG和手游作者的喜爱。另外，Live2D生成的模型相对于真正的3D模型，可以更好地还原手绘风格。—摘自萌娘百科 其主要应用在游戏制作，漫画生成与建模等，普通用户则将其应用在电脑、手机上作为动态壁纸与网页装饰。此文主要分享如何为博客添加“看板娘”。]]></content>
+    <content type="text"><![CDATA[小记关于网页版的live2d首先是在bilibili live上看见的，也就是B站的看板娘，可支持换装、显示文字、点击播放语音动画等功能。于是就着手研究了一下，然后发现了hexo的一个插件：hexo-helper-live2d。]]></content>
       <tags>
         <tag>经验</tag>
         <tag>github</tag>

@@ -21,13 +21,13 @@ const ap = new APlayer({
 	  {
         name: "To Build A Home　　　　",
         artist: 'tCO',
-        url: 'http://m10.music.126.net/20180901192430/fc3c3bdcd70bec6ca9ddd2da274f6f10/ymusic/5e1a/6a8b/c616/026527b7260387ba91b26866a52d74c0.mp3',
+        url: 'http://m10.music.126.net/20180903054419/29dabe85489a7d53d371163ef1cb25ed/ymusic/5e1a/6a8b/c616/026527b7260387ba91b26866a52d74c0.mp3',
         cover: 'https://i.loli.net/2018/09/01/5b8a69059a269.jpg',
       },
 	  {
         name: "声声慢　　　　　　　",
         artist: '崔开潮',
-        url: 'http://m10.music.126.net/20180901194850/d744a77fff4fe5c4b5bed865d8ad2e0a/ymusic/1073/061c/d374/8a8c3cb2286298609deffef29a6c7883.mp3',
+        url: 'http://m10.music.126.net/20180903054220/212c7fd452251a44d880cfb5702da943/ymusic/1073/061c/d374/8a8c3cb2286298609deffef29a6c7883.mp3',
         cover: 'https://i.loli.net/2018/09/01/5b8a69059a269.jpg',
       }
     ]
