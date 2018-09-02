@@ -66,7 +66,7 @@
 
 
 
-  <meta name="keywords" content="经验,github,hexo,搭建,html,music," />
+  <meta name="keywords" content="html,经验,hexo,github,搭建,music," />
 
 
 
@@ -80,7 +80,7 @@
 
 
 <meta name="description" content="小记aplayer是一个非常漂亮好用的HTML5音乐播放器，和dplayer师出同门，本篇主要分享一下自己搭建到hexo上的一些经验。">
-<meta name="keywords" content="经验,github,hexo,搭建,html,music">
+<meta name="keywords" content="html,经验,hexo,github,搭建,music">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo上的aplayer应用">
 <meta property="og:url" content="/2018/0902/hexo上的aplayer应用.html">
@@ -95,7 +95,7 @@
 <meta property="og:image" content="https://i.loli.net/2018/09/02/5b8add5eb0a07.jpg">
 <meta property="og:image" content="https://i.loli.net/2018/09/02/5b8add6a71168.jpg">
 <meta property="og:image" content="https://i.loli.net/2018/09/02/5b8adf4f8db84.jpg">
-<meta property="og:updated_time" content="2018-09-01T19:13:23.637Z">
+<meta property="og:updated_time" content="2018-09-02T09:34:57.833Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo上的aplayer应用">
 <meta name="twitter:description" content="小记aplayer是一个非常漂亮好用的HTML5音乐播放器，和dplayer师出同门，本篇主要分享一下自己搭建到hexo上的一些经验。">
@@ -194,6 +194,8 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
             Home
           </a>
         </li>
@@ -201,6 +203,8 @@
         
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
             Archives
           </a>
@@ -210,15 +214,9 @@
         <li class="menu-item menu-item-tags">
           <a href="/tags/" rel="section">
             
-            Tags
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-cut">
-          <a href="https://www.yleao.com/cut.html" rel="section">
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
-            Cut
+            Tags
           </a>
         </li>
       
@@ -325,9 +323,9 @@
         <h5 id="小记"><a href="#小记" class="headerlink" title="小记"></a>小记</h5><p>aplayer是一个非常漂亮好用的HTML5音乐播放器，和dplayer师出同门，本篇主要分享一下自己搭建到hexo上的一些经验。</p>
 <a id="more"></a>
 <hr>
-<h2 id="下载aplayer"><a href="#下载aplayer" class="headerlink" title="下载aplayer"></a>下载aplayer</h2><p>点击访问aplayer源码：<a href="https://github.com/MoePlayer/APlayer" target="_blank" rel="noopener">GitHub Aplayer</a>，将文件下载到本地，解压后将<code>dist</code>文件夹复制到<code>~/hexo/themes/next/source</code>文件夹下。</p>
+<h2 id="下载aplayer"><a href="#下载aplayer" class="headerlink" title="下载aplayer"></a>下载aplayer</h2><p>访问aplayer源码：<a href="https://github.com/MoePlayer/APlayer" target="_blank" rel="noopener">GitHub Aplayer</a>，将文件下载到本地，解压后将<code>dist</code>文件夹复制到<code>~/hexo/themes/next/source</code>文件夹下。</p>
 <hr>
-<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><h4 id="新建music-js"><a href="#新建music-js" class="headerlink" title="新建music.js"></a>新建music.js</h4><p>在<code>~/hexo/themes/next/source/dist</code>文件夹中新建<code>music.js</code>文件，将下面代码添加进去：<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">const</span> <span class="string">ap</span> <span class="string">=</span> <span class="string">new</span> <span class="string">APlayer(&#123;</span></span><br><span class="line"><span class="attr">    container:</span> <span class="string">document.getElementById('aplayer'),</span></span><br><span class="line"><span class="attr">    autoplay:</span> <span class="literal">false</span><span class="string">,</span></span><br><span class="line"><span class="attr">    loop:</span> <span class="string">'all'</span><span class="string">,</span></span><br><span class="line"><span class="attr">    volume:</span> <span class="number">0.7</span><span class="string">,</span></span><br><span class="line"><span class="attr">    listFolded:</span> <span class="literal">true</span><span class="string">,</span></span><br><span class="line"><span class="attr">    listMaxHeight:</span> <span class="number">60</span><span class="string">,</span></span><br><span class="line"><span class="attr">    audio:</span> <span class="string">[</span></span><br><span class="line">        <span class="string">&#123;</span></span><br><span class="line"><span class="attr">            name:</span> <span class="string">'name1'</span><span class="string">,</span></span><br><span class="line"><span class="attr">            artist:</span> <span class="string">'artist1'</span><span class="string">,</span></span><br><span class="line"><span class="attr">            url:</span> <span class="string">'url1.mp3'</span><span class="string">,</span></span><br><span class="line"><span class="attr">            cover:</span> <span class="string">'cover1.jpg'</span><span class="string">,</span></span><br><span class="line">        <span class="string">&#125;,</span></span><br><span class="line">        <span class="string">&#123;</span></span><br><span class="line"><span class="attr">            name:</span> <span class="string">'name2'</span><span class="string">,</span></span><br><span class="line"><span class="attr">            artist:</span> <span class="string">'artist2'</span><span class="string">,</span></span><br><span class="line"><span class="attr">            url:</span> <span class="string">'url2.mp3'</span><span class="string">,</span></span><br><span class="line"><span class="attr">            cover:</span> <span class="string">'cover2.jpg'</span><span class="string">,</span></span><br><span class="line">        <span class="string">&#125;</span></span><br><span class="line">    <span class="string">]</span></span><br><span class="line"><span class="string">&#125;);</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="创建样式"><a href="#创建样式" class="headerlink" title="创建样式"></a>创建样式</h2><h4 id="新建music-js"><a href="#新建music-js" class="headerlink" title="新建music.js"></a>新建music.js</h4><p>在<code>~/hexo/themes/next/source/dist</code>文件夹中新建<code>music.js</code>文件，将下面代码添加进去：<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">const</span> <span class="string">ap</span> <span class="string">=</span> <span class="string">new</span> <span class="string">APlayer(&#123;</span></span><br><span class="line"><span class="attr">    container:</span> <span class="string">document.getElementById('aplayer'),</span></span><br><span class="line"><span class="attr">    autoplay:</span> <span class="literal">false</span><span class="string">,</span></span><br><span class="line"><span class="attr">    loop:</span> <span class="string">'all'</span><span class="string">,</span></span><br><span class="line"><span class="attr">    volume:</span> <span class="number">0.7</span><span class="string">,</span></span><br><span class="line"><span class="attr">    listFolded:</span> <span class="literal">true</span><span class="string">,</span></span><br><span class="line"><span class="attr">    listMaxHeight:</span> <span class="number">60</span><span class="string">,</span></span><br><span class="line"><span class="attr">    audio:</span> <span class="string">[</span></span><br><span class="line">        <span class="string">&#123;</span></span><br><span class="line"><span class="attr">            name:</span> <span class="string">'name1'</span><span class="string">,</span></span><br><span class="line"><span class="attr">            artist:</span> <span class="string">'artist1'</span><span class="string">,</span></span><br><span class="line"><span class="attr">            url:</span> <span class="string">'url1.mp3'</span><span class="string">,</span></span><br><span class="line"><span class="attr">            cover:</span> <span class="string">'cover1.jpg'</span><span class="string">,</span></span><br><span class="line">        <span class="string">&#125;,</span></span><br><span class="line">        <span class="string">&#123;</span></span><br><span class="line"><span class="attr">            name:</span> <span class="string">'name2'</span><span class="string">,</span></span><br><span class="line"><span class="attr">            artist:</span> <span class="string">'artist2'</span><span class="string">,</span></span><br><span class="line"><span class="attr">            url:</span> <span class="string">'url2.mp3'</span><span class="string">,</span></span><br><span class="line"><span class="attr">            cover:</span> <span class="string">'cover2.jpg'</span><span class="string">,</span></span><br><span class="line">        <span class="string">&#125;</span></span><br><span class="line">    <span class="string">]</span></span><br><span class="line"><span class="string">&#125;);</span></span><br></pre></td></tr></table></figure></p>
 <hr>
 <h4 id="参数修改"><a href="#参数修改" class="headerlink" title="参数修改"></a>参数修改</h4><p>上面代码为你在hexo上生成aplayer播放器的样式，参数修改参考<a href="https://aplayer.js.org/#/zh-Hans/?id=%E5%8F%82%E6%95%B0" target="_blank" rel="noopener">官方中文文档</a>。</p>
 <h5 id="修改aplayer样式："><a href="#修改aplayer样式：" class="headerlink" title="修改aplayer样式："></a>修改aplayer样式：</h5><p><u>普通模式代码</u>：<br><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> ap = <span class="keyword">new</span> APlayer(&#123;</span><br><span class="line">    container: <span class="built_in">document</span>.getElementById(<span class="string">'aplayer'</span>),</span><br><span class="line">    audio: [&#123;</span><br><span class="line">        name: <span class="string">'name'</span>,</span><br><span class="line">        artist: <span class="string">'artist'</span>,</span><br><span class="line">        url: <span class="string">'url.mp3'</span>,</span><br><span class="line">        cover: <span class="string">'cover.jpg'</span></span><br><span class="line">    &#125;]</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
@@ -347,7 +345,7 @@
 <p>更多有趣的功能自己去发掘吧。</p>
 <p>再在这里放一个<a href="http://www.ytmp3.cn/" target="_blank" rel="noopener">音乐外链网站</a>，搜索音乐，然后复制url和右击封面图片链接粘贴到对应的位置上就行了。或者参考我的另一篇<a href="https://blog.yleao.com/2018/0831/%E6%8F%90%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E5%A4%96%E9%93%BE.html" target="_blank" rel="noopener">文章</a>。</p>
 <hr>
-<h4 id="aplayer放置"><a href="#aplayer放置" class="headerlink" title="aplayer放置"></a>aplayer放置</h4><p>上面操作完成后，aplayer的样式就已经设置好了。现在要做的就是把aplayer放在自己想要放置的位置上，放置代码如下：<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"/dist/APlayer.min.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"aplayer"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"/dist/APlayer.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"/dist/music.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>上面操作完成后，aplayer的样式就已经设置好了。现在要做的就是把aplayer放在自己想要放置的位置上，放置代码如下：<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"/dist/APlayer.min.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"aplayer"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"/dist/APlayer.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"/dist/music.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
 <p>将放置代码放在不同的<code>~/hexo/themes/next/layout/***.swig</code>文件内会有不同的效果。</p>
 <p>例1：</p>
 <p><img src="https://i.loli.net/2018/09/02/5b8add4ad8225.jpg" alt="image 5"></p>
@@ -355,11 +353,11 @@
 <p><img src="https://i.loli.net/2018/09/02/5b8add5eb0a07.jpg" alt="image 6"></p>
 <p>例3：</p>
 <p><img src="https://i.loli.net/2018/09/02/5b8add6a71168.jpg" alt="image 7"></p>
-<p>每个人使用的主题不一样，要根据自己的主题去调试。例如我用的是next-mist主题，且喜欢放置在侧边栏。那么在<code>~/hexo/themes/next/layout/_marco</code>文件夹下找到<code>sidebar.swig</code>。</p>
+<p>每个人使用的主题不一样，要根据自己的主题去调试。例如我用的是next-mist主题，且喜欢放置在侧边栏。那么在<code>~/hexo/themes/next/layout/_marco</code>文件夹下找到<code>sidebar.swig</code>文件。</p>
 <p>如果我要放置在侧边栏的<code>推荐阅读</code>下面,那么在<code>sidebar.swig</code>中找到<code>if theme.links</code>，将放置代码添加到<code>endif</code>之后。如下图：</p>
 <p><img src="https://i.loli.net/2018/09/02/5b8adf4f8db84.jpg" alt="image 8"></p>
 <p>如要放置到<code>RSS</code>下就在<code>sidebar.swig</code>中搜索<code>if theme.rss</code>，也是添加到<code>endif</code>之后。</p>
-<p>想放在其他位置就自己去尝试吧。</p>
+<p>想放在其他更多的位置上就自己去尝试吧。</p>
 
       
     </div>
@@ -388,17 +386,17 @@
       
         <div class="post-tags">
           
-            <a href="/tags/经验/" rel="tag"># 经验</a>
+            <a href="/tags/html/" rel="tag"><i class="fa fa-tag"></i> html</a>
           
-            <a href="/tags/github/" rel="tag"># github</a>
+            <a href="/tags/经验/" rel="tag"><i class="fa fa-tag"></i> 经验</a>
           
-            <a href="/tags/hexo/" rel="tag"># hexo</a>
+            <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i> hexo</a>
           
-            <a href="/tags/搭建/" rel="tag"># 搭建</a>
+            <a href="/tags/github/" rel="tag"><i class="fa fa-tag"></i> github</a>
           
-            <a href="/tags/html/" rel="tag"># html</a>
+            <a href="/tags/搭建/" rel="tag"><i class="fa fa-tag"></i> 搭建</a>
           
-            <a href="/tags/music/" rel="tag"># music</a>
+            <a href="/tags/music/" rel="tag"><i class="fa fa-tag"></i> music</a>
           
         </div>
       
@@ -534,21 +532,21 @@
             <div class="links-of-author motion-element">
                 
                   <span class="links-of-author-item">
-                    <a href="mailto:1@yleao.com" target="_blank" title="E-Mail">
+                    <a href="mailto:1@yleao.com" target="_blank" title="Email">
                       
-                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
-                  </span>
-                
-                  <span class="links-of-author-item">
-                    <a href="https://www.douban.com/people/yleao/" target="_blank" title="Douban">
-                      
-                        <i class="fa fa-fw fa-heartbeat"></i>Douban</a>
+                        <i class="fa fa-fw fa-envelope"></i>Email</a>
                   </span>
                 
                   <span class="links-of-author-item">
                     <a href="http://steamcommunity.com/id/921y" target="_blank" title="Steam">
                       
                         <i class="fa fa-fw fa-steam"></i>Steam</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.douban.com/people/yleao/" target="_blank" title="豆瓣">
+                      
+                        <i class="fa fa-fw fa-bookmark"></i>豆瓣</a>
                   </span>
                 
             </div>
@@ -562,7 +560,7 @@
             <div class="links-of-blogroll motion-element links-of-blogroll-inline">
               <div class="links-of-blogroll-title">
                 <i class="fa  fa-fw fa-link"></i>
-                推荐阅读
+                Link
               </div>
               <ul class="links-of-blogroll-list">
                 
@@ -600,7 +598,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#小记"><span class="nav-text">小记</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#下载aplayer"><span class="nav-text">下载aplayer</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#部署"><span class="nav-text">部署</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#新建music-js"><span class="nav-text">新建music.js</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#参数修改"><span class="nav-text">参数修改</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#修改aplayer样式："><span class="nav-text">修改aplayer样式：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#其他参数修改"><span class="nav-text">其他参数修改</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#aplayer放置"><span class="nav-text">aplayer放置</span></a></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#小记"><span class="nav-text">小记</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#下载aplayer"><span class="nav-text">下载aplayer</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#创建样式"><span class="nav-text">创建样式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#新建music-js"><span class="nav-text">新建music.js</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#参数修改"><span class="nav-text">参数修改</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#修改aplayer样式："><span class="nav-text">修改aplayer样式：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#其他参数修改"><span class="nav-text">其他参数修改</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#部署"><span class="nav-text">部署</span></a></div>
             
 
           </div>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2018-09-01T19:13:23.637Z</updated>
+  <updated>2018-09-02T09:34:57.833Z</updated>
   <id>/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="/2018/0902/hexo%E4%B8%8A%E7%9A%84aplayer%E5%BA%94%E7%94%A8.html"/>
     <id>/2018/0902/hexo上的aplayer应用.html</id>
     <published>2018-09-01T17:17:22.000Z</published>
-    <updated>2018-09-01T19:13:23.637Z</updated>
+    <updated>2018-09-02T09:34:57.833Z</updated>
     
     <summary type="html">
     
@@ -30,15 +30,15 @@
     </summary>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="html" scheme="/tags/html/"/>
     
-      <category term="github" scheme="/tags/github/"/>
+      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
     
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+      <category term="github" scheme="/tags/github/"/>
     
-      <category term="html" scheme="/tags/html/"/>
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
       <category term="music" scheme="/tags/music/"/>
     
@@ -49,7 +49,7 @@
     <link href="/2018/0901/hexo-next%E4%B8%BB%E9%A2%98%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%8C%96.html"/>
     <id>/2018/0901/hexo-next主题下的美化.html</id>
     <published>2018-09-01T14:53:15.000Z</published>
-    <updated>2018-09-01T16:39:30.470Z</updated>
+    <updated>2018-09-02T11:53:57.092Z</updated>
     
     <summary type="html">
     
@@ -58,11 +58,11 @@
     </summary>
     
     
+      <category term="markdown" scheme="/tags/markdown/"/>
+    
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
-    
-      <category term="markdown" scheme="/tags/markdown/"/>
     
       <category term="整合" scheme="/tags/%E6%95%B4%E5%90%88/"/>
     
@@ -179,8 +179,8 @@
   
   <entry>
     <title>hexo上的dplayer应用与嵌入视频的响应式设置</title>
-    <link href="/2018/0810/hexo%E4%B8%8A%E7%9A%84dplayer%E5%BA%94%E7%94%A8%E4%B8%8E%E5%B5%8C%E5%85%A5%E8%A7%86%E9%A2%91%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E8%AE%BE%E7%BD%AE-1.html"/>
-    <id>/2018/0810/hexo上的dplayer应用与嵌入视频的响应式设置-1.html</id>
+    <link href="/2018/0810/hexo%E4%B8%8A%E7%9A%84dplayer%E5%BA%94%E7%94%A8%E4%B8%8E%E5%B5%8C%E5%85%A5%E8%A7%86%E9%A2%91%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E8%AE%BE%E7%BD%AE.html"/>
+    <id>/2018/0810/hexo上的dplayer应用与嵌入视频的响应式设置.html</id>
     <published>2018-08-10T14:22:00.000Z</published>
     <updated>2018-09-01T19:02:49.563Z</updated>
     
@@ -191,15 +191,15 @@
     </summary>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="html" scheme="/tags/html/"/>
     
-      <category term="github" scheme="/tags/github/"/>
+      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
     
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+      <category term="github" scheme="/tags/github/"/>
     
-      <category term="html" scheme="/tags/html/"/>
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
       <category term="video" scheme="/tags/video/"/>
     
@@ -244,9 +244,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="github" scheme="/tags/github/"/>
-    
       <category term="hexo" scheme="/tags/hexo/"/>
+    
+      <category term="github" scheme="/tags/github/"/>
     
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
@@ -268,9 +268,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="github" scheme="/tags/github/"/>
-    
       <category term="hexo" scheme="/tags/hexo/"/>
+    
+      <category term="github" scheme="/tags/github/"/>
     
   </entry>
   
@@ -310,9 +310,9 @@
     </summary>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
       <category term="test" scheme="/tags/test/"/>
+    
+      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="script" scheme="/tags/script/"/>
     
@@ -340,9 +340,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="github" scheme="/tags/github/"/>
-    
       <category term="hexo" scheme="/tags/hexo/"/>
+    
+      <category term="github" scheme="/tags/github/"/>
     
       <category term="plugin" scheme="/tags/plugin/"/>
     
@@ -365,9 +365,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="github" scheme="/tags/github/"/>
-    
       <category term="hexo" scheme="/tags/hexo/"/>
+    
+      <category term="github" scheme="/tags/github/"/>
     
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
