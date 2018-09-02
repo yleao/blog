@@ -10,7 +10,7 @@
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<meta name="theme-color" content="#222">
+<meta name="theme-color" content="#fff">
 
 
 
@@ -42,6 +42,44 @@
   
   <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.cat.net/css?family=Lato:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Mirza:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
 
 
 
@@ -91,11 +129,11 @@
 <meta property="og:image" content="https://i.loli.net/2018/09/02/5b8ad2617acca.jpg">
 <meta property="og:image" content="https://i.loli.net/2018/09/02/5b8ad371099bd.jpg">
 <meta property="og:image" content="https://i.loli.net/2018/09/02/5b8ad4273d32d.jpg">
-<meta property="og:image" content="https://i.loli.net/2018/09/02/5b8add4ad8225.jpg">
-<meta property="og:image" content="https://i.loli.net/2018/09/02/5b8add5eb0a07.jpg">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/5b8add4ad8225.jpg">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/5b8add5eb0a07.jpg">
 <meta property="og:image" content="https://i.loli.net/2018/09/02/5b8add6a71168.jpg">
 <meta property="og:image" content="https://i.loli.net/2018/09/02/5b8adf4f8db84.jpg">
-<meta property="og:updated_time" content="2018-09-02T15:23:17.349Z">
+<meta property="og:updated_time" content="2018-09-02T15:39:48.447Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo上的aplayer应用">
 <meta name="twitter:description" content="小记aplayer是一个非常漂亮好用的HTML5音乐播放器，和dplayer师出同门，本篇主要分享一下自己搭建到hexo上的一些经验。部署dplayer的方式我是用的hexo插件，部署aplayer的方式我是用的提取dist文件。这样可以相互参考，喜欢哪种方式部署就用哪种。">
@@ -109,7 +147,7 @@
     root: '/',
     scheme: 'Mist',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":true},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -348,9 +386,9 @@
 <h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>上面操作完成后，aplayer的样式就已经设置好了。现在要做的就是把aplayer放在自己想要放置的位置上，放置代码如下：<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"/dist/APlayer.min.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"aplayer"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"/dist/APlayer.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"/dist/music.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
 <p>将放置代码放在不同的<code>~/hexo/themes/next/layout/***.swig</code>文件内会有不同的效果。</p>
 <p>例1：</p>
-<p><img src="https://i.loli.net/2018/09/02/5b8add4ad8225.jpg" alt="image 5"></p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/5b8add4ad8225.jpg" alt="image 5"></p>
 <p>例2：</p>
-<p><img src="https://i.loli.net/2018/09/02/5b8add5eb0a07.jpg" alt="image 6"></p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/5b8add5eb0a07.jpg" alt="image 6"></p>
 <p>例3：</p>
 <p><img src="https://i.loli.net/2018/09/02/5b8add6a71168.jpg" alt="image 7"></p>
 <p>每个人使用的主题不一样，要根据自己的主题去调试。例如我用的是next-mist主题，且喜欢放置在侧边栏。那么在<code>~/hexo/themes/next/layout/_marco</code>文件夹下找到<code>sidebar.swig</code>文件。</p>
@@ -459,6 +497,8 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
+    
+      <div id="sidebar-dimmer"></div>
     
     <div class="sidebar-inner">
 
@@ -642,6 +682,26 @@
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+  
+</div>
+
 
 
 

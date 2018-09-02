@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2018-09-02T15:23:17.349Z</updated>
+  <updated>2018-09-02T15:39:48.447Z</updated>
   <id>/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="/2018/0902/hexo%E4%B8%8A%E7%9A%84aplayer%E5%BA%94%E7%94%A8.html"/>
     <id>/2018/0902/hexo上的aplayer应用.html</id>
     <published>2018-09-01T17:17:22.000Z</published>
-    <updated>2018-09-02T15:23:17.349Z</updated>
+    <updated>2018-09-02T15:39:48.447Z</updated>
     
     <summary type="html">
     
@@ -54,11 +54,11 @@
     </summary>
     
     
-      <category term="markdown" scheme="/tags/markdown/"/>
-    
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
+    
+      <category term="markdown" scheme="/tags/markdown/"/>
     
       <category term="整合" scheme="/tags/%E6%95%B4%E5%90%88/"/>
     
@@ -302,9 +302,9 @@
     </summary>
     
     
-      <category term="test" scheme="/tags/test/"/>
-    
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
+      <category term="test" scheme="/tags/test/"/>
     
       <category term="script" scheme="/tags/script/"/>
     
