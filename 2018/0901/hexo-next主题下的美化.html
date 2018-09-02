@@ -108,7 +108,7 @@
 
 
 
-  <meta name="keywords" content="经验,hexo,markdown,整合," />
+  <meta name="keywords" content="经验,markdown,hexo,整合," />
 
 
 
@@ -122,21 +122,21 @@
 
 
 <meta name="description" content="小记因为hexo可以自定义的东西太多了，感觉还是整合到一篇post里会比较好。慢慢更新ing。">
-<meta name="keywords" content="经验,hexo,markdown,整合">
+<meta name="keywords" content="经验,markdown,hexo,整合">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo-next主题下的美化">
 <meta property="og:url" content="/2018/0901/hexo-next主题下的美化.html">
 <meta property="og:site_name" content="Y&#39;s BLOG">
 <meta property="og:description" content="小记因为hexo可以自定义的东西太多了，感觉还是整合到一篇post里会比较好。慢慢更新ing。">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/GIF.gif">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/GIF1111.gif">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180902194605.jpg">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180902195213.jpg">
-<meta property="og:updated_time" content="2018-09-02T20:26:15.211Z">
+<meta property="og:updated_time" content="2018-09-02T22:28:14.013Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo-next主题下的美化">
 <meta name="twitter:description" content="小记因为hexo可以自定义的东西太多了，感觉还是整合到一篇post里会比较好。慢慢更新ing。">
-<meta name="twitter:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/GIF.gif">
+<meta name="twitter:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/GIF1111.gif">
 
 
 
@@ -425,7 +425,7 @@
 <figure class="highlight mel"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 自定义页脚跳动的心样式</span></span><br><span class="line">@keyframes heartAnimate &#123;</span><br><span class="line">    <span class="number">0</span>%,<span class="number">100</span>%&#123;transform:<span class="keyword">scale</span>(<span class="number">1</span>);&#125;</span><br><span class="line">    <span class="number">10</span>%,<span class="number">30</span>%&#123;transform:<span class="keyword">scale</span>(<span class="number">0.9</span>);&#125;</span><br><span class="line">    <span class="number">20</span>%,<span class="number">40</span>%,<span class="number">60</span>%,<span class="number">80</span>%&#123;transform:<span class="keyword">scale</span>(<span class="number">1.1</span>);&#125;</span><br><span class="line">    <span class="number">50</span>%,<span class="number">70</span>%&#123;transform:<span class="keyword">scale</span>(<span class="number">1.1</span>);&#125;</span><br><span class="line">&#125;</span><br><span class="line">#heart &#123;</span><br><span class="line">    animation: heartAnimate <span class="number">1.33</span>s ease-<span class="keyword">in</span>-out infinite;</span><br><span class="line">&#125;</span><br><span class="line">.with-love &#123;</span><br><span class="line">    <span class="keyword">color</span>: rgb(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>其中<code>color</code>的值可以改成你自己喜欢的，RGB颜色可以参考<a href="https://blog.yleao.com/2018/0731/%E5%AD%97%E4%BD%93%E3%80%81%E5%AD%97%E5%8F%B7%E4%B8%8E%E9%A2%9C%E8%89%B2%E6%B5%8B%E8%AF%95.html#%E9%A2%9C%E8%89%B2%E5%88%97%E8%A1%A8" target="_blank" rel="noopener">这里</a>。</p>
 <p>效果如下：</p>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/GIF.gif" alt="gif 1"></p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/GIF1111.gif" alt="gif 1"></p>
 <hr>
 <blockquote>
 <h3 id="hexo上修改代码块自定义样式"><a href="#hexo上修改代码块自定义样式" class="headerlink" title="hexo上修改代码块自定义样式"></a><font color="#2E8B57">hexo上修改代码块自定义样式</font></h3></blockquote>
@@ -489,10 +489,8 @@
 <hr>
 <p>首先安装hexo-footnotes插件，进入站点根目录<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> hexo-footnotes <span class="comment">--save</span></span><br></pre></td></tr></table></figure></p>
 <p>如果hexo可以自动检测所有插件，则不需要修改<code>_config.yml</code>，</p>
-<p>如果不能自动检测，那么在在<code>站点配置文件</code>中增加：<br>`<br>plugins:</p>
-<ul>
-<li>hexo-footnotes<br>`</li>
-</ul>
+<p>如果不能自动检测，那么在在<code>站点配置文件</code>中增加：</p>
+<figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">plugins:</span></span><br><span class="line">  - hexo-footnotes</span><br></pre></td></tr></table></figure>
 <p>安装完成后按官方<a href="https://github.com/LouisBarranqueiro/hexo-footnotes#syntax" target="_blank" rel="noopener">readme</a>的方式书写。</p>
 <hr>
 <blockquote>
@@ -534,9 +532,9 @@
           
             <a href="/tags/经验/" rel="tag"><i class="fa fa-tag"></i> 经验</a>
           
-            <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i> hexo</a>
-          
             <a href="/tags/markdown/" rel="tag"><i class="fa fa-tag"></i> markdown</a>
+          
+            <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i> hexo</a>
           
             <a href="/tags/整合/" rel="tag"><i class="fa fa-tag"></i> 整合</a>
           
