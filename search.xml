@@ -16,9 +16,9 @@
     <url>%2F2018%2F0901%2Fhexo-next%E4%B8%BB%E9%A2%98%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%8C%96.html</url>
     <content type="text"><![CDATA[小记因为hexo可以自定义的东西太多了，感觉还是整合到一篇post里会比较好。慢慢更新ing。]]></content>
       <tags>
-        <tag>markdown</tag>
         <tag>经验</tag>
         <tag>hexo</tag>
+        <tag>markdown</tag>
         <tag>整合</tag>
       </tags>
   </entry>
@@ -126,8 +126,8 @@
     <url>%2F2018%2F0807%2F%E8%A7%A3%E6%9E%90%E6%8E%A5%E5%8F%A3.html</url>
     <content type="text"><![CDATA[TEST点这里]]></content>
       <tags>
-        <tag>test</tag>
         <tag>经验</tag>
+        <tag>test</tag>
         <tag>script</tag>
       </tags>
   </entry>
