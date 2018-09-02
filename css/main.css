@@ -1136,7 +1136,7 @@ pre .javascript .function {
   bottom: 19px;
 }
 .header {
-  background: transparent;
+  background: url("../images/header-bk.png");
 }
 .header-inner {
   position: relative;
@@ -1860,7 +1860,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff30fe;
+  background: #6c17de;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2984,6 +2984,13 @@ code {
   color: #ff4500;
   background: #fbf7f8;
   margin: 2px;
+}
+.post {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 14px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 14px rgba(202,203,204,0.5);
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
