@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[hexo上的aplayer应用]]></title>
+    <url>%2F2018%2F0902%2Fhexo%E4%B8%8A%E7%9A%84aplayer%E5%BA%94%E7%94%A8.html</url>
+    <content type="text"><![CDATA[小记aplayer是一个非常漂亮好用的HTML5音乐播放器，和dplayer师出同门，本篇主要分享一下自己搭建到hexo上的一些经验。部署dplayer的方式我是用的hexo插件，部署aplayer的方式我是用的提取dist文件。这样可以相互参考，喜欢哪种方式部署就用哪种。]]></content>
+      <tags>
+        <tag>经验</tag>
+        <tag>github</tag>
+        <tag>hexo</tag>
+        <tag>搭建</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo-next主题下的美化]]></title>
+    <url>%2F2018%2F0901%2Fhexo-next%E4%B8%BB%E9%A2%98%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%8C%96.html</url>
+    <content type="text"><![CDATA[小记因为hexo可以自定义的东西太多了，感觉还是整合到一篇post里会比较好。慢慢更新ing。]]></content>
+      <tags>
+        <tag>markdown</tag>
+        <tag>经验</tag>
+        <tag>hexo</tag>
+        <tag>整合</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[提取网易云外链]]></title>
+    <url>%2F2018%2F0831%2F%E6%8F%90%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E5%A4%96%E9%93%BE.html</url>
+    <content type="text"><![CDATA[之前因为版权原因网易云的外链基本上都用不了，后来可以打开审查用ctrl+F在源码搜索生成外链播放器的方式来获取外链，不过后面也不行了，提取出来的外链全都不能播放，都是404。]]></content>
+      <tags>
+        <tag>经验</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[网页工具备忘]]></title>
+    <url>%2F2018%2F0831%2F%E7%BD%91%E9%A1%B5%E5%B7%A5%E5%85%B7%E5%A4%87%E5%BF%98.html</url>
+    <content type="text"><![CDATA[小记这两天看了眼自己的书签栏，真是密密麻麻都快铺满了这个屏幕，感觉是时候清理一下了。把一些失效的网页删掉，暂时整理了一些感觉还挺好用的就放在这里吧，以后会慢慢更新。有关steam的网页工具可能要重新发一篇，实在是太多了。]]></content>
+      <tags>
+        <tag>经验</tag>
+        <tag>整合</tag>
+        <tag>tools</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[chrome魔法上网扩展]]></title>
+    <url>%2F2018%2F0830%2Fchrome%E9%AD%94%E6%B3%95%E4%B8%8A%E7%BD%91%E6%89%A9%E5%B1%95.html</url>
+    <content type="text"><![CDATA[The Great Firewall，由原北京邮电大学校长设计，一般情况下主要指中国对因特网内容进行自动审查和过滤监控、由计算机与网络设备等软硬件所构成的系统。网站被屏蔽的原因一般只有两点：一是违反宪法，二是攻击国家领导人。防火墙对于这些违规信息会用DNS污染（对于域名）和屏蔽IP的方式（对于IP）进行过滤，使国内用户无法访问，世界最大的搜索引擎谷歌就被DNS污染。]]></content>
+      <tags>
+        <tag>经验</tag>
+        <tag>扩展</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Mirage中VIP跳B小]]></title>
+    <url>%2F2018%2F0818%2FMirage%E4%B8%ADVIP%E8%B7%B3B%E5%B0%8F.html</url>
+    <content type="text"><![CDATA[相信很多玩家看到一些身法厉害的大佬旋转跳进狗洞然后再从vip跳B小很帅气，但是都觉得太难，其实跳B小这个难度并不算太大，我自己的感觉比单人上山要容易一点，只要掌握几个点再多加练习就可以了，目前我觉得最难的应该是单人上树。]]></content>
+      <tags>
+        <tag>经验</tag>
+        <tag>csgo</tag>
+        <tag>game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[腾讯云COS+PicGo自建图床和快速上传]]></title>
+    <url>%2F2018%2F0818%2F%E8%85%BE%E8%AE%AF%E4%BA%91COS-PicGo%E8%87%AA%E5%BB%BA%E5%9B%BE%E5%BA%8A%E5%92%8C%E5%BF%AB%E9%80%9F%E4%B8%8A%E4%BC%A0.html</url>
+    <content type="text"><![CDATA[因为现在网上的各种图床都限制大小和数量，使用起来很不方便，全站 https 也越来越普及，http 图床虽然不多，另外隐私方面也是一大问题，例如Find who he/she is和谁是Po主，不过在xx说隐私还是有点妄想了/摊手。 所以自建图床还是有点用处的。]]></content>
+      <tags>
+        <tag>经验</tag>
+        <tag>github</tag>
+        <tag>搭建</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo上的dplayer应用与嵌入视频的响应式设置]]></title>
+    <url>%2F2018%2F0810%2Fhexo%E4%B8%8A%E7%9A%84dplayer%E5%BA%94%E7%94%A8%E4%B8%8E%E5%B5%8C%E5%85%A5%E8%A7%86%E9%A2%91%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E8%AE%BE%E7%BD%AE.html</url>
+    <content type="text"><![CDATA[小记dplayer是一个HTML5弹幕视频播放器，可以帮助我们轻松建立一个弹幕视频。那么如何将dplayer应用在hexo上，这里就需要借助到hexo的一个插件了。部署dplayer我是用的hexo插件，部署aplayer我是用的提取dist文件的方法。这样可以相互参考，喜欢哪种方式部署就用哪种。]]></content>
+      <tags>
+        <tag>经验</tag>
+        <tag>github</tag>
+        <tag>hexo</tag>
+        <tag>搭建</tag>
+        <tag>plugin</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[移动端在线预览与调试]]></title>
+    <url>%2F2018%2F0810%2F%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E4%B8%8E%E8%B0%83%E8%AF%95.html</url>
+    <content type="text"><![CDATA[]]></content>
+      <tags>
+        <tag>test</tag>
+        <tag>wap</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Coding+Github双服务器托管hexo]]></title>
+    <url>%2F2018%2F0809%2FCoding-Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1hexo.html</url>
+    <content type="text"><![CDATA[Coding的部署方式和Github几乎无差。绑定腾讯云可升级为银牌会员，支持受限的 Pages 自定义域名，受限的意思是当来访者访问绑定自定义域名的 Pages 网页时，会看到『Hosted by CODING Pages』的跳转页面，可直接点击跳过该页面或五秒后自动跳转到目标页面。可免费去除，只需在网站上放置『Hosted by CODING Pages』的链接就行。详细点此了解。 此文只讲解如何部署在Coding上，和布置过程中遇到的一些问题。]]></content>
+      <tags>
+        <tag>经验</tag>
+        <tag>github</tag>
+        <tag>hexo</tag>
+        <tag>搭建</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[通过CDN直接给github pages加速]]></title>
+    <url>%2F2018%2F0809%2F%E9%80%9A%E8%BF%87CDN%E7%9B%B4%E6%8E%A5%E7%BB%99github-pages%E5%8A%A0%E9%80%9F.html</url>
+    <content type="text"><![CDATA[上篇文章我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。]]></content>
+      <tags>
+        <tag>经验</tag>
+        <tag>github</tag>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[伴我同行]]></title>
+    <url>%2F2018%2F0808%2F%E4%BC%B4%E6%88%91%E5%90%8C%E8%A1%8C.html</url>
+    <content type="text"><![CDATA[从最初的瞎看什么，到后面因为合同到期而改名的阅后即瞎，再到政策问题之后再度回归的嘻咦啊看，虽一路曲折，却依然不变初心。回归之后的首部作品就以如此质量，给了久久等待的我们最好的答复，一度看到泪目，这近5个月的等待是如此值得。]]></content>
+      <tags>
+        <tag>video</tag>
+        <tag>music</tag>
+        <tag>film</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[解析接口]]></title>
+    <url>%2F2018%2F0807%2F%E8%A7%A3%E6%9E%90%E6%8E%A5%E5%8F%A3.html</url>
+    <content type="text"><![CDATA[TEST点这里]]></content>
+      <tags>
+        <tag>test</tag>
+        <tag>经验</tag>
+        <tag>script</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo上的live2d应用]]></title>
+    <url>%2F2018%2F0805%2Fhexo%E4%B8%8A%E7%9A%84live2d%E5%BA%94%E7%94%A8.html</url>
+    <content type="text"><![CDATA[小记关于网页版的live2d首先是在bilibili live上看见的，也就是B站的看板娘，可支持换装、显示文字、点击播放语音动画等功能。于是就着手研究了一下，然后发现了hexo的一个插件：hexo-helper-live2d。 关于live2d Live2D目前有两个分支：Cubism和Euclid。若无特殊说明，Live2D通常是指Cubism分支。其工作原理是通过将一系列的2D图像进行平移、旋转和变形等操作，生成一个具有自然动画效果的可动人物模型。由于Live2D只需一系列2D原图即可生成具有类似于3D动画效果的模型，比3D建模耗费的时间和成本更少，因此受到很多游戏制作者，特别是小成本AVG和手游作者的喜爱。另外，Live2D生成的模型相对于真正的3D模型，可以更好地还原手绘风格。—摘自萌娘百科 其主要应用在游戏制作，漫画生成与建模等，普通用户则将其应用在电脑、手机上作为动态壁纸与网页装饰。此文主要分享如何为博客添加“看板娘”。]]></content>
+      <tags>
+        <tag>经验</tag>
+        <tag>github</tag>
+        <tag>hexo</tag>
+        <tag>plugin</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[腾讯云COS+Github双服务器托管hexo]]></title>
+    <url>%2F2018%2F0802%2F%E8%85%BE%E8%AE%AF%E4%BA%91COS-Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1hexo.html</url>
+    <content type="text"><![CDATA[把博客分别托管在腾讯云对象储存 和 Github Pages上，再通过DNS解析进行访问优化。由于github是国外的服务器，终归会对国内的用户访问造成一定的影响。于是打算再在国内服务器上部署一套，配合上国内的CDN加速，再利用DNS解析让国外用户和国内用户选择最优路线,从而提升访问速度。 此文只讲解如何部署在腾讯云COS上。]]></content>
+      <tags>
+        <tag>经验</tag>
+        <tag>github</tag>
+        <tag>hexo</tag>
+        <tag>搭建</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[嵌入测试]]></title>
+    <url>%2F2018%2F0802%2F%E5%B5%8C%E5%85%A5%E6%B5%8B%E8%AF%95.html</url>
+    <content type="text"><![CDATA[引入html来设置]]></content>
+      <tags>
+        <tag>markdown</tag>
+        <tag>test</tag>
+        <tag>video</tag>
+        <tag>music</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[统计测试]]></title>
+    <url>%2F2018%2F0802%2F%E7%BB%9F%E8%AE%A1%E6%B5%8B%E8%AF%95.html</url>
+    <content type="text"></content>
+      <tags>
+        <tag>test</tag>
+        <tag>ip</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[解除astats-nl的封禁]]></title>
+    <url>%2F2018%2F0801%2F%E8%A7%A3%E9%99%A4astats-nl%E7%9A%84%E5%B0%81%E7%A6%81.html</url>
+    <content type="text"><![CDATA[前言：astats.nl是个关于steam成就的第三方网址，被ban与否都不会影响steam账号，如果被ban可以不用担心，若想要解ban则看以下教程。]]></content>
+      <tags>
+        <tag>经验</tag>
+        <tag>steam</tag>
+        <tag>astats-nl</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[HTML元素测试]]></title>
+    <url>%2F2018%2F0731%2FHTML%E5%85%83%E7%B4%A0%E6%B5%8B%E8%AF%95.html</url>
+    <content type="text"><![CDATA[测试HTML元素是否都能正确显示。]]></content>
+      <tags>
+        <tag>markdown</tag>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[字体、字号与颜色测试]]></title>
+    <url>%2F2018%2F0731%2F%E5%AD%97%E4%BD%93%E3%80%81%E5%AD%97%E5%8F%B7%E4%B8%8E%E9%A2%9C%E8%89%B2%E6%B5%8B%E8%AF%95.html</url>
+    <content type="text"><![CDATA[字体测试代码123456&lt;font face="黑体"&gt;我是黑体字&lt;/font&gt;&lt;font face="微软雅黑"&gt;我是微软雅黑&lt;/font&gt;&lt;font face="STCAIYUN"&gt;我是华文彩云&lt;/font&gt;&lt;font color=#0099ff size=7 face="黑体"&gt;size=7 face="黑体"&lt;/font&gt;&lt;font color=#00ffff size=7&gt;color=#00ffff&lt;/font&gt;&lt;font color=gray size=7&gt;color=gray&lt;/font&gt; Size:规定文本的尺寸大小。可能的值：从1到7的数字。浏览器默认值是3。]]></content>
+      <tags>
+        <tag>markdown</tag>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[日本語テスト]]></title>
+    <url>%2F2018%2F0731%2F%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88.html</url>
+    <content type="text"></content>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[中文测试]]></title>
+    <url>%2F2018%2F0731%2F%E4%B8%AD%E6%96%87%E6%B5%8B%E8%AF%95.html</url>
+    <content type="text"></content>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F0730%2Fhello-world.html</url>
+    <content type="text"><![CDATA[]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+</search>
