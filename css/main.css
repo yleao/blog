@@ -1860,7 +1860,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #8e5573;
+  background: #506722;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3002,7 +3002,7 @@ code {
 .site-description {
   margin: 10px 0 30px;
   font-family: 'Comic Sans MS', sans-serif;
-  font-size: 1px;
+  font-size: 10px;
   font-weight: bold;
 }
 .sidebar-nav li {

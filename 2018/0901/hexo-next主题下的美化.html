@@ -108,7 +108,7 @@
 
 
 
-  <meta name="keywords" content="经验,markdown,hexo,整合," />
+  <meta name="keywords" content="经验,hexo,markdown,整合," />
 
 
 
@@ -122,7 +122,7 @@
 
 
 <meta name="description" content="小记因为hexo可以自定义的东西太多了，感觉还是整合到一篇post里会比较好。慢慢更新ing。">
-<meta name="keywords" content="经验,markdown,hexo,整合">
+<meta name="keywords" content="经验,hexo,markdown,整合">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo-next主题下的美化">
 <meta property="og:url" content="/2018/0901/hexo-next主题下的美化.html">
@@ -132,7 +132,7 @@
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/GIF1111.gif">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180902194605.jpg">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180902195213.jpg">
-<meta property="og:updated_time" content="2018-09-02T22:28:14.013Z">
+<meta property="og:updated_time" content="2018-09-03T09:14:43.169Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo-next主题下的美化">
 <meta name="twitter:description" content="小记因为hexo可以自定义的东西太多了，感觉还是整合到一篇post里会比较好。慢慢更新ing。">
@@ -399,8 +399,8 @@
 <hr>
 <p>两种方法让hexo next主题中的头像显示成圆形，且鼠标放上去有旋转效果。</p>
 <p>很推荐使用第一种方法，因为最好不要去修改除了<code>/next/source/css/_custom/</code>文件夹之外的其他4个文件夹里的源码。修改了其他四个文件夹里的源码之后想要还原的话则又要去修改一遍源码，比较麻烦。如果你只修改了<code>_custom/custom.styl</code>中的源码且想要还原的话，只需将<code>custom.styl</code>这个文件里面的添加的代码删除即可。</p>
-<p>1、直接在<code>~/hexo/themes/next/source/css/_custom</code>文件夹下的<code>costom.styl</code>文件内添加以下代码：<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 侧栏头像圆形及旋转效果</span></span><br><span class="line"><span class="selector-class">.site-author-image</span> &#123;</span><br><span class="line">    <span class="attribute">border</span>: <span class="number">0px</span> solid rgb(<span class="number">255</span>, <span class="number">255</span>, <span class="number">255</span>);</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">transition</span>: transform <span class="number">1.0s</span> ease-out;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-tag">img</span>:hover &#123;</span><br><span class="line">    <span class="attribute">transform</span>: rotateZ(<span class="number">360deg</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.posts-expand</span> <span class="selector-class">.post-body</span> <span class="selector-tag">img</span>:hover &#123;</span><br><span class="line">    <span class="attribute">transform</span>: initial;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>2、直接编辑<code>~/hexo/themes/next/source/css/_common/components/sidebar/sidebar-author.styl</code><br>文件夹下的<code>sidebar-author.styl</code>文件即可：</p>
+<p>方法1：直接在<code>~/hexo/themes/next/source/css/_custom</code>文件夹下的<code>costom.styl</code>文件内添加以下代码：<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 侧栏头像圆形及旋转效果</span></span><br><span class="line"><span class="selector-class">.site-author-image</span> &#123;</span><br><span class="line">    <span class="attribute">border</span>: <span class="number">0px</span> solid rgb(<span class="number">255</span>, <span class="number">255</span>, <span class="number">255</span>);</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">transition</span>: transform <span class="number">1.0s</span> ease-out;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-tag">img</span>:hover &#123;</span><br><span class="line">    <span class="attribute">transform</span>: rotateZ(<span class="number">360deg</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.posts-expand</span> <span class="selector-class">.post-body</span> <span class="selector-tag">img</span>:hover &#123;</span><br><span class="line">    <span class="attribute">transform</span>: initial;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>方法2：直接编辑<code>~/hexo/themes/next/source/css/_common/components/sidebar/sidebar-author.styl</code><br>文件夹下的<code>sidebar-author.styl</code>文件即可：</p>
 <p>将以下代码替换到其中的<code>site-author-img</code>属性。<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.site-author-image</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">padding</span>: $site-author-image-padding;</span><br><span class="line">  <span class="attribute">max-width</span>: $site-author-image-width;</span><br><span class="line">  <span class="attribute">height</span>: $site-author-image-height;</span><br><span class="line">  <span class="attribute">border</span>: $site-author-image-border-width solid $site-author-image-border-color;</span><br><span class="line"></span><br><span class="line">  <span class="comment">/* 头像圆形 */</span></span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">80px</span>;</span><br><span class="line">  <span class="attribute">-webkit-border-radius</span>: <span class="number">80px</span>;</span><br><span class="line">  <span class="attribute">-moz-border-radius</span>: <span class="number">80px</span>;</span><br><span class="line">  <span class="attribute">box-shadow</span>: inset <span class="number">0</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#333</span>sf;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  <span class="comment">/* 鼠标经过头像旋转360度 */</span></span><br><span class="line">  <span class="attribute">-webkit-transition</span>: -webkit-transform <span class="number">1.0s</span> ease-out;</span><br><span class="line">  <span class="attribute">-moz-transition</span>: -moz-transform <span class="number">1.0s</span> ease-out;</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">1.0s</span> ease-out;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">img</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">  <span class="comment">/* 鼠标经过停止头像旋转 </span></span><br><span class="line"><span class="comment">  -webkit-animation-play-state:paused;</span></span><br><span class="line"><span class="comment">  animation-play-state:paused; */</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">/* 鼠标经过头像旋转360度 */</span></span><br><span class="line">  <span class="attribute">-webkit-transform</span>: <span class="built_in">rotateZ</span>(360deg);</span><br><span class="line">  <span class="attribute">-moz-transform</span>: <span class="built_in">rotateZ</span>(360deg);</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">rotateZ</span>(360deg);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* Z轴旋转动画 */</span></span><br><span class="line">@-<span class="keyword">webkit</span>-<span class="keyword">keyframes</span> play &#123;</span><br><span class="line">  0% &#123;</span><br><span class="line">    <span class="attribute">-webkit-transform</span>: <span class="built_in">rotateZ</span>(0deg);</span><br><span class="line">  &#125;</span><br><span class="line">  100% &#123;</span><br><span class="line">    <span class="attribute">-webkit-transform</span>: <span class="built_in">rotateZ</span>(-360deg);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">@-<span class="keyword">moz</span>-<span class="keyword">keyframes</span> play &#123;</span><br><span class="line">  0% &#123;</span><br><span class="line">    <span class="attribute">-moz-transform</span>: <span class="built_in">rotateZ</span>(0deg);</span><br><span class="line">  &#125;</span><br><span class="line">  100% &#123;</span><br><span class="line">    <span class="attribute">-moz-transform</span>: <span class="built_in">rotateZ</span>(-360deg);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">@<span class="keyword">keyframes</span> play &#123;</span><br><span class="line">  0% &#123;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">rotateZ</span>(0deg);</span><br><span class="line">  &#125;</span><br><span class="line">  100% &#123;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">rotateZ</span>(-360deg);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <p>可自行编辑其中自己想要的属性。</p>
 <hr>
@@ -492,6 +492,7 @@
 <p>如果不能自动检测，那么在在<code>站点配置文件</code>中增加：</p>
 <figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">plugins:</span></span><br><span class="line">  - hexo-footnotes</span><br></pre></td></tr></table></figure>
 <p>安装完成后按官方<a href="https://github.com/LouisBarranqueiro/hexo-footnotes#syntax" target="_blank" rel="noopener">readme</a>的方式书写。</p>
+<p>注脚的内容最好放在文章的最后面，否则可能会出错误。</p>
 <hr>
 <blockquote>
 <h3 id="next主题下添加本地搜索"><a href="#next主题下添加本地搜索" class="headerlink" title="next主题下添加本地搜索"></a><font color="#2E8B57">next主题下添加本地搜索</font></h3></blockquote>
@@ -532,9 +533,9 @@
           
             <a href="/tags/经验/" rel="tag"><i class="fa fa-tag"></i> 经验</a>
           
-            <a href="/tags/markdown/" rel="tag"><i class="fa fa-tag"></i> markdown</a>
-          
             <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i> hexo</a>
+          
+            <a href="/tags/markdown/" rel="tag"><i class="fa fa-tag"></i> markdown</a>
           
             <a href="/tags/整合/" rel="tag"><i class="fa fa-tag"></i> 整合</a>
           
@@ -786,8 +787,6 @@
   <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a></div>
 
 
-
-  <div class="footer-custom"><a target="_blank" href="http://www.miitbeian.gov.cn/">湘ICP备18014937号</a></div>
 
 
 
@@ -1299,7 +1298,7 @@
     <canvas id="canvas"></canvas>
   </div>
   
-<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"right","width":130,"height":150},"mobile":{"show":true},"log":false});</script></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"right","width":130,"height":150},"mobile":{"show":false},"log":false});</script></body>
 </html>
 
 <script type="text/javascript" src="/js/src/dynamic_bg.js"></script>
