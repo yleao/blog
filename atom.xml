@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2018-09-02T18:32:10.917Z</updated>
+  <updated>2018-09-03T18:50:49.570Z</updated>
   <id>/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>轻羽飞扬！</title>
+    <link href="/2018/0903/%E8%BD%BB%E7%BE%BD%E9%A3%9E%E6%89%AC%EF%BC%81.html"/>
+    <id>/2018/0903/轻羽飞扬！.html</id>
+    <published>2018-09-03T12:05:18.000Z</published>
+    <updated>2018-09-03T18:50:49.570Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/pWwLUzLPz2s?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay;&quot; encrypted-media=&quot;&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;非常喜欢的op，无论是升格的运用还是各帧颜色和字体的设计都太棒了。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="video" scheme="/tags/video/"/>
+    
+      <category term="ac" scheme="/tags/ac/"/>
+    
+  </entry>
+  
+  <entry>
     <title>hexo上的aplayer应用</title>
     <link href="/2018/0902/hexo%E4%B8%8A%E7%9A%84aplayer%E5%BA%94%E7%94%A8.html"/>
     <id>/2018/0902/hexo上的aplayer应用.html</id>
     <published>2018-09-01T17:17:22.000Z</published>
-    <updated>2018-09-02T18:32:10.917Z</updated>
+    <updated>2018-09-03T18:53:41.528Z</updated>
     
     <summary type="html">
     
@@ -45,7 +66,7 @@
     <link href="/2018/0901/hexo-next%E4%B8%BB%E9%A2%98%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%8C%96.html"/>
     <id>/2018/0901/hexo-next主题下的美化.html</id>
     <published>2018-09-01T14:53:15.000Z</published>
-    <updated>2018-09-03T09:14:43.169Z</updated>
+    <updated>2018-09-03T15:54:29.569Z</updated>
     
     <summary type="html">
     
@@ -87,7 +108,7 @@
     <link href="/2018/0831/%E7%BD%91%E9%A1%B5%E5%B7%A5%E5%85%B7%E5%A4%87%E5%BF%98.html"/>
     <id>/2018/0831/网页工具备忘.html</id>
     <published>2018-08-30T21:43:01.000Z</published>
-    <updated>2018-09-01T20:02:30.004Z</updated>
+    <updated>2018-09-03T17:57:35.500Z</updated>
     
     <summary type="html">
     
@@ -245,7 +266,7 @@
     <link href="/2018/0809/%E9%80%9A%E8%BF%87CDN%E7%9B%B4%E6%8E%A5%E7%BB%99github-pages%E5%8A%A0%E9%80%9F.html"/>
     <id>/2018/0809/通过CDN直接给github-pages加速.html</id>
     <published>2018-08-08T18:44:00.000Z</published>
-    <updated>2018-08-31T06:12:39.495Z</updated>
+    <updated>2018-09-03T18:54:46.450Z</updated>
     
     <summary type="html">
     
@@ -267,11 +288,13 @@
     <link href="/2018/0808/%E4%BC%B4%E6%88%91%E5%90%8C%E8%A1%8C.html"/>
     <id>/2018/0808/伴我同行.html</id>
     <published>2018-08-08T11:39:00.000Z</published>
-    <updated>2018-09-02T20:49:55.668Z</updated>
+    <updated>2018-09-03T12:01:26.148Z</updated>
     
     <summary type="html">
     
-      &lt;iframe height=&quot;360&quot; width=&quot;480&quot; src=&quot;//player.bilibili.com/player.html?aid=28688911&amp;cid=49686376&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;&lt;br&gt;　&lt;br&gt;从最初的瞎看什么，到后面因为合同到期而改名的阅后即瞎，再到政策问题之后再度回归的嘻咦啊看，虽一路曲折，却依然不变初心。&lt;br&gt;&lt;br&gt;回归之后的首部作品就以如此质量，给了久久等待的我们最好的答复，一度看到泪目，这近5个月的等待是如此值得。&lt;br&gt;
+      &lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/PbS88WF9VnE?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay;&quot; encrypted-media=&quot;&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;从最初的瞎看什么，到后面因为合同到期而改名的阅后即瞎，再到政策问题之后再度回归的嘻咦啊看，虽一路曲折，却依然不变初心。&lt;/p&gt;
+&lt;p&gt;回归之后的首部作品就以如此质量，给了久久等待的我们最好的答复，一度看到泪目，这近5个月的等待是如此值得。&lt;br&gt;
     
     </summary>
     
@@ -311,7 +334,7 @@
     <link href="/2018/0805/hexo%E4%B8%8A%E7%9A%84live2d%E5%BA%94%E7%94%A8.html"/>
     <id>/2018/0805/hexo上的live2d应用.html</id>
     <published>2018-08-05T12:49:00.000Z</published>
-    <updated>2018-09-02T21:00:23.930Z</updated>
+    <updated>2018-09-03T19:41:15.939Z</updated>
     
     <summary type="html">
     
@@ -335,7 +358,7 @@
     <link href="/2018/0802/%E8%85%BE%E8%AE%AF%E4%BA%91COS-Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1hexo.html"/>
     <id>/2018/0802/腾讯云COS-Github双服务器托管hexo.html</id>
     <published>2018-08-01T22:42:00.000Z</published>
-    <updated>2018-08-31T05:28:56.270Z</updated>
+    <updated>2018-09-03T18:55:24.968Z</updated>
     
     <summary type="html">
     
@@ -435,27 +458,6 @@
     <summary type="html">
     
       &lt;p&gt;&lt;b&gt;测试HTML元素是否都能正确显示。&lt;/b&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="markdown" scheme="/tags/markdown/"/>
-    
-      <category term="test" scheme="/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>字体、字号与颜色测试</title>
-    <link href="/2018/0731/%E5%AD%97%E4%BD%93%E3%80%81%E5%AD%97%E5%8F%B7%E4%B8%8E%E9%A2%9C%E8%89%B2%E6%B5%8B%E8%AF%95.html"/>
-    <id>/2018/0731/字体、字号与颜色测试.html</id>
-    <published>2018-07-31T12:37:00.000Z</published>
-    <updated>2018-08-31T15:34:40.593Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;字体测试&quot;&gt;&lt;a href=&quot;#字体测试&quot; class=&quot;headerlink&quot; title=&quot;字体测试&quot;&gt;&lt;/a&gt;字体测试&lt;/h2&gt;&lt;h3 id=&quot;代码&quot;&gt;&lt;a href=&quot;#代码&quot; class=&quot;headerlink&quot; title=&quot;代码&quot;&gt;&lt;/a&gt;代码&lt;/h3&gt;&lt;figure class=&quot;highlight routeros&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;font &lt;span class=&quot;attribute&quot;&gt;face&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;黑体&quot;&lt;/span&gt;&amp;gt;我是黑体字&amp;lt;/font&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;font &lt;span class=&quot;attribute&quot;&gt;face&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;微软雅黑&quot;&lt;/span&gt;&amp;gt;我是微软雅黑&amp;lt;/font&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;font &lt;span class=&quot;attribute&quot;&gt;face&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;STCAIYUN&quot;&lt;/span&gt;&amp;gt;我是华文彩云&amp;lt;/font&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;font &lt;span class=&quot;attribute&quot;&gt;color&lt;/span&gt;=#0099ff &lt;span class=&quot;attribute&quot;&gt;size&lt;/span&gt;=7 &lt;span class=&quot;attribute&quot;&gt;face&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;黑体&quot;&lt;/span&gt;&amp;gt;size=7 &lt;span class=&quot;attribute&quot;&gt;face&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;黑体&quot;&lt;/span&gt;&amp;lt;/font&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;font &lt;span class=&quot;attribute&quot;&gt;color&lt;/span&gt;=#00ffff &lt;span class=&quot;attribute&quot;&gt;size&lt;/span&gt;=7&amp;gt;color=#00ffff&amp;lt;/font&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;font &lt;span class=&quot;attribute&quot;&gt;color&lt;/span&gt;=gray &lt;span class=&quot;attribute&quot;&gt;size&lt;/span&gt;=7&amp;gt;color=gray&amp;lt;/font&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;b&gt;Size:规定文本的尺寸大小。可能的值：从1到7的数字。浏览器默认值是3。&lt;/b&gt;&lt;/p&gt;
     
     </summary>
     

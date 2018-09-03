@@ -137,7 +137,7 @@
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/5b8add5eb0a07.jpg">
 <meta property="og:image" content="https://i.loli.net/2018/09/02/5b8add6a71168.jpg">
 <meta property="og:image" content="https://i.loli.net/2018/09/02/5b8adf4f8db84.jpg">
-<meta property="og:updated_time" content="2018-09-02T18:32:10.917Z">
+<meta property="og:updated_time" content="2018-09-03T18:53:41.528Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo上的aplayer应用">
 <meta name="twitter:description" content="小记aplayer是一个非常漂亮好用的HTML5音乐播放器，和dplayer师出同门，本篇主要分享一下自己搭建到hexo上的一些经验。部署dplayer的方式我是用的hexo插件，部署aplayer的方式我是用的提取dist文件。这样可以相互参考，喜欢哪种方式部署就用哪种。">
@@ -416,10 +416,10 @@
 <p><u>迷你模式代码</u>：<br><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> ap = <span class="keyword">new</span> APlayer(&#123;</span><br><span class="line">    container: <span class="built_in">document</span>.getElementById(<span class="string">'player'</span>),</span><br><span class="line">    mini: <span class="keyword">true</span>,</span><br><span class="line">    audio: [&#123;</span><br><span class="line">        name: <span class="string">'name'</span>,</span><br><span class="line">        artist: <span class="string">'artist'</span>,</span><br><span class="line">        url: <span class="string">'url.mp3'</span>,</span><br><span class="line">        cover: <span class="string">'cover.jpg'</span>,</span><br><span class="line">    &#125;]</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
 <p>效果如下：</p>
 <p><img src="https://i.loli.net/2018/09/02/5b8ad4273d32d.jpg" alt="image 4"></p>
-<h5 id="其他参数修改"><a href="#其他参数修改" class="headerlink" title="其他参数修改"></a>其他参数修改</h5><p>其他参数解释都能在官方文档里面查看，我再累赘一遍吧。</p>
+<h5 id="其他参数修改"><a href="#其他参数修改" class="headerlink" title="其他参数修改"></a>其他参数修改</h5><p>其他参数解释都能在官方文档里面查看，我再赘述一遍吧。</p>
 <figure class="highlight xl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">const ap = new APlayer(&#123;</span><br><span class="line">    container: document.getElementById(<span class="string">'aplayer'</span>), <span class="comment">//播放器容器元素</span></span><br><span class="line">    mini: <span class="literal">false</span>, <span class="comment">//迷你模式</span></span><br><span class="line">    autoplay: <span class="literal">false</span>, <span class="comment">//自动播放</span></span><br><span class="line">    <span class="built_in">theme</span>: <span class="string">'#FADFA3'</span>, <span class="comment">//主题色</span></span><br><span class="line">    <span class="keyword">loop</span>: <span class="string">'all'</span>, <span class="comment">//音频循环播放, 可选值: 'all'全部循环, 'one'单曲循环, 'none'不循环</span></span><br><span class="line">    order: <span class="string">'random'</span>, <span class="comment">//音频循环顺序, 可选值: 'list'列表循环, 'random'随机循环</span></span><br><span class="line">    preload: <span class="string">'auto'</span>, <span class="comment">//预加载，可选值: 'none', 'metadata', 'auto'</span></span><br><span class="line">    volume: <span class="number">0.7</span>, <span class="comment">//默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效</span></span><br><span class="line">    mutex: <span class="literal">true</span>, <span class="comment">//互斥，阻止多个播放器同时播放，当前播放器播放时暂停其他播放器</span></span><br><span class="line">    listFolded: <span class="literal">false</span>, <span class="comment">//列表默认折叠</span></span><br><span class="line">    listMaxHeight: <span class="number">90</span>, <span class="comment">//列表最大高度</span></span><br><span class="line">    lrcType: <span class="number">3</span>, <span class="comment">//歌词传递方式</span></span><br><span class="line">    audio: [ <span class="comment">//音频信息,包含以下</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">name</span>: <span class="string">'name1'</span>, <span class="comment">//音频名称</span></span><br><span class="line">            artist: <span class="string">'artist1'</span>, <span class="comment">//音频艺术家</span></span><br><span class="line">            url: <span class="string">'url1.mp3'</span>, <span class="comment">//音频外链</span></span><br><span class="line">            cover: <span class="string">'cover1.jpg'</span>, <span class="comment">//音频封面</span></span><br><span class="line">            lrc: <span class="string">'lrc1.lrc'</span>, <span class="comment">//音频歌词，配合上面的lrcType使用</span></span><br><span class="line">            <span class="built_in">theme</span>: <span class="string">'#ebd0c2'</span> <span class="comment">//切换到此音频时的主题色，比上面的 theme 优先级高</span></span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">name</span>: <span class="string">'name2'</span>, <span class="comment">//如果只有一首歌，删掉这一块，如有更多歌曲按此格式逐渐往下添加</span></span><br><span class="line">            artist: <span class="string">'artist2'</span>,</span><br><span class="line">            url: <span class="string">'url2.mp3'</span>,</span><br><span class="line">            cover: <span class="string">'cover2.jpg'</span>,</span><br><span class="line">            lrc: <span class="string">'lrc2.lrc'</span>,</span><br><span class="line">            <span class="built_in">theme</span>: <span class="string">'#46718b'</span></span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
 <p>更多有趣的功能自己去发掘吧。</p>
-<p>再在这里放一个<a href="http://www.ytmp3.cn/" target="_blank" rel="noopener">音乐外链网站</a>，搜索音乐，然后复制url和右击封面图片链接粘贴到对应的位置上就行了。或者参考我的另一篇<a href="https://blog.yleao.com/2018/0831/%E6%8F%90%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E5%A4%96%E9%93%BE.html" target="_blank" rel="noopener">文章</a>。</p>
+<p>再在这里放一个<a href="http://www.ytmp3.cn/" target="_blank" rel="noopener">音乐外链网站</a>，搜索音乐，进去之后得到的url就是外链。或者参考我的另一篇<a href="https://blog.yleao.com/2018/0831/%E6%8F%90%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E5%A4%96%E9%93%BE.html" target="_blank" rel="noopener">文章</a>。</p>
 <hr>
 <h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>上面操作完成后，aplayer的样式就已经设置好了。现在要做的就是把aplayer放在自己想要放置的位置上，放置代码如下：<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"/dist/APlayer.min.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"aplayer"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"/dist/APlayer.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"/dist/music.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
 <p>将放置代码放在不同的<code>~/hexo/themes/next/layout/***.swig</code>文件内会有不同的效果。</p>
@@ -490,6 +490,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/0903/轻羽飞扬！.html" rel="prev" title="轻羽飞扬！">
+                轻羽飞扬！ <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -572,7 +576,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">23</span>
+                  <span class="site-state-item-count">24</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -585,7 +589,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">20</span>
+                  <span class="site-state-item-count">21</span>
                   <span class="site-state-item-name">tags</span>
                 </a>
               </div>
@@ -639,20 +643,24 @@
               <ul class="links-of-blogroll-list">
                 
                   <li class="links-of-blogroll-item">
-                    <a href="steamcn.com" title="steamcn" target="_blank">steamcn</a>
+                    <a href="https://www.yleao.com/cut.html" title="cut" target="_blank">cut</a>
                   </li>
                 
                   <li class="links-of-blogroll-item">
-                    <a href="52pojie.cn" title="52pj" target="_blank">52pj</a>
+                    <a href="https://www.yleao.com/test.1.html" title="test.1" target="_blank">test.1</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.yleao.com/test.2.html" title="test.2" target="_blank">test.2</a>
                   </li>
                 
               </ul>
             </div>
           
-		  　  
-		  　  
-		  　  
-		  
+		       　
+		        　
+			  　
+			   　
 		  <link rel="stylesheet" href="/dist/APlayer.min.css">
           <div id="aplayer"></div>
           <script type="text/javascript" src="/dist/APlayer.min.js"></script>
@@ -696,7 +704,7 @@
   <span class="with-love" id="heart">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Yann.P</span>
+  <span class="author" itemprop="copyrightHolder">Yann P</span>
     
   
 </div>

@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[轻羽飞扬！]]></title>
+    <url>%2F2018%2F0903%2F%E8%BD%BB%E7%BE%BD%E9%A3%9E%E6%89%AC%EF%BC%81.html</url>
+    <content type="text"><![CDATA[非常喜欢的op，无论是升格的运用还是各帧颜色和字体的设计都太棒了。]]></content>
+      <tags>
+        <tag>video</tag>
+        <tag>ac</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[hexo上的aplayer应用]]></title>
     <url>%2F2018%2F0902%2Fhexo%E4%B8%8A%E7%9A%84aplayer%E5%BA%94%E7%94%A8.html</url>
     <content type="text"><![CDATA[小记aplayer是一个非常漂亮好用的HTML5音乐播放器，和dplayer师出同门，本篇主要分享一下自己搭建到hexo上的一些经验。部署dplayer的方式我是用的hexo插件，部署aplayer的方式我是用的提取dist文件。这样可以相互参考，喜欢哪种方式部署就用哪种。]]></content>
@@ -114,7 +123,7 @@
   <entry>
     <title><![CDATA[伴我同行]]></title>
     <url>%2F2018%2F0808%2F%E4%BC%B4%E6%88%91%E5%90%8C%E8%A1%8C.html</url>
-    <content type="text"><![CDATA[从最初的瞎看什么，到后面因为合同到期而改名的阅后即瞎，再到政策问题之后再度回归的嘻咦啊看，虽一路曲折，却依然不变初心。回归之后的首部作品就以如此质量，给了久久等待的我们最好的答复，一度看到泪目，这近5个月的等待是如此值得。]]></content>
+    <content type="text"><![CDATA[从最初的瞎看什么，到后面因为合同到期而改名的阅后即瞎，再到政策问题之后再度回归的嘻咦啊看，虽一路曲折，却依然不变初心。 回归之后的首部作品就以如此质量，给了久久等待的我们最好的答复，一度看到泪目，这近5个月的等待是如此值得。]]></content>
       <tags>
         <tag>video</tag>
         <tag>music</tag>
