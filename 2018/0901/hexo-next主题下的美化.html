@@ -76,11 +76,17 @@
   
 
   
+    
+      
+    
+
+    
+  
 
   
     
     
-    <link href="//fonts.cat.net/css?family=Lato:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Mirza:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Roboto Slab:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Noto Sans:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
   
 
 
@@ -108,7 +114,7 @@
 
 
 
-  <meta name="keywords" content="经验,hexo,markdown,整合," />
+  <meta name="keywords" content="经验,hexo,markdown,plugin,整合," />
 
 
 
@@ -122,7 +128,7 @@
 
 
 <meta name="description" content="小记因为hexo可以自定义的东西太多了，感觉还是整合到一篇post里会比较好。慢慢更新ing。">
-<meta name="keywords" content="经验,hexo,markdown,整合">
+<meta name="keywords" content="经验,hexo,markdown,plugin,整合">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo-next主题下的美化">
 <meta property="og:url" content="/2018/0901/hexo-next主题下的美化.html">
@@ -132,7 +138,7 @@
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/GIF1111.gif">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180902194605.jpg">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180902195213.jpg">
-<meta property="og:updated_time" content="2018-09-04T15:40:14.650Z">
+<meta property="og:updated_time" content="2018-09-05T04:55:02.287Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo-next主题下的美化">
 <meta name="twitter:description" content="小记因为hexo可以自定义的东西太多了，感觉还是整合到一篇post里会比较好。慢慢更新ing。">
@@ -431,8 +437,16 @@
 <h3 id="hexo上修改代码块自定义样式"><a href="#hexo上修改代码块自定义样式" class="headerlink" title="hexo上修改代码块自定义样式"></a><font color="#2E8B57">hexo上修改代码块自定义样式</font></h3></blockquote>
 <hr>
 <p>在next文件夹下的<code>sidebar-author.styl</code>文件中添加如下代码：<br><figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">文件位置：~<span class="regexp">/hexo/</span>themes<span class="regexp">/next/</span><span class="keyword">source</span><span class="regexp">/css/</span>_custom<span class="regexp">/custom.styl</span></span><br></pre></td></tr></table></figure></p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Custom styles.</span></span><br><span class="line"><span class="selector-tag">code</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#ff7600</span>;</span><br><span class="line">    <span class="attribute">background</span>: <span class="number">#fbf7f8</span>;</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">2px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 大代码块的自定义样式</span></span><br><span class="line"><span class="selector-class">.highlight</span>, pre &#123;</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">5px</span> <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">5px</span>;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.highlight</span>, <span class="selector-tag">code</span>, pre &#123;</span><br><span class="line">    <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#d6d6d6</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Custom styles.</span></span><br><span class="line"><span class="selector-tag">code</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#ff7600</span>;  <span class="comment">//代码颜色</span></span><br><span class="line">    <span class="attribute">background</span>: <span class="number">#fbf7f8</span>;  <span class="comment">//背景颜色</span></span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">2px</span>;  <span class="comment">//左右间距</span></span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">2px</span>;  <span class="comment">//上下间距</span></span><br><span class="line">    <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#D3D3D3</span>; <span class="comment">//边框线</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 大代码块的自定义样式</span></span><br><span class="line"><span class="selector-class">.highlight</span>, <span class="selector-tag">pre</span> &#123;</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">5px</span> <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">5px</span>;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.highlight</span>, <span class="selector-tag">code</span>, <span class="selector-tag">pre</span> &#123;</span><br><span class="line">    <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#d6d6d6</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>可以只修改小代码块。颜色代码可以参考<a href="https://blog.yleao.com/2018/0731/%E5%AD%97%E4%BD%93%E3%80%81%E5%AD%97%E5%8F%B7%E4%B8%8E%E9%A2%9C%E8%89%B2%E6%B5%8B%E8%AF%95.html#%E9%A2%9C%E8%89%B2%E5%88%97%E8%A1%A8" target="_blank" rel="noopener">这里</a>。</p>
+<hr>
+<blockquote>
+<h3 id="next主题下修改字体"><a href="#next主题下修改字体" class="headerlink" title="next主题下修改字体"></a><font color="#2E8B57">next主题下修改字体</font></h3></blockquote>
+<hr>
+<p>此特性在<code>版本 5.0.1</code>中引入，要使用此功能请确保所使用的 NexT 版本在此之后。</p>
+<p>在<code>主题配置文件</code>中找到<code>font</code>并启用，配置如下：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">font:</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># 外链字体库地址，例如 //fonts.googleapis.com (默认值)</span></span><br><span class="line"><span class="attr">  host:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># 全局字体，应用在 body 元素上</span></span><br><span class="line"><span class="attr">  global:</span></span><br><span class="line"><span class="attr">    external:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">    family:</span> <span class="string">Monda</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># 标题字体 (h1, h2, h3, h4, h5, h6)</span></span><br><span class="line"><span class="attr">  headings:</span></span><br><span class="line"><span class="attr">    external:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">    family:</span> <span class="string">Roboto</span> <span class="string">Slab</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># 文章字体</span></span><br><span class="line"><span class="attr">  posts:</span></span><br><span class="line"><span class="attr">    external:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">    family:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Logo 字体</span></span><br><span class="line"><span class="attr">  logo:</span></span><br><span class="line"><span class="attr">    external:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">    family:</span> <span class="string">Lobster</span> <span class="string">Two</span></span><br><span class="line"><span class="attr">    size:</span> <span class="number">24</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># 代码字体，应用于 code 以及代码块</span></span><br><span class="line"><span class="attr">  codes:</span></span><br><span class="line"><span class="attr">    external:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">    family:</span> <span class="string">PT</span> <span class="string">Mono</span></span><br></pre></td></tr></table></figure>
+<p>对应的<code>family</code>可在<a href="https://fonts.google.com/" target="_blank" rel="noopener">google fonts</a>自行查找。</p>
 <hr>
 <blockquote>
 <h3 id="next主题下加入动态背景"><a href="#next主题下加入动态背景" class="headerlink" title="next主题下加入动态背景"></a><font color="#2E8B57">next主题下加入动态背景</font></h3></blockquote>
@@ -528,9 +542,12 @@
 	
     <div>
      
-       <div>
+       　 
+
+
+<div>
     
-        <div style="text-align:center;color: #FA8072;font-size:10px;">------------- End  <i class="fa fa-hourglass-end" aria-hidden="true"></i>  Thank For Your Reading -------------</div>
+        <div style="text-align:center;color: #808080;font-size:10px;">------------- End  <i class="fa fa-hourglass-end" aria-hidden="true"></i>  Thank For Your Reading -------------</div>
     
 </div>
      
@@ -549,6 +566,8 @@
             <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i> hexo</a>
           
             <a href="/tags/markdown/" rel="tag"><i class="fa fa-tag"></i> markdown</a>
+          
+            <a href="/tags/plugin/" rel="tag"><i class="fa fa-tag"></i> plugin</a>
           
             <a href="/tags/整合/" rel="tag"><i class="fa fa-tag"></i> 整合</a>
           
@@ -762,7 +781,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#小记"><span class="nav-text">小记</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下让头像旋转"><span class="nav-text">next主题下让头像旋转</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下让页脚的heart-icon跳动起来"><span class="nav-text">next主题下让页脚的heart-icon跳动起来</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上修改代码块自定义样式"><span class="nav-text">hexo上修改代码块自定义样式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下加入动态背景"><span class="nav-text">next主题下加入动态背景</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下给每篇文章添加结束标语"><span class="nav-text">next主题下给每篇文章添加结束标语</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上给首页文章添加read-more-查看原文按钮"><span class="nav-text">hexo上给首页文章添加read-more/查看原文按钮</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上添加音频播放器"><span class="nav-text">hexo上添加音频播放器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上添加视频播放器"><span class="nav-text">hexo上添加视频播放器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上添加看板娘"><span class="nav-text">hexo上添加看板娘</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下修改文章底部-号tag标签"><span class="nav-text">next主题下修改文章底部#号tag标签</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上给文章添加脚注"><span class="nav-text">hexo上给文章添加脚注</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下添加本地搜索"><span class="nav-text">next主题下添加本地搜索</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下添加404页面"><span class="nav-text">next主题下添加404页面</span></a></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#小记"><span class="nav-text">小记</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下让头像旋转"><span class="nav-text">next主题下让头像旋转</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下让页脚的heart-icon跳动起来"><span class="nav-text">next主题下让页脚的heart-icon跳动起来</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上修改代码块自定义样式"><span class="nav-text">hexo上修改代码块自定义样式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下修改字体"><span class="nav-text">next主题下修改字体</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下加入动态背景"><span class="nav-text">next主题下加入动态背景</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下给每篇文章添加结束标语"><span class="nav-text">next主题下给每篇文章添加结束标语</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上给首页文章添加read-more-查看原文按钮"><span class="nav-text">hexo上给首页文章添加read-more/查看原文按钮</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上添加音频播放器"><span class="nav-text">hexo上添加音频播放器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上添加视频播放器"><span class="nav-text">hexo上添加视频播放器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上添加看板娘"><span class="nav-text">hexo上添加看板娘</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下修改文章底部-号tag标签"><span class="nav-text">next主题下修改文章底部#号tag标签</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上给文章添加脚注"><span class="nav-text">hexo上给文章添加脚注</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下添加本地搜索"><span class="nav-text">next主题下添加本地搜索</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下添加404页面"><span class="nav-text">next主题下添加404页面</span></a></div>
             
 
           </div>
