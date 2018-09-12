@@ -81,9 +81,9 @@
     
       <category term="hexo" scheme="/tags/hexo/"/>
     
-      <category term="markdown" scheme="/tags/markdown/"/>
-    
       <category term="plugin" scheme="/tags/plugin/"/>
+    
+      <category term="markdown" scheme="/tags/markdown/"/>
     
       <category term="整合" scheme="/tags/%E6%95%B4%E5%90%88/"/>
     
