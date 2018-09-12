@@ -5,6 +5,7 @@ const ap = new APlayer({
     listMaxHeight: 60,
     autoplay: false,
 	mutex: true,
+	volume: 0.7
     audio: [
       {
         name: "Moon River　",
