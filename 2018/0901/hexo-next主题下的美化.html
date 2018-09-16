@@ -114,7 +114,7 @@
 
 
 
-  <meta name="keywords" content="经验,hexo,markdown,plugin,整合," />
+  <meta name="keywords" content="经验,markdown,hexo,plugin,整合," />
 
 
 
@@ -128,7 +128,7 @@
 
 
 <meta name="description" content="小记因为hexo可以自定义的东西太多了，感觉还是整合到一篇post里会比较好。慢慢更新ing。">
-<meta name="keywords" content="经验,hexo,markdown,plugin,整合">
+<meta name="keywords" content="经验,markdown,hexo,plugin,整合">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo-next主题下的美化">
 <meta property="og:url" content="/2018/0901/hexo-next主题下的美化.html">
@@ -138,7 +138,7 @@
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/GIF1111.gif">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180902194605.jpg">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180902195213.jpg">
-<meta property="og:updated_time" content="2018-09-16T12:58:34.649Z">
+<meta property="og:updated_time" content="2018-09-16T13:15:11.575Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo-next主题下的美化">
 <meta name="twitter:description" content="小记因为hexo可以自定义的东西太多了，感觉还是整合到一篇post里会比较好。慢慢更新ing。">
@@ -536,17 +536,17 @@
 <p>锚点(anchor)：其实就是超链接的一种，一种特殊的超链接。</p>
 <p>锚点可以在同一页面的不同位置间跳转，其实就是在元素间跳转，常用的场景就是，页面很长，让用户方便在页面不同部分间跳转，类似于脚注。可以用html的代码来书写。</p>
 <p><b><font size="4">同页面跳转</font></b></p>
-<p>设置一个锚点链接<code>&lt;a href=&quot;#test&quot;&gt;&lt;/a&gt;</code>。（注意：href属性的属性值最前面要加#）</p>
+<p>设置一个锚点链接<code>&lt;a href=&quot;#test&quot;&gt;锚点&lt;/a&gt;</code>。（注意：href属性的属性值最前面要加#）</p>
 <p>在页面中需要的位置设置目标，目标写法<code>&lt;p id=&quot;test&quot;&gt;目标&lt;/p&gt;</code>。（注意：目标标签的属性值要与锚点链接中的href属性值一样，但不加#，例如我写的href属性值为#test，那么后面id对应的属性值为test）</p>
-<p>案例：<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"#red"</span>&gt;</span>跳转到红色<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">"red"</span>&gt;</span>红色<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p><b>案例：</b><br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"#red"</span>&gt;</span>跳转到红色<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">"red"</span>&gt;</span>红色<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
 <p><a href="#red">跳转到红色</a></p>
 <p id="red"><font color="red">红色</font></p>
 
 <p><b><font size="4">跨页面跳转</font></b></p>
-<p>和同页面跳转差不多，同样设置锚点链接，在href中的要跳转到的页面路径后面追加<code>#+锚点名</code>即<code>&lt;a href=&quot;跳转页面.html#test&quot;&gt;锚点&lt;/a&gt;</code>。</p>
+<p>和同页面跳转差不多，同样设置锚点链接，在href中的要跳转到的页面路径后面追加<code>#+属性值</code>，<br>即<code>&lt;a href=&quot;跳转页面.html#test&quot;&gt;锚点&lt;/a&gt;</code>。</p>
 <p>在跳转页面中需要的位置设置目标，目标写法<code>&lt;p id=&quot;test&quot;&gt;目标&lt;/p&gt;</code>。</p>
-<p>案例：</p>
-<p><a href="https://blog.yleao.com/2018/0730/hello-world.html#test" target="_blank" rel="noopener">Quick Start</a></p>
+<p><b>案例：</b></p>
+<p><a href="https://blog.yleao.com/2018/0731/%E5%AD%97%E4%BD%93%E3%80%81%E5%AD%97%E5%8F%B7%E4%B8%8E%E9%A2%9C%E8%89%B2%E6%B5%8B%E8%AF%95.html#test" target="_blank" rel="noopener">跳转到颜色列表</a></p>
 <hr>
 
       
@@ -581,9 +581,9 @@
           
             <a href="/tags/经验/" rel="tag"><i class="fa fa-tag"></i> 经验</a>
           
-            <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i> hexo</a>
-          
             <a href="/tags/markdown/" rel="tag"><i class="fa fa-tag"></i> markdown</a>
+          
+            <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i> hexo</a>
           
             <a href="/tags/plugin/" rel="tag"><i class="fa fa-tag"></i> plugin</a>
           
