@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2018-09-13T14:11:09.869Z</updated>
+  <updated>2018-09-16T12:14:02.413Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VPS上搭建Shadowsocks</title>
+    <link href="/2018/0916/VPS%E4%B8%8A%E6%90%AD%E5%BB%BAShadowsocks.html"/>
+    <id>/2018/0916/VPS上搭建Shadowsocks.html</id>
+    <published>2018-09-16T08:27:45.000Z</published>
+    <updated>2018-09-16T12:14:02.413Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之前写了&lt;a href=&quot;https://blog.yleao.com/2018/0830/chrome%E9%AD%94%E6%B3%95%E4%B8%8A%E7%BD%91%E6%89%A9%E5%B1%95.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;魔法上网的chrome扩展&lt;/a&gt;一文，但是个人更推荐自己搭建，本来我的小鸡已经够多了，前几天&lt;a href=&quot;#1&quot;&gt;vultr&lt;/a&gt;给我其中一个邮箱送了10刀余额，便想着正好可以顺手写一篇关于搭建的文章。此文便是分享如何在VPS上搭建ss进行魔法上网，适合纯小白阅读。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="gfw" scheme="/tags/gfw/"/>
+    
+  </entry>
   
   <entry>
     <title>关爱空巢老人，别让等待，成为遗憾</title>
@@ -42,7 +64,7 @@
     <link href="/2018/0903/%E8%BD%BB%E7%BE%BD%E9%A3%9E%E6%89%AC%EF%BC%81.html"/>
     <id>/2018/0903/轻羽飞扬！.html</id>
     <published>2018-09-03T12:05:18.000Z</published>
-    <updated>2018-09-13T14:07:09.921Z</updated>
+    <updated>2018-09-16T11:37:20.108Z</updated>
     
     <summary type="html">
     
@@ -91,7 +113,7 @@
     <link href="/2018/0901/hexo-next%E4%B8%BB%E9%A2%98%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%8C%96.html"/>
     <id>/2018/0901/hexo-next主题下的美化.html</id>
     <published>2018-09-01T14:53:15.000Z</published>
-    <updated>2018-09-05T04:55:02.287Z</updated>
+    <updated>2018-09-16T12:58:34.649Z</updated>
     
     <summary type="html">
     
@@ -135,7 +157,7 @@
     <link href="/2018/0831/%E7%BD%91%E9%A1%B5%E5%B7%A5%E5%85%B7%E5%A4%87%E5%BF%98.html"/>
     <id>/2018/0831/网页工具备忘.html</id>
     <published>2018-08-30T21:43:01.000Z</published>
-    <updated>2018-09-12T03:35:42.517Z</updated>
+    <updated>2018-09-16T09:34:37.986Z</updated>
     
     <summary type="html">
     
@@ -157,7 +179,7 @@
     <link href="/2018/0830/chrome%E9%AD%94%E6%B3%95%E4%B8%8A%E7%BD%91%E6%89%A9%E5%B1%95.html"/>
     <id>/2018/0830/chrome魔法上网扩展.html</id>
     <published>2018-08-30T09:15:00.000Z</published>
-    <updated>2018-09-02T17:36:49.132Z</updated>
+    <updated>2018-09-16T11:36:46.329Z</updated>
     
     <summary type="html">
     
@@ -169,6 +191,8 @@
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="扩展" scheme="/tags/%E6%89%A9%E5%B1%95/"/>
+    
+      <category term="gfw" scheme="/tags/gfw/"/>
     
   </entry>
   
@@ -451,29 +475,6 @@
       <category term="test" scheme="/tags/test/"/>
     
       <category term="ip" scheme="/tags/ip/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>解除astats-nl的封禁</title>
-    <link href="/2018/0801/%E8%A7%A3%E9%99%A4astats-nl%E7%9A%84%E5%B0%81%E7%A6%81.html"/>
-    <id>/2018/0801/解除astats-nl的封禁.html</id>
-    <published>2018-08-01T12:43:00.000Z</published>
-    <updated>2018-09-02T21:11:50.246Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;前言：astats.nl是个关于steam成就的第三方网址，被ban与否都不会影响steam账号，如果被ban可以不用担心，若想要解ban则看以下教程。&lt;/p&gt;
-&lt;a class=&quot;btn&quot; href=&quot;https://steamcn.com/t258676-1-1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;i class=&quot;fa fa-hand-pointer-o fa-lg fa-fw&quot;&gt;&lt;/i&gt;此文首发于steamcn——蒸汽动力&lt;/a&gt;
-    
-    </summary>
-    
-    
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
-      <category term="steam" scheme="/tags/steam/"/>
-    
-      <category term="astats-nl" scheme="/tags/astats-nl/"/>
     
   </entry>
   
