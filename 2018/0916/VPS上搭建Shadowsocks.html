@@ -146,7 +146,7 @@
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20170916184608.jpg">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180916185200.jpg">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180916192122.jpg">
-<meta property="og:updated_time" content="2018-09-16T13:19:47.262Z">
+<meta property="og:updated_time" content="2018-09-16T13:27:09.711Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="VPS上搭建Shadowsocks">
 <meta name="twitter:description" content="之前写了魔法上网的chrome扩展一文，但是个人更推荐自己搭建，本来我的小鸡已经够多了，但前几天vultr给我其中一个邮箱送了10刀余额，于是想着正好可以顺手写一篇关于搭建的文章。此文便是分享如何在VPS上搭建ss进行魔法上网，适合纯小白阅读。">
@@ -418,7 +418,7 @@
 <p>国外的VPS供应商有很多，像比较有名的有<a href="https://bwh1.net/" target="_blank" rel="noopener">搬瓦工</a>和<a href="https://www.vultr.com" target="_blank" rel="noopener">Vultr</a>，所以这两个也是被GFW重点关注的对象，谁让这两个价格优惠且返利活动多呢。以后有机会我会专门写一篇文章对比国外的VPS供应商的优劣。</p>
 <hr>
 <h3 id="正式搭建"><a href="#正式搭建" class="headerlink" title="正式搭建"></a>正式搭建</h3><hr>
-<h4 id="注册vultr"><a href="#注册vultr" class="headerlink" title="注册vultr"></a>注册vultr</h4><p>新用户注册，送25美元，有效期一年，一年没有用完自动过期，且需要自己再充值5美元来激活这个送的25美元。算一下的话就是2.5刀一个月的魔法主机可以用一年；3.5刀一个月的魔法主机可以用八个月，5刀一个月的魔法主机可以用六个月。</p>
+<h4 id="注册vultr"><a href="#注册vultr" class="headerlink" title="注册vultr"></a>注册vultr</h4><p>新用户注册，送25美元，有效期一年，一年没有用完自动过期，且需要自己再充值5美元来激活这个送的25美元。算一下的话就是2.5刀一个月的魔法主机可以用一年，3.5刀一个月的魔法主机可以用八个月，5刀一个月的魔法主机可以用六个月。</p>
 <font color="red">注意：要参加这个活动只能使用信用卡或者paypal来充值5美元激活，支付宝付款不能激活赠送的25美元。</font>
 
 <p>新用户活动注册地址：<a href="https://www.vultr.com/promo25b" target="_blank" rel="noopener">https://www.vultr.com/promo25b</a></p>
@@ -428,8 +428,8 @@
 <p>服务器节点推荐<code>洛杉矶</code>和<code>纽约</code>。另外vultr是被重点关注对象，所以如果选择的节点被墙则可以删除这个服务器，再按教程重新创建一个服务器，因为vultr是按时间计费的，所以不用担心扣费。</p>
 <p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180916181945.jpg" alt="pic 2"></p>
 <p>操作系统根据自己习惯选择，个人使用的是CenterOS。</p>
-<p>价格最便宜的配置为2.5刀/月，但此配置只有IPV6权限，不建议选择这个。想要IPV4地址则要选择最近新增的3.5刀/月或往上的配置，3.5刀/月和2.5刀/月的基础配置一样，同是1vCore的cpu、512M内存、20G的ssd与1Gbps带宽。<a href="https://www.zhujiceping.com/32150.html" target="_blank" rel="noopener">了解详情可点这里</a>。个人选的3.5刀/月的配置。</p>
-<p>以上选择完毕后拉到最下面点击<code>Deploy Now</code>生成服务器。现在Servers界面会显示刚创建的Server，状态是Installing.，等一会儿状态会变成Running。</p>
+<p>价格最便宜的配置为2.5刀/月，但此配置只有IPV6权限，3.5刀/月和2.5刀/月的基础配置一样，同是1vCore的cpu、512M内存、20G的ssd与1Gbps带宽，但多了IPV4权限，想要IPV4地址则要选择最近新增的3.5刀/月或往上的配置。<a href="https://www.zhujiceping.com/32150.html" target="_blank" rel="noopener">了解详情可点这里</a>。个人选的3.5刀/月的配置。</p>
+<p>以上选择完毕后拉到最下面点击<code>Deploy Now</code>生成服务器。现在Servers界面会显示刚创建的服务器，状态是Installing.，等一会儿状态会变成Running。</p>
 <p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180916182105.jpg" alt="pic 3"></p>
 <hr>
 <h4 id="连接server"><a href="#连接server" class="headerlink" title="连接server"></a>连接server</h4><p>点击刚才创建的服务器，进入详情页面：</p>
@@ -466,7 +466,7 @@
 <p>若是用的ssr，则下载ssr客户端，<a href="https://github.com/shadowsocksrr/shadowsocksr-csharp/releases" target="_blank" rel="noopener"><i class="fa fa-download" aria-hidden="true"></i>ssr windows客户端</a></p>
 <p>下载安装之后打开，选择编辑服务器，添加刚刚设置的服务器ip、端口、密码，代理端口为代理本机的端口，建议默认 1080：</p>
 <p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180916192122.jpg" alt="pic 11"></p>
-<p>最后代理模式改为全局，现在可以去体验墙外的生活啦。</p>
+<p>最后代理模式改为全局模式，现在可以去体验墙外的世界啦。</p>
 
       
     </div>
