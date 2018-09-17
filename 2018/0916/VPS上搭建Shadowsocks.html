@@ -127,13 +127,13 @@
 
 
 
-<meta name="description" content="之前写了魔法上网的chrome扩展一文，但是个人更推荐自己搭建，本来我的小鸡已经够多了，但前几天vultr给我其中一个邮箱送了10刀余额，于是想着正好可以顺手写一篇关于搭建的文章。此文便是分享如何在VPS上搭建ss进行魔法上网，适合纯小白阅读。">
+<meta name="description" content="之前写了魔法上网的chrome扩展一文，但是个人更推荐自己搭建，本来我的小鸡已经够多了，但前几天vultr给我其中一个邮箱送了10刀余额，于是想着正好可以顺手写一篇关于搭建的文章。此文便是分享如何在VPS上搭建ss进行魔法上网。">
 <meta name="keywords" content="经验,搭建,gfw">
 <meta property="og:type" content="article">
 <meta property="og:title" content="VPS上搭建Shadowsocks">
 <meta property="og:url" content="/2018/0916/VPS上搭建Shadowsocks.html">
 <meta property="og:site_name" content="Y&#39;s BLOG">
-<meta property="og:description" content="之前写了魔法上网的chrome扩展一文，但是个人更推荐自己搭建，本来我的小鸡已经够多了，但前几天vultr给我其中一个邮箱送了10刀余额，于是想着正好可以顺手写一篇关于搭建的文章。此文便是分享如何在VPS上搭建ss进行魔法上网，适合纯小白阅读。">
+<meta property="og:description" content="之前写了魔法上网的chrome扩展一文，但是个人更推荐自己搭建，本来我的小鸡已经够多了，但前几天vultr给我其中一个邮箱送了10刀余额，于是想着正好可以顺手写一篇关于搭建的文章。此文便是分享如何在VPS上搭建ss进行魔法上网。">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180916173555.jpg">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180916181945.jpg">
@@ -146,10 +146,10 @@
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20170916184608.jpg">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180916185200.jpg">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180916192122.jpg">
-<meta property="og:updated_time" content="2018-09-16T13:27:09.711Z">
+<meta property="og:updated_time" content="2018-09-17T07:45:30.959Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="VPS上搭建Shadowsocks">
-<meta name="twitter:description" content="之前写了魔法上网的chrome扩展一文，但是个人更推荐自己搭建，本来我的小鸡已经够多了，但前几天vultr给我其中一个邮箱送了10刀余额，于是想着正好可以顺手写一篇关于搭建的文章。此文便是分享如何在VPS上搭建ss进行魔法上网，适合纯小白阅读。">
+<meta name="twitter:description" content="之前写了魔法上网的chrome扩展一文，但是个人更推荐自己搭建，本来我的小鸡已经够多了，但前几天vultr给我其中一个邮箱送了10刀余额，于是想着正好可以顺手写一篇关于搭建的文章。此文便是分享如何在VPS上搭建ss进行魔法上网。">
 <meta name="twitter:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180916173555.jpg">
 
 
@@ -405,14 +405,14 @@
       
 
       
-        <p>之前写了<a href="https://blog.yleao.com/2018/0830/chrome%E9%AD%94%E6%B3%95%E4%B8%8A%E7%BD%91%E6%89%A9%E5%B1%95.html" target="_blank" rel="noopener">魔法上网的chrome扩展</a>一文，但是个人更推荐自己搭建，本来我的小鸡已经够多了，但前几天<a href="#1">vultr</a>给我其中一个邮箱送了10刀余额，于是想着正好可以顺手写一篇关于搭建的文章。此文便是分享如何在VPS上搭建ss进行魔法上网，适合纯小白阅读。</p>
+        <p>之前写了<a href="https://blog.yleao.com/2018/0830/chrome%E9%AD%94%E6%B3%95%E4%B8%8A%E7%BD%91%E6%89%A9%E5%B1%95.html" target="_blank" rel="noopener">魔法上网的chrome扩展</a>一文，但是个人更推荐自己搭建，本来我的小鸡已经够多了，但前几天<a href="#1">vultr</a>给我其中一个邮箱送了10刀余额，于是想着正好可以顺手写一篇关于搭建的文章。此文便是分享如何在VPS上搭建ss进行魔法上网。</p>
 <a id="more"></a>
 <hr>
 <h3 id="VPS是什么"><a href="#VPS是什么" class="headerlink" title="VPS是什么"></a>VPS是什么</h3><hr>
 <p>Virtual private server，缩写为 VPS，即<code>虚拟专用服务器</code>，是将一台服务器分区成多个虚拟专享服务器的服务。在容器或虚拟机中，每个VPS都可分配独立公网IP地址、独立操作系统、实现不同VPS间磁盘空间、内存、CPU资源、进程和系统配置的隔离，为用户和应用程序模拟出“独占”使用计算资源的体验。<a href="https://zh.wikipedia.org/wiki/%E8%99%9A%E6%8B%9F%E4%B8%93%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8" target="_blank" rel="noopener">—摘自wiki</a></p>
 <hr>
 <h3 id="VPS与Vhost，ECS，独立服务器的区别"><a href="#VPS与Vhost，ECS，独立服务器的区别" class="headerlink" title="VPS与Vhost，ECS，独立服务器的区别"></a>VPS与Vhost，ECS，独立服务器的区别</h3><hr>
-<p>可参考<a href="https://www.zhihu.com/question/19856629" target="_blank" rel="noopener">知乎—VPS与虚拟主机有什么异同？</a></p>
+<p>可参考云栖社区的<a href="https://yq.aliyun.com/articles/226730" target="_blank" rel="noopener">《阿里云服务器与VPS和虚拟主机有什么区别？》</a>一文。</p>
 <hr>
 <h3 id="VPS供应商"><a href="#VPS供应商" class="headerlink" title="VPS供应商"></a><p id="1">VPS供应商</p></h3><hr>
 <p>国外的VPS供应商有很多，像比较有名的有<a href="https://bwh1.net/" target="_blank" rel="noopener">搬瓦工</a>和<a href="https://www.vultr.com" target="_blank" rel="noopener">Vultr</a>，所以这两个也是被GFW重点关注的对象，谁让这两个价格优惠且返利活动多呢。以后有机会我会专门写一篇文章对比国外的VPS供应商的优劣。</p>
