@@ -17,8 +17,8 @@
     <content type="text"><![CDATA[之前写了魔法上网的chrome扩展一文，但是个人更推荐自己搭建，本来我的小鸡已经够多了，但前几天vultr给我其中一个邮箱送了10刀余额，于是想着正好可以顺手写一篇关于搭建的文章。此文便是分享如何在VPS上搭建ss进行魔法上网。]]></content>
       <tags>
         <tag>经验</tag>
-        <tag>搭建</tag>
         <tag>gfw</tag>
+        <tag>搭建</tag>
       </tags>
   </entry>
   <entry>
