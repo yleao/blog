@@ -6,9 +6,9 @@
     <content type="text"><![CDATA[小记当你成功在vps上搭建了ss之后，可以利用一些软件去更好地使用ss。以下会分享如何利用这些软件去实现pc全局代理软件和游戏、手机端代理和浏览器智能魔法上网。]]></content>
       <tags>
         <tag>经验</tag>
+        <tag>plugin</tag>
         <tag>gfw</tag>
         <tag>扩展</tag>
-        <tag>plugin</tag>
       </tags>
   </entry>
   <entry>
@@ -17,8 +17,8 @@
     <content type="text"><![CDATA[之前写了魔法上网的chrome扩展一文，但是个人更推荐自己搭建，本来我的小鸡已经够多了，但前几天vultr给我其中一个邮箱送了10刀余额，于是想着正好可以顺手写一篇关于搭建的文章。此文便是分享如何在VPS上搭建ss进行魔法上网。]]></content>
       <tags>
         <tag>经验</tag>
-        <tag>gfw</tag>
         <tag>搭建</tag>
+        <tag>gfw</tag>
       </tags>
   </entry>
   <entry>
@@ -46,10 +46,10 @@
     <content type="text"><![CDATA[小记aplayer是一个非常漂亮好用的HTML5音乐播放器，和dplayer师出同门，本篇主要分享一下自己搭建到hexo上的一些经验。部署dplayer的方式我是用的hexo插件，部署aplayer的方式我是用的提取dist文件。这样可以相互参考，喜欢哪种方式部署就用哪种。]]></content>
       <tags>
         <tag>经验</tag>
-        <tag>hexo</tag>
-        <tag>plugin</tag>
-        <tag>搭建</tag>
         <tag>github</tag>
+        <tag>hexo</tag>
+        <tag>搭建</tag>
+        <tag>plugin</tag>
       </tags>
   </entry>
   <entry>
@@ -59,8 +59,8 @@
       <tags>
         <tag>经验</tag>
         <tag>hexo</tag>
-        <tag>markdown</tag>
         <tag>plugin</tag>
+        <tag>markdown</tag>
         <tag>整合</tag>
       </tags>
   </entry>
@@ -108,8 +108,8 @@
     <content type="text"><![CDATA[因为现在网上的各种图床都限制大小和数量，使用起来很不方便，全站 https 也越来越普及，http 图床虽然不多，另外隐私方面也是一大问题，例如Find who he/she is和谁是Po主，不过在xx说隐私还是有点妄想了/摊手。 所以自建图床还是有点用处的。]]></content>
       <tags>
         <tag>经验</tag>
-        <tag>搭建</tag>
         <tag>github</tag>
+        <tag>搭建</tag>
       </tags>
   </entry>
   <entry>
@@ -118,10 +118,10 @@
     <content type="text"><![CDATA[小记dplayer是一个HTML5弹幕视频播放器，可以帮助我们轻松建立一个弹幕视频。那么如何将dplayer应用在hexo上，这里就需要借助到hexo的一个插件了。部署dplayer我是用的hexo插件，部署aplayer我是用的提取dist文件的方法。这样可以相互参考，喜欢哪种方式部署就用哪种。]]></content>
       <tags>
         <tag>经验</tag>
-        <tag>hexo</tag>
-        <tag>plugin</tag>
-        <tag>搭建</tag>
         <tag>github</tag>
+        <tag>hexo</tag>
+        <tag>搭建</tag>
+        <tag>plugin</tag>
       </tags>
   </entry>
   <entry>
@@ -139,9 +139,9 @@
     <content type="text"><![CDATA[Coding的部署方式和Github几乎无差。绑定腾讯云可升级为银牌会员，支持受限的 Pages 自定义域名，受限的意思是当来访者访问绑定自定义域名的 Pages 网页时，会看到『Hosted by CODING Pages』的跳转页面，可直接点击跳过该页面或五秒后自动跳转到目标页面。可免费去除，只需在网站上放置『Hosted by CODING Pages』的链接就行。详细点此了解。 此文只讲解如何部署在Coding上，和布置过程中遇到的一些问题。]]></content>
       <tags>
         <tag>经验</tag>
+        <tag>github</tag>
         <tag>hexo</tag>
         <tag>搭建</tag>
-        <tag>github</tag>
       </tags>
   </entry>
   <entry>
@@ -150,8 +150,8 @@
     <content type="text"><![CDATA[上篇文章我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。]]></content>
       <tags>
         <tag>经验</tag>
-        <tag>hexo</tag>
         <tag>github</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -181,9 +181,9 @@
     <content type="text"><![CDATA[小记关于网页版的live2d首先是在bilibili live上看见的，也就是B站的看板娘，可支持换装、显示文字、点击播放语音动画等功能。于是就着手研究了一下，然后发现了hexo的一个插件：hexo-helper-live2d。]]></content>
       <tags>
         <tag>经验</tag>
+        <tag>github</tag>
         <tag>hexo</tag>
         <tag>plugin</tag>
-        <tag>github</tag>
       </tags>
   </entry>
   <entry>
@@ -192,9 +192,9 @@
     <content type="text"><![CDATA[把博客分别托管在腾讯云对象储存 和 Github Pages上，再通过DNS解析进行访问优化。由于github是国外的服务器，终归会对国内的用户访问造成一定的影响。于是打算再在国内服务器上部署一套，配合上国内的CDN加速，再利用DNS解析让国外用户和国内用户选择最优路线,从而提升访问速度。 此文只讲解如何部署在腾讯云COS上。]]></content>
       <tags>
         <tag>经验</tag>
+        <tag>github</tag>
         <tag>hexo</tag>
         <tag>搭建</tag>
-        <tag>github</tag>
       </tags>
   </entry>
   <entry>
