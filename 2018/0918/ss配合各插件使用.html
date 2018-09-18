@@ -153,7 +153,7 @@
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180918205826.jpg">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180918210338.jpg">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180918211000.jpg">
-<meta property="og:updated_time" content="2018-09-18T13:35:10.158Z">
+<meta property="og:updated_time" content="2018-09-18T13:45:36.489Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ss配合各插件使用">
 <meta name="twitter:description" content="小记当你成功在vps上搭建了ss之后，可以利用一些软件去更好地使用ss。以下会分享如何利用这些软件去实现pc全局代理软件和游戏、手机端代理和浏览器智能魔法上网。">
@@ -416,7 +416,7 @@
 <a id="more"></a>
 <hr>
 <h3 id="Proxifier-ss实现全局代理-代理软件"><a href="#Proxifier-ss实现全局代理-代理软件" class="headerlink" title="Proxifier+ss实现全局代理(代理软件)"></a>Proxifier+ss实现全局代理(代理软件)</h3><hr>
-<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>由于ss使用的是sockets5代理，一般情况下只有一些浏览器可以支持并实现魔法上网（当然笨笨的IE是不支持的）。但很多用户希望自己的应用软件或一些游戏也能实现魔法上网和加速，这里就需要使用proxifier这个软件。</p>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>由于ss使用的是sockets5代理，一般情况下只有一些浏览器可以支持并实现魔法上网（笨笨的IE当然是不支持的）。但很多用户希望自己的应用软件或一些游戏也能实现魔法上网和加速，这里就需要使用proxifier这个软件。</p>
 <hr>
 <h4 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h4><p>该软件是收费的，注册码的话可以去网上自行查找。</p>
 <p><a href="https://www.proxifier.com/download/" target="_blank" rel="noopener">proxifier官网下载</a></p>
@@ -447,9 +447,9 @@
 <hr>
 <h4 id="配置-1"><a href="#配置-1" class="headerlink" title="配置"></a>配置</h4><p>安装完成后打开软件，点击主面板的代理，再弹出的窗口点击<code>+</code>号添加本地代理，IP填127.0.0.1，端口默认1080，类型socks5，然后保存。</p>
 <p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180918193524.jpg" alt=""></p>
-<p>接着添加想要代理的程序或游戏，例如我想添加csgo走代理让我玩国际服的时候延迟更低，则在主面板点击程序旁边的小箭头，然后点击添加一个EXE文件。选择完程序路径后在启动项那里加上<code>-steam -udp</code>然后确定。</p>
+<p>接着添加想要代理的程序或游戏，例如我想添加csgo走代理让我玩国际服的时候延迟更低，则在主面板点击程序旁边的小箭头，然后点击<code>添加一个EXE文件</code>。选择完程序路径后在启动项那里加上<code>-steam -udp</code>然后确定。</p>
 <p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180918194012.jpg" alt=""></p>
-<p>接着点击刚刚添加的程序，再点击主面板的运行即可。我用的是香港的节点，可以看到左下角我的ip，证明已经成功代理。</p>
+<p>接着点击刚刚添加的程序，再点击主面板的运行即可。我用的是香港的节点，可以看到左下角我的ip，证明已经成功被代理。</p>
 <p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180918191919.jpg" alt=""></p>
 <hr>
 <h3 id="破影而出、小火箭等app-ss实现手机端代理"><a href="#破影而出、小火箭等app-ss实现手机端代理" class="headerlink" title="破影而出、小火箭等app+ss实现手机端代理"></a>破影而出、小火箭等app+ss实现手机端代理</h3><hr>
@@ -478,7 +478,7 @@
 <p>打开chrome，点击右上角的<code>SwitchyOmega</code>图标，再点击<code>选项</code>即可进入配置页面。接着在配置页面点击<code>新建情景模式</code>，设置内容如下图（代理端口要和ss的端口一致，默认为1080）：</p>
 <p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180918205807.jpg" alt=""></p>
 <p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180918205826.jpg" alt=""></p>
-<p>完成后点<code>SwitchyOmega</code>图标，选择<code>auto switch</code>即为自动模式，选择<code>ss</code>则为全局模式。当以auto switch模式运行时遇到需要全局代理的网站时，插件会以角标形式提示，点击SwitchyOmega图标，再点击<code>x个资源未加载</code>，选择自建的情景模式ss再点击添加条件即可。</p>
+<p>完成后点<code>SwitchyOmega</code>图标，选择<code>auto switch</code>即为自动模式，选择<code>ss</code>则为全局模式。当以auto switch模式运行时遇到需要全局代理的网站时，插件会以角标形式提示，点击<code>SwitchyOmega</code>图标，再点击<code>x个资源未加载</code>，选择自建的情景模式ss再点击添加条件即可。</p>
 <p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180918210338.jpg" alt=""></p>
 <p>一个网站只要添加过一次情景模式，那么下次打开时将会自动判断，切换到代理模式。</p>
 <p>鉴于网络上很多网站都需要代理，那么每次都要手动点击一次，略嫌麻烦，于是就用到规则列表。规则列表就是gfwlist，也就是被墙记录了不予许登陆的网站名单。</p>
