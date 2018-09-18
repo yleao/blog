@@ -130,8 +130,8 @@
 <meta name="description" content="之前写了魔法上网的chrome扩展一文，但是个人更推荐自己搭建，本来我的小鸡已经够多了，但前几天vultr给我其中一个邮箱送了10刀余额，于是想着正好可以顺手写一篇关于搭建的文章。此文便是分享如何在VPS上搭建ss进行魔法上网。">
 <meta name="keywords" content="经验,搭建,gfw">
 <meta property="og:type" content="article">
-<meta property="og:title" content="VPS上搭建Shadowsocks">
-<meta property="og:url" content="/2018/0916/VPS上搭建Shadowsocks.html">
+<meta property="og:title" content="VPS上搭建ss">
+<meta property="og:url" content="/2018/0916/VPS上搭建ss.html">
 <meta property="og:site_name" content="Y&#39;s BLOG">
 <meta property="og:description" content="之前写了魔法上网的chrome扩展一文，但是个人更推荐自己搭建，本来我的小鸡已经够多了，但前几天vultr给我其中一个邮箱送了10刀余额，于是想着正好可以顺手写一篇关于搭建的文章。此文便是分享如何在VPS上搭建ss进行魔法上网。">
 <meta property="og:locale" content="en">
@@ -146,9 +146,9 @@
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20170916184608.jpg">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180916185200.jpg">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180916192122.jpg">
-<meta property="og:updated_time" content="2018-09-17T07:45:30.959Z">
+<meta property="og:updated_time" content="2018-09-18T13:24:34.037Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="VPS上搭建Shadowsocks">
+<meta name="twitter:title" content="VPS上搭建ss">
 <meta name="twitter:description" content="之前写了魔法上网的chrome扩展一文，但是个人更推荐自己搭建，本来我的小鸡已经够多了，但前几天vultr给我其中一个邮箱送了10刀余额，于是想着正好可以顺手写一篇关于搭建的文章。此文便是分享如何在VPS上搭建ss进行魔法上网。">
 <meta name="twitter:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180916173555.jpg">
 
@@ -180,14 +180,14 @@
 
 
 
-  <link rel="canonical" href="/2018/0916/VPS上搭建Shadowsocks.html"/>
+  <link rel="canonical" href="/2018/0916/VPS上搭建ss.html"/>
 
 
 
 
 
 
-  <title>VPS上搭建Shadowsocks | Y's BLOG</title>
+  <title>VPS上搭建ss | Y's BLOG</title>
   
 
 
@@ -338,7 +338,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="/2018/0916/VPS上搭建Shadowsocks.html">
+    <link itemprop="mainEntityOfPage" href="/2018/0916/VPS上搭建ss.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Yann">
@@ -355,7 +355,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">VPS上搭建Shadowsocks</h1>
+          <h1 class="post-title" itemprop="name headline">VPS上搭建ss</h1>
         
 
         <div class="post-meta">
@@ -447,7 +447,7 @@
 <p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180916183039.jpg" alt="pic 8"></p>
 <p>另外SSH连接有超时时间，默认大概1分钟。如果长期没操作，putty客户端没反应，只要重新用putty连接即可。</p>
 <hr>
-<h4 id="server上安装ShadowSocks脚本"><a href="#server上安装ShadowSocks脚本" class="headerlink" title="server上安装ShadowSocks脚本"></a>server上安装ShadowSocks脚本</h4><p>此处推荐看<a href="https://teddysun.com/486.html" target="_blank" rel="noopener">Shadowsocks 一键安装脚本（四合一）</a>的安装教程。</p>
+<h4 id="server上安装ss脚本"><a href="#server上安装ss脚本" class="headerlink" title="server上安装ss脚本"></a>server上安装ss脚本</h4><p>此处推荐看<a href="https://teddysun.com/486.html" target="_blank" rel="noopener">ss 一键安装脚本（四合一）</a>的安装教程。</p>
 <p>运行以下命令:</p>
 <figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wget --<span class="keyword">no</span>-check-certificate -O shadowsocks-<span class="keyword">all</span>.<span class="keyword">sh</span> http<span class="variable">s:</span>//raw.githubusercontent.<span class="keyword">com</span>/teddysun/shadowsocks_install/master/shadowsocks-<span class="keyword">all</span>.<span class="keyword">sh</span></span><br><span class="line">chmod +<span class="keyword">x</span> shadowsocks-<span class="keyword">all</span>.<span class="keyword">sh</span></span><br><span class="line">./shadowsocks-<span class="keyword">all</span>.<span class="keyword">sh</span> <span class="number">2</span>&gt;&amp;<span class="number">1</span> | tee shadowsocks-<span class="keyword">all</span>.<span class="built_in">log</span></span><br></pre></td></tr></table></figure>
 <p>选择脚本Python、R、Go、libev：</p>
@@ -467,6 +467,9 @@
 <p>下载安装之后打开，选择编辑服务器，添加刚刚设置的服务器ip、端口、密码，代理端口为代理本机的端口，建议默认 1080：</p>
 <p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180916192122.jpg" alt="pic 11"></p>
 <p>最后代理模式改为全局模式，现在可以去体验墙外的世界啦。</p>
+<hr>
+<div class="note default"><p>推荐阅读</p></div>
+
 
       
     </div>
@@ -524,6 +527,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/0918/ss配合各插件使用.html" rel="prev" title="ss配合各插件使用">
+                ss配合各插件使用 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -606,7 +613,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">26</span>
+                  <span class="site-state-item-count">27</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -710,7 +717,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#VPS是什么"><span class="nav-text">VPS是什么</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#VPS与Vhost，ECS，独立服务器的区别"><span class="nav-text">VPS与Vhost，ECS，独立服务器的区别</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#VPS供应商"><span class="nav-text">VPS供应商</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#正式搭建"><span class="nav-text">正式搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#注册vultr"><span class="nav-text">注册vultr</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#创建server"><span class="nav-text">创建server</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#连接server"><span class="nav-text">连接server</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#server上安装ShadowSocks脚本"><span class="nav-text">server上安装ShadowSocks脚本</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ss与ssr客户端"><span class="nav-text">ss与ssr客户端</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#VPS是什么"><span class="nav-text">VPS是什么</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#VPS与Vhost，ECS，独立服务器的区别"><span class="nav-text">VPS与Vhost，ECS，独立服务器的区别</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#VPS供应商"><span class="nav-text">VPS供应商</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#正式搭建"><span class="nav-text">正式搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#注册vultr"><span class="nav-text">注册vultr</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#创建server"><span class="nav-text">创建server</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#连接server"><span class="nav-text">连接server</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#server上安装ss脚本"><span class="nav-text">server上安装ss脚本</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ss与ssr客户端"><span class="nav-text">ss与ssr客户端</span></a></li></ol></div>
             
 
           </div>
