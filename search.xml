@@ -6,9 +6,9 @@
     <content type="text"><![CDATA[小记当你成功在vps上搭建了ss之后，可以利用一些软件去更好地使用ss。以下会分享如何利用这些软件去实现pc全局代理软件和游戏、手机端代理和浏览器智能魔法上网。]]></content>
       <tags>
         <tag>经验</tag>
-        <tag>plugin</tag>
         <tag>gfw</tag>
         <tag>扩展</tag>
+        <tag>plugin</tag>
       </tags>
   </entry>
   <entry>
@@ -59,8 +59,8 @@
       <tags>
         <tag>经验</tag>
         <tag>hexo</tag>
-        <tag>plugin</tag>
         <tag>markdown</tag>
+        <tag>plugin</tag>
         <tag>整合</tag>
       </tags>
   </entry>
@@ -83,8 +83,8 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Chrome魔法上网扩展]]></title>
-    <url>%2F2018%2F0830%2FChrome%E9%AD%94%E6%B3%95%E4%B8%8A%E7%BD%91%E6%89%A9%E5%B1%95.html</url>
+    <title><![CDATA[chrome魔法上网扩展]]></title>
+    <url>%2F2018%2F0830%2Fchrome%E9%AD%94%E6%B3%95%E4%B8%8A%E7%BD%91%E6%89%A9%E5%B1%95.html</url>
     <content type="text"><![CDATA[The Great Firewall，由原北京邮电大学校长设计，一般情况下主要指中国对因特网内容进行自动审查和过滤监控、由计算机与网络设备等软硬件所构成的系统。网站被屏蔽的原因一般只有两点：一是违反宪法，二是攻击国家领导人。防火墙对于这些违规信息会用DNS污染（对于域名）和屏蔽IP的方式（对于IP）进行过滤，使国内用户无法访问，世界最大的搜索引擎谷歌就被DNS污染。]]></content>
       <tags>
         <tag>经验</tag>
