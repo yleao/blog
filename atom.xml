@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2018-09-18T14:23:30.517Z</updated>
+  <updated>2018-09-19T04:54:08.854Z</updated>
   <id>/</id>
   
   <author>
@@ -21,11 +21,11 @@
     <link href="/2018/0918/ss%E9%85%8D%E5%90%88%E5%90%84%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8.html"/>
     <id>/2018/0918/ss配合各插件使用.html</id>
     <published>2018-09-18T09:37:28.000Z</published>
-    <updated>2018-09-18T14:23:30.517Z</updated>
+    <updated>2018-09-19T04:54:08.854Z</updated>
     
     <summary type="html">
     
-      &lt;h4 id=&quot;小记&quot;&gt;&lt;a href=&quot;#小记&quot; class=&quot;headerlink&quot; title=&quot;小记&quot;&gt;&lt;/a&gt;小记&lt;/h4&gt;&lt;p&gt;当你成功在vps上搭建了ss之后，可以利用一些软件去更好地使用ss。以下会分享如何利用这些软件去实现pc全局代理软件和游戏、手机端代理和浏览器智能魔法上网。&lt;/p&gt;
+      &lt;p&gt;当你成功在vps上搭建了ss之后，可以利用一些软件去更好地使用ss。以下会分享如何利用这些软件去实现pc全局代理软件和游戏、手机端代理和浏览器智能代理。&lt;/p&gt;
     
     </summary>
     
@@ -45,7 +45,7 @@
     <link href="/2018/0916/VPS%E4%B8%8A%E6%90%AD%E5%BB%BAss.html"/>
     <id>/2018/0916/VPS上搭建ss.html</id>
     <published>2018-09-16T08:27:45.000Z</published>
-    <updated>2018-09-18T14:23:44.736Z</updated>
+    <updated>2018-09-18T14:24:09.382Z</updated>
     
     <summary type="html">
     
@@ -376,11 +376,11 @@
     
       <category term="video" scheme="/tags/video/"/>
     
-      <category term="life" scheme="/tags/life/"/>
-    
       <category term="music" scheme="/tags/music/"/>
     
       <category term="film" scheme="/tags/film/"/>
+    
+      <category term="life" scheme="/tags/life/"/>
     
   </entry>
   
