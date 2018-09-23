@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2018-09-19T04:54:08.854Z</updated>
+  <updated>2018-09-23T21:43:46.508Z</updated>
   <id>/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>路边野餐</title>
+    <link href="/2018/0924/%E8%B7%AF%E8%BE%B9%E9%87%8E%E9%A4%90.html"/>
+    <id>/2018/0924/路边野餐.html</id>
+    <published>2018-09-23T21:28:04.000Z</published>
+    <updated>2018-09-23T21:43:46.508Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/p2357355005.jpg&quot; alt=&quot;路边野餐&quot;&gt;&lt;/p&gt;
+&lt;p&gt;作者：毕赣&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="film" scheme="/tags/film/"/>
+    
+      <category term="life" scheme="/tags/life/"/>
+    
+      <category term="poetry" scheme="/tags/poetry/"/>
+    
+  </entry>
+  
+  <entry>
     <title>ss配合各插件使用</title>
     <link href="/2018/0918/ss%E9%85%8D%E5%90%88%E5%90%84%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8.html"/>
     <id>/2018/0918/ss配合各插件使用.html</id>
     <published>2018-09-18T09:37:28.000Z</published>
-    <updated>2018-09-19T04:54:08.854Z</updated>
+    <updated>2018-09-19T04:54:34.146Z</updated>
     
     <summary type="html">
     
@@ -67,12 +90,14 @@
     <link href="/2018/0912/%E5%85%B3%E7%88%B1%E7%A9%BA%E5%B7%A2%E8%80%81%E4%BA%BA%EF%BC%8C%E5%88%AB%E8%AE%A9%E7%AD%89%E5%BE%85%EF%BC%8C%E6%88%90%E4%B8%BA%E9%81%97%E6%86%BE.html"/>
     <id>/2018/0912/关爱空巢老人，别让等待，成为遗憾.html</id>
     <published>2018-09-12T14:20:59.000Z</published>
-    <updated>2018-09-17T07:51:06.793Z</updated>
+    <updated>2018-09-23T21:15:49.245Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;因为自己对吃的真的很随意，所以倒不怎么关注美食这一块。如果给我几种不同口味的泡面我觉得可以连续吃上一个月&lt;code&gt;/捂脸&lt;/code&gt;。不过想着以后要主家务还是要学会做饭的233333。&lt;/p&gt;
-&lt;p&gt;一年多之前看到了小哥的视频&lt;a href=&quot;https://www.bilibili.com/video/av10889780&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;有些鸡注定要活在回忆里&lt;/a&gt;，觉得美食节目居然还能这么拍，看来不想当演员的美食家不是好up主，默片风格也是独树一帜了。尤其在有专业团队之后感觉在剪辑这方面做得更出色了。虽然没有详细的美食技巧，但是却非常的吸引我，或许是因为小哥有故事吧。&lt;/p&gt;
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
     
     </summary>
     
@@ -88,7 +113,7 @@
     <link href="/2018/0903/%E8%BD%BB%E7%BE%BD%E9%A3%9E%E6%89%AC%EF%BC%81.html"/>
     <id>/2018/0903/轻羽飞扬！.html</id>
     <published>2018-09-03T12:05:18.000Z</published>
-    <updated>2018-09-16T11:37:20.108Z</updated>
+    <updated>2018-09-23T21:03:45.237Z</updated>
     
     <summary type="html">
     
@@ -137,7 +162,7 @@
     <link href="/2018/0901/hexo-next%E4%B8%BB%E9%A2%98%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%8C%96.html"/>
     <id>/2018/0901/hexo-next主题下的美化.html</id>
     <published>2018-09-01T14:53:15.000Z</published>
-    <updated>2018-09-16T13:34:27.776Z</updated>
+    <updated>2018-09-23T22:04:57.762Z</updated>
     
     <summary type="html">
     
@@ -163,7 +188,7 @@
     <link href="/2018/0831/%E6%8F%90%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E5%A4%96%E9%93%BE.html"/>
     <id>/2018/0831/提取网易云外链.html</id>
     <published>2018-08-31T13:28:04.000Z</published>
-    <updated>2018-09-02T21:45:04.158Z</updated>
+    <updated>2018-09-23T21:56:57.948Z</updated>
     
     <summary type="html">
     
@@ -452,30 +477,6 @@
       <category term="hexo" scheme="/tags/hexo/"/>
     
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>嵌入测试</title>
-    <link href="/2018/0802/%E5%B5%8C%E5%85%A5%E6%B5%8B%E8%AF%95.html"/>
-    <id>/2018/0802/嵌入测试.html</id>
-    <published>2018-08-01T21:57:00.000Z</published>
-    <updated>2018-09-02T15:24:22.841Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;引入html来设置&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="markdown" scheme="/tags/markdown/"/>
-    
-      <category term="test" scheme="/tags/test/"/>
-    
-      <category term="video" scheme="/tags/video/"/>
-    
-      <category term="music" scheme="/tags/music/"/>
     
   </entry>
   
