@@ -14,8 +14,8 @@
     <url>%2F2018%2F0924%2F%E8%B7%AF%E8%BE%B9%E9%87%8E%E9%A4%90.html</url>
     <content type="text"><![CDATA[作者：毕赣]]></content>
       <tags>
-        <tag>life</tag>
         <tag>film</tag>
+        <tag>life</tag>
         <tag>poetry</tag>
       </tags>
   </entry>
@@ -26,8 +26,8 @@
       <tags>
         <tag>经验</tag>
         <tag>gfw</tag>
-        <tag>扩展</tag>
         <tag>plugin</tag>
+        <tag>扩展</tag>
       </tags>
   </entry>
   <entry>
@@ -76,10 +76,10 @@
     <url>%2F2018%2F0901%2Fhexo-next%E4%B8%BB%E9%A2%98%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%8C%96.html</url>
     <content type="text"><![CDATA[小记因为hexo可以自定义的东西太多了，感觉还是整合到一篇post里会比较好。慢慢更新ing。]]></content>
       <tags>
-        <tag>markdown</tag>
         <tag>经验</tag>
         <tag>hexo</tag>
         <tag>plugin</tag>
+        <tag>markdown</tag>
         <tag>整合</tag>
       </tags>
   </entry>
@@ -179,9 +179,9 @@
     <content type="text"><![CDATA[从最初的瞎看什么，到后面因为合同到期而改名的阅后即瞎，再到政策问题之后再度回归的嘻咦啊看，虽一路曲折，却依然不变初心。 回归之后的首部作品就以如此质量，给了久久等待的我们最好的答复，一度看到泪目，这近5个月的等待是如此值得。]]></content>
       <tags>
         <tag>video</tag>
-        <tag>life</tag>
         <tag>music</tag>
         <tag>film</tag>
+        <tag>life</tag>
       </tags>
   </entry>
   <entry>
@@ -189,8 +189,8 @@
     <url>%2F2018%2F0807%2F%E8%A7%A3%E6%9E%90%E6%8E%A5%E5%8F%A3.html</url>
     <content type="text"><![CDATA[TEST点这里]]></content>
       <tags>
-        <tag>test</tag>
         <tag>经验</tag>
+        <tag>test</tag>
         <tag>script</tag>
       </tags>
   </entry>
