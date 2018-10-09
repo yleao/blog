@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2018-09-23T21:43:46.508Z</updated>
+  <updated>2018-10-09T17:20:59.924Z</updated>
   <id>/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>谨慎的收藏家</title>
+    <link href="/2018/1007/%E8%B0%A8%E6%85%8E%E7%9A%84%E6%94%B6%E8%97%8F%E5%AE%B6.html"/>
+    <id>/2018/1007/谨慎的收藏家.html</id>
+    <published>2018-10-07T14:51:02.000Z</published>
+    <updated>2018-10-09T17:20:59.924Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/gfatgif2.gif&quot; alt=&quot;g fat&quot;&gt;&lt;/p&gt;
+&lt;div class=&quot;note default&quot;&gt;“他就站在那儿，不言不语，只是微笑。那笑容似有魔力一般，让人沉醉其中无法自拔。我知道，这次我的钱包在劫难逃。”&lt;br&gt;&lt;div style=&quot;text-align:right&quot;&gt; — —《Genesis · Chapter Ⅰ · Gabe Newell》&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="life" scheme="/tags/life/"/>
+    
+      <category term="steam" scheme="/tags/steam/"/>
+    
+  </entry>
+  
+  <entry>
     <title>路边野餐</title>
     <link href="/2018/0924/%E8%B7%AF%E8%BE%B9%E9%87%8E%E9%A4%90.html"/>
     <id>/2018/0924/路边野餐.html</id>
     <published>2018-09-23T21:28:04.000Z</published>
-    <updated>2018-09-23T21:43:46.508Z</updated>
+    <updated>2018-10-09T17:21:00.102Z</updated>
     
     <summary type="html">
     
@@ -31,9 +52,9 @@
     </summary>
     
     
-      <category term="film" scheme="/tags/film/"/>
-    
       <category term="life" scheme="/tags/life/"/>
+    
+      <category term="film" scheme="/tags/film/"/>
     
       <category term="poetry" scheme="/tags/poetry/"/>
     
@@ -113,7 +134,7 @@
     <link href="/2018/0903/%E8%BD%BB%E7%BE%BD%E9%A3%9E%E6%89%AC%EF%BC%81.html"/>
     <id>/2018/0903/轻羽飞扬！.html</id>
     <published>2018-09-03T12:05:18.000Z</published>
-    <updated>2018-10-06T04:44:39.229Z</updated>
+    <updated>2018-10-07T15:37:32.279Z</updated>
     
     <summary type="html">
     
@@ -147,11 +168,11 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
       <category term="github" scheme="/tags/github/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
-    
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
       <category term="plugin" scheme="/tags/plugin/"/>
     
@@ -171,11 +192,11 @@
     </summary>
     
     
+      <category term="markdown" scheme="/tags/markdown/"/>
+    
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
-    
-      <category term="markdown" scheme="/tags/markdown/"/>
     
       <category term="plugin" scheme="/tags/plugin/"/>
     
@@ -284,9 +305,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="github" scheme="/tags/github/"/>
-    
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="github" scheme="/tags/github/"/>
     
   </entry>
   
@@ -306,11 +327,11 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
       <category term="github" scheme="/tags/github/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
-    
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
       <category term="plugin" scheme="/tags/plugin/"/>
     
@@ -353,11 +374,11 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
       <category term="github" scheme="/tags/github/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
-    
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
@@ -401,11 +422,11 @@
     
       <category term="video" scheme="/tags/video/"/>
     
+      <category term="life" scheme="/tags/life/"/>
+    
       <category term="music" scheme="/tags/music/"/>
     
       <category term="film" scheme="/tags/film/"/>
-    
-      <category term="life" scheme="/tags/life/"/>
     
   </entry>
   
@@ -423,9 +444,9 @@
     </summary>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
       <category term="test" scheme="/tags/test/"/>
+    
+      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="script" scheme="/tags/script/"/>
     
@@ -452,31 +473,6 @@
       <category term="hexo" scheme="/tags/hexo/"/>
     
       <category term="plugin" scheme="/tags/plugin/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>腾讯云COS+Github双服务器托管hexo</title>
-    <link href="/2018/0802/%E8%85%BE%E8%AE%AF%E4%BA%91COS-Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1hexo.html"/>
-    <id>/2018/0802/腾讯云COS-Github双服务器托管hexo.html</id>
-    <published>2018-08-01T22:42:00.000Z</published>
-    <updated>2018-09-03T18:55:24.968Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;把博客分别托管在腾讯云对象储存 和 Github Pages上，再通过DNS解析进行访问优化。&lt;br&gt;由于github是国外的服务器，终归会对国内的用户访问造成一定的影响。于是打算再在国内服务器上部署一套，配合上国内的CDN加速，再利用DNS解析让国外用户和国内用户选择最优路线,从而提升访问速度。  &lt;/p&gt;
-&lt;p&gt;此文只讲解如何部署在腾讯云COS上。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
-      <category term="github" scheme="/tags/github/"/>
-    
-      <category term="hexo" scheme="/tags/hexo/"/>
-    
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
