@@ -114,7 +114,7 @@
 
 
 
-  <meta name="keywords" content="经验,hexo,plugin,markdown,整合," />
+  <meta name="keywords" content="markdown,经验,hexo,plugin,整合," />
 
 
 
@@ -128,7 +128,7 @@
 
 
 <meta name="description" content="小记因为hexo可以自定义的东西太多了，感觉还是整合到一篇post里会比较好。慢慢更新ing。">
-<meta name="keywords" content="经验,hexo,plugin,markdown,整合">
+<meta name="keywords" content="markdown,经验,hexo,plugin,整合">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo-next主题下的美化">
 <meta property="og:url" content="/2018/0901/hexo-next主题下的美化.html">
@@ -139,7 +139,7 @@
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180902194605.jpg">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180902195213.jpg">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180924054203.jpg">
-<meta property="og:updated_time" content="2018-09-23T22:04:57.762Z">
+<meta property="og:updated_time" content="2018-10-10T13:43:10.212Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo-next主题下的美化">
 <meta name="twitter:description" content="小记因为hexo可以自定义的东西太多了，感觉还是整合到一篇post里会比较好。慢慢更新ing。">
@@ -201,7 +201,7 @@
 
   <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
-
+	
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
   <div class="site-meta ">
@@ -255,12 +255,12 @@
         </li>
       
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            Tags
+            Categories
           </a>
         </li>
       
@@ -370,6 +370,28 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Hexo折腾/" itemprop="url" rel="index">
+                    <span itemprop="name">Hexo折腾</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -576,6 +598,14 @@
 <p>直接在<code>~/hexo/themes/next/source/css/_custom</code>文件夹下的<code>costom.styl</code>文件内添加以下css代码：</p>
 <figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 去掉图片边框</span></span><br><span class="line"><span class="selector-class">.posts-expand</span> <span class="selector-class">.post-body</span> <span class="selector-tag">img</span> &#123;</span><br><span class="line">    <span class="attribute">border</span>: none;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">0px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.post-gallery</span> <span class="selector-class">.post-gallery-img</span> <span class="selector-tag">img</span> &#123;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">3px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <hr>
+<blockquote>
+<h3 id="next主题下侧边栏内容修改"><a href="#next主题下侧边栏内容修改" class="headerlink" title="next主题下侧边栏内容修改"></a><font color="#2E8B57">next主题下侧边栏内容修改</font></h3></blockquote>
+<hr>
+<p>直接在<code>~/hexo/themes/next/layout/_macro</code>文件夹下的<code>sidebar.swig</code>文件内增减代码即可，记得备份。</p>
+<p>例如要删除<code>分类</code>一栏，则在<code>sidebar.swig</code>中找到<code>categories</code>，接着删除以下代码即可：</p>
+<figure class="highlight twig"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name"><span class="keyword">if</span></span> site.categories.length &gt; 0 %&#125;</span><span class="xml"></span></span><br><span class="line"><span class="xml"> </span><span class="template-tag">&#123;% <span class="name"><span class="keyword">set</span></span> categoriesPageQuery = site.pages.find(&#123;type: 'categories'&#125;, &#123;lean: true&#125;) %&#125;</span><span class="xml"></span></span><br><span class="line"><span class="xml">  </span><span class="template-tag">&#123;% <span class="name"><span class="keyword">set</span></span> hasCategoriesPage = categoriesPageQuery.length &gt; 0 %&#125;</span><span class="xml"></span></span><br><span class="line"><span class="xml">   <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"site-state-item site-state-categories"</span>&gt;</span></span></span><br><span class="line"><span class="xml">   </span><span class="template-tag">&#123;% <span class="name"><span class="keyword">if</span></span> hasCategoriesPage %&#125;</span><span class="xml"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"</span></span></span><span class="template-variable">&#123;&#123; url_for(categoriesPageQuery[0].path) &#125;&#125;</span><span class="xml"><span class="tag"><span class="string">"</span>&gt;</span></span><span class="template-tag">&#123;% <span class="name"><span class="keyword">endif</span></span> %&#125;</span><span class="xml"></span></span><br><span class="line"><span class="xml">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"site-state-item-count"</span>&gt;</span></span><span class="template-variable">&#123;&#123; site.categories.length &#125;&#125;</span><span class="xml"><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="xml">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"site-state-item-name"</span>&gt;</span></span><span class="template-variable">&#123;&#123; __('state.categories') &#125;&#125;</span><span class="xml"><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="xml">    </span><span class="template-tag">&#123;% <span class="name"><span class="keyword">if</span></span> hasCategoriesPage %&#125;</span><span class="xml"><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><span class="template-tag">&#123;% <span class="name"><span class="keyword">endif</span></span> %&#125;</span><span class="xml"></span></span><br><span class="line"><span class="xml">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name"><span class="keyword">endif</span></span> %&#125;</span><span class="xml"></span></span><br></pre></td></tr></table></figure>
+<p>其他内容同理。若想要移动位置则移动对应代码顺序就可以。</p>
+<hr>
 
       
     </div>
@@ -607,13 +637,13 @@
       
         <div class="post-tags">
           
+            <a href="/tags/markdown/" rel="tag"><i class="fa fa-tag"></i> markdown</a>
+          
             <a href="/tags/经验/" rel="tag"><i class="fa fa-tag"></i> 经验</a>
           
             <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i> hexo</a>
           
             <a href="/tags/plugin/" rel="tag"><i class="fa fa-tag"></i> plugin</a>
-          
-            <a href="/tags/markdown/" rel="tag"><i class="fa fa-tag"></i> markdown</a>
           
             <a href="/tags/整合/" rel="tag"><i class="fa fa-tag"></i> 整合</a>
           
@@ -728,8 +758,7 @@
                 </a>
               </div>
             
-
-            
+			
 
             
               
@@ -819,7 +848,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#小记"><span class="nav-text">小记</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下让头像旋转"><span class="nav-text">next主题下让头像旋转</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下让页脚的heart-icon跳动起来"><span class="nav-text">next主题下让页脚的heart-icon跳动起来</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上修改代码块自定义样式"><span class="nav-text">hexo上修改代码块自定义样式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下修改字体"><span class="nav-text">next主题下修改字体</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下加入动态背景"><span class="nav-text">next主题下加入动态背景</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下给每篇文章添加结束标语"><span class="nav-text">next主题下给每篇文章添加结束标语</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上给首页文章添加read-more-查看原文按钮"><span class="nav-text">hexo上给首页文章添加read-more/查看原文按钮</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上添加音频播放器"><span class="nav-text">hexo上添加音频播放器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上添加视频播放器"><span class="nav-text">hexo上添加视频播放器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上添加看板娘"><span class="nav-text">hexo上添加看板娘</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下修改文章底部-号tag标签"><span class="nav-text">next主题下修改文章底部#号tag标签</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上给文章添加脚注"><span class="nav-text">hexo上给文章添加脚注</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下添加本地搜索"><span class="nav-text">next主题下添加本地搜索</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下添加404页面"><span class="nav-text">next主题下添加404页面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上给文章添加锚点"><span class="nav-text">hexo上给文章添加锚点</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下给文章添加更新时间"><span class="nav-text">next主题下给文章添加更新时间</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下添加突破容器宽度限制的图片"><span class="nav-text">next主题下添加突破容器宽度限制的图片</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下取消图片边框"><span class="nav-text">next主题下取消图片边框</span></a></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#小记"><span class="nav-text">小记</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下让头像旋转"><span class="nav-text">next主题下让头像旋转</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下让页脚的heart-icon跳动起来"><span class="nav-text">next主题下让页脚的heart-icon跳动起来</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上修改代码块自定义样式"><span class="nav-text">hexo上修改代码块自定义样式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下修改字体"><span class="nav-text">next主题下修改字体</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下加入动态背景"><span class="nav-text">next主题下加入动态背景</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下给每篇文章添加结束标语"><span class="nav-text">next主题下给每篇文章添加结束标语</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上给首页文章添加read-more-查看原文按钮"><span class="nav-text">hexo上给首页文章添加read-more/查看原文按钮</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上添加音频播放器"><span class="nav-text">hexo上添加音频播放器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上添加视频播放器"><span class="nav-text">hexo上添加视频播放器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上添加看板娘"><span class="nav-text">hexo上添加看板娘</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下修改文章底部-号tag标签"><span class="nav-text">next主题下修改文章底部#号tag标签</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上给文章添加脚注"><span class="nav-text">hexo上给文章添加脚注</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下添加本地搜索"><span class="nav-text">next主题下添加本地搜索</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下添加404页面"><span class="nav-text">next主题下添加404页面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo上给文章添加锚点"><span class="nav-text">hexo上给文章添加锚点</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下给文章添加更新时间"><span class="nav-text">next主题下给文章添加更新时间</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下添加突破容器宽度限制的图片"><span class="nav-text">next主题下添加突破容器宽度限制的图片</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下取消图片边框"><span class="nav-text">next主题下取消图片边框</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题下侧边栏内容修改"><span class="nav-text">next主题下侧边栏内容修改</span></a></div>
             
 
           </div>
@@ -829,11 +858,12 @@
 
       
 
+	  　  
+	  　  
 	  <link rel="stylesheet" href="/dist/APlayer.min.css">
       <div id="aplayer"></div>
       <script type="text/javascript" src="/dist/APlayer.min.js"></script>
       <script type="text/javascript" src="/dist/music.js"></script>
-	  
 
     </div>
   </aside>
@@ -865,7 +895,6 @@
 
 
   <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a></div>
-
 
 
 

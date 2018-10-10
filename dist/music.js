@@ -5,7 +5,7 @@ const ap = new APlayer({
     listMaxHeight: 60,
     autoplay: false,
 	mutex: true,
-	volume: 0.7
+	volume: 0.7,
     audio: [
       {
         name: "Moon River　",
@@ -20,15 +20,15 @@ const ap = new APlayer({
         cover: 'https://i.loli.net/2018/09/01/5b8a69059a269.jpg',
       },
 	  {
-        name: "To Build A Home　　　　",
-        artist: 'tCO',
-        url: 'https://image-1253170309.cos.ap-guangzhou.myqcloud.com/music/To%20Build%20A%20Home.mp3',
+        name: "And The Winner Is　　",
+        artist: 'Gérard',
+        url: 'http://www.ytmp3.cn/down/50003.mp3',
         cover: 'https://i.loli.net/2018/09/01/5b8a69059a269.jpg',
       },
 	  {
-        name: "W H A T F G　　",
-        artist: 'Pete Seeger',
-        url: 'https://image-1253170309.cos.ap-guangzhou.myqcloud.com/music/Pete%20Seeger-Where%20Have%20All%20The%20Flowers%20Gone.mp3',
+        name: "Lemon　　　　  　　　",
+        artist: 'Hachi',
+        url: 'http://www.ytmp3.cn/down/51031.mp3',
         cover: 'https://i.loli.net/2018/09/01/5b8a69059a269.jpg',
       }
     ]
