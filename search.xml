@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[遍地苦难尘]]></title>
+    <url>%2F2018%2F1011%2F%E9%81%8D%E5%9C%B0%E8%8B%A6%E9%9A%BE%E5%B0%98.html</url>
+    <content type="text"><![CDATA[Buddha与Puta可以很近但人与人却很远《大佛普拉斯》]]></content>
+      <categories>
+        <category>生活拾空</category>
+      </categories>
+      <tags>
+        <tag>life</tag>
+        <tag>film</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[谨慎的收藏家]]></title>
     <url>%2F2018%2F1007%2F%E8%B0%A8%E6%85%8E%E7%9A%84%E6%94%B6%E8%97%8F%E5%AE%B6.html</url>
     <content type="text"><![CDATA[“他就站在那儿，不言不语，只是微笑。那笑容似有魔力一般，让人沉醉其中无法自拔。我知道，这次我的钱包在劫难逃。” — —《Genesis · Chapter Ⅰ · Gabe Newell》]]></content>
@@ -36,8 +48,8 @@
       <tags>
         <tag>经验</tag>
         <tag>gfw</tag>
-        <tag>plugin</tag>
         <tag>扩展</tag>
+        <tag>plugin</tag>
       </tags>
   </entry>
   <entry>
@@ -87,10 +99,10 @@
       </categories>
       <tags>
         <tag>经验</tag>
-        <tag>搭建</tag>
-        <tag>hexo</tag>
-        <tag>plugin</tag>
         <tag>github</tag>
+        <tag>hexo</tag>
+        <tag>搭建</tag>
+        <tag>plugin</tag>
       </tags>
   </entry>
   <entry>
@@ -101,9 +113,9 @@
         <category>Hexo折腾</category>
       </categories>
       <tags>
-        <tag>markdown</tag>
         <tag>经验</tag>
         <tag>hexo</tag>
+        <tag>markdown</tag>
         <tag>plugin</tag>
         <tag>整合</tag>
       </tags>
@@ -168,8 +180,8 @@
       </categories>
       <tags>
         <tag>经验</tag>
-        <tag>搭建</tag>
         <tag>github</tag>
+        <tag>搭建</tag>
       </tags>
   </entry>
   <entry>
@@ -181,10 +193,10 @@
       </categories>
       <tags>
         <tag>经验</tag>
-        <tag>搭建</tag>
-        <tag>hexo</tag>
-        <tag>plugin</tag>
         <tag>github</tag>
+        <tag>hexo</tag>
+        <tag>搭建</tag>
+        <tag>plugin</tag>
       </tags>
   </entry>
   <entry>
@@ -208,9 +220,9 @@
       </categories>
       <tags>
         <tag>经验</tag>
-        <tag>搭建</tag>
-        <tag>hexo</tag>
         <tag>github</tag>
+        <tag>hexo</tag>
+        <tag>搭建</tag>
       </tags>
   </entry>
   <entry>
@@ -222,8 +234,8 @@
       </categories>
       <tags>
         <tag>经验</tag>
-        <tag>hexo</tag>
         <tag>github</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -235,8 +247,8 @@
       </categories>
       <tags>
         <tag>video</tag>
-        <tag>music</tag>
         <tag>life</tag>
+        <tag>music</tag>
         <tag>film</tag>
       </tags>
   </entry>
@@ -249,8 +261,8 @@
         <category>Tools</category>
       </categories>
       <tags>
-        <tag>test</tag>
         <tag>经验</tag>
+        <tag>test</tag>
         <tag>script</tag>
       </tags>
   </entry>
@@ -263,9 +275,9 @@
       </categories>
       <tags>
         <tag>经验</tag>
+        <tag>github</tag>
         <tag>hexo</tag>
         <tag>plugin</tag>
-        <tag>github</tag>
       </tags>
   </entry>
   <entry>
@@ -277,9 +289,9 @@
       </categories>
       <tags>
         <tag>经验</tag>
-        <tag>搭建</tag>
-        <tag>hexo</tag>
         <tag>github</tag>
+        <tag>hexo</tag>
+        <tag>搭建</tag>
       </tags>
   </entry>
   <entry>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2018-10-10T13:58:23.917Z</updated>
+  <updated>2018-10-11T08:32:26.150Z</updated>
   <id>/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>遍地苦难尘</title>
+    <link href="/2018/1011/%E9%81%8D%E5%9C%B0%E8%8B%A6%E9%9A%BE%E5%B0%98.html"/>
+    <id>/2018/1011/遍地苦难尘.html</id>
+    <published>2018-10-11T06:11:08.000Z</published>
+    <updated>2018-10-11T08:32:26.150Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;Buddha与Puta可以很近&lt;br&gt;但人与人却很远&lt;/p&gt;&lt;p&gt;《大佛普拉斯》&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;img width=&quot;500&quot; height=&quot;250&quot; src=&quot;https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20181011142323.jpg&quot;&gt;&lt;/div&gt;
+    
+    </summary>
+    
+      <category term="生活拾空" scheme="/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
+    
+    
+      <category term="life" scheme="/tags/life/"/>
+    
+      <category term="film" scheme="/tags/film/"/>
+    
+  </entry>
+  
+  <entry>
     <title>谨慎的收藏家</title>
     <link href="/2018/1007/%E8%B0%A8%E6%85%8E%E7%9A%84%E6%94%B6%E8%97%8F%E5%AE%B6.html"/>
     <id>/2018/1007/谨慎的收藏家.html</id>
     <published>2018-10-07T14:51:02.000Z</published>
-    <updated>2018-10-10T13:58:23.917Z</updated>
+    <updated>2018-10-11T08:28:29.413Z</updated>
     
     <summary type="html">
     
@@ -85,9 +109,9 @@
     
       <category term="gfw" scheme="/tags/gfw/"/>
     
-      <category term="plugin" scheme="/tags/plugin/"/>
-    
       <category term="扩展" scheme="/tags/%E6%89%A9%E5%B1%95/"/>
+    
+      <category term="plugin" scheme="/tags/plugin/"/>
     
   </entry>
   
@@ -120,7 +144,7 @@
     <link href="/2018/0912/%E5%85%B3%E7%88%B1%E7%A9%BA%E5%B7%A2%E8%80%81%E4%BA%BA%EF%BC%8C%E5%88%AB%E8%AE%A9%E7%AD%89%E5%BE%85%EF%BC%8C%E6%88%90%E4%B8%BA%E9%81%97%E6%86%BE.html"/>
     <id>/2018/0912/关爱空巢老人，别让等待，成为遗憾.html</id>
     <published>2018-09-12T14:20:59.000Z</published>
-    <updated>2018-10-10T12:23:09.846Z</updated>
+    <updated>2018-10-11T07:22:53.699Z</updated>
     
     <summary type="html">
     
@@ -183,13 +207,13 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+      <category term="github" scheme="/tags/github/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
     
-      <category term="plugin" scheme="/tags/plugin/"/>
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
-      <category term="github" scheme="/tags/github/"/>
+      <category term="plugin" scheme="/tags/plugin/"/>
     
   </entry>
   
@@ -198,7 +222,7 @@
     <link href="/2018/0901/hexo-next%E4%B8%BB%E9%A2%98%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%8C%96.html"/>
     <id>/2018/0901/hexo-next主题下的美化.html</id>
     <published>2018-09-01T14:53:15.000Z</published>
-    <updated>2018-10-10T13:43:10.212Z</updated>
+    <updated>2018-10-11T08:43:28.295Z</updated>
     
     <summary type="html">
     
@@ -209,11 +233,11 @@
       <category term="Hexo折腾" scheme="/categories/Hexo%E6%8A%98%E8%85%BE/"/>
     
     
-      <category term="markdown" scheme="/tags/markdown/"/>
-    
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
+    
+      <category term="markdown" scheme="/tags/markdown/"/>
     
       <category term="plugin" scheme="/tags/plugin/"/>
     
@@ -334,9 +358,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
-    
       <category term="github" scheme="/tags/github/"/>
+    
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
@@ -358,13 +382,13 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+      <category term="github" scheme="/tags/github/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
     
-      <category term="plugin" scheme="/tags/plugin/"/>
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
-      <category term="github" scheme="/tags/github/"/>
+      <category term="plugin" scheme="/tags/plugin/"/>
     
   </entry>
   
@@ -409,11 +433,11 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+      <category term="github" scheme="/tags/github/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
     
-      <category term="github" scheme="/tags/github/"/>
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
@@ -435,9 +459,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="hexo" scheme="/tags/hexo/"/>
-    
       <category term="github" scheme="/tags/github/"/>
+    
+      <category term="hexo" scheme="/tags/hexo/"/>
     
   </entry>
   
@@ -461,9 +485,9 @@
     
       <category term="video" scheme="/tags/video/"/>
     
-      <category term="music" scheme="/tags/music/"/>
-    
       <category term="life" scheme="/tags/life/"/>
+    
+      <category term="music" scheme="/tags/music/"/>
     
       <category term="film" scheme="/tags/film/"/>
     
@@ -487,37 +511,11 @@
       <category term="Tools" scheme="/categories/Experience/Tools/"/>
     
     
+      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
       <category term="test" scheme="/tags/test/"/>
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
       <category term="script" scheme="/tags/script/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo上的live2d应用</title>
-    <link href="/2018/0805/hexo%E4%B8%8A%E7%9A%84live2d%E5%BA%94%E7%94%A8.html"/>
-    <id>/2018/0805/hexo上的live2d应用.html</id>
-    <published>2018-08-05T12:49:00.000Z</published>
-    <updated>2018-10-10T12:15:29.397Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h5 id=&quot;小记&quot;&gt;&lt;a href=&quot;#小记&quot; class=&quot;headerlink&quot; title=&quot;小记&quot;&gt;&lt;/a&gt;小记&lt;/h5&gt;&lt;p&gt;关于网页版的live2d首先是在&lt;a href=&quot;http://www.live2d.com/ja/showcase/bilibili&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bilibili live&lt;/a&gt;上看见的，也就是B站的看板娘，可支持换装、显示文字、点击播放语音动画等功能。于是就着手研究了一下，然后发现了hexo的一个插件：hexo-helper-live2d。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Hexo折腾" scheme="/categories/Hexo%E6%8A%98%E8%85%BE/"/>
-    
-    
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
-      <category term="hexo" scheme="/tags/hexo/"/>
-    
-      <category term="plugin" scheme="/tags/plugin/"/>
-    
-      <category term="github" scheme="/tags/github/"/>
     
   </entry>
   
