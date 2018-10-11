@@ -114,7 +114,7 @@
 
 
 
-  <meta name="keywords" content="经验,github,搭建," />
+  <meta name="keywords" content="经验,搭建,github," />
 
 
 
@@ -128,7 +128,7 @@
 
 
 <meta name="description" content="因为现在网上的各种图床都限制大小和数量，使用起来很不方便，全站 https 也越来越普及，http 图床虽然不多，另外隐私方面也是一大问题，例如Find who he/she is和谁是Po主，不过在xx说隐私还是有点妄想了/摊手。  所以自建图床还是有点用处的。">
-<meta name="keywords" content="经验,github,搭建">
+<meta name="keywords" content="经验,搭建,github">
 <meta property="og:type" content="article">
 <meta property="og:title" content="腾讯云COS+PicGo自建图床和快速上传">
 <meta property="og:url" content="/2018/0818/腾讯云COS-PicGo自建图床和快速上传.html">
@@ -138,13 +138,13 @@
 <meta property="og:image" content="https://i.loli.net/2018/08/02/5b623ccb4c660.jpg">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180818013931.jpg">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180818015527.jpg">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/3214324353454353453.jpg">
-<meta property="og:image" content="https://user-images.githubusercontent.com/12621342/34243294-082c97cc-e65b-11e7-9412-dbc86433a91d.png">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20181011130947.jpg">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/34243294-082c97cc-e65b-11e7-9412-dbc864313a91d.png">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180818021133.jpg">
 <meta property="og:image" content="https://main.qcloudimg.com/raw/f836aa8efc9b07b79d47a203c697aa49.png">
 <meta property="og:image" content="https://main.qcloudimg.com/raw/f4d33dbbab044ace5116cb97b07187a5.png">
 <meta property="og:image" content="https://main.qcloudimg.com/raw/75bf0c1e038bd2db498c396317544fdd.png">
-<meta property="og:updated_time" content="2018-10-10T13:59:51.031Z">
+<meta property="og:updated_time" content="2018-10-11T05:15:37.573Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="腾讯云COS+PicGo自建图床和快速上传">
 <meta name="twitter:description" content="因为现在网上的各种图床都限制大小和数量，使用起来很不方便，全站 https 也越来越普及，http 图床虽然不多，另外隐私方面也是一大问题，例如Find who he/she is和谁是Po主，不过在xx说隐私还是有点妄想了/摊手。  所以自建图床还是有点用处的。">
@@ -450,10 +450,10 @@
 <p>PicGo安装完成之后打开可看到如下窗口：  </p>
 <p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180818015527.jpg" alt="image 2"></p>
 <p>图片上传之后会把图片链接自动复制到粘贴板里。链接格式可以修改，有<code>Markdown</code>、<code>HTML</code>、<code>URL</code>、<code>UBB</code>、<code>Custom</code>。上传的图片可在相册里面预览、且修改图片url。</p>
-<p>接下来要把腾讯云上创建的储存桶连接到PicGo，点击PicGo面板上的腾讯云COS。可看到如下：  </p>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/3214324353454353453.jpg" alt="image 3"></p>
+<p>接下来要把腾讯云上创建的储存桶连接到PicGo，点击PicGo面板上的图床设置-腾讯云COS。可看到如下：  </p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20181011130947.jpg" alt="image 3"></p>
 <p>因为现在的COS版本基本都是V5了，所以要勾选COS版本为V5，下面的<code>secretld</code>、<code>secretkey</code>、<code>appid</code>则要去<a href="https://console.qcloud.com/cam/capi" target="_blank" rel="noopener">云API密匙</a>新建，如以前有密匙则没必要新建，直接用就可以。  </p>
-<p><img src="https://user-images.githubusercontent.com/12621342/34243294-082c97cc-e65b-11e7-9412-dbc86433a91d.png" alt="image 4"></p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/34243294-082c97cc-e65b-11e7-9412-dbc864313a91d.png" alt="image 4"></p>
 <p>存储的空间名是你的bucket名字，包括后面的数字。储存区域在储存桶列表有显示。如果你想把图片上传到你的bucket空间的某个文件夹下，则需要在PicGo里的指定存储路径里加上你的文件夹路径。比如<code>image/</code>（注意一定要加/）。</p>
 <p>全部填好之后点确定并且要记得点击设为默认图床，这样上传才会默认走的是腾讯云COS。上传图片之后则会将图片自动上传到腾讯云COS里。  </p>
 <p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180818021133.jpg" alt="image 5"></p>
@@ -497,9 +497,9 @@
           
             <a href="/tags/经验/" rel="tag"><i class="fa fa-tag"></i> 经验</a>
           
-            <a href="/tags/github/" rel="tag"><i class="fa fa-tag"></i> github</a>
-          
             <a href="/tags/搭建/" rel="tag"><i class="fa fa-tag"></i> 搭建</a>
+          
+            <a href="/tags/github/" rel="tag"><i class="fa fa-tag"></i> github</a>
           
         </div>
       
