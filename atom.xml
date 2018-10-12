@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2018-10-12T15:29:27.017Z</updated>
+  <updated>2018-10-12T16:28:04.185Z</updated>
   <id>/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="/2018/1011/%E9%81%8D%E5%9C%B0%E8%8B%A6%E9%9A%BE%E5%B0%98.html"/>
     <id>/2018/1011/遍地苦难尘.html</id>
     <published>2018-10-11T06:11:08.000Z</published>
-    <updated>2018-10-12T15:29:27.017Z</updated>
+    <updated>2018-10-12T16:28:04.185Z</updated>
     
     <summary type="html">
     
@@ -34,9 +34,9 @@
       <category term="生活拾空" scheme="/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
     
     
-      <category term="life" scheme="/tags/life/"/>
-    
       <category term="music" scheme="/tags/music/"/>
+    
+      <category term="life" scheme="/tags/life/"/>
     
       <category term="film" scheme="/tags/film/"/>
     
@@ -94,7 +94,7 @@
     <link href="/2018/0918/ss%E9%85%8D%E5%90%88%E5%90%84%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8.html"/>
     <id>/2018/0918/ss配合各插件使用.html</id>
     <published>2018-09-18T09:37:28.000Z</published>
-    <updated>2018-10-10T13:58:23.680Z</updated>
+    <updated>2018-10-12T16:27:06.483Z</updated>
     
     <summary type="html">
     
@@ -102,18 +102,18 @@
     
     </summary>
     
-      <category term="Experience" scheme="/categories/Experience/"/>
+      <category term="GFW" scheme="/categories/GFW/"/>
     
-      <category term="Tools" scheme="/categories/Experience/Tools/"/>
+      <category term="Tools" scheme="/categories/GFW/Tools/"/>
     
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
+      <category term="plugin" scheme="/tags/plugin/"/>
+    
       <category term="gfw" scheme="/tags/gfw/"/>
     
       <category term="扩展" scheme="/tags/%E6%89%A9%E5%B1%95/"/>
-    
-      <category term="plugin" scheme="/tags/plugin/"/>
     
   </entry>
   
@@ -122,7 +122,7 @@
     <link href="/2018/0916/VPS%E4%B8%8A%E6%90%AD%E5%BB%BAss.html"/>
     <id>/2018/0916/VPS上搭建ss.html</id>
     <published>2018-09-16T08:27:45.000Z</published>
-    <updated>2018-10-10T12:23:27.204Z</updated>
+    <updated>2018-10-12T16:27:35.753Z</updated>
     
     <summary type="html">
     
@@ -130,7 +130,7 @@
     
     </summary>
     
-      <category term="Experience" scheme="/categories/Experience/"/>
+      <category term="GFW" scheme="/categories/GFW/"/>
     
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
@@ -209,11 +209,11 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
-    
       <category term="github" scheme="/tags/github/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
+    
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
       <category term="plugin" scheme="/tags/plugin/"/>
     
@@ -296,7 +296,7 @@
     <link href="/2018/0830/chrome%E9%AD%94%E6%B3%95%E4%B8%8A%E7%BD%91%E6%89%A9%E5%B1%95.html"/>
     <id>/2018/0830/chrome魔法上网扩展.html</id>
     <published>2018-08-30T09:15:00.000Z</published>
-    <updated>2018-10-10T12:21:29.976Z</updated>
+    <updated>2018-10-12T16:28:03.882Z</updated>
     
     <summary type="html">
     
@@ -304,7 +304,9 @@
     
     </summary>
     
-      <category term="Tools" scheme="/categories/Tools/"/>
+      <category term="GFW" scheme="/categories/GFW/"/>
+    
+      <category term="Tools" scheme="/categories/GFW/Tools/"/>
     
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
@@ -360,9 +362,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
-    
       <category term="github" scheme="/tags/github/"/>
+    
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
@@ -384,11 +386,11 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
-    
       <category term="github" scheme="/tags/github/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
+    
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
       <category term="plugin" scheme="/tags/plugin/"/>
     
@@ -435,11 +437,11 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
-    
       <category term="github" scheme="/tags/github/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
+    
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
@@ -487,9 +489,9 @@
     
       <category term="video" scheme="/tags/video/"/>
     
-      <category term="life" scheme="/tags/life/"/>
-    
       <category term="music" scheme="/tags/music/"/>
+    
+      <category term="life" scheme="/tags/life/"/>
     
       <category term="film" scheme="/tags/film/"/>
     

@@ -8,8 +8,8 @@
         <category>生活拾空</category>
       </categories>
       <tags>
-        <tag>life</tag>
         <tag>music</tag>
+        <tag>life</tag>
         <tag>film</tag>
       </tags>
   </entry>
@@ -43,14 +43,14 @@
     <url>%2F2018%2F0918%2Fss%E9%85%8D%E5%90%88%E5%90%84%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8.html</url>
     <content type="text"><![CDATA[当你成功在vps上搭建了ss之后，可以利用一些软件去更好地使用ss。以下会分享如何利用这些软件去实现pc全局代理软件和游戏、手机端代理和浏览器智能代理。]]></content>
       <categories>
-        <category>Experience</category>
+        <category>GFW</category>
         <category>Tools</category>
       </categories>
       <tags>
         <tag>经验</tag>
+        <tag>plugin</tag>
         <tag>gfw</tag>
         <tag>扩展</tag>
-        <tag>plugin</tag>
       </tags>
   </entry>
   <entry>
@@ -58,7 +58,7 @@
     <url>%2F2018%2F0916%2FVPS%E4%B8%8A%E6%90%AD%E5%BB%BAss.html</url>
     <content type="text"><![CDATA[之前写了魔法上网的chrome扩展一文，但是个人更推荐自己搭建，本来我的小鸡已经够多了，但前几天vultr给我其中一个邮箱送了10刀余额，于是想着正好可以顺手写一篇关于搭建的文章。此文便是分享如何在VPS上搭建ss进行魔法上网。]]></content>
       <categories>
-        <category>Experience</category>
+        <category>GFW</category>
       </categories>
       <tags>
         <tag>经验</tag>
@@ -100,9 +100,9 @@
       </categories>
       <tags>
         <tag>经验</tag>
-        <tag>搭建</tag>
         <tag>github</tag>
         <tag>hexo</tag>
+        <tag>搭建</tag>
         <tag>plugin</tag>
       </tags>
   </entry>
@@ -150,6 +150,7 @@
     <url>%2F2018%2F0830%2Fchrome%E9%AD%94%E6%B3%95%E4%B8%8A%E7%BD%91%E6%89%A9%E5%B1%95.html</url>
     <content type="text"><![CDATA[The Great Firewall，由原北京邮电大学校长设计，一般情况下主要指中国对因特网内容进行自动审查和过滤监控、由计算机与网络设备等软硬件所构成的系统。网站被屏蔽的原因一般只有两点：一是违反宪法，二是攻击国家领导人。防火墙对于这些违规信息会用DNS污染（对于域名）和屏蔽IP的方式（对于IP）进行过滤，使国内用户无法访问，世界最大的搜索引擎谷歌就被DNS污染。]]></content>
       <categories>
+        <category>GFW</category>
         <category>Tools</category>
       </categories>
       <tags>
@@ -181,8 +182,8 @@
       </categories>
       <tags>
         <tag>经验</tag>
-        <tag>搭建</tag>
         <tag>github</tag>
+        <tag>搭建</tag>
       </tags>
   </entry>
   <entry>
@@ -194,9 +195,9 @@
       </categories>
       <tags>
         <tag>经验</tag>
-        <tag>搭建</tag>
         <tag>github</tag>
         <tag>hexo</tag>
+        <tag>搭建</tag>
         <tag>plugin</tag>
       </tags>
   </entry>
@@ -221,9 +222,9 @@
       </categories>
       <tags>
         <tag>经验</tag>
-        <tag>搭建</tag>
         <tag>github</tag>
         <tag>hexo</tag>
+        <tag>搭建</tag>
       </tags>
   </entry>
   <entry>
@@ -248,8 +249,8 @@
       </categories>
       <tags>
         <tag>video</tag>
-        <tag>life</tag>
         <tag>music</tag>
+        <tag>life</tag>
         <tag>film</tag>
       </tags>
   </entry>
@@ -290,9 +291,9 @@
       </categories>
       <tags>
         <tag>经验</tag>
-        <tag>搭建</tag>
         <tag>github</tag>
         <tag>hexo</tag>
+        <tag>搭建</tag>
       </tags>
   </entry>
   <entry>
