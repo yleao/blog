@@ -14,21 +14,15 @@ const ap = new APlayer({
         cover: 'https://i.loli.net/2018/09/01/5b8a69059a269.jpg',
       },
 	  {
-        name: "Lonesome Town",
-        artist: 'Ricky Nelson',
-        url: 'https://image-1253170309.cos.ap-guangzhou.myqcloud.com/music/Ricky%20Nelson-Lonesome%20Town.mp3',
+        name: "Jesus bleibet meine Freude　",
+        artist: ' ',
+        url: 'https://image-1253170309.cos.ap-guangzhou.myqcloud.com/music/Jesus%20bleibet%20meine%20Freude.mp3',
         cover: 'https://i.loli.net/2018/09/01/5b8a69059a269.jpg',
       },
 	  {
-        name: "And The Winner Is　　",
-        artist: 'Gérard',
-        url: 'http://www.ytmp3.cn/down/50003.mp3',
-        cover: 'https://i.loli.net/2018/09/01/5b8a69059a269.jpg',
-      },
-	  {
-        name: "Lemon　　　　  　　　",
-        artist: 'Hachi',
-        url: 'http://www.ytmp3.cn/down/51031.mp3',
+        name: "one flew over the cuckoo nest",
+        artist: ' ',
+        url: 'https://image-1253170309.cos.ap-guangzhou.myqcloud.com/music/One%20Flew%20over%20the%20Cuckoos%20Nest.mp3',
         cover: 'https://i.loli.net/2018/09/01/5b8a69059a269.jpg',
       }
     ]
