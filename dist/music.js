@@ -11,19 +11,19 @@ const ap = new APlayer({
         name: "Moon River　",
         artist: 'Audrey Hepburn',
         url: 'http://www.ytmp3.cn/down/48128.mp3',
-        cover: 'https://i.loli.net/2018/09/01/5b8a69059a269.jpg',
+        cover: 'https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/音乐图标.jpg',
       },
 	  {
         name: "Jesus bleibet meine Freude　",
         artist: ' ',
         url: 'https://image-1253170309.cos.ap-guangzhou.myqcloud.com/music/Jesus%20bleibet%20meine%20Freude.mp3',
-        cover: 'https://i.loli.net/2018/09/01/5b8a69059a269.jpg',
+        cover: 'https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/音乐图标.jpg',
       },
 	  {
         name: "one flew over the cuckoo nest",
         artist: ' ',
         url: 'https://image-1253170309.cos.ap-guangzhou.myqcloud.com/music/One%20Flew%20over%20the%20Cuckoos%20Nest.mp3',
-        cover: 'https://i.loli.net/2018/09/01/5b8a69059a269.jpg',
+        cover: 'https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/音乐图标.jpg',
       }
     ]
 });

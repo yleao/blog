@@ -114,9 +114,9 @@
         <category>Hexo折腾</category>
       </categories>
       <tags>
-        <tag>markdown</tag>
         <tag>经验</tag>
         <tag>hexo</tag>
+        <tag>markdown</tag>
         <tag>plugin</tag>
         <tag>整合</tag>
       </tags>
@@ -263,8 +263,8 @@
         <category>Tools</category>
       </categories>
       <tags>
-        <tag>test</tag>
         <tag>经验</tag>
+        <tag>test</tag>
         <tag>script</tag>
       </tags>
   </entry>
@@ -299,7 +299,7 @@
   <entry>
     <title><![CDATA[嵌入测试]]></title>
     <url>%2F2018%2F0802%2F%E5%B5%8C%E5%85%A5%E6%B5%8B%E8%AF%95.html</url>
-    <content type="text"><![CDATA[引入html来设置]]></content>
+    <content type="text"><![CDATA[可引入html来设置]]></content>
       <categories>
         <category>Test</category>
       </categories>
@@ -313,7 +313,7 @@
   <entry>
     <title><![CDATA[统计测试]]></title>
     <url>%2F2018%2F0802%2F%E7%BB%9F%E8%AE%A1%E6%B5%8B%E8%AF%95.html</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[本站总访问量次 本站访客数人次 本文总阅读量次 setInterval(function(){ var dd = new Date(); var y = dd.getFullYear(); var m = dd.getMonth() + 1; var d = dd.getDate(); var h = dd.getHours(); var mi = dd.getMinutes(); var s = dd.getSeconds(); var str = y + "年" + m + "月" + d + "日&nbsp;&nbsp;" + h + ":" + mi + ":" + s + "&nbsp;&nbsp;星期" + "日一二三四五六".charAt(dd.getDay()); document.getElementById("sp_time").innerHTML = str; },1000);]]></content>
       <categories>
         <category>Test</category>
       </categories>
