@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2018-10-23T20:40:07.286Z</updated>
+  <updated>2018-10-23T20:51:27.290Z</updated>
   <id>/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="/2018/1024/%E8%AE%B0Coding-CDN%E5%9B%BD%E5%86%85%E5%8A%A0%E9%80%9FPages.html"/>
     <id>/2018/1024/记Coding-CDN国内加速Pages.html</id>
     <published>2018-10-23T20:10:41.000Z</published>
-    <updated>2018-10-23T20:40:07.286Z</updated>
+    <updated>2018-10-23T20:51:27.290Z</updated>
     
     <summary type="html">
     
@@ -47,7 +47,7 @@
     <link href="/2018/1011/%E9%81%8D%E5%9C%B0%E8%8B%A6%E9%9A%BE%E5%B0%98.html"/>
     <id>/2018/1011/遍地苦难尘.html</id>
     <published>2018-10-11T06:11:08.000Z</published>
-    <updated>2018-10-17T15:51:53.094Z</updated>
+    <updated>2018-10-23T20:50:41.579Z</updated>
     
     <summary type="html">
     
@@ -60,9 +60,9 @@
       <category term="生活拾空" scheme="/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
     
     
-      <category term="life" scheme="/tags/life/"/>
-    
       <category term="music" scheme="/tags/music/"/>
+    
+      <category term="life" scheme="/tags/life/"/>
     
       <category term="film" scheme="/tags/film/"/>
     
@@ -137,9 +137,9 @@
     
       <category term="gfw" scheme="/tags/gfw/"/>
     
-      <category term="plugin" scheme="/tags/plugin/"/>
-    
       <category term="扩展" scheme="/tags/%E6%89%A9%E5%B1%95/"/>
+    
+      <category term="plugin" scheme="/tags/plugin/"/>
     
   </entry>
   
@@ -261,11 +261,11 @@
       <category term="Hexo折腾" scheme="/categories/Hexo%E6%8A%98%E8%85%BE/"/>
     
     
-      <category term="markdown" scheme="/tags/markdown/"/>
-    
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
+    
+      <category term="markdown" scheme="/tags/markdown/"/>
     
       <category term="plugin" scheme="/tags/plugin/"/>
     
@@ -449,7 +449,7 @@
     <link href="/2018/0809/Coding-Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1hexo.html"/>
     <id>/2018/0809/Coding-Github双服务器托管hexo.html</id>
     <published>2018-08-09T04:43:00.000Z</published>
-    <updated>2018-10-23T20:08:19.323Z</updated>
+    <updated>2018-10-23T20:48:05.545Z</updated>
     
     <summary type="html">
     
@@ -474,11 +474,11 @@
   </entry>
   
   <entry>
-    <title>通过CDN直接给Github Pages加速</title>
-    <link href="/2018/0809/%E9%80%9A%E8%BF%87CDN%E7%9B%B4%E6%8E%A5%E7%BB%99Github-Pages%E5%8A%A0%E9%80%9F.html"/>
-    <id>/2018/0809/通过CDN直接给Github-Pages加速.html</id>
+    <title>通过CDN直接给GithubPages加速</title>
+    <link href="/2018/0809/%E9%80%9A%E8%BF%87CDN%E7%9B%B4%E6%8E%A5%E7%BB%99GithubPages%E5%8A%A0%E9%80%9F.html"/>
+    <id>/2018/0809/通过CDN直接给GithubPages加速.html</id>
     <published>2018-08-08T18:44:00.000Z</published>
-    <updated>2018-10-23T20:40:07.019Z</updated>
+    <updated>2018-10-23T20:49:03.313Z</updated>
     
     <summary type="html">
     
@@ -518,9 +518,9 @@
     
       <category term="video" scheme="/tags/video/"/>
     
-      <category term="life" scheme="/tags/life/"/>
-    
       <category term="music" scheme="/tags/music/"/>
+    
+      <category term="life" scheme="/tags/life/"/>
     
       <category term="film" scheme="/tags/film/"/>
     

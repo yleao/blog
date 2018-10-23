@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[记Coding+CDN国内加速Pages]]></title>
     <url>%2F2018%2F1024%2F%E8%AE%B0Coding-CDN%E5%9B%BD%E5%86%85%E5%8A%A0%E9%80%9FPages.html</url>
-    <content type="text"><![CDATA[之前虽然写过一篇文章分享如何通过coding与github双服务器托管hexo，但自己也只是把文章同时push到coding与github上，然后再通过CDN直接给github pages在国内加速，并没有启用coding的pages服务。今天打算试用一下coding的pages服务，此文予以记录。 启用coding pages服务因为之前已经将本地仓库关联到coding仓库，所以此处不赘述，可看文末推荐阅读Coding+Github双服务器托管hexo一文。 当本地仓库关联到coding仓库之后，进入项目里，点击左侧的代码，再点击pages服务。创建静态coding pages之后点击小齿轮进入设置页面。 绑定域名之前先在域名DNS设置中添加一条CNAME记录指向yleao.coding.me。 解析添加完成之后即可绑定新域名，如果证书申请失败请查看错误信息，详情点击这里。 一般来说错误类型会是urn:acme:error:unauthorized，这是因为之前可能添加了域名的DNS解析到海外，比如github pages，所以此时要先关闭此条解析，申请证书之后再开启此解析。 以上完成后，如果打开xxxxx.coding.me会跳转到自己绑定的域名，则表示coding pages启用成功，国内走coding国外走github。 但现在并没有结束，在国内对自己的域名进行测速发现速度不够快，那么就要利用到CDN来给coding pages进行加速，个人使用的是腾讯CDN。 使用CDN为coding pages加速首先，ping一下xxxxx.coding.me，获得IP地址，再到腾讯云CDN里开启CDN服务，源站设置为该IP。然后再配置缓存，启用https，配置完成后，系统会为您分配对应的CNAME。启用CDN的细节可看文末推荐阅读通过CDN直接给Github+Pages加速一文。 当得到对应的CNAME之后，去域名解析里添加解析。我的解析如下： 国内与国外设置不同CANME，国外指向xxxxx.github.io或者xxxxx.coding.me(任选其一即可)，国外我选的是github，所以我暂停了coding解析，国内则指向刚才CDN给出的地址。 到此所有配置全部完成。 推荐阅读 通过CDN直接给Github Pages加速 Coding+Github双服务器托管hexo]]></content>
+    <content type="text"><![CDATA[之前虽然写过一篇文章分享如何通过coding与github双服务器托管hexo，但自己也只是把文章同时push到coding与github上，然后再通过CDN直接给github pages在国内加速，并没有启用coding的pages服务。今天打算试用一下coding的pages服务，此文予以记录。 启用coding pages服务因为之前已经将本地仓库关联到coding仓库，所以此处不赘述，可看文末推荐阅读Coding+Github双服务器托管hexo一文。 当本地仓库关联到coding仓库之后，进入项目里，点击左侧的代码，再点击pages服务。创建静态coding pages之后点击小齿轮进入设置页面。 绑定域名之前先在域名DNS设置中添加一条CNAME记录指向yleao.coding.me。 解析添加完成之后即可绑定新域名，如果证书申请失败请查看错误信息，详情点击这里。 一般来说错误类型会是urn:acme:error:unauthorized，这是因为之前可能添加了域名的DNS解析到海外，比如github pages，所以此时要先关闭此条解析，申请证书之后再开启此解析。 以上完成后，如果打开xxxxx.coding.me会跳转到自己绑定的域名，则表示coding pages启用成功，国内走coding国外走github。 但现在并没有结束，在国内对自己的域名进行测速发现速度不够快，那么就要利用到CDN来给coding pages进行加速，个人使用的是腾讯CDN。 使用CDN为coding pages加速首先，ping一下xxxxx.coding.me，获得IP地址，再到腾讯云CDN里开启CDN服务，源站设置为该IP。然后再配置缓存，启用https，配置完成后，系统会为您分配对应的CNAME。启用CDN的细节可看文末推荐阅读通过CDN直接给Github+Pages加速一文。 当得到对应的CNAME之后，去域名解析里添加解析。我的解析如下： 国内与国外设置不同CANME，国外指向xxxxx.github.io或者xxxxx.coding.me(任选其一即可)，国外我选的是github，所以我暂停了coding解析，国内则指向刚才CDN给出的地址。 到此所有配置全部完成。 推荐阅读 通过CDN直接给GithubPages加速 Coding+Github双服务器托管hexo]]></content>
       <categories>
         <category>Hexo折腾</category>
       </categories>
@@ -22,8 +22,8 @@
         <category>生活拾空</category>
       </categories>
       <tags>
-        <tag>life</tag>
         <tag>music</tag>
+        <tag>life</tag>
         <tag>film</tag>
       </tags>
   </entry>
@@ -63,8 +63,8 @@
       <tags>
         <tag>经验</tag>
         <tag>gfw</tag>
-        <tag>plugin</tag>
         <tag>扩展</tag>
+        <tag>plugin</tag>
       </tags>
   </entry>
   <entry>
@@ -128,9 +128,9 @@
         <category>Hexo折腾</category>
       </categories>
       <tags>
-        <tag>markdown</tag>
         <tag>经验</tag>
         <tag>hexo</tag>
+        <tag>markdown</tag>
         <tag>plugin</tag>
         <tag>整合</tag>
       </tags>
@@ -230,7 +230,7 @@
   <entry>
     <title><![CDATA[Coding+Github双服务器托管hexo]]></title>
     <url>%2F2018%2F0809%2FCoding-Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1hexo.html</url>
-    <content type="text"><![CDATA[Coding的部署方式和Github几乎无差。绑定腾讯云可升级为银牌会员，支持受限的 Pages 自定义域名，受限的意思是当来访者访问绑定自定义域名的 Pages 网页时，会看到『Hosted by CODING Pages』的跳转页面，可直接点击跳过该页面或五秒后自动跳转到目标页面。可免费去除，只需在网站上放置『Hosted by CODING Pages』的链接就行。详细点此了解。 此文只讲解如何部署在Coding上，和布置过程中遇到的一些问题。 _config.yml配置想要同时部署到2个平台，就要修改博客根目录下面的_config.yml文件中的deploy如下根据Hexo官方文档需要修改成下面的形式 12345deploy: type: git repo: github: &lt;repository url&gt;,[branch] coding: &lt;repository url&gt;,[branch] 因为我在github上用的是https的push方式，coding上用的是ssh的push方式，所以我修改的形式如下 coding上创建一个新项目这里需要特别注意的是，由于我们是从本地仓库迁进行迁移，所以远程仓库中无需创建任何文件。 在新建立项目的时候，项目名称必须和用户名称完全一致，注意不是昵称，否则之后部署Pages服务时就会出现静态资源加载失败，网页样式丢失的情况。 网站地址样式为：http://uesername.coding.me/projectname，如果你的静态 Pages访问地址为http://yleao.coding.me/myblog，那么这个静态资源一定加载失败了，进去看到的就是简陋的博客目录。 正确的样式应该为：http://yleao.coding.me/yleao 将本地仓库关联到远程仓库创建仓库后，进入代码浏览，将仓库地址复制到剪贴板中，这里我使用的是ssh传输。 用ssh传输方式需要添加账户公匙。用以下命令来生成ssh key:打开命令行终端输入ssh-keygen -t rsa -C &quot;your_email@example.com&quot;( 你的邮箱)，连续点击 Enter 键即可。123456ssh-keygen -t rsa -C "xxxxx@xxxxx.com" # Creates a new ssh key, using the provided email as a label# Generating public/private rsa key pair.Enter file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter] // 此处直接 Enter 键即可Enter passphrase (empty for no passphrase): //此处直接 Enter 键即可# 即三次回车即可生成 ssh key 成功之后显示如下信息： 1234Your identification has been saved in /Users/you/.ssh/id_rsa.# Your public key has been saved in /Users/you/.ssh/id_rsa.pub.# The key fingerprint is:# 01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db your_email@example.com ssh key生成成功之后，点击我的头像，进入我的账号，点击左侧的SSH公匙，点击新增公匙。 在终端输入open ~/.ssh，用文本编辑器打开「id_rsa.pub」文件（此处是生成公钥的默认名称，如果生成公钥时采用了其他名称，打开相对应的文件即可） 复制全部内容，把复制的内容全部添加到公匙内容里。公钥名称可随意填写，公钥有效期可选择具体日期或设置永久有效。 点击「添加」，然后输入账户密码即可成功添加公钥。 添加后，在git bash命令输入：1ssh -T git@git.coding.net 如果得到下面提示就表示公钥添加成功了：1Coding.net Tips : [Hello ! You've conected to Coding.net by SSH successfully! ] 最后使用部署命令就能把博客同步到coding上面：1hexo deploy -g pages服务方式部署进入项目里，点击左侧的代码，再点击pages服务。创建静态coding pages之后点击小齿轮进入设置页面。 可强制HTTPS访问，可绑定自定义域名，绑定之后去给域名添加CNAME解析，github pages走国外路线，coding pages走国内路线，同时还是可以用CDN服务给coding pages进行加速。]]></content>
+    <content type="text"><![CDATA[Coding的部署方式和Github几乎无差。绑定腾讯云可升级为银牌会员，支持受限的 Pages 自定义域名，受限的意思是当来访者访问绑定自定义域名的 Pages 网页时，会看到『Hosted by CODING Pages』的跳转页面，可直接点击跳过该页面或五秒后自动跳转到目标页面。可免费去除，只需在网站上放置『Hosted by CODING Pages』的链接就行。详细点此了解。 此文只讲解如何部署在Coding上，和布置过程中遇到的一些问题。 _config.yml配置想要同时部署到2个平台，就要修改博客根目录下面的_config.yml文件中的deploy如下根据Hexo官方文档需要修改成下面的形式 12345deploy: type: git repo: github: &lt;repository url&gt;,[branch] coding: &lt;repository url&gt;,[branch] 因为我在github上用的是https的push方式，coding上用的是ssh的push方式，所以我修改的形式如下 coding上创建一个新项目这里需要特别注意的是，由于我们是从本地仓库迁进行迁移，所以远程仓库中无需创建任何文件。 在新建立项目的时候，项目名称必须和用户名称完全一致，注意不是昵称，否则之后部署Pages服务时就会出现静态资源加载失败，网页样式丢失的情况。 网站地址样式为：http://uesername.coding.me/projectname 如果你的静态Pages访问地址为http://yleao.coding.me/myblog，那么这个静态资源一定加载失败了，进去看到的就是简陋的博客目录。 正确的样式应该为：http://yleao.coding.me/yleao 将本地仓库关联到远程仓库创建仓库后，进入代码浏览，将仓库地址复制到剪贴板中，这里我使用的是ssh传输。 用ssh传输方式需要添加账户公匙。用以下命令来生成ssh key:打开命令行终端输入ssh-keygen -t rsa -C &quot;your_email@example.com&quot;( 你的邮箱)，连续点击 Enter 键即可。123456ssh-keygen -t rsa -C "xxxxx@xxxxx.com" # Creates a new ssh key, using the provided email as a label# Generating public/private rsa key pair.Enter file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter] // 此处直接 Enter 键即可Enter passphrase (empty for no passphrase): //此处直接 Enter 键即可# 即三次回车即可生成 ssh key 成功之后显示如下信息： 1234Your identification has been saved in /Users/you/.ssh/id_rsa.# Your public key has been saved in /Users/you/.ssh/id_rsa.pub.# The key fingerprint is:# 01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db your_email@example.com ssh key生成成功之后，点击我的头像，进入我的账号，点击左侧的SSH公匙，点击新增公匙。 在终端输入open ~/.ssh，用文本编辑器打开「id_rsa.pub」文件（此处是生成公钥的默认名称，如果生成公钥时采用了其他名称，打开相对应的文件即可） 复制全部内容，把复制的内容全部添加到公匙内容里。公钥名称可随意填写，公钥有效期可选择具体日期或设置永久有效。 点击「添加」，然后输入账户密码即可成功添加公钥。 添加后，在git bash命令输入：1ssh -T git@git.coding.net 如果得到下面提示就表示公钥添加成功了：1Coding.net Tips : [Hello ! You've conected to Coding.net by SSH successfully! ] 最后使用部署命令就能把博客同步到coding上面：1hexo deploy -g pages服务方式部署进入项目里，点击左侧的代码，再点击pages服务。创建静态coding pages之后点击小齿轮进入设置页面。 可强制HTTPS访问，可绑定自定义域名，绑定之后去给域名添加CNAME解析，github pages走国外路线，coding pages走国内路线，同时还是可以用CDN服务给coding pages进行加速。]]></content>
       <categories>
         <category>Hexo折腾</category>
       </categories>
@@ -243,8 +243,8 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[通过CDN直接给Github Pages加速]]></title>
-    <url>%2F2018%2F0809%2F%E9%80%9A%E8%BF%87CDN%E7%9B%B4%E6%8E%A5%E7%BB%99Github-Pages%E5%8A%A0%E9%80%9F.html</url>
+    <title><![CDATA[通过CDN直接给GithubPages加速]]></title>
+    <url>%2F2018%2F0809%2F%E9%80%9A%E8%BF%87CDN%E7%9B%B4%E6%8E%A5%E7%BB%99GithubPages%E5%8A%A0%E9%80%9F.html</url>
     <content type="text"><![CDATA[上篇文章我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。 目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。 先去CMD里ping一下github上的源站，然后得到ip地址，再到腾讯云CDN里开启CDN服务，需要实名认证，收费方式选择按使用流量计费。开启之后选择添加域名，填写格式按下图填写。 启动CDN之后点击管理，找到基本配置下的回源配置，不出意外的话回源配置里的回源host为刚填写的域名。点击左侧的域名管理，域名配置完成后，系统会为您分配对应的 CNAME ，以 .cdn.dnsv1.com为后缀，请务必按照控制台展示的CNAME进行配置。 得到对应的CNAME之后，去解析域名。 因为我前面填写的域名为二级域名：blog.yleao.com所以我的主机记录也为blog，记录类型为CNAME，线路类型为默认，记录值填写上面CDN加速给你的记录值，默认以.cdn.dnsv1.com为后缀，此条解析为国内用户访问。这样github pages上的博客在国内就被CDN加速了，海外依然是使用github的ip，能同时提升国内与国外的访问速度。 不同的 DNS 服务商，CNAME 生效的时间略有不同，一般会在半个小时之内生效。查询是否生效在我上篇文章有提过，此处不赘述。 在开启CDN的时候可能会出现循环重定向的问题，出现这个问题的原因是重定向规则引起的，我的解决办法是进入CDN加速面板中的回源配置，勾选中间源配置，然后再绑定源服务器域名，设置协议跟随即可。 另外加速之后国内访问网站显示信息与github pages上面的内容不同步时，可以去cdn页面刷新缓存。]]></content>
       <categories>
         <category>Hexo折腾</category>
@@ -264,8 +264,8 @@
       </categories>
       <tags>
         <tag>video</tag>
-        <tag>life</tag>
         <tag>music</tag>
+        <tag>life</tag>
         <tag>film</tag>
       </tags>
   </entry>
@@ -278,8 +278,8 @@
         <category>Tools</category>
       </categories>
       <tags>
-        <tag>test</tag>
         <tag>经验</tag>
+        <tag>test</tag>
         <tag>script</tag>
       </tags>
   </entry>
