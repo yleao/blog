@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[记Coding+CDN国内加速Pages]]></title>
     <url>%2F2018%2F1024%2F%E8%AE%B0Coding-CDN%E5%9B%BD%E5%86%85%E5%8A%A0%E9%80%9FPages.html</url>
-    <content type="text"><![CDATA[之前虽然写过一篇文章分享如何通过coding与github双服务器托管hexo，但自己也只是把文章同时push到coding与github上，然后再通过CDN直接给github pages在国内加速，并没有启用coding的pages服务。今天打算试用一下coding的pages服务，此文予以记录。 启用coding pages服务因为之前已经将本地仓库关联到coding仓库，所以此处不赘述，可看文末推荐阅读Coding+Github双服务器托管hexo一文。 当本地仓库关联到coding仓库之后，进入项目里，点击左侧的代码，再点击pages服务。创建静态coding pages之后点击小齿轮进入设置页面。 绑定域名之前先在域名DNS设置中添加一条CNAME记录指向yleao.coding.me。 解析添加完成之后即可绑定新域名，如果证书申请失败请查看错误信息，详情点击这里。 一般来说错误类型会是urn:acme:error:unauthorized，这是因为之前可能添加了域名的DNS解析到海外，比如github pages，所以此时要先关闭此条解析，申请证书之后再开启此解析。 以上完成后，如果打开xxxxx.coding.me会跳转到自己绑定的域名，则表示coding pages启用成功，国内走coding国外走github。 但现在并没有结束，在国内对自己的域名进行测速发现速度不够快，那么就要利用到CDN来给coding pages进行加速，个人使用的是腾讯CDN。 使用CDN为coding pages加速首先，ping一下xxxxx.coding.me，获得IP地址，再到腾讯云CDN里开启CDN服务，源站设置为该IP。然后再配置缓存，配置完成后，系统会为您分配对应的CNAME。启用CDN的细节可看文末推荐阅读通过CDN直接给Github+Pages加速一文。 当得到对应的CNAME之后，去域名解析里添加解析。我的解析如下： 国内与国外设置不同CANME，国外指向xxxxx.github.io或者xxxxx.coding.me(任选其一即可)，国外我选的是github，所以我暂停了coding解析，国内则指向刚才CDN给出的地址。 到此所有配置全部完成。 推荐阅读 通过CDN直接给Github Pages加速 Coding+Github双服务器托管hexo]]></content>
+    <content type="text"><![CDATA[之前虽然写过一篇文章分享如何通过coding与github双服务器托管hexo，但自己也只是把文章同时push到coding与github上，然后再通过CDN直接给github pages在国内加速，并没有启用coding的pages服务。今天打算试用一下coding的pages服务，此文予以记录。 启用coding pages服务因为之前已经将本地仓库关联到coding仓库，所以此处不赘述，可看文末推荐阅读Coding+Github双服务器托管hexo一文。 当本地仓库关联到coding仓库之后，进入项目里，点击左侧的代码，再点击pages服务。创建静态coding pages之后点击小齿轮进入设置页面。 绑定域名之前先在域名DNS设置中添加一条CNAME记录指向yleao.coding.me。 解析添加完成之后即可绑定新域名，如果证书申请失败请查看错误信息，详情点击这里。 一般来说错误类型会是urn:acme:error:unauthorized，这是因为之前可能添加了域名的DNS解析到海外，比如github pages，所以此时要先关闭此条解析，申请证书之后再开启此解析。 以上完成后，如果打开xxxxx.coding.me会跳转到自己绑定的域名，则表示coding pages启用成功，国内走coding国外走github。 但现在并没有结束，在国内对自己的域名进行测速发现速度不够快，那么就要利用到CDN来给coding pages进行加速，个人使用的是腾讯CDN。 使用CDN为coding pages加速首先，ping一下xxxxx.coding.me，获得IP地址，再到腾讯云CDN里开启CDN服务，源站设置为该IP。然后再配置缓存，启用https，配置完成后，系统会为您分配对应的CNAME。启用CDN的细节可看文末推荐阅读通过CDN直接给Github+Pages加速一文。 当得到对应的CNAME之后，去域名解析里添加解析。我的解析如下： 国内与国外设置不同CANME，国外指向xxxxx.github.io或者xxxxx.coding.me(任选其一即可)，国外我选的是github，所以我暂停了coding解析，国内则指向刚才CDN给出的地址。 到此所有配置全部完成。 推荐阅读 通过CDN直接给Github Pages加速 Coding+Github双服务器托管hexo]]></content>
       <categories>
         <category>Hexo折腾</category>
       </categories>
@@ -63,8 +63,8 @@
       <tags>
         <tag>经验</tag>
         <tag>gfw</tag>
-        <tag>扩展</tag>
         <tag>plugin</tag>
+        <tag>扩展</tag>
       </tags>
   </entry>
   <entry>
@@ -128,9 +128,9 @@
         <category>Hexo折腾</category>
       </categories>
       <tags>
+        <tag>markdown</tag>
         <tag>经验</tag>
         <tag>hexo</tag>
-        <tag>markdown</tag>
         <tag>plugin</tag>
         <tag>整合</tag>
       </tags>
@@ -278,8 +278,8 @@
         <category>Tools</category>
       </categories>
       <tags>
-        <tag>经验</tag>
         <tag>test</tag>
+        <tag>经验</tag>
         <tag>script</tag>
       </tags>
   </entry>
