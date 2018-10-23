@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[记Coding+CDN国内加速Pages]]></title>
+    <url>%2F2018%2F1024%2F%E8%AE%B0Coding-CDN%E5%9B%BD%E5%86%85%E5%8A%A0%E9%80%9FPages.html</url>
+    <content type="text"><![CDATA[之前虽然写过一篇文章分享如何通过coding与github双服务器托管hexo，但自己也只是把文章同时push到coding与github上，然后再通过CDN直接给github pages在国内加速，并没有启用coding的pages服务。今天打算试用一下coding的pages服务，此文予以记录。 启用coding pages服务因为之前已经将本地仓库关联到coding仓库，所以此处不赘述，可看文末推荐阅读Coding+Github双服务器托管hexo一文。 当本地仓库关联到coding仓库之后，进入项目里，点击左侧的代码，再点击pages服务。创建静态coding pages之后点击小齿轮进入设置页面。 绑定域名之前先在域名DNS设置中添加一条CNAME记录指向yleao.coding.me。 解析添加完成之后即可绑定新域名，如果证书申请失败请查看错误信息，详情点击这里。 一般来说错误类型会是urn:acme:error:unauthorized，这是因为之前可能添加了域名的DNS解析到海外，比如github pages，所以此时要先关闭此条解析，申请证书之后再开启此解析。 以上完成后，如果打开xxxxx.coding.me会跳转到自己绑定的域名，则表示coding pages启用成功，国内走coding国外走github。 但现在并没有结束，在国内对自己的域名进行测速发现速度不够快，那么就要利用到CDN来给coding pages进行加速，个人使用的是腾讯CDN。 使用CDN为coding pages加速首先，ping一下xxxxx.coding.me，获得IP地址，再到腾讯云CDN里开启CDN服务，源站设置为该IP。然后再配置缓存，配置完成后，系统会为您分配对应的CNAME。启用CDN的细节可看文末推荐阅读通过CDN直接给Github+Pages加速一文。 当得到对应的CNAME之后，去域名解析里添加解析。我的解析如下： 国内与国外设置不同CANME，国外指向xxxxx.github.io或者xxxxx.coding.me(任选其一即可)，国外我选的是github，所以我暂停了coding解析，国内则指向刚才CDN给出的地址。 到此所有配置全部完成。 推荐阅读 通过CDN直接给Github Pages加速 Coding+Github双服务器托管hexo]]></content>
+      <categories>
+        <category>Hexo折腾</category>
+      </categories>
+      <tags>
+        <tag>经验</tag>
+        <tag>hexo</tag>
+        <tag>搭建</tag>
+        <tag>coding</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[遍地苦难尘]]></title>
     <url>%2F2018%2F1011%2F%E9%81%8D%E5%9C%B0%E8%8B%A6%E9%9A%BE%E5%B0%98.html</url>
     <content type="text"><![CDATA[Buddha与Puta可以很近但人与人却很远《大佛普拉斯》 诺贝尔摄影奖 海景别墅 “男人骑什么粉红色的摩托车，难怪交不到女朋友” “你是在靠北什么哦，这电影是黑白的，你不说别人是看得出来吗” 梦露，大佛 他希望菜埔他们送到这里就好，接下来，他想要一个人慢慢走。 我想虽然现在是太空时代，人类早就可以坐太空船去月球，但永远无法探索别人内心的宇宙。]]></content>
@@ -49,8 +63,8 @@
       <tags>
         <tag>经验</tag>
         <tag>gfw</tag>
-        <tag>plugin</tag>
         <tag>扩展</tag>
+        <tag>plugin</tag>
       </tags>
   </entry>
   <entry>
@@ -114,9 +128,9 @@
         <category>Hexo折腾</category>
       </categories>
       <tags>
-        <tag>markdown</tag>
         <tag>经验</tag>
         <tag>hexo</tag>
+        <tag>markdown</tag>
         <tag>plugin</tag>
         <tag>整合</tag>
       </tags>
@@ -135,7 +149,7 @@
   <entry>
     <title><![CDATA[网页工具备忘]]></title>
     <url>%2F2018%2F0831%2F%E7%BD%91%E9%A1%B5%E5%B7%A5%E5%85%B7%E5%A4%87%E5%BF%98.html</url>
-    <content type="text"><![CDATA[小记这两天看了眼自己的书签栏，真是密密麻麻都快铺满了这个屏幕，感觉是时候清理一下了。把一些失效的网页删掉，暂时整理了一些感觉还挺好用的就放在这里吧，以后会慢慢更新。有关steam的网页工具可能要重新发一篇，实在是太多了。 工具类 格式转换cloudconvert officeconverter files-conversion smallpdf 在线剪辑123apps lightpdf 图片放大waifu2x 线稿上色paintstransfer2018.10.15回归 卡密转让蜜蜂178 临时邮箱anyalias 10minute dropmail 24mail b站屏蔽词harrynull 视频接口已汇总 host老D 网页iconfontawesome 音乐外链ytmp3 外链转换 在线制图processon制作下载流程图、思维导图、原型图、UML、网络拓扑图等 图床sm.ms imgur API接口imjad 小航实验室 Markdown在线编辑器马克飞象 小书匠 ping/ip检测与测速站长之家 whoer ipip speedtest ip签名档制作小航实验室 ntrqq IPv6连接测试test-ipv6 资源下载类 音乐下载2333 实验室 gequdaquan sonimei 国内视频下载小视频下载支持下载爱奇艺、微信公众号、优酷、腾讯视频、快手、土豆、QQ浏览器、迅雷、V电影、开眼等平台的小视频。 vranks支持下载今日头条、阳光宽频网、秒拍视频、腾讯视频、微博视频、微信、百度视频、梨视频、西瓜视频等。 15um可通过微信PC版、搜狗微信、或手机微信复制包含视频的公众号文章链接，粘贴到微信视频下载工具并回车，即可方便快捷的下载你要的视频。亦支持抖音。 硕鼠老牌网站了，可在线解析并下载视频，还可通过安装 WIN、Mac OSX、 Android 各版本客户端来进行下载。 biliplusb站视频、弹幕下载。 小航实验室抖音无水印下载。 国外视频下载savefrom converto y2mate clipconverter onlineyoutube 谷歌crx下载2333 实验室 chrome-extension-downloader sinaapp 字体下载fontke 装机下载msdn 知网下载cnki-downloader因为不可抗力（接口服务器失效）不能再使用，期待回归。 搜索查询类 微博图片作者识别2333 实验室 Find who he/she is 谁是Po主 密码泄露查询haveibeenpwned 发音指南forvo 世界时间worldtimebuddy timeanddate 国家代号与区号Area Code jctrans 移动端应用数据查询七麦数据 网页时光机wayback mechine 网商历史价格查询西贴 聚合搜索快搜 截图搜索动漫whatanime 网络实时攻击norse 限免查询反斗限免 优惠码查询海淘优惠码 国内优惠码 游戏类 l4d2插件kk175 mc材质补丁optifine R18补丁检索uncensorpat CSGO全地图点位5e建议使用5e的报点 3dm CSGO烟雾模拟5e CSGO在线准心nbcsgo CSGO汰换模拟csgola CSGO磨损查询csgoexchange]]></content>
+    <content type="text"><![CDATA[小记这两天看了眼自己的书签栏，真是密密麻麻都快铺满了这个屏幕，感觉是时候清理一下了。把一些失效的网页删掉，暂时整理了一些感觉还挺好用的就放在这里吧，以后会慢慢更新。有关steam的网页工具可能要重新发一篇，实在是太多了。 工具类 格式转换cloudconvert officeconverter files-conversion smallpdf 在线剪辑123apps lightpdf 图片放大waifu2x 线稿上色paintstransfer2018.10.15回归 卡密转让蜜蜂178 临时邮箱anyalias 10minute dropmail 24mail b站屏蔽词harrynull 视频接口已汇总 host老D 网页iconfontawesome 音乐外链ytmp3 外链转换 在线制图processon制作下载流程图、思维导图、原型图、UML、网络拓扑图等 图床sm.ms imgur API接口imjad 小航实验室 Markdown在线编辑器马克飞象 小书匠 ping/ip检测与测速站长之家 whoer ipip speedtest ip签名档制作小航实验室 ntrqq IPv6连接测试test-ipv6 资源下载类 音乐下载2333 实验室 gequdaquan sonimei 国内视频下载小视频下载支持下载爱奇艺、微信公众号、优酷、腾讯视频、快手、土豆、QQ浏览器、迅雷、V电影、开眼等平台的小视频。 vranks支持下载今日头条、阳光宽频网、秒拍视频、腾讯视频、微博视频、微信、百度视频、梨视频、西瓜视频等。 15um可通过微信PC版、搜狗微信、或手机微信复制包含视频的公众号文章链接，粘贴到微信视频下载工具并回车，即可方便快捷的下载你要的视频。亦支持抖音。 硕鼠老牌网站了，可在线解析并下载视频，还可通过安装 WIN、Mac OSX、 Android 各版本客户端来进行下载。 biliplusb站视频、弹幕下载。 小航实验室抖音无水印下载。 国外视频下载savefrom converto y2mate clipconverter onlineyoutube 谷歌crx下载2333 实验室 chrome-extension-downloader sinaapp 字体下载fontke 装机下载msdn 知网下载cnki-downloader因为不可抗力（接口服务器失效）不能再使用，期待回归。 搜索查询类 微博图片作者识别2333 实验室 Find who he/she is 谁是Po主 密码泄露查询haveibeenpwned 发音指南forvo 世界时间worldtimebuddy timeanddate 国家代号与区号Area Code jctrans 移动端应用数据查询七麦数据 网页时光机wayback mechine 网商历史价格查询西贴 聚合搜索快搜 截图搜索动漫whatanime 网络实时攻击norse 限免查询反斗限免 优惠码查询海淘优惠码 国内优惠码 聚合查询ip138 游戏类 l4d2插件kk175 mc材质补丁optifine R18补丁检索uncensorpat CSGO全地图点位5e建议使用5e的报点 3dm CSGO烟雾模拟5e CSGO在线准心nbcsgo CSGO汰换模拟csgola CSGO磨损查询csgoexchange]]></content>
       <categories>
         <category>Tools</category>
       </categories>
@@ -225,12 +239,13 @@
         <tag>github</tag>
         <tag>hexo</tag>
         <tag>搭建</tag>
+        <tag>coding</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[通过CDN直接给github pages加速]]></title>
-    <url>%2F2018%2F0809%2F%E9%80%9A%E8%BF%87CDN%E7%9B%B4%E6%8E%A5%E7%BB%99github-pages%E5%8A%A0%E9%80%9F.html</url>
-    <content type="text"><![CDATA[上篇文章我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。 先去CMD里ping一下github上的源站，然后得到ip地址，再到腾讯云CDN里开启CDN服务，需要实名认证，收费方式选择按使用流量计费。开启之后选择添加域名，填写格式按下图填写。 启动CDN之后点击管理，找到基本配置下的回源配置，不出意外的话回源配置里的回源host为刚填写的域名。点击左侧的域名管理，域名配置完成后，系统会为您分配对应的 CNAME ，以 .cdn.dnsv1.com为后缀，请务必按照控制台展示的CNAME进行配置。 得到对应的CNAME之后，去解析域名。 因为我前面填写的域名为二级域名：blog.yleao.com所以我的主机记录也为blog，记录类型为CNAME，线路类型为默认，记录值填写上面CDN加速给你的记录值，默认以.cdn.dnsv1.com为后缀，此条解析为国内用户访问。这样github pages上的博客在国内就被CDN加速了，海外依然是使用github的ip，能同时提升国内与国外的访问速度。 不同的 DNS 服务商，CNAME 生效的时间略有不同，一般会在半个小时之内生效。查询是否生效在我上篇文章有提过，此处不赘述。 在开启CDN的时候可能会出现循环重定向的问题，出现这个问题的原因是重定向规则引起的，我的解决办法是进入CDN加速面板中的回源配置，勾选中间源配置，然后再绑定源服务器域名，设置协议跟随即可。 另外加速之后国内访问网站显示信息与github pages上面的内容不同步时，可以去cdn页面刷新缓存。]]></content>
+    <title><![CDATA[通过CDN直接给Github Pages加速]]></title>
+    <url>%2F2018%2F0809%2F%E9%80%9A%E8%BF%87CDN%E7%9B%B4%E6%8E%A5%E7%BB%99Github-Pages%E5%8A%A0%E9%80%9F.html</url>
+    <content type="text"><![CDATA[上篇文章我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。 目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。 先去CMD里ping一下github上的源站，然后得到ip地址，再到腾讯云CDN里开启CDN服务，需要实名认证，收费方式选择按使用流量计费。开启之后选择添加域名，填写格式按下图填写。 启动CDN之后点击管理，找到基本配置下的回源配置，不出意外的话回源配置里的回源host为刚填写的域名。点击左侧的域名管理，域名配置完成后，系统会为您分配对应的 CNAME ，以 .cdn.dnsv1.com为后缀，请务必按照控制台展示的CNAME进行配置。 得到对应的CNAME之后，去解析域名。 因为我前面填写的域名为二级域名：blog.yleao.com所以我的主机记录也为blog，记录类型为CNAME，线路类型为默认，记录值填写上面CDN加速给你的记录值，默认以.cdn.dnsv1.com为后缀，此条解析为国内用户访问。这样github pages上的博客在国内就被CDN加速了，海外依然是使用github的ip，能同时提升国内与国外的访问速度。 不同的 DNS 服务商，CNAME 生效的时间略有不同，一般会在半个小时之内生效。查询是否生效在我上篇文章有提过，此处不赘述。 在开启CDN的时候可能会出现循环重定向的问题，出现这个问题的原因是重定向规则引起的，我的解决办法是进入CDN加速面板中的回源配置，勾选中间源配置，然后再绑定源服务器域名，设置协议跟随即可。 另外加速之后国内访问网站显示信息与github pages上面的内容不同步时，可以去cdn页面刷新缓存。]]></content>
       <categories>
         <category>Hexo折腾</category>
       </categories>
@@ -263,8 +278,8 @@
         <category>Tools</category>
       </categories>
       <tags>
-        <tag>test</tag>
         <tag>经验</tag>
+        <tag>test</tag>
         <tag>script</tag>
       </tags>
   </entry>
@@ -283,8 +298,8 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[腾讯云COS+Github双服务器托管hexo]]></title>
-    <url>%2F2018%2F0802%2F%E8%85%BE%E8%AE%AF%E4%BA%91COS-Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1hexo.html</url>
+    <title><![CDATA[腾讯云COS+CDN+Github双服务器托管hexo]]></title>
+    <url>%2F2018%2F0802%2F%E8%85%BE%E8%AE%AF%E4%BA%91COS-CDN-Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1hexo.html</url>
     <content type="text"><![CDATA[把博客分别托管在腾讯云对象储存 和 Github Pages上，再通过DNS解析进行访问优化。由于github是国外的服务器，终归会对国内的用户访问造成一定的影响。于是打算再在国内服务器上部署一套，配合上国内的CDN加速，再利用DNS解析让国外用户和国内用户选择最优路线,从而提升访问速度。 此文只讲解如何部署在腾讯云COS上。 创建bucket并开启静态网站云对象储存（COS）是什么可以自行查阅腾讯官方的details，此处不必赘述首先进入对象储存页面创建一个bucket，因为在国内所以所属地域选择国内的地址即可 创建完成之后选择上传文件，把hexo/public/下的所有文件，包括其public目录下所有文件夹一并拖入并上传 上传完成 关于静态网站的概念：静态网站是指包含静态内容（如 HTML）或客户端脚本的网站，用户可以通过控制台对已绑定自定义域名的存储桶，配置静态网站。腾讯云 COS 支持静态网站的托管，不支持服务器端脚本编写。当需要部署动态网站时，则推荐使用云服务器 CVM 进行服务端代码部署。 接着点击基础配置，因为我是用来部署hexo静态博客的，所以直接下来最底部点击静态网站旁的编辑开启当前状态，索引文档为必填，是你上传的文件列表里的xxxx.html，一般默认为index.html，强制 HTTPS（可选），错误文档（可选），设置网站的重定向规则（可选），设置完成后，单击保存即可。 CDN 加速配置CDN 加速适用于对 COS 存储桶中的内容进行下载、分发，特别是对于相同内容反复下载的使用场景。用户可对以下域名进行管理，实现存储桶中对象的快速下载和分发： 默认域名：即 COS 源站域名，是创建存储桶时，由系统根据存储桶名称和地域自动生成的，要与默认加速域名区分开。 默认加速域名：经由 CDN 加速节点的域名，系统默认生成，用户可选择开启或关闭。 自定义域名：用户可以为存储桶绑定已备案的自定义域名，通过自定义域名访问存储桶中的对象。 默认加速域名操作步骤：单击存储桶详情界面上方的域名管理，单击编辑，把默认加速域名的当前状态设置为开启。源站类型通常默认为 XML 节点，如果作为源站的存储桶开启了静态网站，并且希望为静态网站加速，则选择为静态网站节点。当存储桶为公有读时，则不需要开启 回源鉴权，最后单击【保存】按钮即可开启 CDN 加速。注意：如果用户在之前从未使用过腾讯云 CDN 服务，则无法进入域名管理，需先进入 CDN 控制台使用 CDN 服务。 自定义加速域名操作步骤：进入域名管理页面，在第二栏“自定义加速域名”处单击添加域名，输入待绑定的自定义域名，如ww w.example.com，回源鉴权可不开启，单击右侧的保存即可完成域名添加。 注意:用户为域名启用 CDN 加速之后，任何人都可以通过此域名直接访问源站，所以如果您的数据有一定的私密性，请您务必通过 鉴权配置 来保护您的源站数据。 自定义域名添加DNS解析当把上一步域名绑定储存桶和CDN加速域名完成之后，就可以开始优化DNS解析了。（默认域名无须添加解析）到你的域名解析页面，添加上两条解析。 因为我前面绑定储存桶的自定义域名为二级域名：blog.yleao.com 所以我的主机记录为blog，记录类型为CNAME，线路类型为国外，指向在github pages上部署的hexo，记录值填写github上的域名，此条解析为国外用户访问,没经过国内CDN加速。 另一条主机记录也为blog，记录类型为CNAME，线路类型为默认，指向在腾讯COS上部署的hexo,记录值填写上面CDN加速给你的记录值，默认为域名.cdn.dnsv1.com，此条解析为国内用户访问,经过国内CDN加速。国内使用COS，海外使用Github，这样能相应的提升访问速度。 测试DNS查询：选择CNAME类型，看响应ip是否为添加解析的记录值 ping检测与速度测试：5个线路全部勾选上 从上图可以看出通过双服务器搭建的blog对于5条线路（国内和海外）的响应都是非常的快，国内的平均响应为28ms,国外的平均响应为23ms，也可以看出国内CDN成功加速，想要知道CDN是否加速成功，只需在不同地区ping同一个网址，得到不同的IP地址，那么这种情况就可以判断该网站开了CDN加速，图中最下显示19个不同的独立ip。 或者在cmd里ping一下域名也可知道是否CDN加速成功。如下图显示tencdns.net证明加速成功。 下面对比单服务器架设 我的顶级域名部署在腾讯云服务器广州区里，没开启CDN加速 对比可以看出无论是最快响应、最慢响应，还是平均响应，都不及我的二级域名。且没有CDN加速，所以只有一个独立IP。 注意修改或编辑hexo之后要记得同步到两个服务器内，如果只同步了一个服务器，那么从国内和国外访问域名显示的内容则会不一样。比如只同步了国内服务器，那么从国内访问域名则会看到最新的同步内容，国外访问的话则不会，反之亦然。]]></content>
       <categories>
         <category>Hexo折腾</category>

@@ -114,7 +114,7 @@
 
 
 
-  <meta name="keywords" content="经验,github,hexo," />
+  <meta name="keywords" content="经验,github,hexo,搭建," />
 
 
 
@@ -127,25 +127,32 @@
 
 
 
-<meta name="description" content="上篇文章我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。 目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。">
-<meta name="keywords" content="经验,github,hexo">
+<meta name="description" content="把博客分别托管在腾讯云对象储存 和 Github Pages上，再通过DNS解析进行访问优化。由于github是国外的服务器，终归会对国内的用户访问造成一定的影响。于是打算再在国内服务器上部署一套，配合上国内的CDN加速，再利用DNS解析让国外用户和国内用户选择最优路线,从而提升访问速度。   此文只讲解如何部署在腾讯云COS上。">
+<meta name="keywords" content="经验,github,hexo,搭建">
 <meta property="og:type" content="article">
-<meta property="og:title" content="通过CDN直接给Github Pages加速">
-<meta property="og:url" content="/2018/0809/通过CDN直接给Github-Pages加速.html">
+<meta property="og:title" content="腾讯云COS+CDN+Github双服务器托管hexo">
+<meta property="og:url" content="/2018/0802/腾讯云COS-CDN-Github双服务器托管hexo.html">
 <meta property="og:site_name" content="Y&#39;s BLOG">
-<meta property="og:description" content="上篇文章我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。 目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。">
+<meta property="og:description" content="把博客分别托管在腾讯云对象储存 和 Github Pages上，再通过DNS解析进行访问优化。由于github是国外的服务器，终归会对国内的用户访问造成一定的影响。于是打算再在国内服务器上部署一套，配合上国内的CDN加速，再利用DNS解析让国外用户和国内用户选择最优路线,从而提升访问速度。   此文只讲解如何部署在腾讯云COS上。">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速1.jpg">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速2.png">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速3.jpg">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速4.jpg">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速5.jpg">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速6.jpg">
-<meta property="og:updated_time" content="2018-10-23T20:27:30.767Z">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo1.jpg">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo2.jpg">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo3.jpg">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo4.jpg">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo5.png">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo6.png">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo7.jpg">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo8.jpg">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo9.jpg">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo10.jpg">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo11.jpg">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo12.jpg">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo13.jpg">
+<meta property="og:updated_time" content="2018-10-23T18:55:10.594Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="通过CDN直接给Github Pages加速">
-<meta name="twitter:description" content="上篇文章我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。 目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。">
-<meta name="twitter:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速1.jpg">
+<meta name="twitter:title" content="腾讯云COS+CDN+Github双服务器托管hexo">
+<meta name="twitter:description" content="把博客分别托管在腾讯云对象储存 和 Github Pages上，再通过DNS解析进行访问优化。由于github是国外的服务器，终归会对国内的用户访问造成一定的影响。于是打算再在国内服务器上部署一套，配合上国内的CDN加速，再利用DNS解析让国外用户和国内用户选择最优路线,从而提升访问速度。   此文只讲解如何部署在腾讯云COS上。">
+<meta name="twitter:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo1.jpg">
 
 
 
@@ -175,14 +182,14 @@
 
 
 
-  <link rel="canonical" href="/2018/0809/通过CDN直接给Github-Pages加速.html"/>
+  <link rel="canonical" href="/2018/0802/腾讯云COS-CDN-Github双服务器托管hexo.html"/>
 
 
 
 
 
 
-  <title>通过CDN直接给Github Pages加速 | Y's BLOG</title>
+  <title>腾讯云COS+CDN+Github双服务器托管hexo | Y's BLOG</title>
   
 
 
@@ -333,7 +340,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="/2018/0809/通过CDN直接给Github-Pages加速.html">
+    <link itemprop="mainEntityOfPage" href="/2018/0802/腾讯云COS-CDN-Github双服务器托管hexo.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Yann">
@@ -350,7 +357,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">通过CDN直接给Github Pages加速</h1>
+          <h1 class="post-title" itemprop="name headline">腾讯云COS+CDN+Github双服务器托管hexo</h1>
         
 
         <div class="post-meta">
@@ -364,8 +371,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-08-09T02:44:00+08:00">
-                2018-08-09
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-08-02T06:42:00+08:00">
+                2018-08-02
               </time>
             
 
@@ -424,19 +431,50 @@
       
 
       
-        <p><a href="https://blog.yleao.com/2018/0802/腾讯云COS-CDN-Github双服务器托管hexo.html" target="_blank" rel="noopener">上篇文章</a>我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。</p>
-<p>目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。</p>
+        <p>把博客分别托管在腾讯云对象储存 和 Github Pages上，再通过DNS解析进行访问优化。<br>由于github是国外的服务器，终归会对国内的用户访问造成一定的影响。于是打算再在国内服务器上部署一套，配合上国内的CDN加速，再利用DNS解析让国外用户和国内用户选择最优路线,从而提升访问速度。  </p>
+<p>此文只讲解如何部署在腾讯云COS上。</p>
 <a id="more"></a>
 <hr>
-<p>先去CMD里ping一下github上的源站，然后得到ip地址，再到<a href="https://console.cloud.tencent.com/cdn" target="_blank" rel="noopener">腾讯云CDN</a>里开启CDN服务，需要实名认证，收费方式选择按使用流量计费。开启之后选择添加域名，填写格式按下图填写。<br><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速1.jpg" alt=""><br>　<br>启动CDN之后点击管理，找到基本配置下的回源配置，不出意外的话回源配置里的回源host为刚填写的域名。点击左侧的域名管理，域名配置完成后，系统会为您分配对应的 CNAME ，以 <code>.cdn.dnsv1.com</code>为后缀，请务必按照控制台展示的CNAME进行配置。<br><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速2.png" alt=""><br>　<br>得到对应的CNAME之后，去解析域名。<br><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速3.jpg" alt=""></p>
-<p>因为我前面填写的域名为二级域名：<code>blog.yleao.com</code><br>所以我的主机记录也为blog，记录类型为CNAME，线路类型为默认，记录值填写上面CDN加速给你的记录值，默认以<code>.cdn.dnsv1.com</code>为后缀，此条解析为国内用户访问。<br>这样github pages上的博客在国内就被CDN加速了，海外依然是使用github的ip，能同时提升国内与国外的访问速度。  </p>
-<p>不同的 DNS 服务商，CNAME 生效的时间略有不同，一般会在半个小时之内生效。查询是否生效在我<a href="https://blog.yleao.com/2018/0802/%E8%85%BE%E8%AE%AF%E4%BA%91COS-Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1hexo.html#%E6%B5%8B%E8%AF%95" target="_blank" rel="noopener">上篇文章</a>有提过，此处不赘述。  </p>
+<h2 id="创建bucket并开启静态网站"><a href="#创建bucket并开启静态网站" class="headerlink" title="创建bucket并开启静态网站"></a>创建bucket并开启静态网站</h2><p>云对象储存（<a href="https://cloud.tencent.com/product/cos/details" target="_blank" rel="noopener">COS</a>）是什么可以自行查阅腾讯官方的details，此处不必赘述<br>首先进入<a href="https://console.cloud.tencent.com/cos5/bucket" target="_blank" rel="noopener">对象储存页面</a>创建一个<strong>bucket</strong>，因为在国内所以<strong>所属地域</strong>选择国内的地址即可<br><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo1.jpg" alt=""></p>
+<p>创建完成之后选择<strong>上传文件</strong>，把hexo/public/下的所有文件，包括其public目录下所有文件夹一并拖入并上传<br><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo2.jpg" alt=""></p>
+<p>上传完成  </p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo3.jpg" alt=""></p>
+<p>关于静态网站的概念：静态网站是指包含静态内容（如 HTML）或客户端脚本的网站，用户可以通过控制台对已绑定自定义域名的存储桶，配置静态网站。腾讯云 COS 支持静态网站的托管，<font color="#DC143C">不支持服务器端脚本编写。当需要部署动态网站时，则推荐使用云服务器 CVM 进行服务端代码部署。</font>  </p>
+<p>接着点击<strong>基础配置</strong>，因为我是用来部署hexo静态博客的，所以直接下来最底部点击<strong>静态网站</strong>旁的<font color="#1E90FF">编辑</font>开启当前状态，<strong>索引文档</strong>为必填，是你上传的<strong>文件列表</strong>里的xxxx.html，一般默认为index.html，强制 HTTPS（可选），错误文档（可选），设置网站的重定向规则（可选），设置完成后，单击保存即可。  </p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo4.jpg" alt=""></p>
 <hr>
-<p>在开启CDN的时候可能会出现循环重定向的问题，出现这个问题的原因是重定向规则引起的，我的解决办法是进入CDN加速面板中的回源配置，勾选<strong>中间源配置</strong>，然后再绑定源服务器域名，设置协议跟随即可。<br><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速4.jpg" alt=""></p>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速5.jpg" alt=""></p>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速6.jpg" alt=""></p>
-<p>另外加速之后国内访问网站显示信息与github pages上面的内容不同步时，可以去cdn页面刷新缓存。  
-　  </p>
+<h2 id="CDN-加速配置"><a href="#CDN-加速配置" class="headerlink" title="CDN 加速配置"></a>CDN 加速配置</h2><p>CDN 加速适用于对 COS 存储桶中的内容进行下载、分发，特别是对于相同内容反复下载的使用场景。<br>用户可对以下域名进行管理，实现存储桶中对象的快速下载和分发：</p>
+<ul>
+<li>默认域名：即 COS 源站域名，是创建存储桶时，由系统根据存储桶名称和地域自动生成的，要与默认加速域名区分开。</li>
+<li>默认加速域名：经由 CDN 加速节点的域名，系统默认生成，用户可选择开启或关闭。</li>
+<li>自定义域名：用户可以为存储桶绑定已备案的自定义域名，通过自定义域名访问存储桶中的对象。</li>
+</ul>
+<h4 id="默认加速域名操作步骤："><a href="#默认加速域名操作步骤：" class="headerlink" title="默认加速域名操作步骤："></a>默认加速域名操作步骤：</h4><p>单击存储桶详情界面上方的<strong>域名管理</strong>，单击<strong>编辑</strong>，把默认加速域名的当前状态设置为开启。源站类型通常默认为 XML 节点，如果作为源站的存储桶开启了静态网站，并且希望为静态网站加速，则选择为静态网站节点。<br>当存储桶为公有读时，则不需要开启 回源鉴权，最后单击【保存】按钮即可开启 CDN 加速。<br><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo5.png" alt=""><br>注意：<br>如果用户在之前从未使用过腾讯云 CDN 服务，则无法进入<strong>域名管理</strong>，需先进入 CDN 控制台使用 CDN 服务。  </p>
+<h4 id="自定义加速域名操作步骤："><a href="#自定义加速域名操作步骤：" class="headerlink" title="自定义加速域名操作步骤："></a>自定义加速域名操作步骤：</h4><p>进入<strong>域名管理</strong>页面，在第二栏“自定义加速域名”处单击<strong>添加域名</strong>，输入待绑定的自定义域名，如ww w.example.com，回源鉴权可不开启，单击右侧的<strong>保存</strong>即可完成域名添加。  </p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo6.png" alt=""></p>
+<p>注意:用户为域名启用 CDN 加速之后，任何人都可以通过此域名直接访问源站，所以如果您的数据有一定的私密性，请您务必通过 鉴权配置 来保护您的源站数据。  </p>
+<hr>
+<h2 id="自定义域名添加DNS解析"><a href="#自定义域名添加DNS解析" class="headerlink" title="自定义域名添加DNS解析"></a>自定义域名添加DNS解析</h2><p>当把上一步域名绑定储存桶和CDN加速域名完成之后，就可以开始优化DNS解析了。（默认域名无须添加解析）<br>到你的域名解析页面，添加上两条解析。  </p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo7.jpg" alt=""></p>
+<p>因为我前面绑定储存桶的自定义域名为二级域名：<font color="#8470FF">blog.yleao.com</font>   </p>
+<p>所以我的主机记录为<font color="red">blog</font>，记录类型为<font color="blue">CNAME</font>，线路类型为<font color="#FF7F50">国外</font>，指向在github pages上部署的hexo，记录值填写<font color="green">github</font>上的域名，此条解析为国外用户访问,<font color="#DAA520">没经过国内CDN加速</font>。  </p>
+<p>另一条主机记录也为<font color="red">blog</font>，记录类型为<font color="blue">CNAME</font>，线路类型为<font color="#FF7F50">默认</font>，指向在腾讯COS上部署的hexo,记录值填写上面CDN加速给你的记录值，默认为<font color="green">域名.cdn.dnsv1.com</font>，此条解析为国内用户访问,<font color="#DAA520">经过国内CDN加速</font>。<br>国内使用COS，海外使用Github，这样能相应的提升访问速度。</p>
+<hr>
+<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p><a href="http://tool.chinaz.com/dns/" target="_blank" rel="noopener">DNS查询</a>：选择CNAME类型，看响应ip是否为添加解析的记录值   </p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo8.jpg" alt=""></p>
+<p><a href="http://ping.chinaz.com/" target="_blank" rel="noopener">ping检测与速度测试</a>：5个线路全部勾选上   </p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo9.jpg" alt=""></p>
+<p>从上图可以看出通过双服务器搭建的blog对于5条线路（国内和海外）的响应都是非常的快，国内的平均响应为<font color="#228B22">28ms</font>,国外的平均响应为<font color="#228B22">23ms</font>，也可以看出国内CDN成功加速，想要知道CDN是否加速成功，只需在不同地区ping同一个网址，得到不同的IP地址，那么这种情况就可以判断该网站开了CDN加速，图中最下显示19个不同的独立ip。  </p>
+<p>或者在cmd里ping一下域名也可知道是否CDN加速成功。如下图显示<strong>tencdns.net</strong>证明加速成功。</p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo10.jpg" alt=""></p>
+<p>下面对比单服务器架设  </p>
+<p>我的顶级域名部署在腾讯云服务器广州区里，没开启CDN加速  </p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo11.jpg" alt=""></p>
+<p>对比可以看出无论是最快响应、最慢响应，还是平均响应，都不及我的二级域名。且没有CDN加速，所以只有一个独立IP。  </p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo12.jpg" alt=""></p>
+<hr>
+<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>修改或编辑hexo之后要记得同步到两个服务器内，如果只同步了一个服务器，那么从国内和国外访问域名显示的内容则会不一样。比如只同步了国内服务器，那么从国内访问域名则会看到最新的同步内容，国外访问的话则不会，反之亦然。</p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/COSGithub双服务器托管hexo13.jpg" alt=""></p>
 
       
     </div>
@@ -474,6 +512,8 @@
           
             <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i> hexo</a>
           
+            <a href="/tags/搭建/" rel="tag"><i class="fa fa-tag"></i> 搭建</a>
+          
         </div>
       
 
@@ -485,8 +525,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/0808/伴我同行.html" rel="next" title="伴我同行">
-                <i class="fa fa-chevron-left"></i> 伴我同行
+              <a href="/2018/0802/嵌入测试.html" rel="next" title="嵌入测试">
+                <i class="fa fa-chevron-left"></i> 嵌入测试
               </a>
             
           </div>
@@ -495,8 +535,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/0809/Coding-Github双服务器托管hexo.html" rel="prev" title="Coding+Github双服务器托管hexo">
-                Coding+Github双服务器托管hexo <i class="fa fa-chevron-right"></i>
+              <a href="/2018/0805/hexo上的live2d应用.html" rel="prev" title="hexo上的live2d应用">
+                hexo上的live2d应用 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -551,8 +591,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -667,6 +716,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#创建bucket并开启静态网站"><span class="nav-text">创建bucket并开启静态网站</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CDN-加速配置"><span class="nav-text">CDN 加速配置</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#默认加速域名操作步骤："><span class="nav-text">默认加速域名操作步骤：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#自定义加速域名操作步骤："><span class="nav-text">自定义加速域名操作步骤：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#自定义域名添加DNS解析"><span class="nav-text">自定义域名添加DNS解析</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#测试"><span class="nav-text">测试</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#注意"><span class="nav-text">注意</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       

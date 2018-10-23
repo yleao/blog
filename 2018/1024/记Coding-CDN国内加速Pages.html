@@ -114,7 +114,7 @@
 
 
 
-  <meta name="keywords" content="经验,github,hexo," />
+  <meta name="keywords" content="经验,hexo,搭建,coding," />
 
 
 
@@ -127,25 +127,23 @@
 
 
 
-<meta name="description" content="上篇文章我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。 目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。">
-<meta name="keywords" content="经验,github,hexo">
+<meta name="description" content="之前虽然写过一篇文章分享如何通过coding与github双服务器托管hexo，但自己也只是把文章同时push到coding与github上，然后再通过CDN直接给github pages在国内加速，并没有启用coding的pages服务。今天打算试用一下coding的pages服务，此文予以记录。">
+<meta name="keywords" content="经验,hexo,搭建,coding">
 <meta property="og:type" content="article">
-<meta property="og:title" content="通过CDN直接给Github Pages加速">
-<meta property="og:url" content="/2018/0809/通过CDN直接给Github-Pages加速.html">
+<meta property="og:title" content="记Coding+CDN国内加速Pages">
+<meta property="og:url" content="/2018/1024/记Coding-CDN国内加速Pages.html">
 <meta property="og:site_name" content="Y&#39;s BLOG">
-<meta property="og:description" content="上篇文章我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。 目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。">
+<meta property="og:description" content="之前虽然写过一篇文章分享如何通过coding与github双服务器托管hexo，但自己也只是把文章同时push到coding与github上，然后再通过CDN直接给github pages在国内加速，并没有启用coding的pages服务。今天打算试用一下coding的pages服务，此文予以记录。">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速1.jpg">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速2.png">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速3.jpg">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速4.jpg">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速5.jpg">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速6.jpg">
-<meta property="og:updated_time" content="2018-10-23T20:27:30.767Z">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/记Coding-CDN国内加速Pages1.jpg">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/记Coding-CDN国内加速Pages3.jpg">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/记Coding-CDN国内加速Pages2.jpg">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/记Coding-CDN国内加速Pages4.jpg">
+<meta property="og:updated_time" content="2018-10-23T20:27:30.976Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="通过CDN直接给Github Pages加速">
-<meta name="twitter:description" content="上篇文章我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。 目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。">
-<meta name="twitter:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速1.jpg">
+<meta name="twitter:title" content="记Coding+CDN国内加速Pages">
+<meta name="twitter:description" content="之前虽然写过一篇文章分享如何通过coding与github双服务器托管hexo，但自己也只是把文章同时push到coding与github上，然后再通过CDN直接给github pages在国内加速，并没有启用coding的pages服务。今天打算试用一下coding的pages服务，此文予以记录。">
+<meta name="twitter:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/记Coding-CDN国内加速Pages1.jpg">
 
 
 
@@ -175,14 +173,14 @@
 
 
 
-  <link rel="canonical" href="/2018/0809/通过CDN直接给Github-Pages加速.html"/>
+  <link rel="canonical" href="/2018/1024/记Coding-CDN国内加速Pages.html"/>
 
 
 
 
 
 
-  <title>通过CDN直接给Github Pages加速 | Y's BLOG</title>
+  <title>记Coding+CDN国内加速Pages | Y's BLOG</title>
   
 
 
@@ -333,7 +331,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="/2018/0809/通过CDN直接给Github-Pages加速.html">
+    <link itemprop="mainEntityOfPage" href="/2018/1024/记Coding-CDN国内加速Pages.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Yann">
@@ -350,7 +348,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">通过CDN直接给Github Pages加速</h1>
+          <h1 class="post-title" itemprop="name headline">记Coding+CDN国内加速Pages</h1>
         
 
         <div class="post-meta">
@@ -364,8 +362,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-08-09T02:44:00+08:00">
-                2018-08-09
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-10-24T04:10:41+08:00">
+                2018-10-24
               </time>
             
 
@@ -424,19 +422,30 @@
       
 
       
-        <p><a href="https://blog.yleao.com/2018/0802/腾讯云COS-CDN-Github双服务器托管hexo.html" target="_blank" rel="noopener">上篇文章</a>我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。</p>
-<p>目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。</p>
+        <p>之前虽然写过一篇文章分享如何通过coding与github双服务器托管hexo，但自己也只是把文章同时push到coding与github上，然后再通过CDN直接给github pages在国内加速，并没有启用coding的pages服务。今天打算试用一下coding的pages服务，此文予以记录。</p>
 <a id="more"></a>
 <hr>
-<p>先去CMD里ping一下github上的源站，然后得到ip地址，再到<a href="https://console.cloud.tencent.com/cdn" target="_blank" rel="noopener">腾讯云CDN</a>里开启CDN服务，需要实名认证，收费方式选择按使用流量计费。开启之后选择添加域名，填写格式按下图填写。<br><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速1.jpg" alt=""><br>　<br>启动CDN之后点击管理，找到基本配置下的回源配置，不出意外的话回源配置里的回源host为刚填写的域名。点击左侧的域名管理，域名配置完成后，系统会为您分配对应的 CNAME ，以 <code>.cdn.dnsv1.com</code>为后缀，请务必按照控制台展示的CNAME进行配置。<br><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速2.png" alt=""><br>　<br>得到对应的CNAME之后，去解析域名。<br><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速3.jpg" alt=""></p>
-<p>因为我前面填写的域名为二级域名：<code>blog.yleao.com</code><br>所以我的主机记录也为blog，记录类型为CNAME，线路类型为默认，记录值填写上面CDN加速给你的记录值，默认以<code>.cdn.dnsv1.com</code>为后缀，此条解析为国内用户访问。<br>这样github pages上的博客在国内就被CDN加速了，海外依然是使用github的ip，能同时提升国内与国外的访问速度。  </p>
-<p>不同的 DNS 服务商，CNAME 生效的时间略有不同，一般会在半个小时之内生效。查询是否生效在我<a href="https://blog.yleao.com/2018/0802/%E8%85%BE%E8%AE%AF%E4%BA%91COS-Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1hexo.html#%E6%B5%8B%E8%AF%95" target="_blank" rel="noopener">上篇文章</a>有提过，此处不赘述。  </p>
+<h3 id="启用coding-pages服务"><a href="#启用coding-pages服务" class="headerlink" title="启用coding pages服务"></a>启用coding pages服务</h3><p>因为之前已经将本地仓库关联到coding仓库，所以此处不赘述，可看文末推荐阅读<a href="#1">Coding+Github双服务器托管hexo</a>一文。</p>
+<p>当本地仓库关联到coding仓库之后，进入项目里，点击左侧的代码，再点击pages服务。创建静态coding pages之后点击小齿轮进入设置页面。</p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/记Coding-CDN国内加速Pages1.jpg" alt=""></p>
+<p>绑定域名之前先在域名DNS设置中添加一条CNAME记录指向yleao.coding.me。</p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/记Coding-CDN国内加速Pages3.jpg" alt=""></p>
+<p>解析添加完成之后即可绑定新域名，如果证书申请失败请查看错误信息，<a href="https://coding.net/help/faq/pages/coding-pages-faq.html#_SSLTLS" target="_blank" rel="noopener">详情点击这里</a>。</p>
+<p>一般来说错误类型会是<code>urn:acme:error:unauthorized</code>，这是因为之前可能添加了域名的DNS解析到海外，比如github pages，所以此时要先关闭此条解析，申请证书之后再开启此解析。</p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/记Coding-CDN国内加速Pages2.jpg" alt=""></p>
+<p>以上完成后，如果打开xxxxx.coding.me会跳转到自己绑定的域名，则表示coding pages启用成功，国内走coding国外走github。</p>
+<p>但现在并没有结束，在国内对自己的域名进行测速发现速度不够快，那么就要利用到CDN来给coding pages进行加速，个人使用的是腾讯CDN。</p>
 <hr>
-<p>在开启CDN的时候可能会出现循环重定向的问题，出现这个问题的原因是重定向规则引起的，我的解决办法是进入CDN加速面板中的回源配置，勾选<strong>中间源配置</strong>，然后再绑定源服务器域名，设置协议跟随即可。<br><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速4.jpg" alt=""></p>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速5.jpg" alt=""></p>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速6.jpg" alt=""></p>
-<p>另外加速之后国内访问网站显示信息与github pages上面的内容不同步时，可以去cdn页面刷新缓存。  
-　  </p>
+<h3 id="使用CDN为coding-pages加速"><a href="#使用CDN为coding-pages加速" class="headerlink" title="使用CDN为coding pages加速"></a>使用CDN为coding pages加速</h3><p>首先，ping一下xxxxx.coding.me，获得IP地址，再到<a href="https://console.cloud.tencent.com/cdn" target="_blank" rel="noopener">腾讯云CDN</a>里开启CDN服务，源站设置为该IP。然后再配置缓存，配置完成后，系统会为您分配对应的CNAME。启用CDN的细节可看文末推荐阅读<a href="#1">通过CDN直接给Github+Pages加速</a>一文。</p>
+<p>当得到对应的CNAME之后，去域名解析里添加解析。我的解析如下：</p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/记Coding-CDN国内加速Pages4.jpg" alt=""></p>
+<p>国内与国外设置不同CANME，国外指向xxxxx.github.io或者xxxxx.coding.me(任选其一即可)，国外我选的是github，所以我暂停了coding解析，国内则指向刚才CDN给出的地址。</p>
+<p>到此所有配置全部完成。</p>
+<hr>
+<div class="note default"><p id="1">推荐阅读</p></div>
+
+<p><a href="https://blog.yleao.com/2018/0809/通过CDN直接给Github-Pages加速.html" target="_blank" rel="noopener">通过CDN直接给Github Pages加速</a></p>
+<p><a href="https://blog.yleao.com/2018/0809/Coding-Github双服务器托管hexo.html" target="_blank" rel="noopener">Coding+Github双服务器托管hexo</a></p>
 
       
     </div>
@@ -470,9 +479,11 @@
           
             <a href="/tags/经验/" rel="tag"><i class="fa fa-tag"></i> 经验</a>
           
-            <a href="/tags/github/" rel="tag"><i class="fa fa-tag"></i> github</a>
-          
             <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i> hexo</a>
+          
+            <a href="/tags/搭建/" rel="tag"><i class="fa fa-tag"></i> 搭建</a>
+          
+            <a href="/tags/coding/" rel="tag"><i class="fa fa-tag"></i> coding</a>
           
         </div>
       
@@ -485,8 +496,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/0808/伴我同行.html" rel="next" title="伴我同行">
-                <i class="fa fa-chevron-left"></i> 伴我同行
+              <a href="/2018/1011/遍地苦难尘.html" rel="next" title="遍地苦难尘">
+                <i class="fa fa-chevron-left"></i> 遍地苦难尘
               </a>
             
           </div>
@@ -494,10 +505,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/0809/Coding-Github双服务器托管hexo.html" rel="prev" title="Coding+Github双服务器托管hexo">
-                Coding+Github双服务器托管hexo <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -551,8 +558,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -667,6 +683,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#启用coding-pages服务"><span class="nav-text">启用coding pages服务</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#使用CDN为coding-pages加速"><span class="nav-text">使用CDN为coding pages加速</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       

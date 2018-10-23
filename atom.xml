@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2018-10-17T15:51:53.094Z</updated>
+  <updated>2018-10-23T20:27:30.976Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>记Coding+CDN国内加速Pages</title>
+    <link href="/2018/1024/%E8%AE%B0Coding-CDN%E5%9B%BD%E5%86%85%E5%8A%A0%E9%80%9FPages.html"/>
+    <id>/2018/1024/记Coding-CDN国内加速Pages.html</id>
+    <published>2018-10-23T20:10:41.000Z</published>
+    <updated>2018-10-23T20:27:30.976Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之前虽然写过一篇文章分享如何通过coding与github双服务器托管hexo，但自己也只是把文章同时push到coding与github上，然后再通过CDN直接给github pages在国内加速，并没有启用coding的pages服务。今天打算试用一下coding的pages服务，此文予以记录。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Hexo折腾" scheme="/categories/Hexo%E6%8A%98%E8%85%BE/"/>
+    
+    
+      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
+      <category term="hexo" scheme="/tags/hexo/"/>
+    
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="coding" scheme="/tags/coding/"/>
+    
+  </entry>
   
   <entry>
     <title>遍地苦难尘</title>
@@ -111,9 +137,9 @@
     
       <category term="gfw" scheme="/tags/gfw/"/>
     
-      <category term="plugin" scheme="/tags/plugin/"/>
-    
       <category term="扩展" scheme="/tags/%E6%89%A9%E5%B1%95/"/>
+    
+      <category term="plugin" scheme="/tags/plugin/"/>
     
   </entry>
   
@@ -235,11 +261,11 @@
       <category term="Hexo折腾" scheme="/categories/Hexo%E6%8A%98%E8%85%BE/"/>
     
     
-      <category term="markdown" scheme="/tags/markdown/"/>
-    
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
+    
+      <category term="markdown" scheme="/tags/markdown/"/>
     
       <category term="plugin" scheme="/tags/plugin/"/>
     
@@ -272,7 +298,7 @@
     <link href="/2018/0831/%E7%BD%91%E9%A1%B5%E5%B7%A5%E5%85%B7%E5%A4%87%E5%BF%98.html"/>
     <id>/2018/0831/网页工具备忘.html</id>
     <published>2018-08-30T21:43:01.000Z</published>
-    <updated>2018-10-17T14:47:27.714Z</updated>
+    <updated>2018-10-23T18:00:54.734Z</updated>
     
     <summary type="html">
     
@@ -423,7 +449,7 @@
     <link href="/2018/0809/Coding-Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1hexo.html"/>
     <id>/2018/0809/Coding-Github双服务器托管hexo.html</id>
     <published>2018-08-09T04:43:00.000Z</published>
-    <updated>2018-10-17T14:24:13.496Z</updated>
+    <updated>2018-10-23T20:08:19.323Z</updated>
     
     <summary type="html">
     
@@ -443,18 +469,21 @@
     
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
+      <category term="coding" scheme="/tags/coding/"/>
+    
   </entry>
   
   <entry>
-    <title>通过CDN直接给github pages加速</title>
-    <link href="/2018/0809/%E9%80%9A%E8%BF%87CDN%E7%9B%B4%E6%8E%A5%E7%BB%99github-pages%E5%8A%A0%E9%80%9F.html"/>
-    <id>/2018/0809/通过CDN直接给github-pages加速.html</id>
+    <title>通过CDN直接给Github Pages加速</title>
+    <link href="/2018/0809/%E9%80%9A%E8%BF%87CDN%E7%9B%B4%E6%8E%A5%E7%BB%99Github-Pages%E5%8A%A0%E9%80%9F.html"/>
+    <id>/2018/0809/通过CDN直接给Github-Pages加速.html</id>
     <published>2018-08-08T18:44:00.000Z</published>
-    <updated>2018-10-17T14:08:01.709Z</updated>
+    <updated>2018-10-23T20:27:30.767Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;a href=&quot;https://blog.yleao.com/posts/17244.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;上篇文章&lt;/a&gt;我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。&lt;br&gt;目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。&lt;br&gt;
+      &lt;p&gt;&lt;a href=&quot;https://blog.yleao.com/2018/0802/腾讯云COS-CDN-Github双服务器托管hexo.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;上篇文章&lt;/a&gt;我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。&lt;/p&gt;
+&lt;p&gt;目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。&lt;/p&gt;
     
     </summary>
     
@@ -494,32 +523,6 @@
       <category term="music" scheme="/tags/music/"/>
     
       <category term="film" scheme="/tags/film/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>解析接口</title>
-    <link href="/2018/0807/%E8%A7%A3%E6%9E%90%E6%8E%A5%E5%8F%A3.html"/>
-    <id>/2018/0807/解析接口.html</id>
-    <published>2018-08-07T10:19:00.000Z</published>
-    <updated>2018-10-17T13:59:58.568Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h4 id=&quot;油猴脚本&quot;&gt;&lt;a href=&quot;#油猴脚本&quot; class=&quot;headerlink&quot; title=&quot;油猴脚本&quot;&gt;&lt;/a&gt;油猴脚本&lt;/h4&gt;&lt;p&gt;首先安装&lt;a href=&quot;https://greasyfork.org/zh-CN/scripts&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;脚本&lt;/a&gt;，选择关键字为&lt;code&gt;破解&lt;/code&gt;、&lt;code&gt;VIP&lt;/code&gt;、&lt;code&gt;视频&lt;/code&gt;的脚本就对啦。&lt;br&gt;安装完后！重启下浏览器！最后打开B站或者优酷等网站会看到下面的按钮！直接点击解析就可以了！  &lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Experience" scheme="/categories/Experience/"/>
-    
-      <category term="Tools" scheme="/categories/Experience/Tools/"/>
-    
-    
-      <category term="test" scheme="/tags/test/"/>
-    
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
-      <category term="script" scheme="/tags/script/"/>
     
   </entry>
   
