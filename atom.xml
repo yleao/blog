@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2018-10-23T20:51:27.290Z</updated>
+  <updated>2018-10-24T05:25:56.521Z</updated>
   <id>/</id>
   
   <author>
@@ -21,11 +21,11 @@
     <link href="/2018/1024/%E8%AE%B0Coding-CDN%E5%9B%BD%E5%86%85%E5%8A%A0%E9%80%9FPages.html"/>
     <id>/2018/1024/记Coding-CDN国内加速Pages.html</id>
     <published>2018-10-23T20:10:41.000Z</published>
-    <updated>2018-10-23T20:51:27.290Z</updated>
+    <updated>2018-10-24T05:25:56.521Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;之前虽然写过一篇文章分享如何通过coding与github双服务器托管hexo，但自己也只是把文章同时push到coding与github上，然后再通过CDN直接给github pages在国内加速，并没有启用coding的pages服务。今天打算试用一下coding的pages服务，此文予以记录。&lt;/p&gt;
+      &lt;p&gt;之前虽然写过一篇文章分享如何通过coding与github双服务器托管hexo，但自己也只是把文章同时push到coding与github上，然后再通过CDN直接给github pages在国内加速，并没有启用coding的pages服务。反正想到都push上去了，于是打算启用一下，此文予以记录。&lt;/p&gt;
     
     </summary>
     
@@ -60,9 +60,9 @@
       <category term="生活拾空" scheme="/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
     
     
-      <category term="music" scheme="/tags/music/"/>
-    
       <category term="life" scheme="/tags/life/"/>
+    
+      <category term="music" scheme="/tags/music/"/>
     
       <category term="film" scheme="/tags/film/"/>
     
@@ -478,7 +478,7 @@
     <link href="/2018/0809/%E9%80%9A%E8%BF%87CDN%E7%9B%B4%E6%8E%A5%E7%BB%99GithubPages%E5%8A%A0%E9%80%9F.html"/>
     <id>/2018/0809/通过CDN直接给GithubPages加速.html</id>
     <published>2018-08-08T18:44:00.000Z</published>
-    <updated>2018-10-23T20:49:03.313Z</updated>
+    <updated>2018-10-24T05:24:35.495Z</updated>
     
     <summary type="html">
     
@@ -518,9 +518,9 @@
     
       <category term="video" scheme="/tags/video/"/>
     
-      <category term="music" scheme="/tags/music/"/>
-    
       <category term="life" scheme="/tags/life/"/>
+    
+      <category term="music" scheme="/tags/music/"/>
     
       <category term="film" scheme="/tags/film/"/>
     

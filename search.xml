@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[记Coding+CDN国内加速Pages]]></title>
     <url>%2F2018%2F1024%2F%E8%AE%B0Coding-CDN%E5%9B%BD%E5%86%85%E5%8A%A0%E9%80%9FPages.html</url>
-    <content type="text"><![CDATA[之前虽然写过一篇文章分享如何通过coding与github双服务器托管hexo，但自己也只是把文章同时push到coding与github上，然后再通过CDN直接给github pages在国内加速，并没有启用coding的pages服务。今天打算试用一下coding的pages服务，此文予以记录。 启用coding pages服务因为之前已经将本地仓库关联到coding仓库，所以此处不赘述，可看文末推荐阅读Coding+Github双服务器托管hexo一文。 当本地仓库关联到coding仓库之后，进入项目里，点击左侧的代码，再点击pages服务。创建静态coding pages之后点击小齿轮进入设置页面。 绑定域名之前先在域名DNS设置中添加一条CNAME记录指向yleao.coding.me。 解析添加完成之后即可绑定新域名，如果证书申请失败请查看错误信息，详情点击这里。 一般来说错误类型会是urn:acme:error:unauthorized，这是因为之前可能添加了域名的DNS解析到海外，比如github pages，所以此时要先关闭此条解析，申请证书之后再开启此解析。 以上完成后，如果打开xxxxx.coding.me会跳转到自己绑定的域名，则表示coding pages启用成功，国内走coding国外走github。 但现在并没有结束，在国内对自己的域名进行测速发现速度不够快，那么就要利用到CDN来给coding pages进行加速，个人使用的是腾讯CDN。 使用CDN为coding pages加速首先，ping一下xxxxx.coding.me，获得IP地址，再到腾讯云CDN里开启CDN服务，源站设置为该IP。然后再配置缓存，启用https，配置完成后，系统会为您分配对应的CNAME。启用CDN的细节可看文末推荐阅读通过CDN直接给Github+Pages加速一文。 当得到对应的CNAME之后，去域名解析里添加解析。我的解析如下： 国内与国外设置不同CANME，国外指向xxxxx.github.io或者xxxxx.coding.me(任选其一即可)，国外我选的是github，所以我暂停了coding解析，国内则指向刚才CDN给出的地址。 到此所有配置全部完成。 推荐阅读 通过CDN直接给GithubPages加速 Coding+Github双服务器托管hexo]]></content>
+    <content type="text"><![CDATA[之前虽然写过一篇文章分享如何通过coding与github双服务器托管hexo，但自己也只是把文章同时push到coding与github上，然后再通过CDN直接给github pages在国内加速，并没有启用coding的pages服务。反正想到都push上去了，于是打算启用一下，此文予以记录。 启用coding pages服务因为之前已经将本地仓库关联到coding仓库，所以此处不赘述，可看文末推荐阅读Coding+Github双服务器托管hexo一文。 当本地仓库关联到coding仓库之后，进入项目里，点击左侧的代码，再点击pages服务。创建静态coding pages之后点击小齿轮进入设置页面。 绑定域名之前先在域名DNS设置中添加一条CNAME记录指向xxxxx.coding.me。 解析添加完成之后即可绑定新域名，如果证书申请失败请查看错误信息，详情点击这里。 一般来说错误类型会是urn:acme:error:unauthorized，这是因为之前可能添加了域名的DNS解析到海外，比如github pages，所以此时要先关闭此条解析，申请证书之后再开启此解析。 以上完成后，如果打开xxxxx.coding.me会跳转到自己绑定的域名，则表示coding pages启用成功，国内走coding国外走github。 但现在并没有结束，在国内对自己的域名进行测速发现速度不够快，那么就要利用到CDN来给coding pages进行加速，个人使用的是腾讯CDN。 使用CDN为coding pages加速首先，ping一下xxxxx.coding.me，获得IP地址，再到腾讯云CDN里开启CDN服务，源站设置为该IP。然后再配置缓存，启用https，配置完成后，系统会分配对应的CNAME。启用CDN的细节可看文末推荐阅读通过CDN直接给Github+Pages加速一文。 当得到对应的CNAME之后，去域名解析里添加解析。我的解析如下： 国内与国外设置不同CANME，国外指向xxxxx.github.io或者xxxxx.coding.me(任选其一即可)，国外我选的是github，所以我暂停了coding解析，国内则指向刚才CDN给出的地址。 到此所有配置全部完成。 推荐阅读 通过CDN直接给GithubPages加速 Coding+Github双服务器托管hexo]]></content>
       <categories>
         <category>Hexo折腾</category>
       </categories>
@@ -22,8 +22,8 @@
         <category>生活拾空</category>
       </categories>
       <tags>
-        <tag>music</tag>
         <tag>life</tag>
+        <tag>music</tag>
         <tag>film</tag>
       </tags>
   </entry>
@@ -245,7 +245,7 @@
   <entry>
     <title><![CDATA[通过CDN直接给GithubPages加速]]></title>
     <url>%2F2018%2F0809%2F%E9%80%9A%E8%BF%87CDN%E7%9B%B4%E6%8E%A5%E7%BB%99GithubPages%E5%8A%A0%E9%80%9F.html</url>
-    <content type="text"><![CDATA[上篇文章我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。 目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。 先去CMD里ping一下github上的源站，然后得到ip地址，再到腾讯云CDN里开启CDN服务，需要实名认证，收费方式选择按使用流量计费。开启之后选择添加域名，填写格式按下图填写。 启动CDN之后点击管理，找到基本配置下的回源配置，不出意外的话回源配置里的回源host为刚填写的域名。点击左侧的域名管理，域名配置完成后，系统会为您分配对应的 CNAME ，以 .cdn.dnsv1.com为后缀，请务必按照控制台展示的CNAME进行配置。 得到对应的CNAME之后，去解析域名。 因为我前面填写的域名为二级域名：blog.yleao.com所以我的主机记录也为blog，记录类型为CNAME，线路类型为默认，记录值填写上面CDN加速给你的记录值，默认以.cdn.dnsv1.com为后缀，此条解析为国内用户访问。这样github pages上的博客在国内就被CDN加速了，海外依然是使用github的ip，能同时提升国内与国外的访问速度。 不同的 DNS 服务商，CNAME 生效的时间略有不同，一般会在半个小时之内生效。查询是否生效在我上篇文章有提过，此处不赘述。 在开启CDN的时候可能会出现循环重定向的问题，出现这个问题的原因是重定向规则引起的，我的解决办法是进入CDN加速面板中的回源配置，勾选中间源配置，然后再绑定源服务器域名，设置协议跟随即可。 另外加速之后国内访问网站显示信息与github pages上面的内容不同步时，可以去cdn页面刷新缓存。]]></content>
+    <content type="text"><![CDATA[上篇文章我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。 目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。 先去CMD里ping一下github上的源站，然后得到ip地址，再到腾讯云CDN里开启CDN服务，需要实名认证，收费方式选择按使用流量计费。开启之后选择添加域名，填写格式按下图填写。 启动CDN之后点击管理，找到基本配置下的回源配置，不出意外的话回源配置里的回源host为刚填写的域名。点击左侧的域名管理，域名配置完成后，系统会分配对应的CNAME，以.cdn.dnsv1.com为后缀，请务必按照控制台展示的CNAME进行配置。 得到对应的CNAME之后，去解析域名。 因为我前面填写的域名为二级域名：blog.yleao.com所以我的主机记录也为blog，记录类型为CNAME，线路类型为默认，记录值填写上面CDN加速给你的记录值，默认以.cdn.dnsv1.com为后缀，此条解析为国内用户访问。这样github pages上的博客在国内就被CDN加速了，海外依然是使用github的ip，能同时提升国内与国外的访问速度。 不同的 DNS 服务商，CNAME 生效的时间略有不同，一般会在半个小时之内生效。查询是否生效在我上篇文章有提过，此处不赘述。 在开启CDN的时候可能会出现循环重定向的问题，出现这个问题的原因是重定向规则引起的，我的解决办法是进入CDN加速面板中的回源配置，勾选中间源配置，然后再绑定源服务器域名，设置协议跟随即可。 另外加速之后国内访问网站显示信息与github pages上面的内容不同步时，可以去cdn页面刷新缓存。]]></content>
       <categories>
         <category>Hexo折腾</category>
       </categories>
@@ -264,8 +264,8 @@
       </categories>
       <tags>
         <tag>video</tag>
-        <tag>music</tag>
         <tag>life</tag>
+        <tag>music</tag>
         <tag>film</tag>
       </tags>
   </entry>
