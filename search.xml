@@ -63,8 +63,8 @@
       <tags>
         <tag>经验</tag>
         <tag>gfw</tag>
-        <tag>plugin</tag>
         <tag>扩展</tag>
+        <tag>plugin</tag>
       </tags>
   </entry>
   <entry>
@@ -314,7 +314,7 @@
   <entry>
     <title><![CDATA[嵌入测试]]></title>
     <url>%2F2018%2F0802%2F%E5%B5%8C%E5%85%A5%E6%B5%8B%E8%AF%95.html</url>
-    <content type="text"><![CDATA[可引入html来设置 视频嵌入YOUTUBE TEST &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7OYkWSW7u4k&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen&gt;&lt;/iframe&gt; BILIBILI TEST1&lt;iframe width="300" height="176" src="//player.bilibili.com/player.html?aid=7728624&amp;cid=12668755&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"&gt; &lt;/iframe&gt; 音乐嵌入framespacing=”0”框架与框架间保留的空白的距离frameborder – 设定框架的边框,取值为(1|0),缺省值为11 – 在每个页面之间都显示边框0 – 不显示边框border=”0”设定框架的边框厚度，以 pixels 为单位auto=”0”0为不自动播放1为自动播放 &lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=694286&amp;auto=0&amp;height=66&quot;&gt;&lt;/iframe&gt; &lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=298 height=52 src=&quot;//music.163.com/outchain/player?type=2&amp;id=694286&amp;auto=0&amp;height=32&quot;&gt;&lt;/iframe&gt; 图片嵌入普通嵌入 12![test](https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/嵌入测试111111111.jpg)&lt;img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/嵌入测试111111111.jpg" alt="test" /&gt; 固定大小且居中 1&lt;div align=center&gt;&lt;img width = '150' height ='150' src ="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/嵌入测试111111111.jpg"/&gt;&lt;/div&gt; 自定义尺寸 1&lt;img width = '40' height ='150' src ="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/嵌入测试111111111.jpg"/&gt;]]></content>
+    <content type="text"><![CDATA[可引入html来设置 视频嵌入YOUTUBE TEST 1&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/7OYkWSW7u4k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt; BILIBILI TEST 1&lt;iframe width="300" height="176" src="//player.bilibili.com/player.html?aid=7728624&amp;cid=12668755&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"&gt; &lt;/iframe&gt; 音乐嵌入framespacing=”0”框架与框架间保留的空白的距离frameborder – 设定框架的边框,取值为(1|0),缺省值为11 – 在每个页面之间都显示边框0 – 不显示边框border=”0”设定框架的边框厚度，以 pixels 为单位auto=”0”0为不自动播放1为自动播放 12&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&amp;id=694286&amp;auto=0&amp;height=66"&gt;&lt;/iframe&gt;&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&amp;id=694286&amp;auto=0&amp;height=32"&gt;&lt;/iframe&gt; 图片嵌入普通嵌入 12![test](https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/嵌入测试111111111.jpg)&lt;img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/嵌入测试111111111.jpg" alt="test" /&gt; 固定大小且居中 1&lt;div align=center&gt;&lt;img width = '150' height ='150' src ="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/嵌入测试111111111.jpg"/&gt;&lt;/div&gt; 自定义尺寸 1&lt;img width = '40' height ='150' src ="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/嵌入测试111111111.jpg"/&gt;]]></content>
       <categories>
         <category>Test</category>
       </categories>
