@@ -1,5 +1,6 @@
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
+	theme: '#ffffff',
 	loop: 'one',
     listFolded: true,
     listMaxHeight: 60,
