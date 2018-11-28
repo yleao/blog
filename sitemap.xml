@@ -2,9 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/2018/0831/%E7%BD%91%E9%A1%B5%E5%B7%A5%E5%85%B7%E5%A4%87%E5%BF%98.html</loc>
+    
+    <lastmod>2018-11-24T06:34:13.645Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>/2018/0916/VPS%E4%B8%8A%E6%90%AD%E5%BB%BAss.html</loc>
+    
+    <lastmod>2018-11-12T12:08:26.795Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>/2018/0805/hexo%E4%B8%8A%E7%9A%84live2d%E5%BA%94%E7%94%A8.html</loc>
     
-    <lastmod>2018-11-07T01:20:01.315Z</lastmod>
+    <lastmod>2018-11-09T10:00:29.720Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>/2018/0810/hexo%E4%B8%8A%E7%9A%84dplayer%E5%BA%94%E7%94%A8%E4%B8%8E%E5%B5%8C%E5%85%A5%E8%A7%86%E9%A2%91%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E8%AE%BE%E7%BD%AE.html</loc>
+    
+    <lastmod>2018-11-09T10:00:14.592Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>/2018/0901/hexo-next%E4%B8%BB%E9%A2%98%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%8C%96.html</loc>
+    
+    <lastmod>2018-11-09T10:00:03.722Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>/2018/0902/hexo%E4%B8%8A%E7%9A%84aplayer%E5%BA%94%E7%94%A8.html</loc>
+    
+    <lastmod>2018-11-09T09:59:21.120Z</lastmod>
     
   </url>
   
@@ -23,13 +58,6 @@
   </url>
   
   <url>
-    <loc>/2018/0831/%E7%BD%91%E9%A1%B5%E5%B7%A5%E5%85%B7%E5%A4%87%E5%BF%98.html</loc>
-    
-    <lastmod>2018-11-06T06:50:52.719Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>/2018/0912/%E5%85%B3%E7%88%B1%E7%A9%BA%E5%B7%A2%E8%80%81%E4%BA%BA%EF%BC%8C%E5%88%AB%E8%AE%A9%E7%AD%89%E5%BE%85%EF%BC%8C%E6%88%90%E4%B8%BA%E9%81%97%E6%86%BE.html</loc>
     
     <lastmod>2018-10-30T11:17:02.933Z</lastmod>
@@ -40,20 +68,6 @@
     <loc>/2018/0802/%E5%B5%8C%E5%85%A5%E6%B5%8B%E8%AF%95.html</loc>
     
     <lastmod>2018-10-29T11:47:30.602Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>/2018/0902/hexo%E4%B8%8A%E7%9A%84aplayer%E5%BA%94%E7%94%A8.html</loc>
-    
-    <lastmod>2018-10-25T07:44:48.407Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>/2018/0916/VPS%E4%B8%8A%E6%90%AD%E5%BB%BAss.html</loc>
-    
-    <lastmod>2018-10-25T07:42:28.269Z</lastmod>
     
   </url>
   
@@ -103,13 +117,6 @@
     <loc>/2018/0802/%E8%85%BE%E8%AE%AF%E4%BA%91COS-CDN-Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1hexo.html</loc>
     
     <lastmod>2018-10-23T18:55:10.594Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>/2018/0901/hexo-next%E4%B8%BB%E9%A2%98%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%8C%96.html</loc>
-    
-    <lastmod>2018-10-17T17:11:54.986Z</lastmod>
     
   </url>
   
@@ -166,13 +173,6 @@
     <loc>/2018/0903/%E8%BD%BB%E7%BE%BD%E9%A3%9E%E6%89%AC%EF%BC%81.html</loc>
     
     <lastmod>2018-10-10T12:29:57.093Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>/2018/0810/hexo%E4%B8%8A%E7%9A%84dplayer%E5%BA%94%E7%94%A8%E4%B8%8E%E5%B5%8C%E5%85%A5%E8%A7%86%E9%A2%91%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E8%AE%BE%E7%BD%AE.html</loc>
-    
-    <lastmod>2018-10-10T12:20:12.928Z</lastmod>
     
   </url>
   

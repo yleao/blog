@@ -34,9 +34,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="hexo" scheme="/tags/hexo/"/>
-    
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="hexo" scheme="/tags/hexo/"/>
     
       <category term="coding" scheme="/tags/coding/"/>
     
@@ -148,7 +148,7 @@
     <link href="/2018/0916/VPS%E4%B8%8A%E6%90%AD%E5%BB%BAss.html"/>
     <id>/2018/0916/VPS上搭建ss.html</id>
     <published>2018-09-16T08:27:45.000Z</published>
-    <updated>2018-10-25T07:42:28.269Z</updated>
+    <updated>2018-11-12T12:08:26.795Z</updated>
     
     <summary type="html">
     
@@ -222,11 +222,11 @@
     <link href="/2018/0902/hexo%E4%B8%8A%E7%9A%84aplayer%E5%BA%94%E7%94%A8.html"/>
     <id>/2018/0902/hexo上的aplayer应用.html</id>
     <published>2018-09-01T17:17:22.000Z</published>
-    <updated>2018-10-25T07:44:48.407Z</updated>
+    <updated>2018-11-09T09:59:21.120Z</updated>
     
     <summary type="html">
     
-      &lt;h5 id=&quot;小记&quot;&gt;&lt;a href=&quot;#小记&quot; class=&quot;headerlink&quot; title=&quot;小记&quot;&gt;&lt;/a&gt;小记&lt;/h5&gt;&lt;p&gt;aplayer是一个非常漂亮好用的HTML5音乐播放器，和dplayer师出同门，本篇主要分享一下自己搭建到hexo上的一些经验。&lt;br&gt;部署dplayer的方式我是用的hexo插件，部署aplayer的方式我是用的提取dist文件。这样可以相互参考，喜欢哪种方式部署就用哪种。&lt;/p&gt;
+      &lt;h5 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h5&gt;&lt;p&gt;aplayer是一个非常漂亮好用的HTML5音乐播放器，和dplayer师出同门，本篇主要分享一下自己搭建到hexo上的一些经验。&lt;br&gt;部署dplayer的方式我是用的hexo插件，部署aplayer的方式我是用的提取dist文件。这样可以相互参考，喜欢哪种方式部署就用哪种。&lt;/p&gt;
     
     </summary>
     
@@ -235,11 +235,11 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
       <category term="github" scheme="/tags/github/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
-    
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
       <category term="plugin" scheme="/tags/plugin/"/>
     
@@ -250,11 +250,11 @@
     <link href="/2018/0901/hexo-next%E4%B8%BB%E9%A2%98%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%8C%96.html"/>
     <id>/2018/0901/hexo-next主题下的美化.html</id>
     <published>2018-09-01T14:53:15.000Z</published>
-    <updated>2018-10-17T17:11:54.986Z</updated>
+    <updated>2018-11-09T10:00:03.722Z</updated>
     
     <summary type="html">
     
-      &lt;h5 id=&quot;小记&quot;&gt;&lt;a href=&quot;#小记&quot; class=&quot;headerlink&quot; title=&quot;小记&quot;&gt;&lt;/a&gt;小记&lt;/h5&gt;&lt;p&gt;因为hexo可以自定义的东西太多了，感觉还是整合到一篇post里会比较好。慢慢更新ing。&lt;/p&gt;
+      &lt;h5 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h5&gt;&lt;p&gt;因为hexo可以自定义的东西太多了，感觉还是整合到一篇post里会比较好。慢慢更新ing。&lt;/p&gt;
     
     </summary>
     
@@ -298,11 +298,11 @@
     <link href="/2018/0831/%E7%BD%91%E9%A1%B5%E5%B7%A5%E5%85%B7%E5%A4%87%E5%BF%98.html"/>
     <id>/2018/0831/网页工具备忘.html</id>
     <published>2018-08-30T21:43:01.000Z</published>
-    <updated>2018-11-06T06:50:52.719Z</updated>
+    <updated>2018-11-24T06:34:13.645Z</updated>
     
     <summary type="html">
     
-      &lt;h5 id=&quot;小记&quot;&gt;&lt;a href=&quot;#小记&quot; class=&quot;headerlink&quot; title=&quot;小记&quot;&gt;&lt;/a&gt;小记&lt;/h5&gt;&lt;p&gt;这两天看了眼自己的书签栏，真是密密麻麻都快铺满了这个屏幕，感觉是时候清理一下了。把一些失效的网页删掉，暂时整理了一些感觉还挺好用的就放在这里吧，以后会慢慢更新。有关steam的网页工具可能要重新发一篇，实在是太多了。&lt;/p&gt;
+      &lt;h5 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h5&gt;&lt;p&gt;这两天看了眼自己的书签栏，真是密密麻麻都快铺满了这个屏幕，感觉是时候清理一下了。把一些失效的网页删掉，暂时整理了一些感觉还挺好用的就放在这里吧，以后会慢慢更新。有关steam的网页工具可能要重新发一篇，实在是太多了。&lt;/p&gt;
     
     </summary>
     
@@ -388,9 +388,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="github" scheme="/tags/github/"/>
-    
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="github" scheme="/tags/github/"/>
     
   </entry>
   
@@ -399,11 +399,11 @@
     <link href="/2018/0810/hexo%E4%B8%8A%E7%9A%84dplayer%E5%BA%94%E7%94%A8%E4%B8%8E%E5%B5%8C%E5%85%A5%E8%A7%86%E9%A2%91%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E8%AE%BE%E7%BD%AE.html"/>
     <id>/2018/0810/hexo上的dplayer应用与嵌入视频的响应式设置.html</id>
     <published>2018-08-10T14:22:00.000Z</published>
-    <updated>2018-10-10T12:20:12.928Z</updated>
+    <updated>2018-11-09T10:00:14.592Z</updated>
     
     <summary type="html">
     
-      &lt;h5 id=&quot;小记&quot;&gt;&lt;a href=&quot;#小记&quot; class=&quot;headerlink&quot; title=&quot;小记&quot;&gt;&lt;/a&gt;小记&lt;/h5&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/DIYgod/DPlayer&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;dplayer&lt;/a&gt;是一个HTML5弹幕视频播放器，可以帮助我们轻松建立一个弹幕视频。那么如何将dplayer应用在hexo上，这里就需要借助到hexo的一个插件了。&lt;br&gt;部署dplayer我是用的hexo插件，部署aplayer我是用的提取dist文件的方法。这样可以相互参考，喜欢哪种方式部署就用哪种。&lt;br&gt;
+      &lt;h5 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h5&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/DIYgod/DPlayer&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;dplayer&lt;/a&gt;是一个HTML5弹幕视频播放器，可以帮助我们轻松建立一个弹幕视频。那么如何将dplayer应用在hexo上，这里就需要借助到hexo的一个插件了。&lt;br&gt;部署dplayer我是用的hexo插件，部署aplayer我是用的提取dist文件的方法。这样可以相互参考，喜欢哪种方式部署就用哪种。&lt;br&gt;
     
     </summary>
     
@@ -412,11 +412,11 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
       <category term="github" scheme="/tags/github/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
-    
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
       <category term="plugin" scheme="/tags/plugin/"/>
     
@@ -463,11 +463,11 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
       <category term="github" scheme="/tags/github/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
-    
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
       <category term="coding" scheme="/tags/coding/"/>
     

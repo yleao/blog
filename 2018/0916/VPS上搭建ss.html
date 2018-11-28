@@ -146,7 +146,7 @@
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20170916184608.jpg">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180916185200.jpg">
 <meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/QQ截图20180916192122.jpg">
-<meta property="og:updated_time" content="2018-10-25T07:42:28.269Z">
+<meta property="og:updated_time" content="2018-11-12T12:08:26.795Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="VPS上搭建ss">
 <meta name="twitter:description" content="之前写了魔法上网的chrome扩展一文，但是个人更推荐自己搭建，本来我的小鸡已经够多了，但前几天vultr给我其中一个邮箱送了10刀余额，于是想着正好可以顺手写一篇关于搭建的文章。此文便是分享如何在VPS上搭建ss进行魔法上网。">
@@ -472,7 +472,7 @@
 <p>另外SSH连接有超时时间，默认大概1分钟。如果长期没操作，putty客户端没反应，只要重新用putty连接即可。</p>
 <hr>
 <h4 id="server上安装ss脚本"><a href="#server上安装ss脚本" class="headerlink" title="server上安装ss脚本"></a>server上安装ss脚本</h4><p>此处推荐看<a href="https://teddysun.com/486.html" target="_blank" rel="noopener">ss 一键安装脚本（四合一）</a>的安装教程。</p>
-<p>运行以下命令:</p>
+<p>运行以下命令后回车:</p>
 <figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wget --<span class="keyword">no</span>-check-certificate -O shadowsocks-<span class="keyword">all</span>.<span class="keyword">sh</span> http<span class="variable">s:</span>//raw.githubusercontent.<span class="keyword">com</span>/teddysun/shadowsocks_install/master/shadowsocks-<span class="keyword">all</span>.<span class="keyword">sh</span></span><br><span class="line">chmod +<span class="keyword">x</span> shadowsocks-<span class="keyword">all</span>.<span class="keyword">sh</span></span><br><span class="line">./shadowsocks-<span class="keyword">all</span>.<span class="keyword">sh</span> <span class="number">2</span>&gt;&amp;<span class="number">1</span> | tee shadowsocks-<span class="keyword">all</span>.<span class="built_in">log</span></span><br></pre></td></tr></table></figure>
 <p>选择脚本Python、R、Go、libev：</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Which Shadowsocks server you'd <span class="keyword">select</span>:</span><br><span class="line"><span class="number">1.</span>Shadowsocks-Python</span><br><span class="line"><span class="number">2.</span>ShadowsocksR</span><br><span class="line"><span class="number">3.</span>Shadowsocks-<span class="keyword">Go</span></span><br><span class="line"><span class="number">4.</span>Shadowsocks-libev</span><br><span class="line">Please enter a <span class="built_in">number</span> (<span class="keyword">default</span> <span class="number">1</span>):</span><br></pre></td></tr></table></figure>
