@@ -63,8 +63,8 @@
       <tags>
         <tag>经验</tag>
         <tag>gfw</tag>
-        <tag>扩展</tag>
         <tag>plugin</tag>
+        <tag>扩展</tag>
       </tags>
   </entry>
   <entry>
@@ -128,9 +128,9 @@
         <category>Hexo折腾</category>
       </categories>
       <tags>
+        <tag>markdown</tag>
         <tag>经验</tag>
         <tag>hexo</tag>
-        <tag>markdown</tag>
         <tag>plugin</tag>
         <tag>整合</tag>
       </tags>
@@ -149,7 +149,7 @@
   <entry>
     <title><![CDATA[网页工具备忘]]></title>
     <url>%2F2018%2F0831%2F%E7%BD%91%E9%A1%B5%E5%B7%A5%E5%85%B7%E5%A4%87%E5%BF%98.html</url>
-    <content type="text"><![CDATA[写在前面这两天看了眼自己的书签栏，真是密密麻麻都快铺满了这个屏幕，感觉是时候清理一下了。把一些失效的网页删掉，暂时整理了一些感觉还挺好用的就放在这里吧，以后会慢慢更新。有关steam的网页工具可能要重新发一篇，实在是太多了。 工具类 格式转换cloudconvert officeconverter files-conversion smallpdf 文档编辑123apps lightpdf gif编辑ezgif 图片编辑photopea 制图processon制作下载流程图、思维导图、原型图、UML、网络拓扑图等 mosh故障效果 shape双色调滤镜、logo制作等 logomakrlogo制作 图片放大waifu2x bigjpg 线稿上色paintstransfer 卡密转让蜜蜂178 临时邮箱anyalias 10minute dropmail 24mail b站屏蔽词harrynull 视频接口已归档于文章——解析接口 host老D 网页iconfontawesome 音乐外链ytmp3 外链转换 图床sm.ms imgur API接口imjad 小航实验室 Markdown编辑器马克飞象 小书匠 ping/ip检测与测速站长之家 whoer ipip speedtest ip签名档制作小航实验室 ntrqq IPv6连接测试test-ipv6 RGB颜色拾取与转换yovi yuan 站长工具站长之家 临时网盘firefox 奶牛快传 资源下载类 音乐下载2333 实验室因不可抗力不能再使用。 gequdaquan sonimei 网页图片打包下载imagecyborg 国内视频下载小视频下载支持下载爱奇艺、微信公众号、优酷、腾讯视频、快手、土豆、QQ浏览器、迅雷、V电影、开眼等平台的小视频。 vranks支持下载今日头条、阳光宽频网、秒拍视频、腾讯视频、微博视频、微信、百度视频、梨视频、西瓜视频等。 15um可通过微信PC版、搜狗微信、或手机微信复制包含视频的公众号文章链接，粘贴到微信视频下载工具并回车，即可方便快捷的下载你要的视频。亦支持抖音。 硕鼠老牌网站了，可在线解析并下载视频，还可通过安装 WIN、Mac OSX、 Android 各版本客户端来进行下载。 biliplusb站视频、弹幕下载。 小航实验室抖音无水印下载。 国外视频下载savefrom converto y2mate clipconverter onlineyoutube 谷歌crx下载2333 实验室因不可抗力不能再使用。 chrome-extension-downloader sinaapp 字体下载fontke fontmap 装机下载msdn 软件下载52pj 423down 知网文献下载cnki-downloader因不可抗力（接口服务器失效）不能再使用，期待回归。 SCI文献下载yovi由于一些原因，SCI-Hub经常性的更换服务器或者域名，此工具可实时更新可用地址。 搜索查询类 谷歌镜像kuaimen 微博图片作者识别2333 实验室因不可抗力不能再使用。 Find who he/she is 谁是Po主 邮箱泄露查询haveibeenpwned Firefox Monitor 发音指南forvo 世界时间worldtimebuddy timeanddate 国家代号与区号Area Code jctrans 移动端应用数据查询七麦数据 网页时光机wayback mechine 网商历史价格查询西贴 聚合搜索快搜 截图搜索动漫whatanime 网络实时攻击norse 限免查询反斗限免 优惠码查询海淘优惠码 国内优惠码 聚合查询ip138 汉字字典漢典 免版权名画芝加哥艺术博物馆 荷兰国立博物馆 纽约大都会艺术博物馆 游戏类 l4d2插件kk175 mc材质补丁optifine R18补丁检索uncensorpat CSGO全地图点位5e建议使用5e的报点 3dm CSGO烟雾模拟5e CSGO在线准心nbcsgo CSGO汰换模拟csgola CSGO磨损查询csgoexchange CSGO Pro Settingsprosettings]]></content>
+    <content type="text"><![CDATA[写在前面这两天看了眼自己的书签栏，真是密密麻麻都快铺满了这个屏幕，感觉是时候清理一下了。把一些失效的网页删掉，暂时整理了一些感觉还挺好用的就放在这里吧，以后会慢慢更新。有关steam的网页工具可能要重新发一篇，实在是太多了。 工具类 格式转换cloudconvert officeconverter files-conversion smallpdf 文档编辑123apps lightpdf gif编辑ezgif 图片编辑photopea 制图processon制作下载流程图、思维导图、原型图、UML、网络拓扑图等 mosh故障效果 shape双色调滤镜、logo制作等 logomakrlogo制作 图片放大waifu2x bigjpg 线稿上色paintstransfer 卡密转让蜜蜂178 临时邮箱anyalias 10minute dropmail 24mail b站屏蔽词harrynull 视频接口已归档于文章——解析接口 host老D 网页iconfontawesome 音乐外链ytmp3 外链转换 图床sm.ms imgur img9 API接口imjad 小航实验室 Markdown编辑器马克飞象 小书匠 ping/ip检测与测速站长之家 whoer ipip speedtest ip签名档制作小航实验室 ntrqq IPv6连接测试test-ipv6 RGB颜色拾取与转换yovi yuan 站长工具站长之家 临时网盘firefox 奶牛快传 国外手机验证receive-sms receivefree sms-online receivesms url缩短器unu reurl 资源下载类 音乐下载2333 实验室因不可抗力不能再使用。 gequdaquan sonimei 网页图片打包下载imagecyborg 国内视频下载小视频下载支持下载爱奇艺、微信公众号、优酷、腾讯视频、快手、土豆、QQ浏览器、迅雷、V电影、开眼等平台的小视频。 vranks支持下载今日头条、阳光宽频网、秒拍视频、腾讯视频、微博视频、微信、百度视频、梨视频、西瓜视频等。 15um可通过微信PC版、搜狗微信、或手机微信复制包含视频的公众号文章链接，粘贴到微信视频下载工具并回车，即可方便快捷的下载你要的视频。亦支持抖音。 硕鼠老牌网站了，可在线解析并下载视频，还可通过安装 WIN、Mac OSX、 Android 各版本客户端来进行下载。 biliplusb站视频、弹幕下载。 小航实验室抖音无水印下载。 国外视频下载savefrom converto y2mate clipconverter onlineyoutube 谷歌crx下载2333 实验室因不可抗力不能再使用。 chrome-extension-downloader sinaapp 字体下载fontke fontmap 装机下载msdn 软件下载52pj 423down 知网文献下载cnki-downloader因不可抗力（接口服务器失效）不能再使用，期待回归。 SCI文献下载yovi由于一些原因，SCI-Hub经常性的更换服务器或者域名，此工具可实时更新可用地址。 书籍查询下载Library Genesis ZLibrary 鸠摩搜索 搜索查询类 谷歌镜像kuaimen 微博图片作者识别2333 实验室因不可抗力不能再使用。 Find who he/she is 谁是Po主 邮箱泄露查询haveibeenpwned Firefox Monitor 发音指南forvo 世界时间worldtimebuddy timeanddate 国家代号与区号Area Code jctrans 移动端应用数据查询七麦数据 网页时光机wayback mechine 网商历史价格查询西贴 聚合搜索快搜 截图搜索动漫whatanime 网络实时攻击norse 限免查询反斗限免 优惠码查询海淘优惠码 国内优惠码 聚合查询ip138 汉字字典漢典 免版权名画芝加哥艺术博物馆 荷兰国立博物馆 纽约大都会艺术博物馆 游戏类 l4d2插件kk175 mc材质补丁optifine R18补丁检索uncensorpat CSGO全地图点位5e建议使用5e的报点 3dm CSGO烟雾模拟5e CSGO在线准心nbcsgo CSGO汰换模拟csgola CSGO磨损查询csgoexchange CSGO Pro Settingsprosettings]]></content>
       <categories>
         <category>Tools</category>
       </categories>
@@ -278,8 +278,8 @@
         <category>Tools</category>
       </categories>
       <tags>
-        <tag>经验</tag>
         <tag>test</tag>
+        <tag>经验</tag>
         <tag>script</tag>
       </tags>
   </entry>
