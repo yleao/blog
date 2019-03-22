@@ -128,9 +128,9 @@
         <category>Hexo折腾</category>
       </categories>
       <tags>
-        <tag>markdown</tag>
         <tag>经验</tag>
         <tag>hexo</tag>
+        <tag>markdown</tag>
         <tag>plugin</tag>
         <tag>整合</tag>
       </tags>
@@ -278,8 +278,8 @@
         <category>Tools</category>
       </categories>
       <tags>
-        <tag>test</tag>
         <tag>经验</tag>
+        <tag>test</tag>
         <tag>script</tag>
       </tags>
   </entry>
