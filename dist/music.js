@@ -11,7 +11,7 @@ const ap = new APlayer({
       {
         name: "Moon River　",
         artist: 'Audrey Hepburn',
-        url: 'http://www.ytmp3.cn/down/48128.mp3',
+        url: 'https://image-1253170309.cos.ap-guangzhou.myqcloud.com/music/moon%20river.mp3',
         cover: 'https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/音乐图标.jpg',
       },
 	  {
