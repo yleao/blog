@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/2018/1011/%E9%81%8D%E5%9C%B0%E8%8B%A6%E9%9A%BE%E5%B0%98.html</loc>
-    
-    <lastmod>2019-05-09T17:36:30.681Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>/2018/0830/chrome%E9%AD%94%E6%B3%95%E4%B8%8A%E7%BD%91%E6%89%A9%E5%B1%95.html</loc>
     
     <lastmod>2019-05-09T17:26:53.339Z</lastmod>
@@ -110,6 +103,13 @@
     <loc>/2018/0809/%E9%80%9A%E8%BF%87CDN%E7%9B%B4%E6%8E%A5%E7%BB%99GithubPages%E5%8A%A0%E9%80%9F.html</loc>
     
     <lastmod>2018-10-24T05:24:35.495Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>/2018/1011/%E9%81%8D%E5%9C%B0%E8%8B%A6%E9%9A%BE%E5%B0%98.html</loc>
+    
+    <lastmod>2018-10-23T20:50:41.579Z</lastmod>
     
   </url>
   
