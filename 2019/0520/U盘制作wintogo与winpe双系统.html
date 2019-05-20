@@ -114,7 +114,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="经验,搭建,tools," />
 
 
 
@@ -127,17 +127,29 @@
 
 
 
-<meta name="description" content="一路步履不停，却总是慢一拍。">
-<meta name="keywords" content="development,study,architecture">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Y&#39;s BLOG">
-<meta property="og:url" content="/categories/Test/index.html">
+<meta name="description" content="前几天入手了SanDisk cz880 128G，于是便想着弄个windows to go 与u盘pe双系统。第一天弄完双系统还没问题，但是到了第二天不知道为什么u盘出问题了，电脑能识别u盘，但不能打开与格式化，只要一打开或者格式化必定资源管理器会未响应，电脑都被搞崩溃好几次。另外任何只要能读取该u盘的程序都会未响应，比如DiskGenius、PartitionGuru等等软件，都会立马死掉，搞了">
+<meta name="keywords" content="经验,搭建,tools">
+<meta property="og:type" content="article">
+<meta property="og:title" content="U盘制作wintogo与winpe双系统">
+<meta property="og:url" content="/2019/0520/U盘制作wintogo与winpe双系统.html">
 <meta property="og:site_name" content="Y&#39;s BLOG">
-<meta property="og:description" content="一路步履不停，却总是慢一拍。">
+<meta property="og:description" content="前几天入手了SanDisk cz880 128G，于是便想着弄个windows to go 与u盘pe双系统。第一天弄完双系统还没问题，但是到了第二天不知道为什么u盘出问题了，电脑能识别u盘，但不能打开与格式化，只要一打开或者格式化必定资源管理器会未响应，电脑都被搞崩溃好几次。另外任何只要能读取该u盘的程序都会未响应，比如DiskGenius、PartitionGuru等等软件，都会立马死掉，搞了">
 <meta property="og:locale" content="en">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F01.png?q-sign-algorithm=sha1&q-ak=AKID5t54nASRJC90Uvvs5lEeFkIWfsiBUCyr&q-sign-time=1558363665;1558365465&q-key-time=1558363665;1558365465&q-header-list=&q-url-param-list=&q-signature=84d72a4320a41769c6af6edecc1baac69c2ce981&x-cos-security-token=0bf5ab0931250fe582945790e1df6b47f502f71e10001">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F02.png?q-sign-algorithm=sha1&q-ak=AKIDcVvk1YB0rzbXxhZs8QY4TvOhSVXKGmNm&q-sign-time=1558364339;1558366139&q-key-time=1558364339;1558366139&q-header-list=&q-url-param-list=&q-signature=5a280fdc7a8bccecc0df4b78ccc032d49e993535&x-cos-security-token=f3a0e723faf7d0a39d15c2c9371d7d2781da2bec10001">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F04.png?q-sign-algorithm=sha1&q-ak=AKIDpC7Q36EKW0U34xJshLQILrZCoeXwSKw9&q-sign-time=1558365757;1558367557&q-key-time=1558365757;1558367557&q-header-list=&q-url-param-list=&q-signature=c6f9326717958144f96df2925889a2390e188e55&x-cos-security-token=90515711ef2692e7049cbb778431e05ea3e3cb1810001">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F03.png?q-sign-algorithm=sha1&q-ak=AKIDW1yO1TSyYhv5ttrmRGyCYYLNVPJVnivl&q-sign-time=1558365542;1558367342&q-key-time=1558365542;1558367342&q-header-list=&q-url-param-list=&q-signature=e05a63ae2a9d1b60b448d145ffb7587b1de6b8b7&x-cos-security-token=93c1ea7a58cede4bb5ee413a3fba70b457209ce610001">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F05.png?q-sign-algorithm=sha1&q-ak=AKIDcorjcHD4G61LsW1flBQFcd52VrVnSopJ&q-sign-time=1558365934;1558367734&q-key-time=1558365934;1558367734&q-header-list=&q-url-param-list=&q-signature=947fe7da291f38edbd0bfb88d7f059213e587556&x-cos-security-token=bfcb55319060558dcc7d6f21c8e33b05d8c5487c10001">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F06.png?q-sign-algorithm=sha1&q-ak=AKIDaZWhC0zYVDtF0mfBIfbNBwQBiJTAEwbr&q-sign-time=1558365994;1558367794&q-key-time=1558365994;1558367794&q-header-list=&q-url-param-list=&q-signature=4402864328bdfa9783e7f55a5c2b86f78d6f7ae4&x-cos-security-token=6837e54aa8d2277f39f27ec9dc4fc7b3f7769a9310001">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F07.PNG?q-sign-algorithm=sha1&q-ak=AKIDjY2U9DfnV4QTWjxhcd4YH8S853I09EIM&q-sign-time=1558367524;1558369324&q-key-time=1558367524;1558369324&q-header-list=&q-url-param-list=&q-signature=99ce49078335bd2ceaa72612ee61d8a6b28b6588&x-cos-security-token=450d47deda4ee6de455ea0967d788bbc5955853f10001">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F08.PNG?q-sign-algorithm=sha1&q-ak=AKIDuWkjRYhFVWZmaBtW05a6TlZu6bWu9Wgs&q-sign-time=1558368218;1558370018&q-key-time=1558368218;1558370018&q-header-list=&q-url-param-list=&q-signature=08eaca3d0c5aebe75994be81a8c6be9503c266d4&x-cos-security-token=77102ecd5d1cd7add03fb899c2802d9fa19b64d110001">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F09.PNG?q-sign-algorithm=sha1&q-ak=AKIDrvFMFob3SAAzRmu0wCfsJRALJA3ifwmx&q-sign-time=1558368243;1558370043&q-key-time=1558368243;1558370043&q-header-list=&q-url-param-list=&q-signature=8495775354eb440302ac3fdd67fee7c1cd038e06&x-cos-security-token=fcf67be586f11aa651e056e69108bcd948494e8710001">
+<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F10.jpg?q-sign-algorithm=sha1&q-ak=AKIDZJfVQbaAp1xLC0Cxq4itMHzWId2214zo&q-sign-time=1558370498;1558372298&q-key-time=1558370498;1558372298&q-header-list=&q-url-param-list=&q-signature=d0f0955cf567187762db4168e5e61e9290dc928d&x-cos-security-token=e373681d3667d1b976d1d907ba9cd08eda0aeb0910001">
+<meta property="og:updated_time" content="2019-05-20T18:43:30.193Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Y&#39;s BLOG">
-<meta name="twitter:description" content="一路步履不停，却总是慢一拍。">
+<meta name="twitter:title" content="U盘制作wintogo与winpe双系统">
+<meta name="twitter:description" content="前几天入手了SanDisk cz880 128G，于是便想着弄个windows to go 与u盘pe双系统。第一天弄完双系统还没问题，但是到了第二天不知道为什么u盘出问题了，电脑能识别u盘，但不能打开与格式化，只要一打开或者格式化必定资源管理器会未响应，电脑都被搞崩溃好几次。另外任何只要能读取该u盘的程序都会未响应，比如DiskGenius、PartitionGuru等等软件，都会立马死掉，搞了">
+<meta name="twitter:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F01.png?q-sign-algorithm=sha1&q-ak=AKID5t54nASRJC90Uvvs5lEeFkIWfsiBUCyr&q-sign-time=1558363665;1558365465&q-key-time=1558363665;1558365465&q-header-list=&q-url-param-list=&q-signature=84d72a4320a41769c6af6edecc1baac69c2ce981&x-cos-security-token=0bf5ab0931250fe582945790e1df6b47f502f71e10001">
 
 
 
@@ -167,14 +179,14 @@
 
 
 
-  <link rel="canonical" href="/categories/Test/"/>
+  <link rel="canonical" href="/2019/0520/U盘制作wintogo与winpe双系统.html"/>
 
 
 
 
 
 
-  <title>Category: Test | Y's BLOG</title>
+  <title>U盘制作wintogo与winpe双系统 | Y's BLOG</title>
   
 
 
@@ -193,7 +205,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 	
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -311,223 +323,230 @@
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+
+  
+
   
   
   
-  <div class="post-block category">
-
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>Test<small>Category</small>
-        </h1>
-      </div>
-
-      
-        
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="/2019/0520/U盘制作wintogo与winpe双系统.html">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yann">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Y's BLOG">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2018/0810/移动端在线预览与调试.html" itemprop="url">
-              
-                <span itemprop="name">移动端在线预览与调试</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">U盘制作wintogo与winpe双系统</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-08-10T20:49:00+08:00"
-              content="2018-08-10" >
-          08-10
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+		    
+			
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-05-20T22:13:29+08:00">
+                2019-05-20
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Experience/" itemprop="url" rel="index">
+                    <span itemprop="name">Experience</span>
+                  </a>
+                </span>
+
+                
+                
+                  , 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Experience/Tools/" itemprop="url" rel="index">
+                    <span itemprop="name">Tools</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/0802/嵌入测试.html" itemprop="url">
-              
-                <span itemprop="name">嵌入测试</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-08-02T05:57:00+08:00"
-              content="2018-08-02" >
-          08-02
-        </time>
-      </div>
-
-    </header>
-  </article>
-
+      
 
       
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/0802/统计测试.html" itemprop="url">
-              
-                <span itemprop="name">统计测试</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-08-02T05:37:00+08:00"
-              content="2018-08-02" >
-          08-02
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-      
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/0731/HTML元素测试.html" itemprop="url">
-              
-                <span itemprop="name">HTML元素测试</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-07-31T23:37:00+08:00"
-              content="2018-07-31" >
-          07-31
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-      
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/0731/字体、字号与颜色测试.html" itemprop="url">
-              
-                <span itemprop="name">字体、字号与颜色测试</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-07-31T20:37:00+08:00"
-              content="2018-07-31" >
-          07-31
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-      
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/0731/日本語テスト.html" itemprop="url">
-              
-                <span itemprop="name">日本語テスト</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-07-31T18:44:00+08:00"
-              content="2018-07-31" >
-          07-31
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-      
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/0731/中文测试.html" itemprop="url">
-              
-                <span itemprop="name">中文测试</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-07-31T18:38:00+08:00"
-              content="2018-07-31" >
-          07-31
-        </time>
-      </div>
-
-    </header>
-  </article>
-
+        <p>前几天入手了SanDisk cz880 128G，于是便想着弄个windows to go 与u盘pe双系统。第一天弄完双系统还没问题，但是到了第二天不知道为什么u盘出问题了，电脑能识别u盘，但不能打开与格式化，只要一打开或者格式化必定资源管理器会未响应，电脑都被搞崩溃好几次。另外任何只要能读取该u盘的程序都会未响应，比如DiskGenius、PartitionGuru等等软件，都会立马死掉，搞了好半天就差量产了，但是没找到对应的量产程序只能作罢。</p>
+<p>最后联系客服，一开始客服还让我换个电脑插插<code>捂脸</code>，但是跟客服详细说明情况后让我寄回去换个新的，不得不说闪迪的售后还是很不错的。</p>
+<p>另外自己也算吸取了教训，感觉问题出在装wintogo时我所用的系统，因为u盘容量不大，所以想用精简版的系统，就用了俄罗斯狂人的精简win7，装好之后进wintogo蓝屏了好几次，都是秒蓝屏后直接重启，连蓝屏代码都看不了，当时也没在意，感觉问题就出在了这里，后面用了msdn的系统就没出现过蓝屏问题。所以建议装wintogo时还是用原版镜像，不要用精简版镜像。</p>
+<a id="more"></a>
+<hr>
+<h4 id="检测"><a href="#检测" class="headerlink" title="检测"></a>检测</h4><p>换新到手之后先检测一下，首先是4K对齐。<code>win+r</code>之后输入<code>msinfo32</code>回车，依次点击<code>组件-储存-磁盘</code>，在右边找到对应u盘项目然后查看<code>分区起始偏移</code>，如果其数值能被4096整除就说明4K对齐了。</p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F01.png?q-sign-algorithm=sha1&amp;q-ak=AKID5t54nASRJC90Uvvs5lEeFkIWfsiBUCyr&amp;q-sign-time=1558363665;1558365465&amp;q-key-time=1558363665;1558365465&amp;q-header-list=&amp;q-url-param-list=&amp;q-signature=84d72a4320a41769c6af6edecc1baac69c2ce981&amp;x-cos-security-token=0bf5ab0931250fe582945790e1df6b47f502f71e10001" alt=""></p>
+<p>接着是坏道检测，工具用的是HdTunePro。</p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F02.png?q-sign-algorithm=sha1&amp;q-ak=AKIDcVvk1YB0rzbXxhZs8QY4TvOhSVXKGmNm&amp;q-sign-time=1558364339;1558366139&amp;q-key-time=1558364339;1558366139&amp;q-header-list=&amp;q-url-param-list=&amp;q-signature=5a280fdc7a8bccecc0df4b78ccc032d49e993535&amp;x-cos-security-token=f3a0e723faf7d0a39d15c2c9371d7d2781da2bec10001" alt=""></p>
+<hr>
+<h4 id="安装wintogo"><a href="#安装wintogo" class="headerlink" title="安装wintogo"></a>安装wintogo</h4><p>u盘检测完之后该着手装系统了，首先该准备wintogo的安装工具，因为我不是win10系统，所以用的是<code>WTG辅助工具4.1.1.0</code>，要装的镜像用的<code>msdn</code>的win7旗舰，按装pe用的工具是<code>EasyBCD</code>，所用的pe系统是<code>无垠PE组合工具 v2017.09.03 维护版</code>。</p>
+<p>先安装wintogo，把下载好的镜像iso文件中<code>install.wim</code>解压出来，如果镜像里是<code>install.esb</code>格式，可用Dism++转换成wim格式。</p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F04.png?q-sign-algorithm=sha1&amp;q-ak=AKIDpC7Q36EKW0U34xJshLQILrZCoeXwSKw9&amp;q-sign-time=1558365757;1558367557&amp;q-key-time=1558365757;1558367557&amp;q-header-list=&amp;q-url-param-list=&amp;q-signature=c6f9326717958144f96df2925889a2390e188e55&amp;x-cos-security-token=90515711ef2692e7049cbb778431e05ea3e3cb1810001" alt=""></p>
+<p>接着打开WTG辅助工具，选中u盘与之前解压的出来的wim文件，之后我选用的是VHD模式，分了30G出去，U盘够大的话可以分多一点，我想着还要拿u盘存些文件就没分太多给wintogo，其他参数没什么要修改的，具体详细配置可见<a href="https://bbs.luobotou.org/thread-761-1-1.html" target="_blank" rel="noopener">萝卜头论坛</a>。</p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F03.png?q-sign-algorithm=sha1&amp;q-ak=AKIDW1yO1TSyYhv5ttrmRGyCYYLNVPJVnivl&amp;q-sign-time=1558365542;1558367342&amp;q-key-time=1558365542;1558367342&amp;q-header-list=&amp;q-url-param-list=&amp;q-signature=e05a63ae2a9d1b60b448d145ffb7587b1de6b8b7&amp;x-cos-security-token=93c1ea7a58cede4bb5ee413a3fba70b457209ce610001" alt=""></p>
+<p>接着点击写入，等待安装完成就行了。</p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F05.png?q-sign-algorithm=sha1&amp;q-ak=AKIDcorjcHD4G61LsW1flBQFcd52VrVnSopJ&amp;q-sign-time=1558365934;1558367734&amp;q-key-time=1558365934;1558367734&amp;q-header-list=&amp;q-url-param-list=&amp;q-signature=947fe7da291f38edbd0bfb88d7f059213e587556&amp;x-cos-security-token=bfcb55319060558dcc7d6f21c8e33b05d8c5487c10001" alt=""></p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F06.png?q-sign-algorithm=sha1&amp;q-ak=AKIDaZWhC0zYVDtF0mfBIfbNBwQBiJTAEwbr&amp;q-sign-time=1558365994;1558367794&amp;q-key-time=1558365994;1558367794&amp;q-header-list=&amp;q-url-param-list=&amp;q-signature=4402864328bdfa9783e7f55a5c2b86f78d6f7ae4&amp;x-cos-security-token=6837e54aa8d2277f39f27ec9dc4fc7b3f7769a9310001" alt=""></p>
+<p>到此wintogo已成功安装到u盘里了。</p>
+<h4 id="安装winpe"><a href="#安装winpe" class="headerlink" title="安装winpe"></a>安装winpe</h4><p>wintogo安装好之后，把winpe镜像里的<code>boot.wim</code>解压出来放在u盘里，另外把<code>EasyBCD安装程序</code>放在u盘里，之后重启电脑进bios调用usb启动即可进入wintogo系统。</p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F07.PNG?q-sign-algorithm=sha1&amp;q-ak=AKIDjY2U9DfnV4QTWjxhcd4YH8S853I09EIM&amp;q-sign-time=1558367524;1558369324&amp;q-key-time=1558367524;1558369324&amp;q-header-list=&amp;q-url-param-list=&amp;q-signature=99ce49078335bd2ceaa72612ee61d8a6b28b6588&amp;x-cos-security-token=450d47deda4ee6de455ea0967d788bbc5955853f10001" alt=""></p>
+<p>接着把U盘里的<code>EasyBCD安装程序</code>拉出来进行安装，安装之后打开程序，点击<code>添加新条目</code>，再点击<code>WinPe</code>，名称自己修改填写，路径选择之前U盘里的winpe镜像解压出来的<code>boot.wim</code>，</p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F08.PNG?q-sign-algorithm=sha1&amp;q-ak=AKIDuWkjRYhFVWZmaBtW05a6TlZu6bWu9Wgs&amp;q-sign-time=1558368218;1558370018&amp;q-key-time=1558368218;1558370018&amp;q-header-list=&amp;q-url-param-list=&amp;q-signature=08eaca3d0c5aebe75994be81a8c6be9503c266d4&amp;x-cos-security-token=77102ecd5d1cd7add03fb899c2802d9fa19b64d110001" alt=""></p>
+<p>然后在点击<code>编辑引导菜单</code>，可以编辑usb启动优先级与选择倒计时，之后保存设置即可。</p>
+<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F09.PNG?q-sign-algorithm=sha1&amp;q-ak=AKIDrvFMFob3SAAzRmu0wCfsJRALJA3ifwmx&amp;q-sign-time=1558368243;1558370043&amp;q-key-time=1558368243;1558370043&amp;q-header-list=&amp;q-url-param-list=&amp;q-signature=8495775354eb440302ac3fdd67fee7c1cd038e06&amp;x-cos-security-token=fcf67be586f11aa651e056e69108bcd948494e8710001" alt=""></p>
+<p>切记u盘里的<code>boot.wim</code>不要删除，删除了winpe系统就没了，可以选择把<code>wtg.vhd</code>与<code>boot.wim</code>隐藏掉，这样就不会误删了，剩余的空间就直接拿来当普通的u盘进行存储。</p>
+<hr>
+<h4 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h4><p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F10.jpg?q-sign-algorithm=sha1&amp;q-ak=AKIDZJfVQbaAp1xLC0Cxq4itMHzWId2214zo&amp;q-sign-time=1558370498;1558372298&amp;q-key-time=1558370498;1558372298&amp;q-header-list=&amp;q-url-param-list=&amp;q-signature=d0f0955cf567187762db4168e5e61e9290dc928d&amp;x-cos-security-token=e373681d3667d1b976d1d907ba9cd08eda0aeb0910001" alt=""></p>
 
       
     </div>
+    
+    
+    
 
+	
+    
+	
+    <div>
+     
+       　 
+
+
+<div>
+    
+        <div style="text-align:left;color: #808080;font-size:15px;">-EOF-</div>
+    
+</div>
+     
+    </div>
+	
+    
+
+    
+    
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+             <a href="/tags/经验/" rel="tag"># 经验</a>
+			 <style>.post-tags{white-space:nowrap;}</style>
+          
+             <a href="/tags/搭建/" rel="tag"># 搭建</a>
+			 <style>.post-tags{white-space:nowrap;}</style>
+          
+             <a href="/tags/tools/" rel="tag"># tools</a>
+			 <style>.post-tags{white-space:nowrap;}</style>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/1024/记Coding-CDN国内加速Pages.html" rel="next" title="记Coding+CDN国内加速Pages">
+                <i class="fa fa-chevron-left"></i> 记Coding+CDN国内加速Pages
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -535,6 +554,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -557,8 +580,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -651,6 +683,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#检测"><span class="nav-text">检测</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#安装wintogo"><span class="nav-text">安装wintogo</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#安装winpe"><span class="nav-text">安装winpe</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#测试"><span class="nav-text">测试</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -783,6 +831,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 

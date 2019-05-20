@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2018-10-25T07:37:42.111Z</updated>
+  <updated>2019-05-20T18:43:30.193Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>U盘制作wintogo与winpe双系统</title>
+    <link href="/2019/0520/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F.html"/>
+    <id>/2019/0520/U盘制作wintogo与winpe双系统.html</id>
+    <published>2019-05-20T14:13:29.000Z</published>
+    <updated>2019-05-20T18:43:30.193Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;前几天入手了SanDisk cz880 128G，于是便想着弄个windows to go 与u盘pe双系统。第一天弄完双系统还没问题，但是到了第二天不知道为什么u盘出问题了，电脑能识别u盘，但不能打开与格式化，只要一打开或者格式化必定资源管理器会未响应，电脑都被搞崩溃好几次。另外任何只要能读取该u盘的程序都会未响应，比如DiskGenius、PartitionGuru等等软件，都会立马死掉，搞了好半天就差量产了，但是没找到对应的量产程序只能作罢。&lt;/p&gt;
+&lt;p&gt;最后联系客服，一开始客服还让我换个电脑插插&lt;code&gt;捂脸&lt;/code&gt;，但是跟客服详细说明情况后让我寄回去换个新的，不得不说闪迪的售后还是很不错的。&lt;/p&gt;
+&lt;p&gt;另外自己也算吸取了教训，感觉问题出在装wintogo时我所用的系统，因为u盘容量不大，所以想用精简版的系统，就用了俄罗斯狂人的精简win7，装好之后进wintogo蓝屏了好几次，都是秒蓝屏后直接重启，连蓝屏代码都看不了，当时也没在意，感觉问题就出在了这里，后面用了msdn的系统就没出现过蓝屏问题。所以建议装wintogo时还是用原版镜像，不要用精简版镜像。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Experience" scheme="/categories/Experience/"/>
+    
+      <category term="Tools" scheme="/categories/Experience/Tools/"/>
+    
+    
+      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="tools" scheme="/tags/tools/"/>
+    
+  </entry>
   
   <entry>
     <title>记Coding+CDN国内加速Pages</title>
@@ -34,9 +62,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="hexo" scheme="/tags/hexo/"/>
-    
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="hexo" scheme="/tags/hexo/"/>
     
       <category term="coding" scheme="/tags/coding/"/>
     
@@ -47,7 +75,7 @@
     <link href="/2018/1011/%E9%81%8D%E5%9C%B0%E8%8B%A6%E9%9A%BE%E5%B0%98.html"/>
     <id>/2018/1011/遍地苦难尘.html</id>
     <published>2018-10-11T06:11:08.000Z</published>
-    <updated>2019-05-09T18:30:16.674Z</updated>
+    <updated>2019-05-13T19:03:01.305Z</updated>
     
     <summary type="html">
     
@@ -235,11 +263,11 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
       <category term="github" scheme="/tags/github/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
-    
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
       <category term="plugin" scheme="/tags/plugin/"/>
     
@@ -250,7 +278,7 @@
     <link href="/2018/0901/hexo-next%E4%B8%BB%E9%A2%98%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%8C%96.html"/>
     <id>/2018/0901/hexo-next主题下的美化.html</id>
     <published>2018-09-01T14:53:15.000Z</published>
-    <updated>2018-11-09T10:00:03.722Z</updated>
+    <updated>2019-05-20T19:20:57.675Z</updated>
     
     <summary type="html">
     
@@ -263,9 +291,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="hexo" scheme="/tags/hexo/"/>
-    
       <category term="markdown" scheme="/tags/markdown/"/>
+    
+      <category term="hexo" scheme="/tags/hexo/"/>
     
       <category term="plugin" scheme="/tags/plugin/"/>
     
@@ -298,7 +326,7 @@
     <link href="/2018/0831/%E7%BD%91%E9%A1%B5%E5%B7%A5%E5%85%B7%E5%A4%87%E5%BF%98.html"/>
     <id>/2018/0831/网页工具备忘.html</id>
     <published>2018-08-30T21:43:01.000Z</published>
-    <updated>2019-05-08T15:32:36.495Z</updated>
+    <updated>2019-05-20T18:55:25.982Z</updated>
     
     <summary type="html">
     
@@ -311,9 +339,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="整合" scheme="/tags/%E6%95%B4%E5%90%88/"/>
-    
       <category term="tools" scheme="/tags/tools/"/>
+    
+      <category term="整合" scheme="/tags/%E6%95%B4%E5%90%88/"/>
     
   </entry>
   
@@ -388,9 +416,9 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="github" scheme="/tags/github/"/>
-    
       <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="github" scheme="/tags/github/"/>
     
   </entry>
   
@@ -412,11 +440,11 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
       <category term="github" scheme="/tags/github/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
-    
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
       <category term="plugin" scheme="/tags/plugin/"/>
     
@@ -463,11 +491,11 @@
     
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
+      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+    
       <category term="github" scheme="/tags/github/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
-    
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
     
       <category term="coding" scheme="/tags/coding/"/>
     
@@ -495,34 +523,6 @@
       <category term="github" scheme="/tags/github/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>伴我同行</title>
-    <link href="/2018/0808/%E4%BC%B4%E6%88%91%E5%90%8C%E8%A1%8C.html"/>
-    <id>/2018/0808/伴我同行.html</id>
-    <published>2018-08-08T11:39:00.000Z</published>
-    <updated>2018-10-10T12:15:46.788Z</updated>
-    
-    <summary type="html">
-    
-      &lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/PbS88WF9VnE?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay;&quot; encrypted-media=&quot;&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
-&lt;p&gt;从最初的瞎看什么，到后面因为合同到期而改名的阅后即瞎，再到政策问题之后再度回归的嘻咦啊看，虽一路曲折，却依然不变初心。&lt;/p&gt;
-&lt;p&gt;回归之后的首部作品就以如此质量，给了久久等待的我们最好的答复，一度看到泪目，这近5个月的等待是如此值得。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="生活拾空" scheme="/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
-    
-    
-      <category term="video" scheme="/tags/video/"/>
-    
-      <category term="life" scheme="/tags/life/"/>
-    
-      <category term="music" scheme="/tags/music/"/>
-    
-      <category term="film" scheme="/tags/film/"/>
     
   </entry>
   
