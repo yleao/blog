@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b3cb99;
+  background: #704d05;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2789,4 +2789,7 @@ code {
 }
 .post-toc .nav .active > a:hover {
   color: #fff;
+}
+.post-toc .nav .nav-child {
+  display: none;
 }
