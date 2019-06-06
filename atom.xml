@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-06-06T14:21:34.952Z</updated>
+  <updated>2019-06-06T14:31:04.380Z</updated>
   <id>/</id>
   
   <author>
@@ -17,15 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>利用chrome开发者工具进行网页截图</title>
+    <link href="/2019/0606/%E5%88%A9%E7%94%A8chrome%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%E8%BF%9B%E8%A1%8C%E7%BD%91%E9%A1%B5%E6%88%AA%E5%9B%BE.html"/>
+    <id>/2019/0606/利用chrome开发者工具进行网页截图.html</id>
+    <published>2019-06-06T14:24:47.000Z</published>
+    <updated>2019-06-06T14:31:04.380Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;说到网页整页截图，目前已经有很多客户端工具或者插件就能轻松的做到，但是如果碰到一个陌生的电脑，那么装软件与插件便显得过于繁琐了。其实利用chrome的开发者工具就能很简单的进行全网页截图与局部截图。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Experience" scheme="/categories/Experience/"/>
+    
+    
+      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【转载】关于P2P、P2C、O2O、B2C、B2B、C2C的区别</title>
     <link href="/2019/0606/%E3%80%90%E8%BD%AC%E8%BD%BD%E3%80%91%E5%85%B3%E4%BA%8EP2P%E3%80%81P2C%E3%80%81O2O%E3%80%81B2C%E3%80%81B2B%E3%80%81C2C%E7%9A%84%E5%8C%BA%E5%88%AB.html"/>
     <id>/2019/0606/【转载】关于P2P、P2C、O2O、B2C、B2B、C2C的区别.html</id>
     <published>2019-06-06T14:00:01.000Z</published>
-    <updated>2019-06-06T14:21:34.952Z</updated>
+    <updated>2019-06-06T14:23:47.673Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;关于P2P、P2C 、O2O 、B2C、B2B、C2C的基本概念，已精简，看原文&lt;a href=&quot;https://blog.yleao.com/2018/0606/【转载】关于P2P、P2C、O2O、B2C、B2B、C2C的区别.html#test1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;点此&lt;/a&gt;。&lt;br&gt;&lt;/p&gt;
+      &lt;p&gt;关于P2P、P2C 、O2O 、B2C、B2B、C2C的基本概念，已部分精简，看原文&lt;a href=&quot;https://blog.yleao.com/2019/0606/【转载】关于P2P、P2C、O2O、B2C、B2B、C2C的区别.html#test1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;点此&lt;/a&gt;。&lt;br&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 &lt;p&gt;&lt;/p&gt;&lt;h3&gt;&lt;a class=&quot;wiki&quot; target=&quot;_blank&quot; href=&quot;https://wiki.mbalib.com/wiki/P2P%E5%80%9F%E8%B4%B7&quot;&gt;P2P&lt;/a&gt;的概念&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;
@@ -313,11 +333,11 @@
       <category term="Hexo折腾" scheme="/categories/Hexo%E6%8A%98%E8%85%BE/"/>
     
     
+      <category term="markdown" scheme="/tags/markdown/"/>
+    
       <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="hexo" scheme="/tags/hexo/"/>
-    
-      <category term="markdown" scheme="/tags/markdown/"/>
     
       <category term="plugin" scheme="/tags/plugin/"/>
     
@@ -493,35 +513,6 @@
       <category term="test" scheme="/tags/test/"/>
     
       <category term="wap" scheme="/tags/wap/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Coding+Github双服务器托管hexo</title>
-    <link href="/2018/0809/Coding-Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1hexo.html"/>
-    <id>/2018/0809/Coding-Github双服务器托管hexo.html</id>
-    <published>2018-08-09T04:43:00.000Z</published>
-    <updated>2018-10-23T20:48:05.545Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Coding的部署方式和Github几乎无差。绑定腾讯云可升级为银牌会员，支持受限的 Pages 自定义域名，受限的意思是当来访者访问绑定自定义域名的 Pages 网页时，会看到&lt;strong&gt;『Hosted by CODING Pages』&lt;/strong&gt;的跳转页面，可直接点击跳过该页面或五秒后自动跳转到目标页面。可免费去除，只需在网站上放置&lt;strong&gt;『Hosted by CODING Pages』&lt;/strong&gt;的链接就行。详细&lt;a href=&quot;https://coding.net/help/doc/pages/guide-page.html#Hosted_by_CODING_Pages&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;点此了解&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;此文只讲解如何部署在Coding上，和布置过程中遇到的一些问题。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Hexo折腾" scheme="/categories/Hexo%E6%8A%98%E8%85%BE/"/>
-    
-    
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
-      <category term="github" scheme="/tags/github/"/>
-    
-      <category term="hexo" scheme="/tags/hexo/"/>
-    
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
-    
-      <category term="coding" scheme="/tags/coding/"/>
     
   </entry>
   
