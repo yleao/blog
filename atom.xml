@@ -5,9 +5,9 @@
   <subtitle>Like A Rolling Stone</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="/"/>
+  <link href="https://blog.yleao.com/"/>
   <updated>2019-06-06T14:50:02.813Z</updated>
-  <id>/</id>
+  <id>https://blog.yleao.com/</id>
   
   <author>
     <name>Yann</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>利用chrome开发者工具进行网页截图</title>
-    <link href="/2019/0606/%E5%88%A9%E7%94%A8chrome%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%E8%BF%9B%E8%A1%8C%E7%BD%91%E9%A1%B5%E6%88%AA%E5%9B%BE.html"/>
-    <id>/2019/0606/利用chrome开发者工具进行网页截图.html</id>
+    <link href="https://blog.yleao.com/2019/0606/%E5%88%A9%E7%94%A8chrome%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%E8%BF%9B%E8%A1%8C%E7%BD%91%E9%A1%B5%E6%88%AA%E5%9B%BE.html"/>
+    <id>https://blog.yleao.com/2019/0606/利用chrome开发者工具进行网页截图.html</id>
     <published>2019-06-06T14:24:47.000Z</published>
     <updated>2019-06-06T14:50:02.813Z</updated>
     
@@ -29,23 +29,23 @@
     
     </summary>
     
-      <category term="Experience" scheme="/categories/Experience/"/>
+      <category term="Experience" scheme="https://blog.yleao.com/categories/Experience/"/>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
   </entry>
   
   <entry>
     <title>【转载】关于P2P、P2C、O2O、B2C、B2B、C2C的区别</title>
-    <link href="/2019/0606/%E3%80%90%E8%BD%AC%E8%BD%BD%E3%80%91%E5%85%B3%E4%BA%8EP2P%E3%80%81P2C%E3%80%81O2O%E3%80%81B2C%E3%80%81B2B%E3%80%81C2C%E7%9A%84%E5%8C%BA%E5%88%AB.html"/>
-    <id>/2019/0606/【转载】关于P2P、P2C、O2O、B2C、B2B、C2C的区别.html</id>
+    <link href="https://blog.yleao.com/2019/0606/%E3%80%90%E8%BD%AC%E8%BD%BD%E3%80%91%E5%85%B3%E4%BA%8EP2P%E3%80%81P2C%E3%80%81O2O%E3%80%81B2C%E3%80%81B2B%E3%80%81C2C%E7%9A%84%E5%8C%BA%E5%88%AB.html"/>
+    <id>https://blog.yleao.com/2019/0606/【转载】关于P2P、P2C、O2O、B2C、B2B、C2C的区别.html</id>
     <published>2019-06-06T14:00:01.000Z</published>
     <updated>2019-06-06T15:03:38.973Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;关于P2P、P2C 、O2O 、B2C、B2B、C2C的基本概念，已部分精简，看原文&lt;a href=&quot;https://blog.yleao.com/2019/0606/【转载】关于P2P、P2C、O2O、B2C、B2B、C2C的区别.html#1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;点此&lt;/a&gt;。&lt;/p&gt;
+      &lt;p&gt;关于P2P、P2C 、O2O 、B2C、B2B、C2C的基本概念，已部分精简，看原文&lt;a href=&quot;https://blog.yleao.com/2019/0606/【转载】关于P2P、P2C、O2O、B2C、B2B、C2C的区别.html#1&quot;&gt;点此&lt;/a&gt;。&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&quot;P2P的概念&quot;&gt;&lt;a href=&quot;#P2P的概念&quot; class=&quot;headerlink&quot; title=&quot;P2P的概念&quot;&gt;&lt;/a&gt;&lt;a class=&quot;wiki&quot; target=&quot;_blank&quot; href=&quot;https://wiki.mbalib.com/wiki/P2P%E5%80%9F%E8%B4%B7&quot;&gt;P2P&lt;/a&gt;的概念&lt;/h3&gt;&lt;p&gt;　　P2P借贷是一种将非常小额度的资金聚集起来&lt;a class=&quot;wiki&quot; target=&quot;_blank&quot; href=&quot;https://wiki.mbalib.com/wiki/%E5%80%9F%E8%B4%B7&quot;&gt;借贷&lt;/a&gt;给有资金&lt;a class=&quot;wiki&quot; target=&quot;_blank&quot; href=&quot;https://wiki.mbalib.com/wiki/%E9%9C%80%E6%B1%82&quot;&gt;需求&lt;/a&gt;人群的一种民间小额借贷模式。P2P是“&lt;a class=&quot;wiki&quot; target=&quot;_blank&quot; href=&quot;https://wiki.mbalib.com/wiki/Peer-to-Peer&quot;&gt;Peer-to-Peer&lt;/a&gt;”的简写，个人对个人的意思，P2P借贷指个人通过第三方平台(P2P&lt;a class=&quot;wiki&quot; target=&quot;_blank&quot; href=&quot;https://wiki.mbalib.com/wiki/%E5%85%AC%E5%8F%B8&quot;&gt;公司&lt;/a&gt;)在收取一定&lt;a class=&quot;wiki&quot; target=&quot;_blank&quot; href=&quot;https://wiki.mbalib.com/wiki/%E6%9C%8D%E5%8A%A1%E8%B4%B9&quot;&gt;服务费&lt;/a&gt;用的前提下向其他个人提供小额借贷的金融模式。&lt;br&gt;&lt;/p&gt;&lt;p&gt;　　&lt;b&gt;P2P模式&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;　　第一种是纯线上模式，是纯粹的P2P，在这种&lt;a class=&quot;wiki&quot; target=&quot;_blank&quot; href=&quot;https://wiki.mbalib.com/wiki/%E5%B9%B3%E5%8F%B0%E6%A8%A1%E5%BC%8F&quot;&gt;平台模式&lt;/a&gt;上纯粹进行信息匹配，帮助资金借贷双方更好的进行资金匹配，但缺点明显，这种线上模式并不参与&lt;a class=&quot;wiki&quot; target=&quot;_blank&quot; href=&quot;https://wiki.mbalib.com/wiki/%E6%8B%85%E4%BF%9D&quot;&gt;担保&lt;/a&gt;;&lt;br&gt;&lt;/p&gt;&lt;p&gt;　　第二种是&lt;a class=&quot;wiki&quot; target=&quot;_blank&quot; href=&quot;https://wiki.mbalib.com/wiki/%E5%80%BA%E6%9D%83%E8%BD%AC%E8%AE%A9&quot;&gt;债权转让&lt;/a&gt;模式，平台本身先行放&lt;a class=&quot;wiki&quot; target=&quot;_blank&quot; href=&quot;https://wiki.mbalib.com/wiki/%E8%B4%B7&quot;&gt;贷&lt;/a&gt;，再将&lt;a class=&quot;wiki&quot; target=&quot;_blank&quot; href=&quot;https://wiki.mbalib.com/wiki/%E5%80%BA%E6%9D%83&quot;&gt;债权&lt;/a&gt;放到平台进行&lt;a class=&quot;wiki&quot; target=&quot;_blank&quot; href=&quot;https://wiki.mbalib.com/wiki/%E8%BD%AC%E8%AE%A9&quot;&gt;转让&lt;/a&gt;，很明显能让&lt;a class=&quot;wiki&quot; target=&quot;_blank&quot; href=&quot;https://wiki.mbalib.com/wiki/%E4%BC%81%E4%B8%9A&quot;&gt;企业&lt;/a&gt;提高&lt;a class=&quot;wiki&quot; target=&quot;_blank&quot; href=&quot;https://wiki.mbalib.com/wiki/%E8%9E%8D%E8%B5%84&quot;&gt;融资&lt;/a&gt;端的&lt;a class=&quot;wiki&quot; target=&quot;_blank&quot; href=&quot;https://wiki.mbalib.com/wiki/%E5%B7%A5%E4%BD%9C%E6%95%88%E7%8E%87&quot;&gt;工作效率&lt;/a&gt;，但容易出现&lt;a class=&quot;wiki&quot; target=&quot;_blank&quot; href=&quot;https://wiki.mbalib.com/wiki/%E8%B5%84%E9%87%91%E6%B1%A0&quot;&gt;资金池&lt;/a&gt;，不能让资金充分发挥&lt;a class=&quot;wiki&quot; target=&quot;_blank&quot; href=&quot;https://wiki.mbalib.com/wiki/%E6%95%88%E7%9B%8A&quot;&gt;效益&lt;/a&gt;。&lt;br&gt;&lt;/p&gt;
 
@@ -53,17 +53,17 @@
     
     </summary>
     
-      <category term="Experience" scheme="/categories/Experience/"/>
+      <category term="Experience" scheme="https://blog.yleao.com/categories/Experience/"/>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
   </entry>
   
   <entry>
     <title>U盘制作WinToGo与WinPE双系统</title>
-    <link href="/2019/0520/U%E7%9B%98%E5%88%B6%E4%BD%9CWinToGo%E4%B8%8EWinPE%E5%8F%8C%E7%B3%BB%E7%BB%9F.html"/>
-    <id>/2019/0520/U盘制作WinToGo与WinPE双系统.html</id>
+    <link href="https://blog.yleao.com/2019/0520/U%E7%9B%98%E5%88%B6%E4%BD%9CWinToGo%E4%B8%8EWinPE%E5%8F%8C%E7%B3%BB%E7%BB%9F.html"/>
+    <id>https://blog.yleao.com/2019/0520/U盘制作WinToGo与WinPE双系统.html</id>
     <published>2019-05-20T14:13:29.000Z</published>
     <updated>2019-06-07T20:31:27.095Z</updated>
     
@@ -75,23 +75,23 @@
     
     </summary>
     
-      <category term="Experience" scheme="/categories/Experience/"/>
+      <category term="Experience" scheme="https://blog.yleao.com/categories/Experience/"/>
     
-      <category term="Tools" scheme="/categories/Experience/Tools/"/>
+      <category term="Tools" scheme="https://blog.yleao.com/categories/Experience/Tools/"/>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
     
-      <category term="tools" scheme="/tags/tools/"/>
+      <category term="tools" scheme="https://blog.yleao.com/tags/tools/"/>
     
   </entry>
   
   <entry>
     <title>记Coding+CDN国内加速Pages</title>
-    <link href="/2018/1024/%E8%AE%B0Coding-CDN%E5%9B%BD%E5%86%85%E5%8A%A0%E9%80%9FPages.html"/>
-    <id>/2018/1024/记Coding-CDN国内加速Pages.html</id>
+    <link href="https://blog.yleao.com/2018/1024/%E8%AE%B0Coding-CDN%E5%9B%BD%E5%86%85%E5%8A%A0%E9%80%9FPages.html"/>
+    <id>https://blog.yleao.com/2018/1024/记Coding-CDN国内加速Pages.html</id>
     <published>2018-10-23T20:10:41.000Z</published>
     <updated>2018-10-25T07:37:42.111Z</updated>
     
@@ -101,23 +101,23 @@
     
     </summary>
     
-      <category term="Hexo折腾" scheme="/categories/Hexo%E6%8A%98%E8%85%BE/"/>
+      <category term="Hexo折腾" scheme="https://blog.yleao.com/categories/Hexo%E6%8A%98%E8%85%BE/"/>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="hexo" scheme="/tags/hexo/"/>
+      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
     
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+      <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
     
-      <category term="coding" scheme="/tags/coding/"/>
+      <category term="coding" scheme="https://blog.yleao.com/tags/coding/"/>
     
   </entry>
   
   <entry>
     <title>遍地苦难尘</title>
-    <link href="/2018/1011/%E9%81%8D%E5%9C%B0%E8%8B%A6%E9%9A%BE%E5%B0%98.html"/>
-    <id>/2018/1011/遍地苦难尘.html</id>
+    <link href="https://blog.yleao.com/2018/1011/%E9%81%8D%E5%9C%B0%E8%8B%A6%E9%9A%BE%E5%B0%98.html"/>
+    <id>https://blog.yleao.com/2018/1011/遍地苦难尘.html</id>
     <published>2018-10-11T06:11:08.000Z</published>
     <updated>2019-05-13T19:03:01.305Z</updated>
     
@@ -129,21 +129,21 @@
     
     </summary>
     
-      <category term="生活拾空" scheme="/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
+      <category term="生活拾空" scheme="https://blog.yleao.com/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
     
     
-      <category term="life" scheme="/tags/life/"/>
+      <category term="life" scheme="https://blog.yleao.com/tags/life/"/>
     
-      <category term="music" scheme="/tags/music/"/>
+      <category term="music" scheme="https://blog.yleao.com/tags/music/"/>
     
-      <category term="film" scheme="/tags/film/"/>
+      <category term="film" scheme="https://blog.yleao.com/tags/film/"/>
     
   </entry>
   
   <entry>
     <title>谨慎的收藏家</title>
-    <link href="/2018/1007/%E8%B0%A8%E6%85%8E%E7%9A%84%E6%94%B6%E8%97%8F%E5%AE%B6.html"/>
-    <id>/2018/1007/谨慎的收藏家.html</id>
+    <link href="https://blog.yleao.com/2018/1007/%E8%B0%A8%E6%85%8E%E7%9A%84%E6%94%B6%E8%97%8F%E5%AE%B6.html"/>
+    <id>https://blog.yleao.com/2018/1007/谨慎的收藏家.html</id>
     <published>2018-10-07T14:51:02.000Z</published>
     <updated>2018-11-06T07:33:07.227Z</updated>
     
@@ -153,19 +153,19 @@
     
     </summary>
     
-      <category term="生活拾空" scheme="/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
+      <category term="生活拾空" scheme="https://blog.yleao.com/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
     
     
-      <category term="life" scheme="/tags/life/"/>
+      <category term="life" scheme="https://blog.yleao.com/tags/life/"/>
     
-      <category term="steam" scheme="/tags/steam/"/>
+      <category term="steam" scheme="https://blog.yleao.com/tags/steam/"/>
     
   </entry>
   
   <entry>
     <title>路边野餐</title>
-    <link href="/2018/0924/%E8%B7%AF%E8%BE%B9%E9%87%8E%E9%A4%90.html"/>
-    <id>/2018/0924/路边野餐.html</id>
+    <link href="https://blog.yleao.com/2018/0924/%E8%B7%AF%E8%BE%B9%E9%87%8E%E9%A4%90.html"/>
+    <id>https://blog.yleao.com/2018/0924/路边野餐.html</id>
     <published>2018-09-23T21:28:04.000Z</published>
     <updated>2018-10-17T14:12:38.422Z</updated>
     
@@ -176,21 +176,21 @@
     
     </summary>
     
-      <category term="生活拾空" scheme="/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
+      <category term="生活拾空" scheme="https://blog.yleao.com/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
     
     
-      <category term="life" scheme="/tags/life/"/>
+      <category term="life" scheme="https://blog.yleao.com/tags/life/"/>
     
-      <category term="film" scheme="/tags/film/"/>
+      <category term="film" scheme="https://blog.yleao.com/tags/film/"/>
     
-      <category term="poetry" scheme="/tags/poetry/"/>
+      <category term="poetry" scheme="https://blog.yleao.com/tags/poetry/"/>
     
   </entry>
   
   <entry>
     <title>ss配合各插件使用</title>
-    <link href="/2018/0918/ss%E9%85%8D%E5%90%88%E5%90%84%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8.html"/>
-    <id>/2018/0918/ss配合各插件使用.html</id>
+    <link href="https://blog.yleao.com/2018/0918/ss%E9%85%8D%E5%90%88%E5%90%84%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8.html"/>
+    <id>https://blog.yleao.com/2018/0918/ss配合各插件使用.html</id>
     <published>2018-09-18T09:37:28.000Z</published>
     <updated>2018-10-25T07:41:19.085Z</updated>
     
@@ -200,49 +200,49 @@
     
     </summary>
     
-      <category term="GFW" scheme="/categories/GFW/"/>
+      <category term="GFW" scheme="https://blog.yleao.com/categories/GFW/"/>
     
-      <category term="Tools" scheme="/categories/GFW/Tools/"/>
+      <category term="Tools" scheme="https://blog.yleao.com/categories/GFW/Tools/"/>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="gfw" scheme="/tags/gfw/"/>
+      <category term="gfw" scheme="https://blog.yleao.com/tags/gfw/"/>
     
-      <category term="扩展" scheme="/tags/%E6%89%A9%E5%B1%95/"/>
+      <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
     
-      <category term="plugin" scheme="/tags/plugin/"/>
+      <category term="扩展" scheme="https://blog.yleao.com/tags/%E6%89%A9%E5%B1%95/"/>
     
   </entry>
   
   <entry>
     <title>VPS上搭建ss</title>
-    <link href="/2018/0916/VPS%E4%B8%8A%E6%90%AD%E5%BB%BAss.html"/>
-    <id>/2018/0916/VPS上搭建ss.html</id>
+    <link href="https://blog.yleao.com/2018/0916/VPS%E4%B8%8A%E6%90%AD%E5%BB%BAss.html"/>
+    <id>https://blog.yleao.com/2018/0916/VPS上搭建ss.html</id>
     <published>2018-09-16T08:27:45.000Z</published>
     <updated>2019-06-06T14:37:39.152Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;之前写了&lt;a href=&quot;https://blog.yleao.com/2018/0830/chrome%E9%AD%94%E6%B3%95%E4%B8%8A%E7%BD%91%E6%89%A9%E5%B1%95.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;魔法上网的chrome扩展&lt;/a&gt;一文，但是个人更推荐自己搭建，本来我的小鸡已经够多了，但前几天&lt;a href=&quot;https://blog.yleao.com/2018/0916/VPS上搭建ss.html#1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;vultr&lt;/a&gt;给我其中一个邮箱送了10刀余额，于是想着正好可以顺手写一篇关于搭建的文章。此文便是分享如何在VPS上搭建ss进行魔法上网。&lt;/p&gt;
+      &lt;p&gt;之前写了&lt;a href=&quot;https://blog.yleao.com/2018/0830/chrome%E9%AD%94%E6%B3%95%E4%B8%8A%E7%BD%91%E6%89%A9%E5%B1%95.html&quot;&gt;魔法上网的chrome扩展&lt;/a&gt;一文，但是个人更推荐自己搭建，本来我的小鸡已经够多了，但前几天&lt;a href=&quot;https://blog.yleao.com/2018/0916/VPS上搭建ss.html#1&quot;&gt;vultr&lt;/a&gt;给我其中一个邮箱送了10刀余额，于是想着正好可以顺手写一篇关于搭建的文章。此文便是分享如何在VPS上搭建ss进行魔法上网。&lt;/p&gt;
     
     </summary>
     
-      <category term="GFW" scheme="/categories/GFW/"/>
+      <category term="GFW" scheme="https://blog.yleao.com/categories/GFW/"/>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
     
-      <category term="gfw" scheme="/tags/gfw/"/>
+      <category term="gfw" scheme="https://blog.yleao.com/tags/gfw/"/>
     
   </entry>
   
   <entry>
     <title>关爱空巢老人，别让等待，成为遗憾</title>
-    <link href="/2018/0912/%E5%85%B3%E7%88%B1%E7%A9%BA%E5%B7%A2%E8%80%81%E4%BA%BA%EF%BC%8C%E5%88%AB%E8%AE%A9%E7%AD%89%E5%BE%85%EF%BC%8C%E6%88%90%E4%B8%BA%E9%81%97%E6%86%BE.html"/>
-    <id>/2018/0912/关爱空巢老人，别让等待，成为遗憾.html</id>
+    <link href="https://blog.yleao.com/2018/0912/%E5%85%B3%E7%88%B1%E7%A9%BA%E5%B7%A2%E8%80%81%E4%BA%BA%EF%BC%8C%E5%88%AB%E8%AE%A9%E7%AD%89%E5%BE%85%EF%BC%8C%E6%88%90%E4%B8%BA%E9%81%97%E6%86%BE.html"/>
+    <id>https://blog.yleao.com/2018/0912/关爱空巢老人，别让等待，成为遗憾.html</id>
     <published>2018-09-12T14:20:59.000Z</published>
     <updated>2018-10-30T11:17:02.933Z</updated>
     
@@ -255,19 +255,19 @@
     
     </summary>
     
-      <category term="生活拾空" scheme="/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
+      <category term="生活拾空" scheme="https://blog.yleao.com/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
     
     
-      <category term="video" scheme="/tags/video/"/>
+      <category term="video" scheme="https://blog.yleao.com/tags/video/"/>
     
-      <category term="life" scheme="/tags/life/"/>
+      <category term="life" scheme="https://blog.yleao.com/tags/life/"/>
     
   </entry>
   
   <entry>
     <title>轻羽飞扬！</title>
-    <link href="/2018/0903/%E8%BD%BB%E7%BE%BD%E9%A3%9E%E6%89%AC%EF%BC%81.html"/>
-    <id>/2018/0903/轻羽飞扬！.html</id>
+    <link href="https://blog.yleao.com/2018/0903/%E8%BD%BB%E7%BE%BD%E9%A3%9E%E6%89%AC%EF%BC%81.html"/>
+    <id>https://blog.yleao.com/2018/0903/轻羽飞扬！.html</id>
     <published>2018-09-03T12:05:18.000Z</published>
     <updated>2018-12-02T12:57:05.155Z</updated>
     
@@ -278,21 +278,21 @@
     
     </summary>
     
-      <category term="生活拾空" scheme="/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
+      <category term="生活拾空" scheme="https://blog.yleao.com/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
     
     
-      <category term="video" scheme="/tags/video/"/>
+      <category term="video" scheme="https://blog.yleao.com/tags/video/"/>
     
-      <category term="life" scheme="/tags/life/"/>
+      <category term="life" scheme="https://blog.yleao.com/tags/life/"/>
     
-      <category term="ac" scheme="/tags/ac/"/>
+      <category term="ac" scheme="https://blog.yleao.com/tags/ac/"/>
     
   </entry>
   
   <entry>
     <title>hexo上的aplayer应用</title>
-    <link href="/2018/0902/hexo%E4%B8%8A%E7%9A%84aplayer%E5%BA%94%E7%94%A8.html"/>
-    <id>/2018/0902/hexo上的aplayer应用.html</id>
+    <link href="https://blog.yleao.com/2018/0902/hexo%E4%B8%8A%E7%9A%84aplayer%E5%BA%94%E7%94%A8.html"/>
+    <id>https://blog.yleao.com/2018/0902/hexo上的aplayer应用.html</id>
     <published>2018-09-01T17:17:22.000Z</published>
     <updated>2018-11-09T09:59:21.120Z</updated>
     
@@ -302,25 +302,25 @@
     
     </summary>
     
-      <category term="Hexo折腾" scheme="/categories/Hexo%E6%8A%98%E8%85%BE/"/>
+      <category term="Hexo折腾" scheme="https://blog.yleao.com/categories/Hexo%E6%8A%98%E8%85%BE/"/>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="github" scheme="/tags/github/"/>
+      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
     
-      <category term="hexo" scheme="/tags/hexo/"/>
+      <category term="github" scheme="https://blog.yleao.com/tags/github/"/>
     
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+      <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
     
-      <category term="plugin" scheme="/tags/plugin/"/>
+      <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
     
   </entry>
   
   <entry>
     <title>hexo-next主题下的美化</title>
-    <link href="/2018/0901/hexo-next%E4%B8%BB%E9%A2%98%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%8C%96.html"/>
-    <id>/2018/0901/hexo-next主题下的美化.html</id>
+    <link href="https://blog.yleao.com/2018/0901/hexo-next%E4%B8%BB%E9%A2%98%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%8C%96.html"/>
+    <id>https://blog.yleao.com/2018/0901/hexo-next主题下的美化.html</id>
     <published>2018-09-01T14:53:15.000Z</published>
     <updated>2019-05-20T19:20:57.675Z</updated>
     
@@ -330,25 +330,25 @@
     
     </summary>
     
-      <category term="Hexo折腾" scheme="/categories/Hexo%E6%8A%98%E8%85%BE/"/>
+      <category term="Hexo折腾" scheme="https://blog.yleao.com/categories/Hexo%E6%8A%98%E8%85%BE/"/>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="markdown" scheme="https://blog.yleao.com/tags/markdown/"/>
     
-      <category term="hexo" scheme="/tags/hexo/"/>
+      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="markdown" scheme="/tags/markdown/"/>
+      <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
     
-      <category term="plugin" scheme="/tags/plugin/"/>
+      <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
     
-      <category term="整合" scheme="/tags/%E6%95%B4%E5%90%88/"/>
+      <category term="整合" scheme="https://blog.yleao.com/tags/%E6%95%B4%E5%90%88/"/>
     
   </entry>
   
   <entry>
     <title>提取网易云外链</title>
-    <link href="/2018/0831/%E6%8F%90%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E5%A4%96%E9%93%BE.html"/>
-    <id>/2018/0831/提取网易云外链.html</id>
+    <link href="https://blog.yleao.com/2018/0831/%E6%8F%90%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E5%A4%96%E9%93%BE.html"/>
+    <id>https://blog.yleao.com/2018/0831/提取网易云外链.html</id>
     <published>2018-08-31T13:28:04.000Z</published>
     <updated>2018-10-17T17:07:50.359Z</updated>
     
@@ -358,17 +358,17 @@
     
     </summary>
     
-      <category term="Experience" scheme="/categories/Experience/"/>
+      <category term="Experience" scheme="https://blog.yleao.com/categories/Experience/"/>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
   </entry>
   
   <entry>
     <title>网页工具备忘</title>
-    <link href="/2018/0831/%E7%BD%91%E9%A1%B5%E5%B7%A5%E5%85%B7%E5%A4%87%E5%BF%98.html"/>
-    <id>/2018/0831/网页工具备忘.html</id>
+    <link href="https://blog.yleao.com/2018/0831/%E7%BD%91%E9%A1%B5%E5%B7%A5%E5%85%B7%E5%A4%87%E5%BF%98.html"/>
+    <id>https://blog.yleao.com/2018/0831/网页工具备忘.html</id>
     <published>2018-08-30T21:43:01.000Z</published>
     <updated>2019-06-06T18:39:39.798Z</updated>
     
@@ -378,21 +378,21 @@
     
     </summary>
     
-      <category term="Tools" scheme="/categories/Tools/"/>
+      <category term="Tools" scheme="https://blog.yleao.com/categories/Tools/"/>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="tools" scheme="/tags/tools/"/>
+      <category term="tools" scheme="https://blog.yleao.com/tags/tools/"/>
     
-      <category term="整合" scheme="/tags/%E6%95%B4%E5%90%88/"/>
+      <category term="整合" scheme="https://blog.yleao.com/tags/%E6%95%B4%E5%90%88/"/>
     
   </entry>
   
   <entry>
     <title>chrome魔法上网扩展</title>
-    <link href="/2018/0830/chrome%E9%AD%94%E6%B3%95%E4%B8%8A%E7%BD%91%E6%89%A9%E5%B1%95.html"/>
-    <id>/2018/0830/chrome魔法上网扩展.html</id>
+    <link href="https://blog.yleao.com/2018/0830/chrome%E9%AD%94%E6%B3%95%E4%B8%8A%E7%BD%91%E6%89%A9%E5%B1%95.html"/>
+    <id>https://blog.yleao.com/2018/0830/chrome魔法上网扩展.html</id>
     <published>2018-08-30T09:15:00.000Z</published>
     <updated>2019-05-09T17:26:53.339Z</updated>
     
@@ -402,23 +402,23 @@
     
     </summary>
     
-      <category term="GFW" scheme="/categories/GFW/"/>
+      <category term="GFW" scheme="https://blog.yleao.com/categories/GFW/"/>
     
-      <category term="Tools" scheme="/categories/GFW/Tools/"/>
+      <category term="Tools" scheme="https://blog.yleao.com/categories/GFW/Tools/"/>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="gfw" scheme="/tags/gfw/"/>
+      <category term="gfw" scheme="https://blog.yleao.com/tags/gfw/"/>
     
-      <category term="扩展" scheme="/tags/%E6%89%A9%E5%B1%95/"/>
+      <category term="扩展" scheme="https://blog.yleao.com/tags/%E6%89%A9%E5%B1%95/"/>
     
   </entry>
   
   <entry>
     <title>Mirage中VIP跳B小</title>
-    <link href="/2018/0818/Mirage%E4%B8%ADVIP%E8%B7%B3B%E5%B0%8F.html"/>
-    <id>/2018/0818/Mirage中VIP跳B小.html</id>
+    <link href="https://blog.yleao.com/2018/0818/Mirage%E4%B8%ADVIP%E8%B7%B3B%E5%B0%8F.html"/>
+    <id>https://blog.yleao.com/2018/0818/Mirage中VIP跳B小.html</id>
     <published>2018-08-17T21:30:43.000Z</published>
     <updated>2019-06-06T15:31:54.766Z</updated>
     
@@ -429,21 +429,21 @@
     
     </summary>
     
-      <category term="Experience" scheme="/categories/Experience/"/>
+      <category term="Experience" scheme="https://blog.yleao.com/categories/Experience/"/>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="csgo" scheme="/tags/csgo/"/>
+      <category term="csgo" scheme="https://blog.yleao.com/tags/csgo/"/>
     
-      <category term="game" scheme="/tags/game/"/>
+      <category term="game" scheme="https://blog.yleao.com/tags/game/"/>
     
   </entry>
   
   <entry>
     <title>腾讯云COS+PicGo自建图床和快速上传</title>
-    <link href="/2018/0818/%E8%85%BE%E8%AE%AF%E4%BA%91COS-PicGo%E8%87%AA%E5%BB%BA%E5%9B%BE%E5%BA%8A%E5%92%8C%E5%BF%AB%E9%80%9F%E4%B8%8A%E4%BC%A0.html"/>
-    <id>/2018/0818/腾讯云COS-PicGo自建图床和快速上传.html</id>
+    <link href="https://blog.yleao.com/2018/0818/%E8%85%BE%E8%AE%AF%E4%BA%91COS-PicGo%E8%87%AA%E5%BB%BA%E5%9B%BE%E5%BA%8A%E5%92%8C%E5%BF%AB%E9%80%9F%E4%B8%8A%E4%BC%A0.html"/>
+    <id>https://blog.yleao.com/2018/0818/腾讯云COS-PicGo自建图床和快速上传.html</id>
     <published>2018-08-17T17:06:00.000Z</published>
     <updated>2018-10-17T14:24:13.800Z</updated>
     
@@ -453,23 +453,23 @@
     
     </summary>
     
-      <category term="Experience" scheme="/categories/Experience/"/>
+      <category term="Experience" scheme="https://blog.yleao.com/categories/Experience/"/>
     
-      <category term="Tools" scheme="/categories/Experience/Tools/"/>
+      <category term="Tools" scheme="https://blog.yleao.com/categories/Experience/Tools/"/>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="github" scheme="/tags/github/"/>
+      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
     
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+      <category term="github" scheme="https://blog.yleao.com/tags/github/"/>
     
   </entry>
   
   <entry>
     <title>hexo上的dplayer应用与嵌入视频的响应式设置</title>
-    <link href="/2018/0810/hexo%E4%B8%8A%E7%9A%84dplayer%E5%BA%94%E7%94%A8%E4%B8%8E%E5%B5%8C%E5%85%A5%E8%A7%86%E9%A2%91%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E8%AE%BE%E7%BD%AE.html"/>
-    <id>/2018/0810/hexo上的dplayer应用与嵌入视频的响应式设置.html</id>
+    <link href="https://blog.yleao.com/2018/0810/hexo%E4%B8%8A%E7%9A%84dplayer%E5%BA%94%E7%94%A8%E4%B8%8E%E5%B5%8C%E5%85%A5%E8%A7%86%E9%A2%91%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E8%AE%BE%E7%BD%AE.html"/>
+    <id>https://blog.yleao.com/2018/0810/hexo上的dplayer应用与嵌入视频的响应式设置.html</id>
     <published>2018-08-10T14:22:00.000Z</published>
     <updated>2018-11-09T10:00:14.592Z</updated>
     
@@ -479,25 +479,25 @@
     
     </summary>
     
-      <category term="Hexo折腾" scheme="/categories/Hexo%E6%8A%98%E8%85%BE/"/>
+      <category term="Hexo折腾" scheme="https://blog.yleao.com/categories/Hexo%E6%8A%98%E8%85%BE/"/>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="github" scheme="/tags/github/"/>
+      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
     
-      <category term="hexo" scheme="/tags/hexo/"/>
+      <category term="github" scheme="https://blog.yleao.com/tags/github/"/>
     
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+      <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
     
-      <category term="plugin" scheme="/tags/plugin/"/>
+      <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
     
   </entry>
   
   <entry>
     <title>Coding+Github双服务器托管hexo</title>
-    <link href="/2018/0809/Coding-Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1hexo.html"/>
-    <id>/2018/0809/Coding-Github双服务器托管hexo.html</id>
+    <link href="https://blog.yleao.com/2018/0809/Coding-Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1hexo.html"/>
+    <id>https://blog.yleao.com/2018/0809/Coding-Github双服务器托管hexo.html</id>
     <published>2018-08-09T04:43:00.000Z</published>
     <updated>2018-10-23T20:48:05.545Z</updated>
     
@@ -508,18 +508,18 @@
     
     </summary>
     
-      <category term="Hexo折腾" scheme="/categories/Hexo%E6%8A%98%E8%85%BE/"/>
+      <category term="Hexo折腾" scheme="https://blog.yleao.com/categories/Hexo%E6%8A%98%E8%85%BE/"/>
     
     
-      <category term="经验" scheme="/tags/%E7%BB%8F%E9%AA%8C/"/>
+      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="github" scheme="/tags/github/"/>
+      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
     
-      <category term="hexo" scheme="/tags/hexo/"/>
+      <category term="github" scheme="https://blog.yleao.com/tags/github/"/>
     
-      <category term="搭建" scheme="/tags/%E6%90%AD%E5%BB%BA/"/>
+      <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
     
-      <category term="coding" scheme="/tags/coding/"/>
+      <category term="coding" scheme="https://blog.yleao.com/tags/coding/"/>
     
   </entry>
   
