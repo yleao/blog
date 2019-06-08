@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[搬迁Blog自定义主页至Github]]></title>
+    <url>%2F2019%2F0608%2F%E6%90%AC%E8%BF%81Blog%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%BB%E9%A1%B5%E8%87%B3Github.html</url>
+    <content type="text"><![CDATA[我的hexo blog使用的是二级域名，为blog.yleao.com布置在github上，主页用的顶级域名yleao.com且布置在腾讯云服务器上，因为腾讯云服务器要到期了，打算以后转战google云，所以先将主页布置到github上作为备用。 首先先在github上新建一个repositories，名称随意，README可添加可不添加。 新建好仓库之后就要上传本地文件至github了，因为之前在github上部署过hexo blog，所以SSH key已经设置好了，就不赘述了。我已经在本地创建了一个yleao文件夹，里面是我的主页代码，现在则要通过Git上传文件至github里。 按以下顺序在Git Bash执行指令： 1234567$ cd d:text$ git init$ git add .$ git commit -m "这里是注释" 其中cd为文件路径；git init会在此文件夹生成一个.Git隐藏文件；git add .会上传所有文件；git commit为添加注释。 在github里打开新建的仓库，点击Clone or download复制里面的地址，然后执行下面的指令： 123$ git remote add origin https://github.com/yleao/yleao.git$ git push -u origin master 其中要将git remote add origin后的地址改成你所复制的仓库地址；git push -u origin master命令为上传本地代码命令。 此时刷新仓库，即可看到上传成功的文件。 git常见报错 1、先删除1$ git remote rm origin 2、再次执行添加就可以了。 引起这个报错的原因有：1、没有git add .；2、已经git add .了，但忘了git commit -m “这里是注释”。也是先删除再重新添加即可。 本地文件成功添加至github里之后，接着要给这个仓库启用github pages服务，在启动服务之前，先添加CNAME文件到你的github仓库中。在仓库的根目录下添加一个新文件，命名为 CNAME （全部大写），里面内容为仓库所对应的自定义域名。例如我的hexo仓库所对应的域名为blog.yleao.com，那么在hexo仓库的根目录新建CNAME文件，里面写上blog.yleao.com，主页仓库同理。 接着修改hexo根目录里的_config.yml配置，找到# URL，改成如下配置123456# URL## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'url: https://blog.yleao.comroot: /permalink: :year/:month:day/:title.htmlpermalink_defaults: 接着可以启用github pages服务了，进入到主页仓库页面，然后点击setting，在里面找到GitHub Pages一项，添加要绑定的域名然后启用HTTPS。 最后就是给域名添加解析到github。因为我的@-CNAME记录和TXT记录、MX记录有冲突，所以就改成了@-A解析，关于A记录里的IPv4地址可以通过在cmd里ping一下自己的域名即可获得。 添加的解析如下：]]></content>
+      <categories>
+        <category>Hexo折腾</category>
+      </categories>
+      <tags>
+        <tag>经验</tag>
+        <tag>github</tag>
+        <tag>hexo</tag>
+        <tag>搭建</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[利用chrome开发者工具进行网页截图]]></title>
     <url>%2F2019%2F0606%2F%E5%88%A9%E7%94%A8chrome%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%E8%BF%9B%E8%A1%8C%E7%BD%91%E9%A1%B5%E6%88%AA%E5%9B%BE.html</url>
     <content type="text"><![CDATA[说到网页整页截图，目前已经有很多客户端工具或者插件就能轻松的做到，但是如果碰到一个陌生的电脑，那么装软件与插件便显得过于繁琐了。其实利用chrome的开发者工具就能很简单的进行全网页截图与局部截图。 首先打开要截屏的网页，然后按下F12或者Ctrl+Shift+i（macOS为Option+Command+i）打开chrome开发者工具。接着按Ctrl+Shift+p（macOS 为Command+Shift+p），再接着输入capture或者screen，会看到前缀为 Screenshot 的四个选项，如下图所示： Capture area screenshot为自定义框选截图 Capture full size screenshot为网页整页截图 Capture node screenshot为网页元素节点截图 Capture screenshot为当前屏幕尺寸截图 其中讲一下node screenshot模式，例如只需要网页中的某一段内容，而不想截到其他多余的广告等等，则先选中要截屏的内容所对应的元素节点，如下图我只想截取文章内容，而不截到其他的部分，则先打开开发者工具，在右边的elements里选中文章所对应的元素，接着再按上操作即可。 测试如下： 如若想在网页中截取手机样式的画面截图，可通过快速键Ctrl+Shift+m（macOS为Command+Shift+m）来开启模拟工具，来模拟iPhone、Pixel、Galaxy等等设备在浏览网页的显示情形，再根据上面的截图操作来截取网页在手机模式下显示的画面。]]></content>
@@ -45,8 +59,8 @@
       </categories>
       <tags>
         <tag>经验</tag>
-        <tag>搭建</tag>
         <tag>hexo</tag>
+        <tag>搭建</tag>
         <tag>coding</tag>
       </tags>
   </entry>
@@ -99,8 +113,8 @@
       <tags>
         <tag>经验</tag>
         <tag>gfw</tag>
-        <tag>plugin</tag>
         <tag>扩展</tag>
+        <tag>plugin</tag>
       </tags>
   </entry>
   <entry>
@@ -150,9 +164,9 @@
       </categories>
       <tags>
         <tag>经验</tag>
-        <tag>搭建</tag>
         <tag>github</tag>
         <tag>hexo</tag>
+        <tag>搭建</tag>
         <tag>plugin</tag>
       </tags>
   </entry>
@@ -164,10 +178,10 @@
         <category>Hexo折腾</category>
       </categories>
       <tags>
-        <tag>markdown</tag>
         <tag>经验</tag>
         <tag>hexo</tag>
         <tag>plugin</tag>
+        <tag>markdown</tag>
         <tag>整合</tag>
       </tags>
   </entry>
@@ -232,8 +246,8 @@
       </categories>
       <tags>
         <tag>经验</tag>
-        <tag>搭建</tag>
         <tag>github</tag>
+        <tag>搭建</tag>
       </tags>
   </entry>
   <entry>
@@ -245,9 +259,9 @@
       </categories>
       <tags>
         <tag>经验</tag>
-        <tag>搭建</tag>
         <tag>github</tag>
         <tag>hexo</tag>
+        <tag>搭建</tag>
         <tag>plugin</tag>
       </tags>
   </entry>
@@ -260,9 +274,9 @@
       </categories>
       <tags>
         <tag>经验</tag>
-        <tag>搭建</tag>
         <tag>github</tag>
         <tag>hexo</tag>
+        <tag>搭建</tag>
         <tag>coding</tag>
       </tags>
   </entry>
@@ -302,8 +316,8 @@
         <category>Tools</category>
       </categories>
       <tags>
-        <tag>test</tag>
         <tag>经验</tag>
+        <tag>test</tag>
         <tag>script</tag>
       </tags>
   </entry>
@@ -330,9 +344,9 @@
       </categories>
       <tags>
         <tag>经验</tag>
-        <tag>搭建</tag>
         <tag>github</tag>
         <tag>hexo</tag>
+        <tag>搭建</tag>
       </tags>
   </entry>
   <entry>

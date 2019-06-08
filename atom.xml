@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.yleao.com/"/>
-  <updated>2019-06-06T14:50:02.813Z</updated>
+  <updated>2019-06-08T13:49:35.466Z</updated>
   <id>https://blog.yleao.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>搬迁Blog自定义主页至Github</title>
+    <link href="https://blog.yleao.com/2019/0608/%E6%90%AC%E8%BF%81Blog%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%BB%E9%A1%B5%E8%87%B3Github.html"/>
+    <id>https://blog.yleao.com/2019/0608/搬迁Blog自定义主页至Github.html</id>
+    <published>2019-06-08T12:20:29.000Z</published>
+    <updated>2019-06-08T13:49:35.466Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我的hexo blog使用的是二级域名，为&lt;code&gt;blog.yleao.com&lt;/code&gt;布置在github上，主页用的顶级域名&lt;code&gt;yleao.com&lt;/code&gt;且布置在腾讯云服务器上，因为腾讯云服务器要到期了，打算以后转战google云，所以先将主页布置到github上作为备用。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Hexo折腾" scheme="https://blog.yleao.com/categories/Hexo%E6%8A%98%E8%85%BE/"/>
+    
+    
+      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
+      <category term="github" scheme="https://blog.yleao.com/tags/github/"/>
+    
+      <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
+    
+      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>利用chrome开发者工具进行网页截图</title>
@@ -106,9 +132,9 @@
     
       <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
-    
       <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
+    
+      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
     
       <category term="coding" scheme="https://blog.yleao.com/tags/coding/"/>
     
@@ -209,9 +235,9 @@
     
       <category term="gfw" scheme="https://blog.yleao.com/tags/gfw/"/>
     
-      <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
-    
       <category term="扩展" scheme="https://blog.yleao.com/tags/%E6%89%A9%E5%B1%95/"/>
+    
+      <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
     
   </entry>
   
@@ -307,11 +333,11 @@
     
       <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
-    
       <category term="github" scheme="https://blog.yleao.com/tags/github/"/>
     
       <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
+    
+      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
     
       <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
     
@@ -333,13 +359,13 @@
       <category term="Hexo折腾" scheme="https://blog.yleao.com/categories/Hexo%E6%8A%98%E8%85%BE/"/>
     
     
-      <category term="markdown" scheme="https://blog.yleao.com/tags/markdown/"/>
-    
       <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
     
       <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
+    
+      <category term="markdown" scheme="https://blog.yleao.com/tags/markdown/"/>
     
       <category term="整合" scheme="https://blog.yleao.com/tags/%E6%95%B4%E5%90%88/"/>
     
@@ -460,9 +486,9 @@
     
       <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
-    
       <category term="github" scheme="https://blog.yleao.com/tags/github/"/>
+    
+      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
@@ -484,42 +510,13 @@
     
       <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
-    
       <category term="github" scheme="https://blog.yleao.com/tags/github/"/>
     
       <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
+    
+      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
     
       <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Coding+Github双服务器托管hexo</title>
-    <link href="https://blog.yleao.com/2018/0809/Coding-Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1hexo.html"/>
-    <id>https://blog.yleao.com/2018/0809/Coding-Github双服务器托管hexo.html</id>
-    <published>2018-08-09T04:43:00.000Z</published>
-    <updated>2018-10-23T20:48:05.545Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Coding的部署方式和Github几乎无差。绑定腾讯云可升级为银牌会员，支持受限的 Pages 自定义域名，受限的意思是当来访者访问绑定自定义域名的 Pages 网页时，会看到&lt;strong&gt;『Hosted by CODING Pages』&lt;/strong&gt;的跳转页面，可直接点击跳过该页面或五秒后自动跳转到目标页面。可免费去除，只需在网站上放置&lt;strong&gt;『Hosted by CODING Pages』&lt;/strong&gt;的链接就行。详细&lt;a href=&quot;https://coding.net/help/doc/pages/guide-page.html#Hosted_by_CODING_Pages&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;点此了解&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;此文只讲解如何部署在Coding上，和布置过程中遇到的一些问题。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Hexo折腾" scheme="https://blog.yleao.com/categories/Hexo%E6%8A%98%E8%85%BE/"/>
-    
-    
-      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
-      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
-    
-      <category term="github" scheme="https://blog.yleao.com/tags/github/"/>
-    
-      <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
-    
-      <category term="coding" scheme="https://blog.yleao.com/tags/coding/"/>
     
   </entry>
   
