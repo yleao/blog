@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.yleao.com/"/>
-  <updated>2019-06-08T13:49:35.466Z</updated>
+  <updated>2019-06-08T14:30:05.435Z</updated>
   <id>https://blog.yleao.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.yleao.com/2019/0608/%E6%90%AC%E8%BF%81Blog%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%BB%E9%A1%B5%E8%87%B3Github.html"/>
     <id>https://blog.yleao.com/2019/0608/搬迁Blog自定义主页至Github.html</id>
     <published>2019-06-08T12:20:29.000Z</published>
-    <updated>2019-06-08T13:49:35.466Z</updated>
+    <updated>2019-06-08T14:30:05.435Z</updated>
     
     <summary type="html">
     
@@ -363,9 +363,9 @@
     
       <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
     
-      <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
-    
       <category term="markdown" scheme="https://blog.yleao.com/tags/markdown/"/>
+    
+      <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
     
       <category term="整合" scheme="https://blog.yleao.com/tags/%E6%95%B4%E5%90%88/"/>
     
