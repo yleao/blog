@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Mirage中VIP跳B小的n种方式]]></title>
+    <url>%2F2019%2F0610%2FMirage%E4%B8%ADVIP%E8%B7%B3B%E5%B0%8F%E7%9A%84n%E7%A7%8D%E6%96%B9%E5%BC%8F.html</url>
+    <content type="text"><![CDATA[背（Zhuang）身（B）跳Bshort 主要是为了第一时间跳出去能够躲开对面的闪光或者自己的弹窗闪，不过基本上用不着这样的操作捂脸。 下面是慢动作回放。 最好还是要先掌握如何正常的跳B小，再学习另外的一些方式，关于如何跳B小可以看我这篇文章。 另外附上其他几种跳B小的方式。 最后放两个回看自己录制的demo中的视角指令（要先开启作弊指令sv_cheats 1）： 第三人称视角：cam_command 1（cam_command 2为还原成第一人称） 第三人称视角锁定：thirdperson_mayamode（要先开启上面的cam_command 1指令） 相关文章： Mirage中VIP跳B小]]></content>
+      <categories>
+        <category>Experience</category>
+      </categories>
+      <tags>
+        <tag>经验</tag>
+        <tag>csgo</tag>
+        <tag>game</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[搬迁Blog自定义主页至Github]]></title>
     <url>%2F2019%2F0608%2F%E6%90%AC%E8%BF%81Blog%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%BB%E9%A1%B5%E8%87%B3Github.html</url>
     <content type="text"><![CDATA[我的hexo blog使用的是二级域名，为blog.yleao.com布置在github上，主页用的顶级域名yleao.com且布置在腾讯云服务器上，因为腾讯云服务器要到期了，打算以后转战google云，所以先将主页布置到github上作为备用。 首先先在github上新建一个repositories，名称随意，README可添加可不添加。 新建好仓库之后就要上传本地文件至github了，因为之前在github上部署过hexo blog，所以SSH key已经设置好了，就不赘述了。我已经在本地创建了一个yleao文件夹，里面是我的主页代码，现在则要通过Git上传文件至github里。 按以下顺序在Git Bash执行指令： 1234567$ cd d:text$ git init$ git add .$ git commit -m "这里是注释" 其中cd为文件路径；git init会在此文件夹生成一个.Git隐藏文件；git add .会上传所有文件；git commit为添加注释。 在github里打开新建的仓库，点击Clone or download复制里面的地址，然后执行下面的指令： 123$ git remote add origin https://github.com/yleao/yleao.git$ git push -u origin master 其中要将git remote add origin后的地址改成你所复制的仓库地址；git push -u origin master命令为上传本地代码命令。 此时刷新仓库，即可看到上传成功的文件。 git常见报错 1、先删除1$ git remote rm origin 2、再次执行添加就可以了。 引起这个报错的原因有：1、没有git add .；2、已经git add .了，但忘了git commit -m “这里是注释”。也是先删除再重新添加即可。 本地文件成功添加至github里之后，接着要给这个仓库启用github pages服务，在启动服务之前，先添加CNAME文件到你的github仓库中。在仓库的根目录下添加一个新文件，命名为 CNAME （全部大写），里面内容为仓库所对应的自定义域名。例如我的hexo仓库所对应的域名为blog.yleao.com，那么在hexo仓库的根目录新建CNAME文件，里面写上blog.yleao.com，主页仓库同理。 接着修改hexo根目录里的_config.yml配置，找到# URL，改成如下配置123456# URL## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'url: https://blog.yleao.comroot: /permalink: :year/:month:day/:title.htmlpermalink_defaults: 接着可以启用github pages服务了，进入到主页仓库页面，然后点击setting，在里面找到GitHub Pages一项，添加要绑定的域名然后启用HTTPS。 最后就是给域名添加解析到github。因为我的@-CNAME记录和TXT记录、MX记录有冲突，所以就改成了@-A解析，关于A记录里的IPv4地址可以通过在cmd里ping一下自己的域名即可获得。 添加的解析如下：]]></content>
