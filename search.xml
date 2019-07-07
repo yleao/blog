@@ -18,7 +18,7 @@
   <entry>
     <title><![CDATA[Mirage中VIP跳B小的n种方式]]></title>
     <url>%2F2019%2F0610%2FMirage%E4%B8%ADVIP%E8%B7%B3B%E5%B0%8F%E7%9A%84n%E7%A7%8D%E6%96%B9%E5%BC%8F.html</url>
-    <content type="text"><![CDATA[背（Zhuang）身（B）跳Bshort，主要是为了第一时间跳出去能够躲开对面的闪光或者自己的弹窗闪，不过基本上用不着这样的操作捂脸。 下面是慢动作回放。 最好还是要先掌握如何正常的跳B小，再学习另外的一些方式，关于如何跳B小可以看我这篇文章。 另外附上其他几种跳B小的跳法（当然还有更多其他的跳法）。 最后放两个回看自己录制的demo中的视角指令（要先开启作弊指令sv_cheats 1）： 第三人称视角：cam_command 1（cam_command 2为还原成第一人称） 第三人称视角锁定：thirdperson_mayamode（要先开启上面的cam_command 1指令） 相关文章： Mirage中VIP跳B小]]></content>
+    <content type="text"><![CDATA[背身跳Bshort，主要是为了第一时间跳出去能够躲开对面的闪光或者自己的弹窗闪，不过基本上用不着这样的操作捂脸。 下面是慢动作回放。 最好还是要先掌握如何正常的跳B小，再学习另外的一些方式，关于如何跳B小可以看我这篇文章。 另外附上其他几种跳B小的跳法（当然还有更多其他的跳法）。 最后放两个回看自己录制的demo中的视角指令（要先开启作弊指令sv_cheats 1）： 第三人称视角：cam_command 1（cam_command 2为还原成第一人称） 第三人称视角锁定：thirdperson_mayamode（要先开启上面的cam_command 1指令） 相关文章： Mirage中VIP跳B小]]></content>
       <categories>
         <category>Experience</category>
       </categories>
@@ -206,9 +206,9 @@
         <category>Hexo折腾</category>
       </categories>
       <tags>
-        <tag>markdown</tag>
         <tag>经验</tag>
         <tag>hexo</tag>
+        <tag>markdown</tag>
         <tag>plugin</tag>
         <tag>整合</tag>
       </tags>
@@ -344,8 +344,8 @@
         <category>Tools</category>
       </categories>
       <tags>
-        <tag>test</tag>
         <tag>经验</tag>
+        <tag>test</tag>
         <tag>script</tag>
       </tags>
   </entry>
