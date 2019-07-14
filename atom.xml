@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.yleao.com/"/>
-  <updated>2019-06-20T10:56:13.115Z</updated>
+  <updated>2019-07-14T17:58:15.983Z</updated>
   <id>https://blog.yleao.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>浅谈《身体清单》</title>
+    <link href="https://blog.yleao.com/2019/0714/%E6%B5%85%E8%B0%88%E3%80%8A%E8%BA%AB%E4%BD%93%E6%B8%85%E5%8D%95%E3%80%8B.html"/>
+    <id>https://blog.yleao.com/2019/0714/浅谈《身体清单》.html</id>
+    <published>2019-07-14T15:34:11.000Z</published>
+    <updated>2019-07-14T17:58:15.983Z</updated>
+    
+    <summary type="html">
+    
+      &lt;center&gt;&lt;br&gt;身体清单&lt;br&gt;文/李庄&lt;br&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="生活拾空" scheme="https://blog.yleao.com/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
+    
+    
+      <category term="life" scheme="https://blog.yleao.com/tags/life/"/>
+    
+      <category term="poetry" scheme="https://blog.yleao.com/tags/poetry/"/>
+    
+  </entry>
   
   <entry>
     <title>网页工具备忘[建筑办公]</title>
@@ -412,11 +434,11 @@
       <category term="Hexo折腾" scheme="https://blog.yleao.com/categories/Hexo%E6%8A%98%E8%85%BE/"/>
     
     
+      <category term="markdown" scheme="https://blog.yleao.com/tags/markdown/"/>
+    
       <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
-    
-      <category term="markdown" scheme="https://blog.yleao.com/tags/markdown/"/>
     
       <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
     
@@ -491,31 +513,6 @@
       <category term="gfw" scheme="https://blog.yleao.com/tags/gfw/"/>
     
       <category term="扩展" scheme="https://blog.yleao.com/tags/%E6%89%A9%E5%B1%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Mirage中VIP跳B小</title>
-    <link href="https://blog.yleao.com/2018/0818/Mirage%E4%B8%ADVIP%E8%B7%B3B%E5%B0%8F.html"/>
-    <id>https://blog.yleao.com/2018/0818/Mirage中VIP跳B小.html</id>
-    <published>2018-08-17T21:30:43.000Z</published>
-    <updated>2019-06-06T15:31:54.766Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;相信很多玩家看到一些身法厉害的大佬旋转跳进狗洞然后再从vip跳B小很帅气，但是都觉得太难，其实跳B小这个难度并不算太大，我自己的感觉比单人上山要容易一点，只要掌握几个点再多加练习就可以了，目前我觉得最难的应该是单人上树。&lt;/p&gt;
-&lt;a class=&quot;btn&quot; href=&quot;https://steamcn.com/t416908-1-1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;i class=&quot;fa fa-hand-pointer-o fa-lg fa-fw&quot;&gt;&lt;/i&gt;此文同发于steamcn——蒸汽动力&lt;/a&gt;
-    
-    </summary>
-    
-      <category term="Experience" scheme="https://blog.yleao.com/categories/Experience/"/>
-    
-    
-      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
-      <category term="csgo" scheme="https://blog.yleao.com/tags/csgo/"/>
-    
-      <category term="game" scheme="https://blog.yleao.com/tags/game/"/>
     
   </entry>
   
