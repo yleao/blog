@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.yleao.com/"/>
-  <updated>2019-07-14T18:26:19.716Z</updated>
+  <updated>2019-08-04T12:35:15.115Z</updated>
   <id>https://blog.yleao.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《风中的纸屑》章节：独处</title>
+    <link href="https://blog.yleao.com/2019/0804/%E3%80%8A%E9%A3%8E%E4%B8%AD%E7%9A%84%E7%BA%B8%E5%B1%91%E3%80%8B%E7%AB%A0%E8%8A%82%EF%BC%9A%E7%8B%AC%E5%A4%84.html"/>
+    <id>https://blog.yleao.com/2019/0804/《风中的纸屑》章节：独处.html</id>
+    <published>2019-08-04T12:32:30.000Z</published>
+    <updated>2019-08-04T12:35:15.115Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;note default&quot;&gt;“我天性不宜交际。在多数场合，我不是觉得对方乏味，就是害怕对方觉得我乏味。可是我既不愿忍受对方的乏味，也不愿费劲使自己显得有趣，那都太累了。我独处时最轻松，因为我不觉得自己乏味，即使乏味，也自己承受，不累及他人，无需感到不安。”&lt;/div&gt;
+    
+    </summary>
+    
+      <category term="生活拾空" scheme="https://blog.yleao.com/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
+    
+    
+      <category term="life" scheme="https://blog.yleao.com/tags/life/"/>
+    
+      <category term="poetry" scheme="https://blog.yleao.com/tags/poetry/"/>
+    
+  </entry>
   
   <entry>
     <title>浅谈《身体清单》</title>
@@ -436,9 +458,9 @@
     
       <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="markdown" scheme="https://blog.yleao.com/tags/markdown/"/>
-    
       <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
+    
+      <category term="markdown" scheme="https://blog.yleao.com/tags/markdown/"/>
     
       <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
     
@@ -487,32 +509,6 @@
       <category term="tools" scheme="https://blog.yleao.com/tags/tools/"/>
     
       <category term="整合" scheme="https://blog.yleao.com/tags/%E6%95%B4%E5%90%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>chrome魔法上网扩展</title>
-    <link href="https://blog.yleao.com/2018/0830/chrome%E9%AD%94%E6%B3%95%E4%B8%8A%E7%BD%91%E6%89%A9%E5%B1%95.html"/>
-    <id>https://blog.yleao.com/2018/0830/chrome魔法上网扩展.html</id>
-    <published>2018-08-30T09:15:00.000Z</published>
-    <updated>2019-05-09T17:26:53.339Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;The Great Firewall，由原北京邮电大学校长设计，一般情况下主要指中国对因特网内容进行自动审查和过滤监控、由计算机与网络设备等软硬件所构成的系统。网站被屏蔽的原因一般只有两点：一是违反宪法，二是攻击国家领导人。防火墙对于这些违规信息会用DNS污染（对于域名）和屏蔽IP的方式（对于IP）进行过滤，使国内用户无法访问，世界最大的搜索引擎谷歌就被DNS污染。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="GFW" scheme="https://blog.yleao.com/categories/GFW/"/>
-    
-      <category term="Tools" scheme="https://blog.yleao.com/categories/GFW/Tools/"/>
-    
-    
-      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
-      <category term="gfw" scheme="https://blog.yleao.com/tags/gfw/"/>
-    
-      <category term="扩展" scheme="https://blog.yleao.com/tags/%E6%89%A9%E5%B1%95/"/>
     
   </entry>
   
