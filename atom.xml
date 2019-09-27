@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.yleao.com/"/>
-  <updated>2019-09-27T18:49:51.027Z</updated>
+  <updated>2019-09-27T19:03:59.282Z</updated>
   <id>https://blog.yleao.com/</id>
   
   <author>
@@ -21,11 +21,14 @@
     <link href="https://blog.yleao.com/2019/0928/%E6%97%A0%E4%B8%80%E6%98%AF%E4%BD%A0%EF%BC%8C%E6%97%A0%E4%B8%80%E4%B8%8D%E6%98%AF%E4%BD%A0.html"/>
     <id>https://blog.yleao.com/2019/0928/无一是你，无一不是你.html</id>
     <published>2019-09-27T18:36:02.000Z</published>
-    <updated>2019-09-27T18:49:51.027Z</updated>
+    <updated>2019-09-27T19:03:59.282Z</updated>
     
     <summary type="html">
     
-      &lt;blockquote class=&quot;blockquote-left&quot;&gt;&lt;p&gt;The reason i forgive you is because you are not perfect.&lt;br&gt;You are imperfect,and so am i.&lt;br&gt;All humans are imperfect,even the man outside my apartment who litters.&lt;br&gt;When i was young,i wanted to be anybody but myself.&lt;br&gt;Dr Bernard Hazelhof said if i was on a desert island then i would have to get used to my own company – just me and the coconuts.&lt;br&gt;He said i would have to accept myself,my warts and all,and that we don’t get to choose our warts.&lt;br&gt;They are a part of us and we have to live with them.&lt;br&gt;We can,however,choose our friends and i glad i have chosen you.&lt;br&gt;Dr Bernard Hazelhof also said the everyone’s lives and like a very long sidewalk.&lt;br&gt;Some are well paved.&lt;br&gt;Others,like mine,have cracks,banana skins and cigarette butts.&lt;br&gt;Your sidewalk is like mine but probably not as many cracks.&lt;br&gt;Hopefully,one day our sidewalks will meet and we can share a can of condensed milk.&lt;br&gt;You are my best friend.&lt;br&gt;You are my only friend.&lt;/p&gt;&lt;/blockquote&gt;
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
     
     </summary>
     
@@ -476,11 +479,11 @@
       <category term="Hexo折腾" scheme="https://blog.yleao.com/categories/Hexo%E6%8A%98%E8%85%BE/"/>
     
     
+      <category term="markdown" scheme="https://blog.yleao.com/tags/markdown/"/>
+    
       <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
-    
-      <category term="markdown" scheme="https://blog.yleao.com/tags/markdown/"/>
     
       <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
     
