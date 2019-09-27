@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.yleao.com/"/>
-  <updated>2019-08-05T15:52:03.017Z</updated>
+  <updated>2019-09-27T18:42:23.903Z</updated>
   <id>https://blog.yleao.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>无一是你，无一不是你</title>
+    <link href="https://blog.yleao.com/2019/0928/%E6%97%A0%E4%B8%80%E6%98%AF%E4%BD%A0%EF%BC%8C%E6%97%A0%E4%B8%80%E4%B8%8D%E6%98%AF%E4%BD%A0.html"/>
+    <id>https://blog.yleao.com/2019/0928/无一是你，无一不是你.html</id>
+    <published>2019-09-27T18:36:02.000Z</published>
+    <updated>2019-09-27T18:42:23.903Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-left&quot;&gt;&lt;p&gt;The reason i forgive you is because you are not perfect.&lt;br&gt;You are imperfect,and so am i.&lt;br&gt;All humans are imperfect,even the man outside my apartment who litters.&lt;br&gt;When i was young,i wanted to be anybody but myself.&lt;br&gt;Dr Bernard Hazelhof said if i was on a desert island then i would have to get used to my own company – just me and the coconuts.&lt;br&gt;He said i would have to accept myself,my warts and all,and that we don’t get to choose our warts.&lt;br&gt;They are a part of us and we have to live with them.&lt;br&gt;We can,however,choose our friends and i glad i have chosen you.&lt;br&gt;Dr Bernard Hazelhof also said the everyone’s lives and like a very long sidewalk.&lt;br&gt;Some are well paved.&lt;br&gt;Others,like mine,have cracks,banana skins and cigarette butts.&lt;br&gt;Your sidewalk is like mine but probably not as many cracks.&lt;br&gt;Hopefully,one day our sidewalks will meet and we can share a can of condensed milk.&lt;br&gt;You are my best friend.&lt;br&gt;You are my only friend.&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="生活拾空" scheme="https://blog.yleao.com/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
+    
+    
+      <category term="life" scheme="https://blog.yleao.com/tags/life/"/>
+    
+  </entry>
   
   <entry>
     <title>《风中的纸屑》章节：独处</title>
@@ -80,9 +100,9 @@
     
       <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="整合" scheme="https://blog.yleao.com/tags/%E6%95%B4%E5%90%88/"/>
-    
       <category term="tools" scheme="https://blog.yleao.com/tags/tools/"/>
+    
+      <category term="整合" scheme="https://blog.yleao.com/tags/%E6%95%B4%E5%90%88/"/>
     
       <category term="建筑" scheme="https://blog.yleao.com/tags/%E5%BB%BA%E7%AD%91/"/>
     
@@ -330,11 +350,11 @@
     
       <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
-    
       <category term="gfw" scheme="https://blog.yleao.com/tags/gfw/"/>
     
       <category term="扩展" scheme="https://blog.yleao.com/tags/%E6%89%A9%E5%B1%95/"/>
+    
+      <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
     
   </entry>
   
@@ -456,11 +476,11 @@
       <category term="Hexo折腾" scheme="https://blog.yleao.com/categories/Hexo%E6%8A%98%E8%85%BE/"/>
     
     
-      <category term="markdown" scheme="https://blog.yleao.com/tags/markdown/"/>
-    
       <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
       <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
+    
+      <category term="markdown" scheme="https://blog.yleao.com/tags/markdown/"/>
     
       <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
     
@@ -485,30 +505,6 @@
     
     
       <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>网页工具备忘</title>
-    <link href="https://blog.yleao.com/2018/0831/%E7%BD%91%E9%A1%B5%E5%B7%A5%E5%85%B7%E5%A4%87%E5%BF%98.html"/>
-    <id>https://blog.yleao.com/2018/0831/网页工具备忘.html</id>
-    <published>2018-08-30T21:43:01.000Z</published>
-    <updated>2019-06-20T10:56:03.697Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h5 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h5&gt;&lt;p&gt;这两天看了眼自己的书签栏，真是密密麻麻都快铺满了这个屏幕，感觉是时候清理一下了。把一些失效的网页删掉，暂时整理了一些感觉还挺好用的就放在这里吧，以后会慢慢更新。有关steam的网页工具可能要重新发一篇，实在是太多了。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Tools" scheme="https://blog.yleao.com/categories/Tools/"/>
-    
-    
-      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
-      <category term="整合" scheme="https://blog.yleao.com/tags/%E6%95%B4%E5%90%88/"/>
-    
-      <category term="tools" scheme="https://blog.yleao.com/tags/tools/"/>
     
   </entry>
   
