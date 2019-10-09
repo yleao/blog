@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.yleao.com/"/>
-  <updated>2019-09-29T17:34:10.220Z</updated>
+  <updated>2019-10-09T14:31:11.457Z</updated>
   <id>https://blog.yleao.com/</id>
   
   <author>
@@ -21,11 +21,11 @@
     <link href="https://blog.yleao.com/2019/0928/%E6%97%A0%E4%B8%80%E6%98%AF%E4%BD%A0%EF%BC%8C%E6%97%A0%E4%B8%80%E4%B8%8D%E6%98%AF%E4%BD%A0.html"/>
     <id>https://blog.yleao.com/2019/0928/无一是你，无一不是你.html</id>
     <published>2019-09-27T18:36:02.000Z</published>
-    <updated>2019-09-29T17:34:10.220Z</updated>
+    <updated>2019-10-09T14:31:11.457Z</updated>
     
     <summary type="html">
     
-      &lt;center&gt;&lt;font color=&quot;white&quot;&gt;或许你永远不知道你曾给过一个人继续活下去的勇气。&lt;br&gt;&lt;/font&gt;&lt;/center&gt;
+      &lt;center&gt;&lt;font color=&quot;white&quot;&gt;谢谢你短暂的陪伴。&lt;br&gt;&lt;/font&gt;&lt;/center&gt;
     
     </summary>
     
@@ -324,9 +324,9 @@
     
       <category term="life" scheme="https://blog.yleao.com/tags/life/"/>
     
-      <category term="poetry" scheme="https://blog.yleao.com/tags/poetry/"/>
-    
       <category term="film" scheme="https://blog.yleao.com/tags/film/"/>
+    
+      <category term="poetry" scheme="https://blog.yleao.com/tags/poetry/"/>
     
   </entry>
   
@@ -401,9 +401,9 @@
       <category term="生活拾空" scheme="https://blog.yleao.com/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
     
     
-      <category term="life" scheme="https://blog.yleao.com/tags/life/"/>
-    
       <category term="video" scheme="https://blog.yleao.com/tags/video/"/>
+    
+      <category term="life" scheme="https://blog.yleao.com/tags/life/"/>
     
   </entry>
   
@@ -424,9 +424,9 @@
       <category term="生活拾空" scheme="https://blog.yleao.com/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
     
     
-      <category term="life" scheme="https://blog.yleao.com/tags/life/"/>
-    
       <category term="video" scheme="https://blog.yleao.com/tags/video/"/>
+    
+      <category term="life" scheme="https://blog.yleao.com/tags/life/"/>
     
       <category term="ac" scheme="https://blog.yleao.com/tags/ac/"/>
     
@@ -478,9 +478,9 @@
     
       <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
-    
       <category term="markdown" scheme="https://blog.yleao.com/tags/markdown/"/>
+    
+      <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
     
       <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
     
