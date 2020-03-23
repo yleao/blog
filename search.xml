@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Mirage白车快速上B二楼]]></title>
+    <url>%2F2020%2F0323%2FMirage%E7%99%BD%E8%BD%A6%E5%BF%AB%E9%80%9F%E4%B8%8AB%E4%BA%8C%E6%A5%BC.html</url>
+    <content type="text"><![CDATA[可以打开r_drawclipbrushes 2空气墙指令查看原理（r_drawclipbrushes 0关闭空气墙） 要点就是第一次起跳对白车上的着地点的把控和之后的旋转跳的空速把控，个人第一次起跳是瞄准着车灯为着地点的，之后的旋转跳就是熟练度的问题了，尽量别掉空速，这个点位并不难，练习一下就能成功。(ps：拿着手枪240的地速也能跳上去）]]></content>
+      <categories>
+        <category>Experience</category>
+      </categories>
+      <tags>
+        <tag>经验</tag>
+        <tag>csgo</tag>
+        <tag>game</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[无一是你，无一不是你]]></title>
     <url>%2F2019%2F0928%2F%E6%97%A0%E4%B8%80%E6%98%AF%E4%BD%A0%EF%BC%8C%E6%97%A0%E4%B8%80%E4%B8%8D%E6%98%AF%E4%BD%A0.html</url>
     <content type="text"><![CDATA[谢谢你陪伴过我。 The reason i forgive you is because you are not perfect.You are imperfect,and so am i.All humans are imperfect,even the man outside my apartment who litters.When i was young,i wanted to be anybody but myself.Dr Bernard Hazelhof said if i was on a desert island then i would have to get used to my own company – just me and the coconuts.He said i would have to accept myself,my warts and all,and that we don’t get to choose our warts.They are a part of us and we have to live with them.We can,however,choose our friends and i glad i have chosen you.Dr Bernard Hazelhof also said the everyone’s lives and like a very long sidewalk.Some are well paved.Others,like mine,have cracks,banana skins and cigarette butts.Your sidewalk is like mine but probably not as many cracks.Hopefully,one day our sidewalks will meet and we can share a can of condensed milk.You are my best friend.You are my only friend. 我相信mary和max是相爱的，因为爱的那一刻，自己卑微到尘土里，然后开出花来。或许我本身就是一个孤独自卑的人，这种感受尤为强烈。时常会想到自己一个性格如此糟糕的人为什么会遇见你这么美好的人，你说你有一堆坏毛病，其实我也是一样的。以前我认为两个人在一起能相互理解是最重要的，但后来意识到人与人是很难相互理解的，能碰到得有多么幸运，真正更多的时候能做的还是相互包容，就像白头偕老这件事其实和爱情无关，岁月终会磨平一些东西，最后剩下的只不过是忍耐，但忍耐也是一种爱。真正爱你的人，其实就是愿意一直忍耐你的人。我能遇到你是有多么幸运。 我相信真正重要的事物并不会增加，只会越来越少。所以我很害怕失去你，回想起我是什么时候意识到自己喜欢你的，或许就是我让你离开公司的那一天吧。又或许我害怕的不是失去你，而是害怕你的难过与忧伤。我时常能从你的眼神里看出你的情绪，我难过自己不能与你同悲，我担心自己不能给你想要的。这也是我不为自己争取的原因，我总觉得你应该能碰到更好的人。其实你不在，我觉得自己也能独自一人走下去，可这不代表你不重要。就像霍根施拉格说的那样，“爱你是我唯一重要的事，莱斯特小姐。有人觉得爱就是性，是婚姻，是清晨六点的吻和一堆孩子，或许爱就是这样，莱斯特小姐，但你知道我怎么想吗？我觉得爱是想触碰却又收回手。” 我一直都记得我们第一次相遇的画面，我坐在桌前看着楼梯发着呆，然后你慢慢的走上楼梯，我并不喜欢盯着人看，但我不知道为什么我的视线却一直追随着你，然后你看到了我，你对我点了点头，我对你微笑了一下。这是一个故事的开头，而结局已不重要。 爱或许可以让人卑微到尘土里，但是我相信爱也可以让一个怯懦的人充满勇气。]]></content>
@@ -161,8 +174,8 @@
       </categories>
       <tags>
         <tag>life</tag>
-        <tag>film</tag>
         <tag>poetry</tag>
+        <tag>film</tag>
       </tags>
   </entry>
   <entry>
@@ -201,8 +214,8 @@
         <category>生活拾空</category>
       </categories>
       <tags>
-        <tag>video</tag>
         <tag>life</tag>
+        <tag>video</tag>
       </tags>
   </entry>
   <entry>
@@ -213,8 +226,8 @@
         <category>生活拾空</category>
       </categories>
       <tags>
-        <tag>video</tag>
         <tag>life</tag>
+        <tag>video</tag>
         <tag>ac</tag>
       </tags>
   </entry>
@@ -262,7 +275,7 @@
   <entry>
     <title><![CDATA[网页工具备忘]]></title>
     <url>%2F2018%2F0831%2F%E7%BD%91%E9%A1%B5%E5%B7%A5%E5%85%B7%E5%A4%87%E5%BF%98.html</url>
-    <content type="text"><![CDATA[写在前面这两天看了眼自己的书签栏，真是密密麻麻都快铺满了这个屏幕，感觉是时候清理一下了。把一些失效的网页删掉，暂时整理了一些感觉还挺好用的就放在这里吧，以后会慢慢更新。有关steam的网页工具可能要重新发一篇，实在是太多了。 工具 host老D 网页iconfontawesome 音乐外链ytmp3 外链转换 图床sm.ms imgur img9 梗图制作imgflip API接口imjad 小航实验室 卡密转让充值蜜蜂178 ka-cn 99shouq币回收 临时邮箱anyalias 10minute dropmail 24mail b站屏蔽词harrynull 视频接口已归档于文章——解析接口 Markdown编辑器马克飞象 小书匠 ping/ip检测与测速站长之家 whoer ipip speedtest ip签名档制作小航实验室 ntrqq IPv6连接测试test-ipv6 站长工具站长之家 临时网盘firefox 奶牛快传 国外手机验证receive-sms receivefree sms-online receivesms 云短信 url缩短器unu reurl 资源下载 音乐下载2333 实验室因不可抗力不能再使用。 ifkdy MS mli sonimei 网页图片打包下载imagecyborg 国内视频下载小视频下载支持下载爱奇艺、微信公众号、优酷、腾讯视频、快手、土豆、QQ浏览器、迅雷、V电影、开眼等平台的小视频。 vranks支持下载今日头条、阳光宽频网、秒拍视频、腾讯视频、微博视频、微信、百度视频、梨视频、西瓜视频等。 15um可通过微信PC版、搜狗微信、或手机微信复制包含视频的公众号文章链接，粘贴到微信视频下载工具并回车，即可方便快捷的下载你要的视频。亦支持抖音。 硕鼠老牌网站了，可在线解析并下载视频，还可通过安装 WIN、Mac OSX、 Android 各版本客户端来进行下载。 biliplusb站视频、弹幕下载。 小航实验室抖音无水印下载。 国外视频下载savefrom converto y2mate clipconverter onlineyoutube 谷歌crx下载2333 实验室因不可抗力不能再使用。 chrome-extension-downloader sinaapp cnplugins 字体下载fontke fontmap 装机下载msdn 软件下载52pj 423down 知网文献下载cnki-downloader因不可抗力（接口服务器失效）不能再使用，期待回归。 SCI文献下载yovi由于一些原因，SCI-Hub经常性的更换服务器或者域名，此工具可实时更新可用地址。 书籍查询下载Library Genesis ZLibrary 鸠摩搜索 搜索查询 谷歌镜像kuaimen 微博图片作者识别2333 实验室因不可抗力不能再使用。 Find who he/she is 谁是Po主 邮箱泄露查询haveibeenpwned Firefox Monitor 发音指南forvo 世界时间worldtimebuddy timeanddate 国家代号与区号Area Code jctrans 移动端应用数据查询七麦数据 网页时光机wayback mechine 网商历史价格查询西贴 聚合搜索快搜 聚合导航ilxdh uisdc fulck 聚合查询ip138 截图搜索动漫whatanime 网络实时攻击norse 限免查询反斗限免 优惠码查询海淘优惠码 国内优惠码 汉字字典漢典 免版权名画芝加哥艺术博物馆 荷兰国立博物馆 纽约大都会艺术博物馆 企业查询天眼查 中国裁判文书查询中国裁判文书网 bt搜索tuzi baidu网盘密码查询pnote 油管视频地区限制查询polsy 游戏 l4d2插件kk175 mc材质补丁optifine R18补丁检索uncensorpat CSGO全地图点位5e建议使用5e的报点 3dm CSGO烟雾模拟5e CSGO在线准心nbcsgo CSGO汰换模拟csgola CSGO磨损查询csgoexchange CSGO Pro Settingsprosettings CSGO贴纸模拟Mrinka]]></content>
+    <content type="text"><![CDATA[写在前面这两天看了眼自己的书签栏，真是密密麻麻都快铺满了这个屏幕，感觉是时候清理一下了。把一些失效的网页删掉，暂时整理了一些感觉还挺好用的就放在这里吧，以后会慢慢更新。有关steam的网页工具可能要重新发一篇，实在是太多了。 工具 host老D 网页iconfontawesome 音乐外链ytmp3 外链转换 图床sm.ms imgur img9 梗图制作imgflip API接口imjad 小航实验室 卡密转让充值蜜蜂178 ka-cn 99shouq币回收 临时邮箱anyalias 10minute dropmail 24mail b站屏蔽词harrynull 视频接口已归档于文章——解析接口 Markdown编辑器马克飞象 小书匠 ping/ip检测与测速站长之家 whoer ipip speedtest ip签名档制作小航实验室 ntrqq IPv6连接测试test-ipv6 站长工具站长之家 临时网盘firefox 奶牛快传 国外手机验证receive-sms receivefree sms-online receivesms 云短信 url缩短器unu reurl WEBGLWEBGL 资源下载 音乐下载2333 实验室因不可抗力不能再使用。 ifkdy MS mli sonimei 网页图片打包下载imagecyborg 国内视频下载小视频下载支持下载爱奇艺、微信公众号、优酷、腾讯视频、快手、土豆、QQ浏览器、迅雷、V电影、开眼等平台的小视频。 vranks支持下载今日头条、阳光宽频网、秒拍视频、腾讯视频、微博视频、微信、百度视频、梨视频、西瓜视频等。 15um可通过微信PC版、搜狗微信、或手机微信复制包含视频的公众号文章链接，粘贴到微信视频下载工具并回车，即可方便快捷的下载你要的视频。亦支持抖音。 硕鼠老牌网站了，可在线解析并下载视频，还可通过安装 WIN、Mac OSX、 Android 各版本客户端来进行下载。 biliplusb站视频、弹幕下载。 小航实验室抖音无水印下载。 国外视频下载savefrom converto y2mate clipconverter onlineyoutube 谷歌crx下载2333 实验室因不可抗力不能再使用。 chrome-extension-downloader sinaapp cnplugins 字体下载fontke fontmap 装机下载msdn 软件下载52pj 423down 知网文献下载cnki-downloader因不可抗力（接口服务器失效）不能再使用，期待回归。 SCI文献下载yovi由于一些原因，SCI-Hub经常性的更换服务器或者域名，此工具可实时更新可用地址。 书籍查询下载Library Genesis ZLibrary 鸠摩搜索 搜索查询 谷歌镜像kuaimen 微博图片作者识别2333 实验室因不可抗力不能再使用。 Find who he/she is 谁是Po主 邮箱泄露查询haveibeenpwned Firefox Monitor 发音指南forvo 世界时间worldtimebuddy timeanddate 国家代号与区号Area Code jctrans 移动端应用数据查询七麦数据 网页时光机wayback mechine 网商历史价格查询西贴 聚合搜索快搜 聚合导航ilxdh uisdc fulck 聚合查询ip138 截图搜索动漫whatanime 网络实时攻击norse 限免查询反斗限免 优惠码查询海淘优惠码 国内优惠码 汉字字典漢典 免版权名画芝加哥艺术博物馆 荷兰国立博物馆 纽约大都会艺术博物馆 企业查询天眼查 中国裁判文书查询中国裁判文书网 bt搜索tuzi baidu网盘密码查询pnote 油管视频地区限制查询polsy 游戏 l4d2插件kk175 mc材质补丁optifine R18补丁检索uncensorpat CSGO全地图点位5e建议使用5e的报点 3dm CSGO烟雾模拟5e CSGO在线准心nbcsgo CSGO汰换模拟csgola CSGO磨损查询csgoexchange CSGO Pro Settingsprosettings CSGO贴纸模拟Mrinka]]></content>
       <categories>
         <category>Tools</category>
       </categories>
@@ -364,8 +377,8 @@
         <category>生活拾空</category>
       </categories>
       <tags>
-        <tag>video</tag>
         <tag>life</tag>
+        <tag>video</tag>
         <tag>music</tag>
         <tag>film</tag>
       </tags>
