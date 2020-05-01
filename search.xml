@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Steam上可多版本共存的游戏整理]]></title>
+    <url>%2F2020%2F0501%2Funtitled-1588339134463.html</url>
+    <content type="text"><![CDATA[此文章为整理steam上可多版本共存的游戏，即包含不同区域特供、不同平台（mac平台）可同时入库的游戏整理，Remastered、Multiplayer、VR、demo、beta、movie、software等不包含在内。 由于现在的礼物政策与区域key激活政策比以前严格太多，而且还有多数游戏已经绝版，现在再想收集已经很难，需要自跨钱包区域（有的游戏有多个区域特供版本，想要激活得自跨多个国家，不推荐）、收集全球礼物等等才能入库，还是量力而行吧。 如有不全欢迎补充 RESIDENT EVIL]]></content>
+      <categories>
+        <category>Experience</category>
+      </categories>
+      <tags>
+        <tag>经验</tag>
+        <tag>game</tag>
+        <tag>steam</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Mirage白车快速上B二楼]]></title>
     <url>%2F2020%2F0323%2FMirage%E7%99%BD%E8%BD%A6%E5%BF%AB%E9%80%9F%E4%B8%8AB%E4%BA%8C%E6%A5%BC.html</url>
     <content type="text"><![CDATA[可以打开r_drawclipbrushes 2空气墙指令查看原理（r_drawclipbrushes 0关闭空气墙） 要点就是第一次起跳对白车上的着地点的把控和之后的旋转跳的空速把控，个人第一次起跳是瞄准着车灯为着地点的，之后的旋转跳就是熟练度的问题了，尽量别掉空速，这个点位并不难，练习一下就能成功。(ps：拿着手枪240的地速也能跳上去） Mirage单人快速上B点箱子（已失效） 找好角度，大概45度角左右，按住w，快出箱子边缘的时候鼠标向右拉同时蹲跳，就和旋转跳差不多。]]></content>
@@ -161,8 +174,8 @@
         <category>生活拾空</category>
       </categories>
       <tags>
-        <tag>life</tag>
         <tag>steam</tag>
+        <tag>life</tag>
       </tags>
   </entry>
   <entry>
@@ -254,9 +267,9 @@
         <category>Hexo折腾</category>
       </categories>
       <tags>
+        <tag>markdown</tag>
         <tag>经验</tag>
         <tag>hexo</tag>
-        <tag>markdown</tag>
         <tag>plugin</tag>
         <tag>整合</tag>
       </tags>
@@ -392,8 +405,8 @@
         <category>Tools</category>
       </categories>
       <tags>
-        <tag>经验</tag>
         <tag>test</tag>
+        <tag>经验</tag>
         <tag>script</tag>
       </tags>
   </entry>

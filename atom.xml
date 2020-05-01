@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.yleao.com/"/>
-  <updated>2020-03-23T12:32:49.462Z</updated>
+  <updated>2020-05-01T14:18:42.971Z</updated>
   <id>https://blog.yleao.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Steam上可多版本共存的游戏整理</title>
+    <link href="https://blog.yleao.com/2020/0501/untitled-1588339134463.html"/>
+    <id>https://blog.yleao.com/2020/0501/untitled-1588339134463.html</id>
+    <published>2020-05-01T13:18:54.000Z</published>
+    <updated>2020-05-01T14:18:42.971Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;此文章为整理steam上可多版本共存的游戏，即包含不同区域特供、不同平台（mac平台）可同时入库的游戏整理，&lt;code&gt;Remastered&lt;/code&gt;、&lt;code&gt;Multiplayer&lt;/code&gt;、&lt;code&gt;VR&lt;/code&gt;、&lt;code&gt;demo、beta&lt;/code&gt;、&lt;code&gt;movie、software&lt;/code&gt;等不包含在内。&lt;/p&gt;
+&lt;p&gt;由于现在的礼物政策与区域key激活政策比以前严格太多，而且还有多数游戏已经绝版，现在再想收集已经很难，需要自跨钱包区域（有的游戏有多个区域特供版本，想要激活得自跨多个国家，不推荐）、收集全球礼物等等才能入库，还是量力而行吧。&lt;/p&gt;
+&lt;p&gt;如有不全欢迎补充&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Experience" scheme="https://blog.yleao.com/categories/Experience/"/>
+    
+    
+      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
+      <category term="game" scheme="https://blog.yleao.com/tags/game/"/>
+    
+      <category term="steam" scheme="https://blog.yleao.com/tags/steam/"/>
+    
+  </entry>
   
   <entry>
     <title>Mirage白车快速上B二楼</title>
@@ -323,9 +349,9 @@
       <category term="生活拾空" scheme="https://blog.yleao.com/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
     
     
-      <category term="life" scheme="https://blog.yleao.com/tags/life/"/>
-    
       <category term="steam" scheme="https://blog.yleao.com/tags/steam/"/>
+    
+      <category term="life" scheme="https://blog.yleao.com/tags/life/"/>
     
   </entry>
   
@@ -481,34 +507,6 @@
       <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
     
       <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo-next主题下的美化</title>
-    <link href="https://blog.yleao.com/2018/0901/hexo-next%E4%B8%BB%E9%A2%98%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%8C%96.html"/>
-    <id>https://blog.yleao.com/2018/0901/hexo-next主题下的美化.html</id>
-    <published>2018-09-01T14:53:15.000Z</published>
-    <updated>2019-05-20T19:20:57.675Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h5 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h5&gt;&lt;p&gt;因为hexo可以自定义的东西太多了，感觉还是整合到一篇post里会比较好。慢慢更新ing。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Hexo折腾" scheme="https://blog.yleao.com/categories/Hexo%E6%8A%98%E8%85%BE/"/>
-    
-    
-      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
-      <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
-    
-      <category term="markdown" scheme="https://blog.yleao.com/tags/markdown/"/>
-    
-      <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
-    
-      <category term="整合" scheme="https://blog.yleao.com/tags/%E6%95%B4%E5%90%88/"/>
     
   </entry>
   
