@@ -174,8 +174,8 @@
         <category>生活拾空</category>
       </categories>
       <tags>
-        <tag>life</tag>
         <tag>steam</tag>
+        <tag>life</tag>
       </tags>
   </entry>
   <entry>
@@ -267,9 +267,9 @@
         <category>Hexo折腾</category>
       </categories>
       <tags>
+        <tag>markdown</tag>
         <tag>经验</tag>
         <tag>hexo</tag>
-        <tag>markdown</tag>
         <tag>plugin</tag>
         <tag>整合</tag>
       </tags>
@@ -405,8 +405,8 @@
         <category>Tools</category>
       </categories>
       <tags>
-        <tag>经验</tag>
         <tag>test</tag>
+        <tag>经验</tag>
         <tag>script</tag>
       </tags>
   </entry>
