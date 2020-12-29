@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.yleao.com/"/>
-  <updated>2020-05-02T09:58:32.008Z</updated>
+  <updated>2020-12-29T13:50:37.057Z</updated>
   <id>https://blog.yleao.com/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Steam上一些游戏的盒装收集</title>
+    <link href="https://blog.yleao.com/2020/1229/Steam%E4%B8%8A%E4%B8%80%E4%BA%9B%E6%B8%B8%E6%88%8F%E7%9A%84%E7%9B%92%E8%A3%85%E6%94%B6%E9%9B%86.html"/>
+    <id>https://blog.yleao.com/2020/1229/Steam上一些游戏的盒装收集.html</id>
+    <published>2020-12-29T12:53:08.000Z</published>
+    <updated>2020-12-29T13:50:37.057Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;此文章主要分享个人收集steam绝版游戏时买的一些带steam key的PC盒装，不包含主机版，其盒装key的激活限制、key的形式、一些盒装key的相关问题都会分享出来。比如一些区域限定的盒子，里面的steam key只能在特定区域激活，例如日本限定&lt;a href=&quot;https://steamdb.info/app/50400/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Mafia II - JAPAN&lt;/a&gt;；在欧洲发行（PEGI评级）和在北美发行（ESRB评级）的同一个游戏的盒子，其在steam上激活的游戏app是不同的，例如&lt;a href=&quot;https://steamdb.info/app/10540/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Football Manager 2009&lt;/a&gt;与&lt;a href=&quot;https://steamdb.info/app/10560/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Worldwide Soccer Manager 2009&lt;/a&gt;；还有一些游戏的盒装只有在特定国家发行的盒子里才会有steam key，其他国家发行的盒子里则没有steam key，例如&lt;a href=&quot;https://steamdb.info/app/31410/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;zombie driver&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;文章所列盒装均自购和拖各地玩绝版收藏的朋友代购于全球（美国、俄罗斯、德国、法国、英国、波兰、日本、中国台湾等）各大零售与二手网站，比如ebay、amazon、allegro、煤炉、雅虎、露天等网站，在此也非常感谢各地的朋友，因此一些实体盒装都在朋友手里，我只拿key，所以拍的照片不是很详细，但是我会尽量把这些盒装的样式都展现出来，让感兴趣的朋友能了解到哪些盒装是有steam key的。提醒一下购买steam绝版游戏的盒装相当于赌博，一些欧洲国家的卖家会把拆过的盒子重新塑封当全新的卖，而一些老游戏几乎没有全新盒子，必须要去买二手盒子来赌里面的steam key没被使用过，所以购买请谨慎，本文只是参考。&lt;/p&gt;
+&lt;p&gt;另外有很多绝版游戏也是有盒装key的，但是我可能已经拥有了，所以就不会再买一份盒装了。对steam绝版游戏和礼物感兴趣的可以加入qq群：&lt;code&gt;643414383&lt;/code&gt;，进群会有一定的门槛，群里会分享一些绝版游戏的便宜渠道与游戏下架信息，此文章会长期更新。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Experience" scheme="https://blog.yleao.com/categories/Experience/"/>
+    
+    
+      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
+      <category term="game" scheme="https://blog.yleao.com/tags/game/"/>
+    
+      <category term="steam" scheme="https://blog.yleao.com/tags/steam/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Steam上多区域版本可共存的游戏整理</title>
-    <link href="https://blog.yleao.com/2020/0501/untitled-1588339134463.html"/>
-    <id>https://blog.yleao.com/2020/0501/untitled-1588339134463.html</id>
+    <link href="https://blog.yleao.com/2020/0501/Steam%E4%B8%8A%E5%A4%9A%E5%8C%BA%E5%9F%9F%E7%89%88%E6%9C%AC%E5%8F%AF%E5%85%B1%E5%AD%98%E7%9A%84%E6%B8%B8%E6%88%8F%E6%95%B4%E7%90%86.html"/>
+    <id>https://blog.yleao.com/2020/0501/Steam上多区域版本可共存的游戏整理.html</id>
     <published>2020-05-01T13:18:54.000Z</published>
-    <updated>2020-05-02T09:58:32.008Z</updated>
+    <updated>2020-12-29T14:46:12.730Z</updated>
     
     <summary type="html">
     
@@ -205,11 +231,11 @@
     
       <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
+      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
+    
       <category term="github" scheme="https://blog.yleao.com/tags/github/"/>
     
       <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
-    
-      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
@@ -303,9 +329,9 @@
     
       <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
-    
       <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
     
       <category term="coding" scheme="https://blog.yleao.com/tags/coding/"/>
     
@@ -483,34 +509,6 @@
       <category term="video" scheme="https://blog.yleao.com/tags/video/"/>
     
       <category term="ac" scheme="https://blog.yleao.com/tags/ac/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo上的aplayer应用</title>
-    <link href="https://blog.yleao.com/2018/0902/hexo%E4%B8%8A%E7%9A%84aplayer%E5%BA%94%E7%94%A8.html"/>
-    <id>https://blog.yleao.com/2018/0902/hexo上的aplayer应用.html</id>
-    <published>2018-09-01T17:17:22.000Z</published>
-    <updated>2018-11-09T09:59:21.120Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h5 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h5&gt;&lt;p&gt;aplayer是一个非常漂亮好用的HTML5音乐播放器，和dplayer师出同门，本篇主要分享一下自己搭建到hexo上的一些经验。&lt;br&gt;部署dplayer的方式我是用的hexo插件，部署aplayer的方式我是用的提取dist文件。这样可以相互参考，喜欢哪种方式部署就用哪种。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Hexo折腾" scheme="https://blog.yleao.com/categories/Hexo%E6%8A%98%E8%85%BE/"/>
-    
-    
-      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
-      <category term="github" scheme="https://blog.yleao.com/tags/github/"/>
-    
-      <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
-    
-      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
-    
-      <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
     
   </entry>
   
