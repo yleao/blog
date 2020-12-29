@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.yleao.com/"/>
-  <updated>2020-12-29T15:39:19.777Z</updated>
+  <updated>2020-12-29T16:01:01.797Z</updated>
   <id>https://blog.yleao.com/</id>
   
   <author>
@@ -21,12 +21,16 @@
     <link href="https://blog.yleao.com/2020/1229/Steam%E4%B8%8A%E4%B8%80%E4%BA%9B%E6%B8%B8%E6%88%8F%E7%9A%84%E7%9B%92%E8%A3%85%E6%94%B6%E9%9B%86.html"/>
     <id>https://blog.yleao.com/2020/1229/Steam上一些游戏的盒装收集.html</id>
     <published>2020-12-29T12:53:08.000Z</published>
-    <updated>2020-12-29T15:39:19.777Z</updated>
+    <updated>2020-12-29T16:01:01.797Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;此文章主要分享个人收集steam绝版游戏时买的一些带steam key的PC盒装，不包含主机版，其盒装key的激活限制、key的形式、一些盒装key的相关问题都会分享出来。比如一些区域限定的盒子，里面的steam key只能在特定区域激活，例如日本限定&lt;a href=&quot;https://steamdb.info/app/50400/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Mafia II - JAPAN&lt;/a&gt;；在欧洲发行（PEGI评级）和在北美发行（ESRB评级）的同一个游戏的盒子，其在steam上激活的游戏app是不同的，例如&lt;a href=&quot;https://steamdb.info/app/10540/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Football Manager 2009&lt;/a&gt;与&lt;a href=&quot;https://steamdb.info/app/10560/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Worldwide Soccer Manager 2009&lt;/a&gt;；还有一些游戏的盒装只有在特定国家发行的盒子里才会有steam key，其他国家发行的盒子里则没有steam key，例如&lt;a href=&quot;https://steamdb.info/app/31410/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;zombie driver&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/Steam上一些游戏的盒装收集/001.jpg&quot; alt=&quot;纪念一下3个Japan retail onliy + 1个Japan steam store only时隔三年再度收齐！&quot;&gt;&lt;/p&gt;
+&lt;p&gt;纪念一下3个Japan retail onliy + 1个Japan steam store only时隔三年再度收齐！&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;img width=&quot;504&quot; height=&quot;672&quot; src=&quot;https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/Steam上一些游戏的盒装收集/001.jpg&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;文章所列盒装均自购和拖各地玩绝版的朋友代购于全球（美国、俄罗斯、德国、法国、英国、波兰、日本、中国台湾等）各大零售与二手网站，比如ebay、amazon、allegro、煤炉、雅虎、露天等，在此非常感谢各地的朋友，因此一些实体盒装都在朋友手里，我只拿key，所以拍的照片不是很详细，但我会尽量把这些盒装外包装都展示出来，让感兴趣的朋友能了解到哪些版本是有steam key的。顺便提醒一下，购买steam绝版游戏的盒装相当于赌博，一些欧洲卖家会把拆过的盒子重新塑封当全新的卖，而一些老游戏几乎没有全新盒子，必须要去买二手盒子来赌里面的steam key没被使用过，所以购买请谨慎，本文只是参考。&lt;/p&gt;
+&lt;p&gt;另外有很多绝版游戏也是有盒装key的，但是我已经拥有了，所以就不会再买一份盒装了。对steam绝版游戏和礼物感兴趣的可以加入qq群：&lt;code&gt;643414383&lt;/code&gt;，进群会有一定的门槛，群里会分享一些绝版游戏的便宜渠道与下架信息，此文章会长期更新。&lt;/p&gt;
     
     </summary>
     
@@ -230,11 +234,11 @@
     
       <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="github" scheme="https://blog.yleao.com/tags/github/"/>
+      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
     
       <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
     
-      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
+      <category term="github" scheme="https://blog.yleao.com/tags/github/"/>
     
   </entry>
   
@@ -328,9 +332,9 @@
     
       <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-      <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
-    
       <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
     
       <category term="coding" scheme="https://blog.yleao.com/tags/coding/"/>
     
@@ -431,9 +435,9 @@
     
       <category term="gfw" scheme="https://blog.yleao.com/tags/gfw/"/>
     
-      <category term="扩展" scheme="https://blog.yleao.com/tags/%E6%89%A9%E5%B1%95/"/>
-    
       <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
+    
+      <category term="扩展" scheme="https://blog.yleao.com/tags/%E6%89%A9%E5%B1%95/"/>
     
   </entry>
   
