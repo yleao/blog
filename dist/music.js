@@ -15,13 +15,13 @@ const ap = new APlayer({
         cover: 'https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/音乐图标.jpg',
       },
 	  {
-        name: "Jesus bleibet meine Freude　　　　　",
+        name: "Jesus bleibet meine Freude　　　　　　　　　　　　　　",
         artist: ' ',
         url: 'https://image-1253170309.cos.ap-guangzhou.myqcloud.com/music/Jesus%20bleibet%20meine%20Freude.mp3',
         cover: 'https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/音乐图标.jpg',
       },
 	  {
-        name: "Where Have All The Flowers Gone　　　　",
+        name: "Where Have All The Flowers Gone　　　　　　　　　　　",
         artist: ' ',
         url: 'https://image-1253170309.cos.ap-guangzhou.myqcloud.com/music/Where%20Have%20All%20The%20Flowers%20Gone.mp3',
         cover: 'https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/音乐图标.jpg',
