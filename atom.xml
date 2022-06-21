@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.yleao.com/"/>
-  <updated>2021-01-14T19:09:37.353Z</updated>
+  <updated>2022-06-21T23:57:27.111Z</updated>
   <id>https://blog.yleao.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>装机记录</title>
+    <link href="https://blog.yleao.com/2022/0622/%E8%A3%85%E6%9C%BA%E8%AE%B0%E5%BD%95.html"/>
+    <id>https://blog.yleao.com/2022/0622/装机记录.html</id>
+    <published>2022-06-21T23:56:01.000Z</published>
+    <updated>2022-06-21T23:57:27.111Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="Experience" scheme="https://blog.yleao.com/categories/Experience/"/>
+    
+    
+      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
+      <category term="设备" scheme="https://blog.yleao.com/tags/%E8%AE%BE%E5%A4%87/"/>
+    
+  </entry>
   
   <entry>
     <title>Aspire Favostix小烟测评</title>
@@ -437,9 +462,9 @@
     
       <category term="life" scheme="https://blog.yleao.com/tags/life/"/>
     
-      <category term="poetry" scheme="https://blog.yleao.com/tags/poetry/"/>
-    
       <category term="film" scheme="https://blog.yleao.com/tags/film/"/>
+    
+      <category term="poetry" scheme="https://blog.yleao.com/tags/poetry/"/>
     
   </entry>
   
@@ -492,31 +517,6 @@
       <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
     
       <category term="gfw" scheme="https://blog.yleao.com/tags/gfw/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关爱空巢老人，别让等待，成为遗憾</title>
-    <link href="https://blog.yleao.com/2018/0912/%E5%85%B3%E7%88%B1%E7%A9%BA%E5%B7%A2%E8%80%81%E4%BA%BA%EF%BC%8C%E5%88%AB%E8%AE%A9%E7%AD%89%E5%BE%85%EF%BC%8C%E6%88%90%E4%B8%BA%E9%81%97%E6%86%BE.html"/>
-    <id>https://blog.yleao.com/2018/0912/关爱空巢老人，别让等待，成为遗憾.html</id>
-    <published>2018-09-12T14:20:59.000Z</published>
-    <updated>2018-10-30T11:17:02.933Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="生活拾空" scheme="https://blog.yleao.com/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
-    
-    
-      <category term="life" scheme="https://blog.yleao.com/tags/life/"/>
-    
-      <category term="video" scheme="https://blog.yleao.com/tags/video/"/>
     
   </entry>
   
