@@ -126,7 +126,7 @@
     <link href="https://blog.yleao.com/2020/1215/%E5%90%8C%E6%97%B6%E4%BB%A3%E4%B8%8B%E7%9A%84%E5%B9%B3%E8%A1%8C%E6%97%B6%E7%A9%BA.html"/>
     <id>https://blog.yleao.com/2020/1215/同时代下的平行时空.html</id>
     <published>2020-12-14T17:08:10.000Z</published>
-    <updated>2022-06-25T18:35:27.657Z</updated>
+    <updated>2022-06-25T19:51:10.871Z</updated>
     
     <summary type="html">
     
@@ -135,22 +135,22 @@
         &lt;div class=&quot;douban-card-bgimg&quot; style=&quot;background-image: url(&#39;https://images.weserv.nl/?url=https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2635298435.jpg&#39;);&quot;&gt;&lt;/div&gt;
         &lt;div class=&quot;douban-card-left&quot;&gt;
             &lt;div class=&quot;douban-card-img&quot; style=&quot;background-image: url(&#39;https://images.weserv.nl/?url=https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2635298435.jpg&#39;);&quot;&gt;&lt;/div&gt;
-            &lt;div class=&quot;douban-card-status&quot;&gt;灯影绰约&lt;/div&gt;
+            &lt;div class=&quot;douban-card-status&quot;&gt;豆瓣页面&lt;/div&gt;
         &lt;/div&gt;
         &lt;div class=&quot;douban-card-right&quot;&gt;
             &lt;div class=&quot;douban-card-item&quot;&gt;&lt;span&gt;电影名: &lt;/span&gt;&lt;strong&gt;杀马特我爱你(2019)&lt;/strong&gt;&lt;/div&gt;
             &lt;div class=&quot;douban-card-item&quot;&gt;&lt;span&gt;导演: &lt;/span&gt;&lt;span&gt;李一凡&lt;/span&gt;&lt;/div&gt;
             &lt;div class=&quot;douban-card-item&quot;&gt;&lt;span&gt;主演: &lt;/span&gt;&lt;span&gt;罗福兴&lt;/span&gt;&lt;/div&gt;
             &lt;div class=&quot;douban-card-item&quot;&gt;&lt;span&gt;上映时间: &lt;/span&gt;&lt;span&gt;2019-12(广东时代美术馆)&lt;/span&gt;&lt;/div&gt;
-            &lt;div class=&quot;douban-card-item&quot;&gt;&lt;span&gt;评分: &lt;/span&gt;&lt;span&gt;8.6&lt;/span&gt;&lt;/div&gt;
+            &lt;div class=&quot;douban-card-item&quot;&gt;&lt;span&gt;豆瓣评分: &lt;/span&gt;&lt;span&gt;8.6&lt;/span&gt;&lt;/div&gt;
         &lt;/div&gt;
     &lt;/a&gt;
 &lt;/div&gt;
 &lt;style&gt;
     .douban-card-block {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center;//可向左置顶
+    align-items: center;//可向左置顶
     width: 100%;
     max-height: 400px;
 }
@@ -170,7 +170,7 @@
 }
 
 .douban-card:hover {
-    text-decoration: underline wavy black;//下划线颜色
+    text-decoration: underline wavy orangered;//下划线颜色
 }
 
 .douban-card-bgimg {
@@ -235,7 +235,7 @@
     font-family: &quot;SimHei&quot;, Times,serif;
     font-weight: bold;
     line-height: 1.2;
-    color: green;//字体颜色
+    color: DimGray;//字体颜色
 }
 
 .douban-card-item {
