@@ -21,9 +21,9 @@ const ap = new APlayer({
         cover: 'https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/音乐图标.jpg',
       },
 	  {
-        name: "Where Have All The Flowers Gone　　　　　　　　　　　",
+        name: "Symphony No.5 In C Sharp Minor　　　　　　　　　　　　",
         artist: ' ',
-        url: 'https://image-1253170309.cos.ap-guangzhou.myqcloud.com/music/Where%20Have%20All%20The%20Flowers%20Gone.mp3',
+        url: 'https://image-1253170309.cos.ap-guangzhou.myqcloud.com/music/Symphony%20No.%205%20In%20C%20Sharp%20Minor.mp3',
         cover: 'https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/音乐图标.jpg',
       }
     ]
