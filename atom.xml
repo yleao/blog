@@ -101,6 +101,28 @@
   </entry>
   
   <entry>
+    <title>《小武》影评</title>
+    <link href="https://blog.yleao.com/2020/1116/%E3%80%8A%E5%B0%8F%E6%AD%A6%E3%80%8B%E5%BD%B1%E8%AF%84.html"/>
+    <id>https://blog.yleao.com/2020/1116/《小武》影评.html</id>
+    <published>2020-11-15T20:25:33.000Z</published>
+    <updated>2022-06-25T10:53:22.769Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;note default&quot;&gt;“老栓也向那边看，却只见一堆人的后背；颈项都伸得很长，仿佛许多鸭，被无形的手捏住了的，向上提着。”——《呐喊》&lt;/div&gt;
+    
+    </summary>
+    
+      <category term="生活拾空" scheme="https://blog.yleao.com/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
+    
+    
+      <category term="life" scheme="https://blog.yleao.com/tags/life/"/>
+    
+      <category term="film" scheme="https://blog.yleao.com/tags/film/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Steam上多区域版本可共存的游戏整理</title>
     <link href="https://blog.yleao.com/2020/0501/Steam%E4%B8%8A%E5%A4%9A%E5%8C%BA%E5%9F%9F%E7%89%88%E6%9C%AC%E5%8F%AF%E5%85%B1%E5%AD%98%E7%9A%84%E6%B8%B8%E6%88%8F%E6%95%B4%E7%90%86.html"/>
     <id>https://blog.yleao.com/2020/0501/Steam上多区域版本可共存的游戏整理.html</id>
@@ -493,30 +515,6 @@
       <category term="扩展" scheme="https://blog.yleao.com/tags/%E6%89%A9%E5%B1%95/"/>
     
       <category term="plugin" scheme="https://blog.yleao.com/tags/plugin/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>VPS上搭建ss</title>
-    <link href="https://blog.yleao.com/2018/0916/VPS%E4%B8%8A%E6%90%AD%E5%BB%BAss.html"/>
-    <id>https://blog.yleao.com/2018/0916/VPS上搭建ss.html</id>
-    <published>2018-09-16T08:27:45.000Z</published>
-    <updated>2019-06-06T14:37:39.152Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;之前写了&lt;a href=&quot;https://blog.yleao.com/2018/0830/chrome%E9%AD%94%E6%B3%95%E4%B8%8A%E7%BD%91%E6%89%A9%E5%B1%95.html&quot;&gt;魔法上网的chrome扩展&lt;/a&gt;一文，但是个人更推荐自己搭建，本来我的小鸡已经够多了，但前几天&lt;a href=&quot;https://blog.yleao.com/2018/0916/VPS上搭建ss.html#1&quot;&gt;vultr&lt;/a&gt;给我其中一个邮箱送了10刀余额，于是想着正好可以顺手写一篇关于搭建的文章。此文便是分享如何在VPS上搭建ss进行魔法上网。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="GFW" scheme="https://blog.yleao.com/categories/GFW/"/>
-    
-    
-      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
-      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
-    
-      <category term="gfw" scheme="https://blog.yleao.com/tags/gfw/"/>
     
   </entry>
   
