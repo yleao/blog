@@ -135,17 +135,17 @@
 <meta property="og:site_name" content="Y&#39;s BLOG">
 <meta property="og:description" content="上篇文章我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。 目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速1.jpg">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速2.png">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速3.jpg">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速4.jpg">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速5.jpg">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速6.jpg">
-<meta property="og:updated_time" content="2019-06-21T10:59:33.118Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180809-1/01.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180809-1/02.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180809-1/03.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180809-1/04.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180809-1/05.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180809-1/06.jpg">
+<meta property="og:updated_time" content="2023-03-11T05:57:57.255Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="通过CDN直接给GithubPages加速">
 <meta name="twitter:description" content="上篇文章我写的是腾讯云COS+Github双服务器托管个人博客，再利用CDN加速服务给云储存上的对象加速，若是不想在国内搭建则可以直接利用腾讯云的CDN加速服务给github pages加速，让国内用户也能快速访问github上搭建的博客。 目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。">
-<meta name="twitter:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速1.jpg">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180809-1/01.jpg">
 
 
 
@@ -428,13 +428,13 @@
 <p>目前腾讯云CDN加速服务开通赠送300G流量，每个月50G，连续赠送6个月。对于访问量不大的博客，到期之后的资费也花不了多少钱。</p>
 <a id="more"></a>
 <hr>
-<p>先去CMD里ping一下github上的源站，然后得到ip地址，再到<a href="https://console.cloud.tencent.com/cdn" target="_blank" rel="noopener">腾讯云CDN</a>里开启CDN服务，需要实名认证，收费方式选择按使用流量计费。开启之后选择添加域名，填写格式按下图填写。<br><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速1.jpg" alt=""><br>　<br>启动CDN之后点击管理，找到基本配置下的回源配置，不出意外的话回源配置里的回源host为刚填写的域名。点击左侧的域名管理，域名配置完成后，系统会分配对应的CNAME，以<code>.cdn.dnsv1.com</code>为后缀，请务必按照控制台展示的CNAME进行配置。<br><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速2.png" alt=""><br>　<br>得到对应的CNAME之后，去解析域名。<br><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速3.jpg" alt=""></p>
+<p>先去CMD里ping一下github上的源站，然后得到ip地址，再到<a href="https://console.cloud.tencent.com/cdn" target="_blank" rel="noopener">腾讯云CDN</a>里开启CDN服务，需要实名认证，收费方式选择按使用流量计费。开启之后选择添加域名，填写格式按下图填写。<br><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180809-1/01.jpg" alt=""><br>　<br>启动CDN之后点击管理，找到基本配置下的回源配置，不出意外的话回源配置里的回源host为刚填写的域名。点击左侧的域名管理，域名配置完成后，系统会分配对应的CNAME，以<code>.cdn.dnsv1.com</code>为后缀，请务必按照控制台展示的CNAME进行配置。<br><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180809-1/02.jpg" alt=""><br>　<br>得到对应的CNAME之后，去解析域名。<br><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180809-1/03.jpg" alt=""></p>
 <p>因为我前面填写的域名为二级域名：<code>blog.yleao.com</code><br>所以我的主机记录也为blog，记录类型为CNAME，线路类型为默认，记录值填写上面CDN加速给你的记录值，默认以<code>.cdn.dnsv1.com</code>为后缀，此条解析为国内用户访问。<br>这样github pages上的博客在国内就被CDN加速了，海外依然是使用github的ip，能同时提升国内与国外的访问速度。  </p>
 <p>不同的 DNS 服务商，CNAME 生效的时间略有不同，一般会在半个小时之内生效。查询是否生效在我<a href="https://blog.yleao.com/2018/0802/%E8%85%BE%E8%AE%AF%E4%BA%91COS-CDN-Github%E5%8F%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%89%98%E7%AE%A1hexo.html#%E6%B5%8B%E8%AF%95">上篇文章</a>有提过，此处不赘述。  </p>
 <hr>
-<p>在开启CDN的时候可能会出现循环重定向的问题，出现这个问题的原因是重定向规则引起的，我的解决办法是进入CDN加速面板中的回源配置，勾选<strong>中间源配置</strong>，然后再绑定源服务器域名，设置协议跟随即可。<br><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速4.jpg" alt=""></p>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速5.jpg" alt=""></p>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/通过CDN直接给github pages加速6.jpg" alt=""></p>
+<p>在开启CDN的时候可能会出现循环重定向的问题，出现这个问题的原因是重定向规则引起的，我的解决办法是进入CDN加速面板中的回源配置，勾选<strong>中间源配置</strong>，然后再绑定源服务器域名，设置协议跟随即可。<br><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180809-1/04.jpg" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180809-1/05.jpg" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180809-1/06.jpg" alt=""></p>
 <p>另外加速之后国内访问网站显示信息与github pages上面的内容不同步时，可以去cdn页面刷新缓存。  
 　  </p>
 

@@ -135,15 +135,15 @@
 <meta property="og:site_name" content="Y&#39;s BLOG">
 <meta property="og:description" content="之前虽然写过一篇文章分享如何通过coding与github双服务器托管hexo，但自己也只是把文章同时push到coding与github上，然后再通过CDN直接给github pages在国内加速，并没有启用coding的pages服务。反正想到都push上去了，于是打算启用一下，此文予以记录。">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/记Coding-CDN国内加速Pages1.jpg">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/记Coding-CDN国内加速Pages3.jpg">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/记Coding-CDN国内加速Pages2.jpg">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/记Coding-CDN国内加速Pages4.jpg">
-<meta property="og:updated_time" content="2018-10-25T07:37:42.111Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20181024/01.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20181024/02.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20181024/03.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20181024/04.jpg">
+<meta property="og:updated_time" content="2023-03-11T07:04:30.761Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="记Coding+CDN国内加速Pages">
 <meta name="twitter:description" content="之前虽然写过一篇文章分享如何通过coding与github双服务器托管hexo，但自己也只是把文章同时push到coding与github上，然后再通过CDN直接给github pages在国内加速，并没有启用coding的pages服务。反正想到都push上去了，于是打算启用一下，此文予以记录。">
-<meta name="twitter:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/记Coding-CDN国内加速Pages1.jpg">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20181024/01.jpg">
 
 
 
@@ -427,18 +427,18 @@
 <hr>
 <h3 id="启用coding-pages服务"><a href="#启用coding-pages服务" class="headerlink" title="启用coding pages服务"></a>启用coding pages服务</h3><p>因为之前已经将本地仓库关联到coding仓库，所以此处不赘述，可看文末相关文章<a href="#1">Coding+Github双服务器托管hexo</a>一文。</p>
 <p>当本地仓库关联到coding仓库之后，进入项目里，点击左侧的代码，再点击pages服务。创建静态coding pages之后点击小齿轮进入设置页面。</p>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/记Coding-CDN国内加速Pages1.jpg" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20181024/01.jpg" alt=""></p>
 <p>绑定域名之前先在域名DNS设置中添加一条CNAME记录指向xxxxx.coding.me。</p>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/记Coding-CDN国内加速Pages3.jpg" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20181024/02.jpg" alt=""></p>
 <p>解析添加完成之后即可绑定新域名，如果证书申请失败请查看错误信息，<a href="https://coding.net/help/faq/pages/coding-pages-faq.html#_SSLTLS" target="_blank" rel="noopener">详情点击这里</a>。</p>
 <p>一般来说错误类型会是<code>urn:acme:error:unauthorized</code>，这是因为之前可能添加了域名的DNS解析到海外，比如github pages，所以此时要先关闭此条解析，申请证书之后再开启此解析。</p>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/记Coding-CDN国内加速Pages2.jpg" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20181024/03.jpg" alt=""></p>
 <p>以上完成后，如果打开xxxxx.coding.me会跳转到自己绑定的域名，则表示coding pages启用成功，国内走coding国外走github。</p>
 <p>但现在并没有结束，在国内对自己的域名进行测速发现速度不够快，那么就要利用到CDN来给coding pages进行加速，个人使用的是腾讯CDN。</p>
 <hr>
 <h3 id="使用CDN为coding-pages加速"><a href="#使用CDN为coding-pages加速" class="headerlink" title="使用CDN为coding pages加速"></a>使用CDN为coding pages加速</h3><p>首先，ping一下xxxxx.coding.me，获得IP地址，再到<a href="https://console.cloud.tencent.com/cdn" target="_blank" rel="noopener">腾讯云CDN</a>里开启CDN服务，源站设置为该IP。然后再配置缓存，启用https，配置完成后，系统会分配对应的CNAME。启用CDN的细节可看文末相关文章<a href="#1">通过CDN直接给Github+Pages加速</a>一文。</p>
 <p>当得到对应的CNAME之后，去域名解析里添加解析。我的解析如下：</p>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/记Coding-CDN国内加速Pages4.jpg" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20181024/04.jpg" alt=""></p>
 <p>国内与国外设置不同CANME，国外指向xxxxx.github.io或者xxxxx.coding.me(任选其一即可)，国外我选的是github，所以暂停了coding解析，国内则指向刚才CDN给出的地址。</p>
 <p>到此所有配置全部完成。</p>
 <hr>

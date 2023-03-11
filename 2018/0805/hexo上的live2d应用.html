@@ -135,16 +135,16 @@
 <meta property="og:site_name" content="Y&#39;s BLOG">
 <meta property="og:description" content="写在前面关于网页版的live2d首先是在bilibili live上看见的，也就是B站的看板娘，可支持换装、显示文字、点击播放语音动画等功能。于是就着手研究了一下，然后发现了hexo的一个插件：hexo-helper-live2d。">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/hexo上的live2d应用1.jpg">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/hexo上的live2d应用2.jpg">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/hexo上的live2d应用3.jpg">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/hexo上的live2d应用4.gif">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/IMG_2551.gif">
-<meta property="og:updated_time" content="2018-11-09T10:00:29.720Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180805/01.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180805/02.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180805/03.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180805/04.gif">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180805/05.gif">
+<meta property="og:updated_time" content="2023-03-11T05:46:07.012Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo上的live2d应用">
 <meta name="twitter:description" content="写在前面关于网页版的live2d首先是在bilibili live上看见的，也就是B站的看板娘，可支持换装、显示文字、点击播放语音动画等功能。于是就着手研究了一下，然后发现了hexo的一个插件：hexo-helper-live2d。">
-<meta name="twitter:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/hexo上的live2d应用1.jpg">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180805/01.jpg">
 
 
 
@@ -438,11 +438,11 @@
 <h4 id="github地址"><a href="#github地址" class="headerlink" title="github地址"></a>github地址</h4><p><a href="https://github.com/EYHN/hexo-helper-live2d" target="_blank" rel="noopener">hexo-helper-live2d</a></p>
 <h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><p>安装模块:<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> <span class="comment">--save hexo-helper-live2d</span></span><br></pre></td></tr></table></figure></p>
 <h4 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h4><p>向Hexo根目录下的配置文件中添加以下内容：<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## Live2D</span></span><br><span class="line"><span class="comment">## https://github.com/EYHN/hexo-helper-live2d</span></span><br><span class="line"><span class="attr">live2d:</span></span><br><span class="line"><span class="attr">    enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># enable: false</span></span><br><span class="line"><span class="attr">    scriptFrom:</span> <span class="string">local</span> <span class="comment"># 默认</span></span><br><span class="line"><span class="attr">    pluginRootPath:</span> <span class="string">live2dw/</span> <span class="comment"># 插件在站点上的根目录(相对路径)</span></span><br><span class="line"><span class="attr">    pluginJsPath:</span> <span class="string">lib/</span> <span class="comment"># 脚本文件相对与插件根目录路径</span></span><br><span class="line"><span class="attr">    pluginModelPath:</span> <span class="string">assets/</span> <span class="comment"># 模型文件相对与插件根目录路径</span></span><br><span class="line">  <span class="comment"># scriptFrom: jsdelivr # jsdelivr CDN</span></span><br><span class="line">  <span class="comment"># scriptFrom: unpkg # unpkg CDN</span></span><br><span class="line">  <span class="comment"># scriptFrom: https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url</span></span><br><span class="line"><span class="attr">    tagMode:</span> <span class="literal">false</span> <span class="comment"># 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中</span></span><br><span class="line"><span class="attr">    debug:</span> <span class="literal">false</span> <span class="comment"># 调试, 是否在控制台输出日志</span></span><br><span class="line"><span class="attr">    model:</span></span><br><span class="line"><span class="attr">      use:</span> <span class="string">live2d-widget-model-wanko</span> <span class="comment"># npm-module package name</span></span><br><span class="line">    <span class="comment"># use: wanko # 博客根目录/live2d_models/ 下的目录名</span></span><br><span class="line">    <span class="comment"># use: ./wives/wanko # 相对于博客根目录的路径</span></span><br><span class="line">    <span class="comment"># use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url</span></span><br><span class="line"><span class="attr">    display:</span> <span class="comment"># 模型位置，根据不同的模型自行调整</span></span><br><span class="line"><span class="attr">      position:</span> <span class="string">right</span></span><br><span class="line"><span class="attr">      width:</span> <span class="number">150</span></span><br><span class="line"><span class="attr">      height:</span> <span class="number">300</span></span><br><span class="line"><span class="attr">    mobile:</span> <span class="comment"># 是否适用于移动端</span></span><br><span class="line"><span class="attr">      show:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
-<p>如下图：<br><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/hexo上的live2d应用1.jpg" alt=""></p>
+<p>如下图：<br><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180805/01.jpg" alt=""></p>
 <hr>
 <h4 id="模型"><a href="#模型" class="headerlink" title="模型"></a>模型</h4><p>有许多方法来使用不同的模型:  </p>
 <h6 id="方法一：npm-模块名"><a href="#方法一：npm-模块名" class="headerlink" title="方法一：npm 模块名"></a>方法一：npm 模块名</h6><p>现有模型地址：<a href="https://github.com/xiazeyu/live2d-widget-models" target="_blank" rel="noopener">地址</a><br>使用npm install 模型的包名来安装，安装成功后模型位于<code>/根目录/node_modules/</code><br>然后将包名输入位于<code>_config.yml</code>的<code>model.use</code>中。（如下图）</p>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/hexo上的live2d应用2.jpg" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180805/02.jpg" alt=""></p>
 <hr>
 <h6 id="方法二：-live2d-models子目录名称"><a href="#方法二：-live2d-models子目录名称" class="headerlink" title="方法二： live2d_models子目录名称"></a>方法二： live2d_models子目录名称</h6><ul>
 <li>在博客根目录下创建一个<code>live2d_models</code>文件夹.  </li>
@@ -457,9 +457,9 @@
 <li>将模型复制到 <code>/live2d_models/mymiku/</code>中.现在在此文件夹里应当有一个 <code>.model.json</code>文件 (例如<code>mymiku.model.json</code>)  </li>
 <li>将 子文件夹名称<code>mymiku</code>输入到位于根目录<code>_config.yml</code>的<code>model.use</code>中. (如下图)   </li>
 </ul>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/hexo上的live2d应用3.jpg" alt=""></p>
-<h5 id="到此live2d就安装成功了，看看效果吧。"><a href="#到此live2d就安装成功了，看看效果吧。" class="headerlink" title="到此live2d就安装成功了，看看效果吧。"></a>到此live2d就安装成功了，看看效果吧。</h5><p>  <img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/hexo上的live2d应用4.gif" alt="桌面端"></p>
-<p>  <img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/IMG_2551.gif" alt="移动端"></p>
+<p><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180805/03.jpg" alt=""></p>
+<h5 id="到此live2d就安装成功了，看看效果吧。"><a href="#到此live2d就安装成功了，看看效果吧。" class="headerlink" title="到此live2d就安装成功了，看看效果吧。"></a>到此live2d就安装成功了，看看效果吧。</h5><p>  <img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180805/04.gif" alt="桌面端"></p>
+<p>  <img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20180805/05.gif" alt="移动端"></p>
 <hr>
 <blockquote>
 <h2 id="如何获取模型"><a href="#如何获取模型" class="headerlink" title="如何获取模型"></a>如何获取模型</h2></blockquote>
@@ -523,7 +523,7 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/0802/腾讯云COS-CDN-Github双服务器托管hexo.html" rel="next" title="腾讯云COS+CDN+Github双服务器托管hexo">
+              <a href="/2018/0803/腾讯云COS-CDN-Github双服务器托管hexo.html" rel="next" title="腾讯云COS+CDN+Github双服务器托管hexo">
                 <i class="fa fa-chevron-left"></i> 腾讯云COS+CDN+Github双服务器托管hexo
               </a>
             

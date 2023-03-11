@@ -135,21 +135,21 @@
 <meta property="og:site_name" content="Y&#39;s BLOG">
 <meta property="og:description" content="前几天入手了SanDisk cz880 128G，于是便想着弄个windows to go 与u盘pe双系统。第一天弄完双系统还没问题，但是到了第二天不知道为什么u盘出问题了，电脑能识别u盘，但不能打开与格式化，只要一打开或者格式化必定资源管理器会未响应，电脑都被搞崩溃好几次。另外任何只要能读取该u盘的程序都会未响应，比如DiskGenius、PartitionGuru等等软件，都会立马死掉，搞了">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U盘制作wintogo与winpe双系统02.png">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U盘制作wintogo与winpe双系统01.png">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U盘制作wintogo与winpe双系统04.png">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U盘制作wintogo与winpe双系统03.png">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U盘制作wintogo与winpe双系统05.png">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U盘制作wintogo与winpe双系统06.png">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U盘制作wintogo与winpe双系统07.PNG">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U盘制作wintogo与winpe双系统08.PNG">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U盘制作wintogo与winpe双系统09.PNG">
-<meta property="og:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U盘制作wintogo与winpe双系统10.jpg">
-<meta property="og:updated_time" content="2019-06-12T07:40:04.741Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20190520/01.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20190520/02.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20190520/03.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20190520/04.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20190520/05.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20190520/06.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20190520/07.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20190520/08.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20190520/09.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20190520/10.png">
+<meta property="og:updated_time" content="2023-03-11T07:10:17.917Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="U盘制作WinToGo与WinPE双系统">
 <meta name="twitter:description" content="前几天入手了SanDisk cz880 128G，于是便想着弄个windows to go 与u盘pe双系统。第一天弄完双系统还没问题，但是到了第二天不知道为什么u盘出问题了，电脑能识别u盘，但不能打开与格式化，只要一打开或者格式化必定资源管理器会未响应，电脑都被搞崩溃好几次。另外任何只要能读取该u盘的程序都会未响应，比如DiskGenius、PartitionGuru等等软件，都会立马死掉，搞了">
-<meta name="twitter:image" content="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U盘制作wintogo与winpe双系统02.png">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/yleao/static-resource/main/image/20190520/01.png">
 
 
 
@@ -445,28 +445,28 @@
 <a id="more"></a>
 <hr>
 <h4 id="检测"><a href="#检测" class="headerlink" title="检测"></a>检测</h4><p>换新到手之后先检测一下坏道，工具用的是HdTunePro。</p>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U盘制作wintogo与winpe双系统02.png" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20190520/01.png" alt=""></p>
 <p>之后是4K对齐。<code>win+r</code>之后输入<code>msinfo32</code>回车，依次点击<code>组件-储存-磁盘</code>，在右边找到对应u盘项目然后查看<code>分区起始偏移</code>，如果其数值能被4096整除就说明4K对齐了。</p>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U盘制作wintogo与winpe双系统01.png" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20190520/02.png" alt=""></p>
 <hr>
 <h4 id="安装wintogo"><a href="#安装wintogo" class="headerlink" title="安装wintogo"></a>安装wintogo</h4><p>u盘检测完之后该着手装系统了，首先该准备wintogo的安装工具，因为我不是win10系统，所以用的是<code>WTG辅助工具4.1.1.0</code>，要装的镜像用的<code>msdn</code>的win7旗舰，安装pe用的工具是<code>EasyBCD</code>，所用的pe系统是<code>无垠PE组合工具 v2017.09.03 维护版</code>。</p>
 <p>先安装wintogo，把下载好的镜像iso文件中<code>install.wim</code>解压出来，如果镜像里是<code>install.esb</code>格式，可用Dism++转换成wim格式。</p>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U盘制作wintogo与winpe双系统04.png" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20190520/03.png" alt=""></p>
 <p>接着打开WTG辅助工具，选中u盘与之前解压的出来的wim文件，之后我选用的是VHD模式，分了30G出去，U盘够大的话可以分多一点，我想着还要拿u盘存些文件就没分太多给wintogo，其他参数没什么要修改的，具体详细配置可见<a href="https://bbs.luobotou.org/thread-761-1-1.html" target="_blank" rel="noopener">萝卜头论坛</a>。</p>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U盘制作wintogo与winpe双系统03.png" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20190520/04.png" alt=""></p>
 <p>接着点击写入，等待安装完成就行了。</p>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U盘制作wintogo与winpe双系统05.png" alt=""></p>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U盘制作wintogo与winpe双系统06.png" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20190520/05.png" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20190520/06.png" alt=""></p>
 <p>到此wintogo已成功安装到u盘里了。</p>
 <h4 id="安装winpe"><a href="#安装winpe" class="headerlink" title="安装winpe"></a>安装winpe</h4><p>wintogo安装好之后，把winpe镜像里的<code>boot.wim</code>解压出来放在u盘里，另外把<code>EasyBCD安装程序</code>放在u盘里，之后重启电脑进bios调用usb启动即可进入wintogo系统。</p>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U盘制作wintogo与winpe双系统07.PNG" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20190520/07.png" alt=""></p>
 <p>接着把U盘里的<code>EasyBCD安装程序</code>拉出来进行安装，安装之后打开程序，点击<code>添加新条目</code>，再点击<code>WinPe</code>，名称自己修改填写，路径选择之前U盘里的<code>boot.wim</code>。</p>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U盘制作wintogo与winpe双系统08.PNG" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20190520/08.png" alt=""></p>
 <p>然后再点击<code>编辑引导菜单</code>，可以编辑usb启动优先级与选择倒计时，之后保存设置即可。</p>
-<p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U盘制作wintogo与winpe双系统09.PNG" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20190520/09.png" alt=""></p>
 <p>切记u盘里的<code>boot.wim</code>不要删除，删除了winpe系统就没了，可以选择把<code>wtg.vhd</code>与<code>boot.wim</code>隐藏掉，这样就不会误删了，剩余的空间就直接拿来当普通的u盘进行存储。</p>
 <hr>
-<h4 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h4><p><img src="https://image-1253170309.cos.ap-guangzhou.myqcloud.com/image/U盘制作wintogo与winpe双系统10.jpg" alt=""></p>
+<h4 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h4><p><img src="https://raw.githubusercontent.com/yleao/static-resource/main/image/20190520/10.png" alt=""></p>
 
       
     </div>
