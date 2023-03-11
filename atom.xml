@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.yleao.com/"/>
-  <updated>2023-03-11T08:39:52.448Z</updated>
+  <updated>2023-03-11T14:59:20.270Z</updated>
   <id>https://blog.yleao.com/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>记一次网站被攻击与博客迁移</title>
+    <link href="https://blog.yleao.com/2023/0311/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%BD%91%E7%AB%99%E8%A2%AB%E6%94%BB%E5%87%BB%E4%B8%8E%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB.html"/>
+    <id>https://blog.yleao.com/2023/0311/记一次网站被攻击与博客迁移.html</id>
+    <published>2023-03-11T11:46:52.000Z</published>
+    <updated>2023-03-11T14:59:20.270Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;去年十二月网站遭到了攻击，网站储存在腾讯云COS里的静态资源流量被刷爆了，24小时内被刷走了46T流量，直接导致账户欠费了2万多，平时我的博客一年的流量可能就50G不到。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/yleao/static-resource/main/image/20230311/01.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="生活拾空" scheme="https://blog.yleao.com/categories/%E7%94%9F%E6%B4%BB%E6%8B%BE%E7%A9%BA/"/>
+    
+    
+      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
+      <category term="tools" scheme="https://blog.yleao.com/tags/tools/"/>
+    
+  </entry>
+  
+  <entry>
     <title>骨折恢复记录</title>
     <link href="https://blog.yleao.com/2022/1226/%E9%AA%A8%E6%8A%98%E6%81%A2%E5%A4%8D%E8%AE%B0%E5%BD%95.html"/>
     <id>https://blog.yleao.com/2022/1226/骨折恢复记录.html</id>
     <published>2022-12-26T08:54:19.000Z</published>
-    <updated>2023-03-11T08:39:52.448Z</updated>
+    <updated>2023-03-11T14:59:20.459Z</updated>
     
     <summary type="html">
     
@@ -192,7 +215,7 @@
 }
 
 .douban-card:hover {
-    text-decoration: underline wavy orangered;//下划线颜色
+    text-decoration: underline wavy dimgrey;//下划线颜色
 }
 
 .douban-card-bgimg {
@@ -596,32 +619,6 @@
       <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
     
       <category term="tools" scheme="https://blog.yleao.com/tags/tools/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>记Coding+CDN国内加速Pages</title>
-    <link href="https://blog.yleao.com/2018/1024/%E8%AE%B0Coding-CDN%E5%9B%BD%E5%86%85%E5%8A%A0%E9%80%9FPages.html"/>
-    <id>https://blog.yleao.com/2018/1024/记Coding-CDN国内加速Pages.html</id>
-    <published>2018-10-23T20:10:41.000Z</published>
-    <updated>2023-03-11T07:04:30.761Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;之前虽然写过一篇文章分享如何通过coding与github双服务器托管hexo，但自己也只是把文章同时push到coding与github上，然后再通过CDN直接给github pages在国内加速，并没有启用coding的pages服务。反正想到都push上去了，于是打算启用一下，此文予以记录。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Hexo折腾" scheme="https://blog.yleao.com/categories/Hexo%E6%8A%98%E8%85%BE/"/>
-    
-    
-      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
-      <category term="hexo" scheme="https://blog.yleao.com/tags/hexo/"/>
-    
-      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
-    
-      <category term="coding" scheme="https://blog.yleao.com/tags/coding/"/>
     
   </entry>
   
