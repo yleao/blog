@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.yleao.com/"/>
-  <updated>2023-03-12T06:30:33.778Z</updated>
+  <updated>2025-02-24T18:23:25.592Z</updated>
   <id>https://blog.yleao.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Untitled</title>
+    <link href="https://blog.yleao.com/2025/0225/untitled-1740421399481.html"/>
+    <id>https://blog.yleao.com/2025/0225/untitled-1740421399481.html</id>
+    <published>2025-02-24T18:23:19.000Z</published>
+    <updated>2025-02-24T18:23:25.592Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>记一次网站被攻击与博客迁移</title>
@@ -591,34 +610,6 @@
     
     
       <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>U盘制作WinToGo与WinPE双系统</title>
-    <link href="https://blog.yleao.com/2019/0520/U%E7%9B%98%E5%88%B6%E4%BD%9Cwintogo%E4%B8%8Ewinpe%E5%8F%8C%E7%B3%BB%E7%BB%9F.html"/>
-    <id>https://blog.yleao.com/2019/0520/U盘制作wintogo与winpe双系统.html</id>
-    <published>2019-05-20T14:13:29.000Z</published>
-    <updated>2023-03-11T07:10:17.917Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;前几天入手了SanDisk cz880 128G，于是便想着弄个windows to go 与u盘pe双系统。第一天弄完双系统还没问题，但是到了第二天不知道为什么u盘出问题了，电脑能识别u盘，但不能打开与格式化，只要一打开或者格式化必定资源管理器会未响应，电脑都被搞崩溃好几次。另外任何只要能读取该u盘的程序都会未响应，比如DiskGenius、PartitionGuru等等软件，都会立马死掉，搞了好半天就差量产了，但是没找到对应的量产程序只能作罢。&lt;/p&gt;
-&lt;p&gt;最后联系客服，一开始客服还让我换个电脑插插&lt;code&gt;捂脸&lt;/code&gt;，但是跟客服详细说明情况后让我寄回去换个新的，不得不说闪迪的售后还是很不错的。&lt;/p&gt;
-&lt;p&gt;另外自己也算吸取了教训，感觉问题出在装wintogo时我所用的系统，因为u盘容量不大，所以想用精简版的系统，就用了俄罗斯狂人的精简win7，装好之后进wintogo蓝屏了好几次，都是秒蓝屏后直接重启，连蓝屏代码都看不了，当时也没在意，感觉问题就出在了这里，后面用了msdn的系统就没出现过蓝屏问题。所以建议装wintogo时还是用原版镜像，不要用精简版镜像。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Experience" scheme="https://blog.yleao.com/categories/Experience/"/>
-    
-      <category term="Tools" scheme="https://blog.yleao.com/categories/Experience/Tools/"/>
-    
-    
-      <category term="经验" scheme="https://blog.yleao.com/tags/%E7%BB%8F%E9%AA%8C/"/>
-    
-      <category term="搭建" scheme="https://blog.yleao.com/tags/%E6%90%AD%E5%BB%BA/"/>
-    
-      <category term="tools" scheme="https://blog.yleao.com/tags/tools/"/>
     
   </entry>
   
